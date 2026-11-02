@@ -12,6 +12,8 @@ createServer(async (req, res) => {
     const url = new URL(req.url, "http://localhost");
     const raw = decodeURIComponent(url.pathname);
     const name = raw === "/" ? "/index.html" : raw;
+    const allowed = new Set(["/index.html", "/src/main.mjs", "/src/catalog.mjs", "/src/styles.css", "/public/catalog.json"]);
+    if (!allowed.has(name)) { res.writeHead(404).end("Not found"); return; }
     const location = resolve(root, "." + name);
     if (location !== root && !location.startsWith(root + sep)) {
       res.writeHead(403).end("Forbidden"); return;

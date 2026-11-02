@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09151b">
+  <meta name="description" content="DJ OGVHS — browse the library and build a song or mashup request.">
+  <title>DJ OGVHS | Music Requests</title>
+  <link rel="stylesheet" href="/src/styles.css">
+  <script type="module" src="/src/main.mjs"></script>
+</head>
+<body>
+  <div class="frame">
+    <header class="site-header">
+      <a href="/" class="brand" aria-label="DJ OGVHS home"><span class="brand-mark">OG</span><span class="brand-text">DJ <strong>OGVHS</strong><small>GOOD MUSIC. YOUR CALL.</small></span></a>
+      <span class="preview-label">CATALOG PREVIEW</span>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="hero-heading">
+        <span class="eyebrow">WELCOME TO THE REQUEST LINE</span>
+        <h1 id="hero-heading">Your song.<br><em>My turntables.</em></h1>
+        <p>Dig through the DJ OGVHS library, pick a track, or pair two together for a mashup idea.</p>
+        <div class="request-actions" role="group" aria-label="Request type">
+          <button id="request-song" type="button" class="request-button active" aria-pressed="true"><span class="action-icon" aria-hidden="true">♫</span><span>Request a song<small>One track, your pick</small></span></button>
+          <button id="request-mashup" type="button" class="request-button" aria-pressed="false"><span class="action-icon" aria-hidden="true">⤨</span><span>Request a mashup<small>Two tracks, one idea</small></span></button>
+        </div>
+        <p class="preview-notice"><strong>Early preview:</strong> You can browse and choose tracks, but submissions are not being sent yet.</p>
+      </section>
+      <section class="catalog-panel" aria-labelledby="catalog-heading">
+        <div class="section-heading"><div><span class="eyebrow">CRATE DIGGING</span><h2 id="catalog-heading">Browse the catalog</h2></div><span id="catalog-count" class="count">Loading…</span></div>
+        <label for="search" class="field-label">Search by song, artist or album</label>
+        <div class="search-wrap"><span aria-hidden="true" class="search-symbol">⌕</span><input id="search" type="search" placeholder="Try an artist or song title…" autocomplete="off" spellcheck="false"></div>
+        <p id="catalog-message" class="helper" role="status" aria-live="polite"></p>
+        <div id="tracks" class="track-list" aria-live="polite"></div>
+      </section>
+      <aside class="selection-panel" aria-labelledby="selection-heading">
+        <div><span class="eyebrow">YOUR REQUEST</span><h2 id="selection-heading">Song selection</h2><p id="selection-help" class="helper">Choose a song from the catalog to preview your request.</p></div>
+        <ol id="selected" class="selected-list"></ol>
+        <p class="pending-note">Request submission, outside-catalog autocomplete, and optional Venmo / PayPal tips will be added in the next development stages.</p>
+      </aside>
+    </main>
+    <footer>DJ OGVHS <span aria-hidden="true">·</span> REQUEST THE UNEXPECTED</footer>
+  </div>
+</body>
+</html>

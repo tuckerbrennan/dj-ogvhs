@@ -72,7 +72,7 @@ export function generatePublicCatalog(rows, curationRows = []) {
     const size = Number(sizeText);
     const incomplete = /\.part$|\.tmp$|\.crdownload$/i.test(filename) ||
       !audioExtensions.has(format.toLowerCase().replace(/^\./, "")) ||
-      (sizeText !== "" && (!Number.isFinite(size) || size <= 0)) ||
+      (!sizeText || !Number.isFinite(size) || size <= 0) ||
       /incomplete|folder only|missing|unavailable/i.test(status);
     if (incomplete) { stats.excludedIncomplete++; continue; }
 

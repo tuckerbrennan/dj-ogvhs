@@ -114,8 +114,9 @@ search.addEventListener("input", renderTracks);
 async function load() {
   if (new URLSearchParams(location.search).has("demo")) {
     tracks = demoTracks;
-    message.textContent = "Demonstration mode: tracks are fictional.";
     render();
+    count.textContent = tracks.length + " fictional demo tracks";
+    message.textContent = "DEMO ONLY: These songs are fictional. No request will be sent.";
     return;
   }
   try {

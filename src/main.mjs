@@ -120,7 +120,7 @@ async function load() {
     return;
   }
   try {
-    const response = await fetch("/public/catalog.json", { cache: "no-store" });
+    const response = await fetch("./public/catalog.json", { cache: "no-store" });
     if (!response.ok) throw new Error("HTTP " + response.status);
     const data = await response.json();
     if (!Array.isArray(data)) throw new Error("Unexpected catalog format");

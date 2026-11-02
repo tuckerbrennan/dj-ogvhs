@@ -1,0 +1,13 @@
+# NEVER COMMIT raw inventories or unreviewed recordings
+private/
+data/raw/
+*.db
+*.sqlite
+*.sqlite3
+*.part
+*.tmp
+.env
+.env.*
+!/.env.example
+.DS_Store
+node_modules/

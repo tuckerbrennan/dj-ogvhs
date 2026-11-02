@@ -27,6 +27,8 @@ test("publisher only exports explicitly approved complete audio with metadata, n
   assert.equal(stats.excludedDuplicate, 1);
   assert.equal(tracks[0].artist, "The Example Band");
   assert.ok(!JSON.stringify(tracks).includes("Secret"));
+  const unknownSize = [{ ...base, "Filename":"unknown.mp3", "Full Source Path":"Secret/unknown.mp3", "Publish? (Yes/No)":"Yes", "Artist (edit)":"A", "Title (edit)":"B" }];
+  assert.equal(generatePublicCatalog(unknownSize).tracks.length, 0, "unknown file size must not be published");
 });
 test("SQLite export may use separate curation CSV", () => {
   const rows=[{source:"icloud", path:"Music/01.mp3",filename:"01.mp3",format:"mp3",size_bytes:"8000"}];

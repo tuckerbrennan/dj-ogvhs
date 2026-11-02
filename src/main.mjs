@@ -1,0 +1,136 @@
+import { searchCatalog } from "./catalog.mjs";
+
+const $ = id => document.getElementById(id);
+const search = $("search");
+const results = $("tracks");
+const count = $("catalog-count");
+const message = $("catalog-message");
+const selectedList = $("selected");
+const selectedHelp = $("selection-help");
+const selectionHeading = $("selection-heading");
+const songBtn = $("request-song");
+const mashupBtn = $("request-mashup");
+
+const demoTracks = [
+  { id: "demo1", title: "Electric Evening", artist: "The Example Band", album: "Demo Records" },
+  { id: "demo2", title: "Borrowed Time", artist: "A Fictional Artist", album: "Demo Records" },
+  { id: "demo3", title: "Starlight Express", artist: "The Example Band", album: "Demo Records" },
+  { id: "demo4", title: "Midnight on Main Street", artist: "Sample Orchestra", album: "Demo Records" }
+];
+let tracks = [];
+let mode = "song";
+let selected = [];
+
+function el(tag, className, content) {
+  const element = document.createElement(tag);
+  if (className) element.className = className;
+  if (content !== undefined) element.textContent = content;
+  return element;
+}
+
+function setMode(next) {
+  mode = next;
+  selected = selected.slice(0, next === "song" ? 1 : 2);
+  songBtn.classList.toggle("active", next === "song");
+  mashupBtn.classList.toggle("active", next === "mashup");
+  songBtn.setAttribute("aria-pressed", String(next === "song"));
+  mashupBtn.setAttribute("aria-pressed", String(next === "mashup"));
+  selectionHeading.textContent = next === "song" ? "Song selection" : "Mashup selections";
+  render();
+}
+
+function select(track) {
+  if (selected.some(item => item.id === track.id)) return;
+  const slots = mode === "song" ? 1 : 2;
+  if (selected.length >= slots) selected = [...selected.slice(1), track];
+  else selected = [...selected, track];
+  render();
+}
+
+function renderSelected() {
+  selectedList.replaceChildren();
+  const slots = mode === "song" ? 1 : 2;
+  for (let i = 0; i < slots; i++) {
+    const item = selected[i];
+    const li = el("li", "selected-slot");
+    const label = el("span", "slot-number", String(i + 1).padStart(2, "0"));
+    li.appendChild(label);
+    const detail = el("div", "slot-detail");
+    if (item) {
+      detail.appendChild(el("strong", "", item.title));
+      detail.appendChild(el("span", "", item.artist));
+      const remove = el("button", "remove-selection", "Remove");
+      remove.type = "button";
+      remove.setAttribute("aria-label", "Remove " + item.title);
+      remove.addEventListener("click", () => { selected = selected.filter(t => t.id !== item.id); render(); });
+      li.append(detail, remove);
+    } else {
+      detail.appendChild(el("span", "placeholder", mode === "mashup" ? "Choose song " + (i + 1) : "Choose a track"));
+      li.appendChild(detail);
+    }
+    selectedList.appendChild(li);
+  }
+  selectedHelp.textContent = selected.length === slots
+    ? "Selection ready. Sending requests will be enabled when the secure request system is built."
+    : "Choose " + (slots - selected.length) + " more " + ((slots - selected.length) === 1 ? "song" : "songs") + " from the catalog.";
+}
+
+function renderTracks() {
+  results.replaceChildren();
+  const query = search.value.trim();
+  const matches = searchCatalog(tracks, query);
+  count.textContent = tracks.length + " reviewed " + (tracks.length === 1 ? "track" : "tracks");
+  if (!tracks.length) {
+    message.textContent = "No songs have been approved for public requests yet. The DJ is preparing the catalog.";
+    results.appendChild(el("div", "empty-state", "Check back soon for the searchable library."));
+    return;
+  }
+  message.textContent = query ? matches.length + (matches.length === 60 ? "+" : "") + " matching tracks shown" : "Showing up to 60 tracks. Search to narrow the list.";
+  if (!matches.length) {
+    results.appendChild(el("div", "empty-state", "Not in this catalog yet. External song lookup and manual requests are coming next."));
+    return;
+  }
+  for (const track of matches) {
+    const row = el("div", "track-row");
+    const info = el("div", "track-info");
+    info.appendChild(el("strong", "", track.title));
+    info.appendChild(el("span", "", track.artist + (track.album ? " · " + track.album : "")));
+    const already = selected.some(item => item.id === track.id);
+    const btn = el("button", "add-track" + (already ? " chosen" : ""), already ? "Selected" : "Choose +");
+    btn.type = "button";
+    btn.disabled = already;
+    btn.setAttribute("aria-label", (already ? "Selected " : "Choose ") + track.title + " by " + track.artist);
+    btn.addEventListener("click", () => select(track));
+    row.append(info, btn);
+    results.appendChild(row);
+  }
+}
+
+function render() { renderSelected(); renderTracks(); }
+songBtn.addEventListener("click", () => setMode("song"));
+mashupBtn.addEventListener("click", () => setMode("mashup"));
+search.addEventListener("input", renderTracks);
+
+async function load() {
+  if (new URLSearchParams(location.search).has("demo")) {
+    tracks = demoTracks;
+    render();
+    count.textContent = tracks.length + " fictional demo tracks";
+    message.textContent = "DEMO ONLY: These songs are fictional. No request will be sent.";
+    return;
+  }
+  try {
+    const response = await fetch("./public/catalog.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    const data = await response.json();
+    if (!Array.isArray(data)) throw new Error("Unexpected catalog format");
+    tracks = data.filter(t => t && typeof t.id === "string" && typeof t.title === "string" && typeof t.artist === "string");
+    render();
+  } catch {
+    tracks = [];
+    render();
+    message.textContent = "The catalog could not be loaded. Please try again later.";
+  }
+}
+render();
+load();

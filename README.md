@@ -2,29 +2,40 @@
 
 A mobile-friendly song and mashup request web app for DJ OGVHS.
 
-**Project status:** Requirements and backlog in progress. The app has not been implemented.
+**Status:** Catalog browser and safe import tooling are in early development. Request submission, music API fallback, admin authentication, tipping and public hosting are **not built yet**.
 
-## Core listener experience
-- Two primary actions: **Request Song** and **Request Mashup** (two songs).
-- Search the DJ's existing catalog first.
-- For songs not found, use external song-search autocomplete (provider TBD) or manual entry.
-- Submit requests without an account or payment; optionally leave a name.
-- See an optional Venmo / PayPal tip invitation after submitting.
+## Run the catalog preview
 
-## DJ dashboard
-- Private request queue with song and mashup requests of equal priority.
-- Track requested selections, source/availability, submission time and status.
-- Set requests to Pending, Later, Played or Skipped.
+Requires Node 20+ on your computer.
+
+```sh
+npm test
+npm run dev
+```
+
+Open http://127.0.0.1:4173/ in your browser. To try the interface with **clearly fictional demonstration songs**, open http://127.0.0.1:4173/?demo=1 .
+
+### Currently implemented
+- Two prominent modes: **Request a Song** or **Request a Mashup**, with one or two catalog selections.
+- Mobile-responsive, case-insensitive title/artist/album search.
+- Safe CSV/JSON importer for reviewed tracks from the Google Sheet snapshot or the iMac SQLite export.
+- Default-deny publishing: only rows explicitly marked Yes, with artist and title, are output.
+- No private file paths, cloud file IDs, local source addresses, or raw inventories published.
+
+### Not yet implemented
+- Persisting/submitting requests; the preview does not send anything.
+- External song autocomplete and manual fallback.
+- Private admin dashboard, spam controls and public deployment.
+- Actual Venmo/PayPal links.
+
+## Catalog data
+
+The default `public/catalog.json` is intentionally an empty array until reviewed songs have been approved. See [Catalog import and privacy guidance](docs/CATALOG_IMPORT.md) for the export and curation commands.
 
 ## Project planning
-- [Product requirements and MVP acceptance criteria](docs/PRODUCT_REQUIREMENTS.md)
-- [GitHub issues](https://github.com/tuckerbrennan/dj-ogvhs/issues) — implementation backlog
 
-## Next steps
-1. Confirm catalog export format and representative data.
-2. Select a frontend/backend stack and secure deployment setup.
-3. Evaluate the external track-autocomplete provider.
-4. Build listener pages, persistence and admin queue.
-5. Configure actual tipping destinations and test before launching.
+- [Product requirements](docs/PRODUCT_REQUIREMENTS.md)
+- [Feature backlog](https://github.com/tuckerbrennan/dj-ogvhs/issues)
+- [Catalog import procedure](docs/CATALOG_IMPORT.md)
 
-This repo initially contains planning documents; no listener-facing website is live yet.
+The actual music files are **not** served or stored in this repository.

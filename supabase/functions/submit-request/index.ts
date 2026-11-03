@@ -69,7 +69,9 @@ Deno.serve(async request => {
 
   let payload: ReturnType<typeof parsePayload>;
   try {
-    payload = parsePayload(await request.json());
+    const rawBody = await request.text();
+    if (encoder.encode(rawBody).byteLength > 8192) return reply(413, { error: "Request too large." });
+    payload = parsePayload(JSON.parse(rawBody));
   } catch {
     return reply(400, { error: "Check your song selection and try again." });
   }

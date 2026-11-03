@@ -55,3 +55,23 @@ h2 { margin:8px 0 4px; font-size:clamp(1.3rem,3vw,1.7rem); letter-spacing:-.025e
 footer { padding:24px 0 38px; display:flex; justify-content:space-between; gap:16px; border-top:1px solid var(--edge); color:var(--muted); font-size:.7rem; letter-spacing:.13em; }
 @media (max-width:760px) { main { grid-template-columns:1fr; gap:18px; } .hero { padding:44px 0 20px; } .selection-panel { position:static; } }
 @media (max-width:490px) { .request-actions { grid-template-columns:1fr; } .site-header { padding:17px 0; } .preview-label { font-size:.55rem; } .catalog-panel,.selection-panel { padding:19px; } footer { flex-direction:column; } }
+
+h3 { margin:0 0 6px; font-size:1.03rem; }
+.request-form { border-top:1px solid var(--edge); padding-top:20px; display:flex; flex-direction:column; gap:10px; }
+.request-form .helper { margin:0 0 7px; }
+.request-form input { width:100%; padding:12px; border:1px solid #4a6770; border-radius:10px; background:#08191f; color:var(--ink); }
+.request-form .field-label { margin-top:7px; }
+.submit-button { background:var(--mint); border:0; color:#082127; padding:14px; border-radius:10px; margin-top:8px; font-weight:850; }
+.submit-button:disabled { opacity:.45; cursor:not-allowed; }
+#request-feedback:not(:empty) { min-height:20px; color:var(--orange); }
+.admin-panel { border:1px solid var(--edge); background:var(--card); border-radius:16px; padding:24px; margin:35px 0; }
+.admin-panel input,.admin-panel select { padding:10px; border-radius:8px; border:1px solid var(--edge); background:#08191f; color:var(--ink); }
+.admin-row { border-top:1px solid var(--edge); padding:17px 0; display:flex; gap:12px; justify-content:space-between; align-items:flex-start; }
+.admin-controls { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+.admin-controls button { border-radius:7px; color:var(--mint); background:#244747; border:1px solid #466d66; padding:9px; }
+.admin-controls input[type=number] { width:78px; }
+.admin-song { color:var(--muted); display:block; margin-top:5px; }
+.admin-meta { color:var(--muted); font-size:.78rem; }
+.admin-toolbar { display:flex; gap:10px; flex-wrap:wrap; margin:14px 0; }
+.admin-hidden { display:none; }
+@media(max-width:680px) { .admin-row { flex-direction:column; } }

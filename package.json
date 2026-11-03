@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "test": "node --test",
+    "test": "node --test && node --check src/main.mjs && node --check src/admin.mjs && node --check src/request-api.mjs",
     "catalog:build": "node scripts/build-catalog.mjs",
     "dev": "node scripts/serve.mjs"
   },

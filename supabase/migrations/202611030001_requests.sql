@@ -14,6 +14,9 @@ as $$ select exists(select 1 from public.dj_admins where user_id = (select auth.
 revoke all on function public.is_dj_admin() from public, anon;
 grant execute on function public.is_dj_admin() to authenticated;
 
+create sequence if not exists public.dj_request_sort_seq;
+revoke all on sequence public.dj_request_sort_seq from public, anon, authenticated;
+
 create table if not exists public.dj_requests (
   id uuid primary key default gen_random_uuid(),
   type text not null check (type in ('song', 'mashup')),
@@ -21,7 +24,7 @@ create table if not exists public.dj_requests (
   listener_name text check (char_length(listener_name) <= 80),
   status text not null default 'pending' check (status in ('pending','later','played','skipped')),
   bpm numeric(6,2) check (bpm is null or (bpm > 0 and bpm < 350)),
-  sort_order bigint not null default (extract(epoch from clock_timestamp()) * 1000)::bigint,
+  sort_order bigint not null default nextval('public.dj_request_sort_seq'::regclass),
   created_at timestamptz not null default now()
 );
 create index if not exists dj_requests_created_at_idx on public.dj_requests (created_at desc);
@@ -103,3 +106,29 @@ end;
 $$;
 revoke all on function public.submit_dj_request(text,jsonb,text,text) from public, anon, authenticated;
 grant execute on function public.submit_dj_request(text,jsonb,text,text) to service_role;
+ 
+-- Swap two requests atomically; check DJ membership using the caller's JWT.
+create or replace function public.swap_dj_request_order(p_first uuid, p_second uuid)
+returns void language plpgsql security definer set search_path = ''
+as $$
+declare
+  v_first bigint;
+  v_second bigint;
+begin
+  if not public.is_dj_admin() then
+    raise exception 'DJ admin access required' using errcode = '42501';
+  end if;
+  if p_first = p_second or p_first is null or p_second is null then
+    raise exception 'Choose two different requests';
+  end if;
+  -- Serialise concurrent reorders by acquiring a transaction-scoped advisory lock.
+  perform pg_catalog.pg_advisory_xact_lock(865102617, 1);
+  select sort_order into strict v_first from public.dj_requests where id = p_first for update;
+  select sort_order into strict v_second from public.dj_requests where id = p_second for update;
+  update public.dj_requests set sort_order =
+    case when id = p_first then v_second else v_first end
+  where id in (p_first,p_second);
+end;
+$$;
+revoke all on function public.swap_dj_request_order(uuid,uuid) from public, anon;
+grant execute on function public.swap_dj_request_order(uuid,uuid) to authenticated;

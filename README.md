@@ -2,7 +2,7 @@
 
 A mobile-friendly song and mashup request web app for DJ OGVHS.
 
-**Status:** Catalog browser and safe import tooling are in early development. Request submission, music API fallback, admin authentication, tipping and public hosting are **not built yet**.
+**Status:** Catalog preview is live in the repository. The request submission endpoint and private DJ dashboard have been implemented on a development branch, but **are not connected to a Supabase project or deployed for real requests**. External autocomplete and tipping are not built.
 
 ## Run the catalog preview
 
@@ -22,11 +22,15 @@ Open http://127.0.0.1:4173/ in your browser. To try the interface with **clearly
 - Default-deny publishing: only rows explicitly marked Yes, with artist and title, are output.
 - No private file paths, cloud file IDs, local source addresses, or raw inventories published.
 
-### Not yet implemented
-- Persisting/submitting requests; the preview does not send anything.
-- External song autocomplete and manual fallback.
-- Private admin dashboard, spam controls and public deployment.
-- Actual Venmo/PayPal links.
+### In development (not yet enabled on the public preview)
+- Listener manual song entry and validated song/mashup submission.
+- Supabase-backed request storage, rate-limited submission endpoint, and authenticated private DJ queue.
+- Admin request status, BPM, and manual ordering controls.
+
+### Still to do
+- Provision Supabase and enable real submissions after testing.
+- Import approved tracks from the iMac catalog.
+- External song autocomplete, stronger bot protection, public backend deployment, and actual Venmo/PayPal links.
 
 ## Catalog data
 
@@ -37,5 +41,6 @@ The default `public/catalog.json` is intentionally an empty array until reviewed
 - [Product requirements](docs/PRODUCT_REQUIREMENTS.md)
 - [Feature backlog](https://github.com/tuckerbrennan/dj-ogvhs/issues)
 - [Catalog import procedure](docs/CATALOG_IMPORT.md)
+- [Private request backend setup](docs/BACKEND_SETUP.md)
 
 The actual music files are **not** served or stored in this repository.

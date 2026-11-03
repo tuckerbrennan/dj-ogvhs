@@ -24,7 +24,7 @@
           <button id="request-song" type="button" class="request-button active" aria-pressed="true"><span class="action-icon" aria-hidden="true">♫</span><span>Request a song<small>One track, your pick</small></span></button>
           <button id="request-mashup" type="button" class="request-button" aria-pressed="false"><span class="action-icon" aria-hidden="true">⤨</span><span>Request a mashup<small>Two tracks, one idea</small></span></button>
         </div>
-        <p class="preview-notice"><strong>Early preview:</strong> You can browse and choose tracks, but submissions are not being sent yet.</p>
+        <p class="preview-notice"><strong>Early preview:</strong> Requests are sent only after the secure backend is configured. Fictional demo tracks are never submitted.</p>
       </section>
       <section class="catalog-panel" aria-labelledby="catalog-heading">
         <div class="section-heading"><div><span class="eyebrow">CRATE DIGGING</span><h2 id="catalog-heading">Browse the catalog</h2></div><span id="catalog-count" class="count">Loading…</span></div>
@@ -36,7 +36,20 @@
       <aside class="selection-panel" aria-labelledby="selection-heading">
         <div><span class="eyebrow">YOUR REQUEST</span><h2 id="selection-heading">Song selection</h2><p id="selection-help" class="helper">Choose a song from the catalog to preview your request.</p></div>
         <ol id="selected" class="selected-list"></ol>
-        <p class="pending-note">Request submission, outside-catalog autocomplete, and optional Venmo / PayPal tips will be added in the next development stages.</p>
+        <div class="request-form">
+          <h3>Can't find it?</h3>
+          <p class="helper">Add a song manually, even if it isn't in the DJ catalog.</p>
+          <label class="field-label" for="manual-title">Song title</label>
+          <input id="manual-title" maxlength="150" placeholder="Song title">
+          <label class="field-label" for="manual-artist">Artist (optional)</label>
+          <input id="manual-artist" maxlength="120" placeholder="Artist">
+          <button id="add-manual" class="add-track" type="button">Add this song +</button>
+          <label class="field-label" for="listener-name">Your name (optional)</label>
+          <input id="listener-name" maxlength="80" autocomplete="name" placeholder="How should I call you out?">
+          <button id="submit-request" class="submit-button" type="button" disabled>Send request</button>
+          <p id="request-feedback" class="helper" role="status" aria-live="polite"></p>
+        </div>
+        <p class="pending-note">External song autocomplete and optional Venmo / PayPal tips are coming later. Submissions are disabled in demo mode.</p>
       </aside>
     </main>
     <footer>DJ OGVHS <span aria-hidden="true">·</span> REQUEST THE UNEXPECTED</footer>

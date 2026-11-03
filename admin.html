@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09151b">
+  <title>DJ OGVHS | Private Request Queue</title>
+  <link rel="stylesheet" href="./src/styles.css">
+  <script type="module" src="./src/admin.mjs"></script>
+</head>
+<body>
+  <div class="frame">
+    <header class="site-header">
+      <a href="./" class="brand"><span class="brand-mark">OG</span><span class="brand-text">DJ <strong>OGVHS</strong><small>PRIVATE DJ CONSOLE</small></span></a>
+      <a class="helper" href="./">Listener site</a>
+    </header>
+    <section class="admin-panel" aria-labelledby="admin-heading">
+      <span class="eyebrow">DJ ONLY</span>
+      <h1 id="admin-heading" style="font-size:clamp(2rem,5vw,3.3rem)">Request queue</h1>
+      <p id="admin-message" class="helper" role="status" aria-live="polite">Checking connection…</p>
+      <form id="admin-login" hidden>
+        <label for="admin-email" class="field-label">Admin email</label>
+        <div class="admin-toolbar">
+          <input type="email" id="admin-email" required autocomplete="email" placeholder="you@example.com">
+          <button type="submit" class="add-track">Email me a sign-in link</button>
+        </div>
+        <p class="helper">Only pre-approved DJ accounts can read incoming requests.</p>
+      </form>
+      <div id="admin-dashboard" hidden>
+        <div class="admin-toolbar">
+          <label class="field-label" for="admin-filter">Show</label>
+          <select id="admin-filter">
+            <option value="all">All requests</option>
+            <option value="pending">Pending</option>
+            <option value="later">Later</option>
+            <option value="played">Played</option>
+            <option value="skipped">Skipped</option>
+            <option value="song">Songs only</option>
+            <option value="mashup">Mashups only</option>
+          </select>
+          <label class="field-label" for="admin-sort">Sort</label>
+          <select id="admin-sort">
+            <option value="queue">Manual queue</option>
+            <option value="recent">Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="bpm">BPM</option>
+          </select>
+          <button type="button" id="admin-refresh" class="add-track">Refresh</button>
+          <button type="button" id="admin-logout" class="add-track">Sign out</button>
+        </div>
+        <p id="admin-count" class="helper"></p>
+        <div id="admin-rows"></div>
+      </div>
+    </section>
+    <footer>DJ OGVHS <span aria-hidden="true">·</span> PRIVATE REQUESTS</footer>
+  </div>
+</body>
+</html>

@@ -40,8 +40,8 @@ async function swapPosition(id, neighborId) {
   const b = items.find(item => item.id === neighborId);
   if (!a || !b) return;
   try {
-    await edit(a.id, { sort_order: b.sort_order });
-    await edit(b.id, { sort_order: a.sort_order });
+    const { error } = await client.rpc("swap_dj_request_order", { p_first: a.id, p_second: b.id });
+    if (error) throw new Error(error.message);
     message.textContent = "Queue order saved.";
   } catch (error) {
     message.textContent = error.message;

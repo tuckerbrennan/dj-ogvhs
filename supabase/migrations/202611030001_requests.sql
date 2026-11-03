@@ -3,7 +3,7 @@ create table if not exists public.dj_admins (
   user_id uuid primary key references auth.users(id) on delete cascade
 );
 alter table public.dj_admins enable row level security;
-revoke all on public.dj_admins from anon;
+revoke all on public.dj_admins from public, anon, authenticated;
 grant select on public.dj_admins to authenticated;
 create policy "admins can view own membership" on public.dj_admins
   for select to authenticated using (user_id = (select auth.uid()));
@@ -26,7 +26,7 @@ create table if not exists public.dj_requests (
 );
 create index if not exists dj_requests_created_at_idx on public.dj_requests (created_at desc);
 alter table public.dj_requests enable row level security;
-revoke all on public.dj_requests from anon;
+revoke all on public.dj_requests from public, anon, authenticated;
 grant select on public.dj_requests to authenticated;
 grant update (status, bpm, sort_order) on public.dj_requests to authenticated;
 create policy "admin read requests" on public.dj_requests
@@ -41,7 +41,7 @@ create table if not exists public.dj_request_rate_limits (
   attempts integer not null default 0
 );
 alter table public.dj_request_rate_limits enable row level security;
-revoke all on public.dj_request_rate_limits from anon, authenticated;
+revoke all on public.dj_request_rate_limits from public, anon, authenticated;
 
 -- Only the trusted Edge Function (service_role) can call this function.
 create or replace function public.submit_dj_request(
@@ -70,8 +70,8 @@ begin
   end if;
   for v_song in select value from jsonb_array_elements(p_songs) loop
     if jsonb_typeof(v_song) <> 'object'
-       or jsonb_typeof(v_song->'title') <> 'string'
-       or char_length(btrim(v_song->>'title')) not between 1 and 150
+       or coalesce(jsonb_typeof(v_song->'title'),'') <> 'string'
+       or char_length(btrim(coalesce(v_song->>'title',''))) not between 1 and 150
        or coalesce(char_length(v_song->>'artist'), 0) > 120
        or coalesce(v_song->>'source','') not in ('catalog','external','manual') then
       raise exception 'Invalid song selection';

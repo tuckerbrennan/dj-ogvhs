@@ -21,7 +21,7 @@ create table if not exists public.dj_requests (
   listener_name text check (char_length(listener_name) <= 80),
   status text not null default 'pending' check (status in ('pending','later','played','skipped')),
   bpm numeric(6,2) check (bpm is null or (bpm > 0 and bpm < 350)),
-  sort_order integer not null default 0,
+  sort_order bigint not null default (extract(epoch from clock_timestamp()) * 1000)::bigint,
   created_at timestamptz not null default now()
 );
 create index if not exists dj_requests_created_at_idx on public.dj_requests (created_at desc);
@@ -73,7 +73,7 @@ begin
        or jsonb_typeof(v_song->'title') <> 'string'
        or char_length(btrim(v_song->>'title')) not between 1 and 150
        or coalesce(char_length(v_song->>'artist'), 0) > 120
-       or (v_song->>'source') not in ('catalog','external','manual') then
+       or coalesce(v_song->>'source','') not in ('catalog','external','manual') then
       raise exception 'Invalid song selection';
     end if;
     if v_song->>'source' = 'catalog' and coalesce(v_song->>'catalogId','') = '' then

@@ -76,8 +76,15 @@ Deno.serve(async request => {
 
   const secret = Deno.env.get("DJ_RATE_LIMIT_SECRET");
   const projectUrl = Deno.env.get("SUPABASE_URL");
-  const keys = Deno.env.get("SUPABASE_SECRET_KEYS");
-  const serviceKey = (keys ? JSON.parse(keys).default : undefined) ?? Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
+  let serviceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
+  if (!serviceKey) {
+    try {
+      const allKeys = JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}");
+      serviceKey = typeof allKeys.default === "string" ? allKeys.default : undefined;
+    } catch {
+      console.error("Supabase secret-key configuration is invalid.");
+    }
+  }
   if (!secret || !projectUrl || !serviceKey) return reply(503, { error: "Request service is not configured." });
 
   // IP is never stored in raw form. This is basic abuse mitigation, not a substitute for CAPTCHA/WAF.

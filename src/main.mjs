@@ -1,4 +1,6 @@
 import { searchCatalog } from "./catalog.mjs";
+import { makeRequest } from "./request-model.mjs";
+import { loadRequestConfig, sendRequest } from "./request-api.mjs";
 
 const $ = id => document.getElementById(id);
 const search = $("search");
@@ -10,6 +12,15 @@ const selectedHelp = $("selection-help");
 const selectionHeading = $("selection-heading");
 const songBtn = $("request-song");
 const mashupBtn = $("request-mashup");
+const manualTitle = $("manual-title");
+const manualArtist = $("manual-artist");
+const manualButton = $("add-manual");
+const listenerName = $("listener-name");
+const submitButton = $("submit-request");
+const feedback = $("request-feedback");
+const demoMode = new URLSearchParams(location.search).has("demo");
+let requestConfig = null;
+let sending = false;
 
 const demoTracks = [
   { id: "demo1", title: "Electric Evening", artist: "The Example Band", album: "Demo Records" },
@@ -36,6 +47,7 @@ function setMode(next) {
   songBtn.setAttribute("aria-pressed", String(next === "song"));
   mashupBtn.setAttribute("aria-pressed", String(next === "mashup"));
   selectionHeading.textContent = next === "song" ? "Song selection" : "Mashup selections";
+  feedback.textContent = "";
   render();
 }
 
@@ -71,8 +83,8 @@ function renderSelected() {
     selectedList.appendChild(li);
   }
   selectedHelp.textContent = selected.length === slots
-    ? "Selection ready. Sending requests will be enabled when the secure request system is built."
-    : "Choose " + (slots - selected.length) + " more " + ((slots - selected.length) === 1 ? "song" : "songs") + " from the catalog.";
+    ? (demoMode ? "Fictional demo tracks cannot be submitted." : requestConfig ? "Selection ready to send." : "Request service is not connected yet.")
+    : "Choose " + (slots - selected.length) + " more " + ((slots - selected.length) === 1 ? "song" : "songs") + " from the catalog or enter one manually.";
 }
 
 function renderTracks() {
@@ -100,19 +112,63 @@ function renderTracks() {
     btn.type = "button";
     btn.disabled = already;
     btn.setAttribute("aria-label", (already ? "Selected " : "Choose ") + track.title + " by " + track.artist);
-    btn.addEventListener("click", () => select(track));
+    btn.addEventListener("click", () => select({ ...track, source: "catalog", catalogId: track.id }));
     row.append(info, btn);
     results.appendChild(row);
   }
 }
 
-function render() { renderSelected(); renderTracks(); }
+function render() {
+  renderSelected();
+  renderTracks();
+  submitButton.disabled = sending || demoMode || !requestConfig || selected.length !== (mode === "song" ? 1 : 2);
+  submitButton.textContent = sending ? "Sending…" : "Send request";
+}
 songBtn.addEventListener("click", () => setMode("song"));
 mashupBtn.addEventListener("click", () => setMode("mashup"));
 search.addEventListener("input", renderTracks);
 
+manualButton.addEventListener("click", () => {
+  const title = manualTitle.value.trim();
+  const artist = manualArtist.value.trim();
+  if (!title) { feedback.textContent = "Enter a song title first."; manualTitle.focus(); return; }
+  if (title.length > 150 || artist.length > 120) { feedback.textContent = "Song or artist is too long."; return; }
+  const id = "manual-" + crypto.randomUUID();
+  select({ id, title, artist, source: "manual" });
+  manualTitle.value = "";
+  manualArtist.value = "";
+  feedback.textContent = "Added to your request.";
+});
+
+submitButton.addEventListener("click", async () => {
+  if (sending || demoMode || !requestConfig) return;
+  let payload;
+  try {
+    payload = makeRequest({ type: mode, songs: selected, listenerName: listenerName.value });
+  } catch (error) {
+    feedback.textContent = error.message;
+    return;
+  }
+  sending = true;
+  feedback.textContent = "";
+  render();
+  try {
+    await sendRequest(requestConfig, payload);
+    selected = [];
+    listenerName.value = "";
+    feedback.textContent = "Request received! Thanks for the suggestion.";
+  } catch (error) {
+    feedback.textContent = error.name === "TimeoutError"
+      ? "Request timed out. Please check before trying again."
+      : error.message || "Couldn't send the request.";
+  } finally {
+    sending = false;
+    render();
+  }
+});
+
 async function load() {
-  if (new URLSearchParams(location.search).has("demo")) {
+  if (demoMode) {
     tracks = demoTracks;
     render();
     count.textContent = tracks.length + " fictional demo tracks";
@@ -134,3 +190,7 @@ async function load() {
 }
 render();
 load();
+loadRequestConfig().then(config => {
+  requestConfig = config;
+  render();
+}).catch(() => { requestConfig = null; render(); });

@@ -12,7 +12,7 @@ createServer(async (req, res) => {
     const url = new URL(req.url, "http://localhost");
     const raw = decodeURIComponent(url.pathname);
     const name = raw === "/" ? "/index.html" : raw;
-    const allowed = new Set(["/index.html", "/thanks.html", "/src/thanks.mjs", "/public/tip-config.json", "/src/main.mjs", "/src/catalog.mjs", "/src/styles.css", "/public/catalog.json"]);
+    const allowed = new Set(["/index.html", "/thanks.html", "/src/thanks.mjs", "/public/tip-config.json", "/src/main.mjs", "/src/request-quota.mjs", "/src/catalog.mjs", "/src/styles.css", "/public/catalog.json"]);
     if (!allowed.has(name)) { res.writeHead(404).end("Not found"); return; }
     const location = resolve(root, "." + name);
     if (location !== root && !location.startsWith(root + sep)) {

@@ -77,7 +77,7 @@ h3 { margin:0 0 6px; font-size:1.03rem; }
 @media(max-width:680px) { .admin-row { flex-direction:column; } }
 
 /* DJ OGVHS social links: add verified profiles only. */
-.follow-section { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:18px; margin:0 0 32px; padding:26px; border:1px solid var(--edge); border-radius:17px; background:rgba(16,34,43,.96); }
+.follow-section { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:18px; margin:22px 0 0; padding:20px 24px; border:1px solid var(--edge); border-radius:17px; background:rgba(16,34,43,.96); }
 .follow-copy h2 { margin:7px 0 2px; }
 .follow-copy p { margin:7px 0 0; }
 .social-links { display:flex; gap:10px; flex-wrap:wrap; }
@@ -85,3 +85,7 @@ h3 { margin:0 0 6px; font-size:1.03rem; }
 .social-links a:hover { border-color:var(--mint); background:#234349; }
 .social-links a:focus-visible { outline:3px solid var(--orange); outline-offset:3px; }
 @media (max-width:490px) { .follow-section { padding:19px; } .social-links,.social-links a { width:100%; justify-content:center; } }
+
+/* The Follow section sits between the header and welcome hero. */
+.follow-section + main .hero { padding-top:42px; }
+@media (max-width:760px) { .follow-section + main .hero { padding-top:30px; } }

@@ -18,10 +18,24 @@
 </header>
 <main class="collab-main">
 <section class="collab-hero">
-<span class="eyebrow">YOU'RE INVITED</span>
+<span class="eyebrow">DJ OGVHS COLLAB</span>
 <h1>Build the <em>playlist.</em></h1>
 <p>Dig through the OGVHS crates, suggest something new, or share a Spotify playlist. Everyone brings something to the party.</p>
-<p class="collab-privacy">This is a private collaboration. Anyone with your invitation link can view and add suggestions. Please don't post the link publicly.</p>
+<p class="collab-privacy">Playlists are invite-only. Anyone with an invitation link can contribute, so please don't post private links publicly.</p>
+</section>
+<section class="collab-access collab-room" aria-labelledby="collab-access-heading">
+<span class="eyebrow">WANT IN?</span>
+<h2 id="collab-access-heading">Want to join a Collab?</h2>
+<p class="helper">No invitation yet? Leave your email and I'll get in touch if there's a playlist project for you.</p>
+<button id="collab-access-toggle" type="button" class="submit-button" aria-expanded="false" aria-controls="collab-access-form">Request to Collab</button>
+<form id="collab-access-form" hidden>
+<label class="field-label" for="collab-access-email">Email address</label>
+<input id="collab-access-email" name="email" type="email" maxlength="254" required autocomplete="email" placeholder="you@example.com">
+<input id="collab-access-website" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="collab-honeypot">
+<p class="helper">I'll use your address only to contact you about collaboration invitations. This is not a mailing-list signup.</p>
+<button id="collab-access-submit" type="submit" class="add-track">Send request</button>
+<p id="collab-access-feedback" role="status" aria-live="polite" class="helper"></p>
+</form>
 </section>
 <section class="collab-room" aria-labelledby="room-title">
 <div class="section-heading"><div><span class="eyebrow">OUR PLAYLIST</span><h2 id="room-title">Checking invitation…</h2></div><span id="room-count" class="count"></span></div>
@@ -55,6 +69,15 @@
 <button id="collab-spotify-choose" type="button" class="add-track">Choose Spotify playlist</button>
 <p class="helper">We'll save your Spotify playlist link for the DJ to review. We won't automatically copy its tracks into this playlist.</p>
 </div>
+<section class="collab-spotify collab-upload" aria-labelledby="collab-upload-heading">
+<span class="eyebrow">SHARE A FILE</span>
+<h3 id="collab-upload-heading">Upload to this Collab</h3>
+<p class="helper">Upload music, playlists, notes, or PDFs to this room's private Google Drive folder. Files are available to the DJ, not publicly downloadable.</p>
+<label class="field-label" for="collab-upload-file">Choose a file (up to 15 MB)</label>
+<input id="collab-upload-file" type="file" accept=".mp3,.m4a,.wav,.flac,.aac,.ogg,.aif,.aiff,.mid,.midi,.m3u,.m3u8,.csv,.txt,.pdf" disabled>
+<button id="collab-upload-send" type="button" class="add-track" disabled>Upload file</button>
+<p id="collab-upload-feedback" role="status" aria-live="polite" class="helper">Checking whether uploads are enabled…</p>
+</section>
 </section>
 <aside class="selection-panel collab-submit">
 <span class="eyebrow">YOUR CONTRIBUTION</span>

@@ -5,14 +5,14 @@ import { readFile, stat } from "node:fs/promises";
 import { resolve, extname, sep } from "node:path";
 
 const root = resolve(process.cwd());
-const mime = { ".html":"text/html; charset=utf-8", ".css":"text/css; charset=utf-8", ".mjs":"text/javascript; charset=utf-8", ".json":"application/json; charset=utf-8" };
+const mime = { ".svg":"image/svg+xml", ".png":"image/png", ".ico":"image/x-icon", ".html":"text/html; charset=utf-8", ".css":"text/css; charset=utf-8", ".mjs":"text/javascript; charset=utf-8", ".json":"application/json; charset=utf-8" };
 const port = Number(process.env.PORT || 4173);
 createServer(async (req, res) => {
   try {
     const url = new URL(req.url, "http://localhost");
     const raw = decodeURIComponent(url.pathname);
     const name = raw === "/" ? "/index.html" : raw;
-    const allowed = new Set(["/index.html", "/thanks.html", "/src/thanks.mjs", "/public/tip-config.json", "/src/main.mjs", "/src/request-quota.mjs", "/src/catalog.mjs", "/src/styles.css", "/public/catalog.json"]);
+    const allowed = new Set(["/about.html", "/src/about.css", "/public/branding/favicon.svg", "/public/branding/favicon-32.png", "/public/branding/favicon.ico", "/public/branding/apple-touch-icon.png", "/public/branding/social-preview-v1.png", "/index.html", "/thanks.html", "/src/thanks.mjs", "/public/tip-config.json", "/src/main.mjs", "/src/request-quota.mjs", "/src/catalog.mjs", "/src/styles.css", "/public/catalog.json"]);
     if (!allowed.has(name)) { res.writeHead(404).end("Not found"); return; }
     const location = resolve(root, "." + name);
     if (location !== root && !location.startsWith(root + sep)) {

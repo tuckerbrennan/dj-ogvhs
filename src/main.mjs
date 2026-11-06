@@ -46,7 +46,11 @@ function setMode(next) {
 }
 
 function select(track) {
-  if (selected.some(item => item.id === track.id)) return;
+  if (selected.some(item => item.id === track.id)) {
+    selected = selected.filter(item => item.id !== track.id);
+    render();
+    return;
+  }
   const slots = mode === "song" ? 1 : 2;
   if (selected.length >= slots) selected = [...selected.slice(1), track];
   else selected = [...selected, track];
@@ -102,10 +106,10 @@ function renderTracks() {
     info.appendChild(el("strong", "", track.title));
     info.appendChild(el("span", "", track.artist + (track.album ? " · " + track.album : "")));
     const already = selected.some(item => item.id === track.id);
-    const btn = el("button", "add-track" + (already ? " chosen" : ""), already ? "Selected" : "Choose +");
+    const btn = el("button", "add-track" + (already ? " chosen" : ""), already ? "Remove −" : "Choose +");
     btn.type = "button";
-    btn.disabled = already;
-    btn.setAttribute("aria-label", (already ? "Selected " : "Choose ") + track.title + " by " + track.artist);
+    btn.setAttribute("aria-pressed", String(already));
+    btn.setAttribute("aria-label", (already ? "Remove " : "Choose ") + track.title + " by " + track.artist);
     btn.addEventListener("click", () => select(track));
     row.append(info, btn);
     results.appendChild(row);

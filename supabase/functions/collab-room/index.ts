@@ -76,7 +76,7 @@ Deno.serve(async request=>{
     if(memberError||!membership)return reply(403,{error:"Administrator access required."});
     if(request.method==="GET"){
       const {data,error}=await db.from("dj_collab_rooms")
-        .select("id,title,description,is_open,expires_at,created_at")
+        .select("id,title,description,is_open,expires_at,created_at,drive_folder_id")
         .order("created_at",{ascending:false}).limit(50);
       return error?reply(503,{error:"Unable to list rooms."}):reply(200,{rooms:data});
     }
@@ -112,7 +112,7 @@ Deno.serve(async request=>{
   if(!tokenPattern.test(invite))return reply(404,{error:"A valid invitation is required."});
   const inviteHash=await sha(invite);
   const {data:room,error:roomError}=await db.from("dj_collab_rooms")
-    .select("id,title,description,is_open,expires_at")
+    .select("id,title,description,is_open,expires_at,drive_folder_id")
     .eq("invite_hash",inviteHash).maybeSingle();
   if(roomError)return reply(503,{error:"Unable to check invitation."});
   if(!room)return reply(404,{error:"Invitation not found."});
@@ -122,7 +122,7 @@ Deno.serve(async request=>{
       .select("id,kind,title,artist,catalog_id,spotify_url,external_provider,contributor_name,created_at")
       .eq("room_id",room.id).order("created_at",{ascending:false}).limit(200);
     return error?reply(503,{error:"Unable to load playlist."}):reply(200,{
-      room:{title:room.title,description:room.description,isOpen:open,expiresAt:room.expires_at},
+      room:{title:room.title,description:room.description,isOpen:open,uploadsEnabled:Boolean(room.drive_folder_id),expiresAt:room.expires_at},
       entries:data
     });
   }

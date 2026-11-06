@@ -24,6 +24,41 @@ Private admin page: `collab-admin.html`, sign in through Supabase Auth with an e
 - Copy the invitation URL **immediately**: the database stores only its SHA-256 digest, not the reusable token. Invite URLs cannot be reconstructed from the database after creation.
 - View rooms, close submissions, and reopen a room while its expiry is still valid.
 
+## Request to Collab (no invitation required)
+
+The landing page now includes a **Request to Collab** button revealing a single required email-address field. It works even without a room invitation.
+
+- Visitor submissions are handled by the separate `collab-access` Supabase Edge Function (POST) and stored privately in `dj_collab_access_requests`; never put email addresses in this public GitHub repository, the music catalog, a public Spreadsheet or analytics.
+- An email appears in the authenticated DJ-only admin view with Pending / Approved / Declined status and a Copy Email option. **Approval is a review marker only, not an automatic invitation or email**. The DJ can reach out and manually share an invite.
+- The form explicitly says the address will be used only for collaboration invitations, not marketing. The endpoint normalizes and deduplicates email addresses, provides a honeypot, and restricts new requests to 3 per browser per 24 hours. This anonymous/browser protection can be bypassed; add managed CAPTCHA or equivalent before widely promoting it.
+- Have an email retention/deletion policy and privacy contact method before launch. This feature is not a mailing list or an account-registration system.
+
+## Google Drive folder for each Collab
+
+The invited playlist page now offers file uploads to that room's **own private Google Drive folder**, provisioned from the DJ-only admin screen. A guest must have the private room link; the Google account OAuth credentials stay exclusively in Supabase secrets.
+
+- Supported: MP3, M4A, AAC, WAV, FLAC, OGG, AIFF, MIDI, M3U/M3U8 playlists, CSV, TXT and PDF. Maximum **15 MiB per file**. Up to **5 uploads per browser/hour** and **100 files per room**, enforced by a server-only transactional reservation RPC. Do not treat filenames/MIME as virus scans; guest files may be malicious.
+- The Edge Function `collab-upload` streams the accepted file through a **Google Drive resumable upload** in the room's own folder. No Drive credential, private folder ID or file URL is exposed to invited guests. Guest submissions are not automatically played, published or added to the DJ's SQLite catalog.
+- Authorized admins can select a room, click **Enable private Drive folder**, inspect completed uploads and open the corresponding Drive folder. Only the admin-facing response contains Google file/folder identifiers. Each room gets a unique folder named with its playlist title and room-id suffix.
+- A room can exist without uploads enabled. The guest UI disables uploads until the DJ connects a folder. If Google is not yet authorized, the admin interface reports a setup error instead of claiming an upload succeeded.
+
+**One-time Google setup (must be completed separately):**
+
+1. Enable Google Drive API in a Google Cloud project, configure an OAuth consent screen and OAuth client for the DJ's own Google account, and obtain a secure **offline refresh token** for the narrow scope `https://www.googleapis.com/auth/drive.file`. Follow Google's OAuth server authorization flow with `access_type=offline`; verification/publishing state and Google refresh-token expiry rules matter.
+2. Store these only in the Supabase Edge Function secret manager:
+   - `DJ_GOOGLE_CLIENT_ID`
+   - `DJ_GOOGLE_CLIENT_SECRET`
+   - `DJ_GOOGLE_REFRESH_TOKEN`
+   - Optional `DJ_GOOGLE_COLLAB_PARENT_FOLDER_ID`. Omit it to create a distinct folder for each collaboration in the connected account's **My Drive root**. For a custom parent, ensure the OAuth app can access that parent.
+3. Apply `supabase/migrations/202611060003_collab_access_uploads.sql` after the Collab migration. It adds the private access-request table, private upload log and Drive folder ID per room.
+4. Deploy `supabase functions deploy collab-access --no-verify-jwt` and `supabase functions deploy collab-upload --no-verify-jwt`. Both implement admin JWT validation server-side for private routes; guests are accepted only on the documented limited routes. Configure `DJ_COLLAB_RATE_SECRET` and `DJ_ALLOWED_ORIGINS` for **every actual** staging and production domain, including `https://collab.ogvhs.com`.
+5. Sign in as the approved DJ administrator at `collab-admin.html`, create a Collab room, click **Enable private Drive folder** on that room, and test uploading a small harmless file as an invited guest. Then confirm it appears in the private Drive folder. Test invalid invites, closed rooms, exhausted upload quota, invalid file extensions, an unavailable Drive account, and size limits.
+6. Keep raw Google refresh tokens out of browser JavaScript, code, Issues, logs and screenshots. Connecting Google Drive to ChatGPT **does not** authorize the public website: the server needs its own explicit OAuth grant. Allow sufficient Google Drive storage, watch quotas, and configure abuse protection before production.
+
+For larger WAV/FLAC files, the 15 MiB limit will be insufficient. A later version should use a reviewed large-file storage flow with chunked/resumable transfer, malware checks and tighter spam protection rather than raising the Edge Function limit blindly.
+
+**No real Google Drive folders or Google OAuth credentials are created/configured by these source changes.** Production upload remains unavailable until the Google connection, migrations and function deployment have been completed and tested.
+
 ## Backend setup and security
 
 **Prerequisites:** the production Supabase URL/anon publishable key already in `public/app-config.json`, and the `dj_admins` admin-allowlist created by the DJ request migration. The public key is safe in the browser; never ship a service-role key.

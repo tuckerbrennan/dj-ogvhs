@@ -18,7 +18,7 @@ export function inviteFromHash(hash) {
 export function validateContribution(value) {
   if (!value || typeof value !== "object") throw Error("Select a song or enter a Spotify playlist.");
   const kind = value.kind;
-  if (!["catalog", "manual", "spotify_playlist"].includes(kind)) throw Error("Unknown contribution type.");
+  if (!["catalog", "external", "manual", "spotify_playlist"].includes(kind)) throw Error("Unknown contribution type.");
   const name = String(value.name || "").trim().slice(0, 80);
   if (kind === "spotify_playlist") {
     const url = spotifyPlaylistUrl(value.spotifyUrl);
@@ -31,5 +31,39 @@ export function validateContribution(value) {
   if (kind === "catalog" && !/^[A-Za-z0-9_-]{4,128}$/.test(String(value.catalogId||""))) {
     throw Error("Choose a song from the catalog.");
   }
-  return {kind, name, title, artist, ...(kind==="catalog" ? {catalogId:value.catalogId} : {})};
+  if (kind === "external") {
+    if (value.externalProvider !== "itunes" || !/^[0-9]{1,20}$/.test(String(value.externalId || ""))) {
+      throw Error("Choose a song from the suggestions.");
+    }
+  }
+  return {
+    kind, name, title, artist,
+    ...(kind === "catalog" ? {catalogId: value.catalogId} : {}),
+    ...(kind === "external" ? {externalProvider:"itunes", externalId:String(value.externalId)} : {})
+  };
+}
+
+/** Apple's public iTunes Search API. Metadata only; no audio or album art. */
+export function itunesSearchUrl(query) {
+  const term = String(query || "").trim().slice(0, 100);
+  if (term.length < 3) return null;
+  const params = new URLSearchParams({term,media:"music",entity:"song",limit:"10",country:"US"});
+  return "https://itunes.apple.com/search?" + params.toString();
+}
+
+export function parseITunesTracks(response) {
+  if (!response || !Array.isArray(response.results)) return [];
+  const seen = new Set();
+  return response.results.flatMap(row => {
+    if (!row || row.kind !== "song" || typeof row.trackName !== "string" ||
+        typeof row.artistName !== "string" || !Number.isSafeInteger(row.trackId)) return [];
+    const title = row.trackName.trim().slice(0, 150);
+    const artist = row.artistName.trim().slice(0, 120);
+    const externalId = String(row.trackId);
+    const key = (artist + "|" + title).toLowerCase();
+    if (!title || !artist || seen.has(key)) return [];
+    seen.add(key);
+    return [{kind:"external",title,artist,externalProvider:"itunes",externalId,
+      album:typeof row.collectionName==="string" ? row.collectionName.slice(0,140) : ""}];
+  });
 }

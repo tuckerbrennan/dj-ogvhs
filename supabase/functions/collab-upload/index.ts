@@ -49,8 +49,8 @@ async function googleAccessToken():Promise<string>{
   return data.access_token;
 }
 async function createFolder(token:string,title:string,roomId:string):Promise<string>{
-  const parent=Deno.env.get("DJ_GOOGLE_COLLAB_PARENT_FOLDER_ID")||"";
-  if(!driveIdPattern.test(parent))throw Error("Drive parent folder isn't configured.");
+  const parent=Deno.env.get("DJ_GOOGLE_COLLAB_PARENT_FOLDER_ID")||"root";
+  if(parent!=="root"&&!driveIdPattern.test(parent))throw Error("Drive parent folder isn't configured.");
   const name="OGVHS Collab - "+title.replace(/[\\/\x00-\x1F<>:"|?*]/g," ").slice(0,85)+" - "+roomId.slice(0,8);
   const result=await fetch("https://www.googleapis.com/drive/v3/files?fields=id,name",{
     method:"POST",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},

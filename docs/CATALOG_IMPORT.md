@@ -19,6 +19,23 @@ The public app gets **only** a sanitised array of requestable songs (artist, tit
 6. Review public/catalog.json before committing it. The script omits raw paths, entry IDs, and file-level metadata.
 7. Run npm test, then npm run dev and open http://127.0.0.1:4173/.
 
+## New private Website Review Queue
+
+A new **Website Review Queue** tab in the existing private DJ OGVHS editable Google Sheet contains **89 proposed audio records** from the October 28 deep Drive/Dropbox scan: 26 Bob Marley tracks, 50 vintage TV themes, 10 Garfield novelty/music selections and 3 Marx/Engels spoken-word files.
+
+**None is approved for the website yet.** Suggested names and albums came from filenames and parent folders, and playback has not been checked. No raw file paths from this tab should ever be copied to the public repository.
+
+For each track the DJ wishes to offer:
+
+1. Verify the audio file is present and playable on the DJ computer, not just a cloud placeholder.
+2. Correct the editable artist, title, album and type fields from audio tags or listening.
+3. Change **Review Status** to **Verified**.
+4. Change **Publish? (Yes/No)** to **Yes**. Both gates are required for this tab; either alone is insufficient.
+5. Export just that tab to a CSV kept in local `private/`, then run `node scripts/build-catalog.mjs --input private/website-review.csv`.
+6. Inspect the generated `public/catalog.json` before committing. The output contains only stable ID, artist, title and optional album/genre — never raw paths or cloud IDs.
+
+Keep importing more scans into review queues as the current iMac SQLite inventory and newer cloud audio collections are indexed. **Do not bulk-mark rows Yes.**
+
 ## Using the iMac's master SQLite inventory
 
 The master local database contains a media_files table with source, path, filename, format, size_bytes and modified. Its rows do **not** inherently have verified song artist/title metadata or approval for public requests.

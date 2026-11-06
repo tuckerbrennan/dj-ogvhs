@@ -12,7 +12,7 @@
 <body>
   <div class="frame">
     <header class="site-header">
-      <a href="./" class="brand" aria-label="DJ OGVHS home"><span class="brand-mark">OG</span><span class="brand-text">DJ <strong>OGVHS</strong><small>GOOD MUSIC. YOUR CALL.</small></span></a>
+      <a href="./" class="brand" aria-label="DJ OGVHS home"><span class="brand-mark">OG</span><span class="brand-text">DJ <strong>OGVHS</strong><small>I believe in Fun.</small></span></a>
       <span class="preview-label">CATALOG PREVIEW</span>
     </header>
     <section class="follow-section" aria-labelledby="follow-heading">
@@ -30,13 +30,13 @@
     <main>
       <section class="hero" aria-labelledby="hero-heading">
         <span class="eyebrow">WELCOME TO THE REQUEST LINE</span>
-        <h1 id="hero-heading">Your song.<br><em>My turntables.</em></h1>
+        <h1 id="hero-heading">What would you<br><em>like to hear?</em></h1>
         <p>Dig through the DJ OGVHS library, pick a track, or pair two together for a mashup idea.</p>
         <div class="request-actions" role="group" aria-label="Request type">
           <button id="request-song" type="button" class="request-button active" aria-pressed="true"><span class="action-icon" aria-hidden="true">♫</span><span>Request a song<small>One track, your pick</small></span></button>
           <button id="request-mashup" type="button" class="request-button" aria-pressed="false"><span class="action-icon" aria-hidden="true">⤨</span><span>Request a mashup<small>Two tracks, one idea</small></span></button>
         </div>
-        <p class="preview-notice"><strong>Early preview:</strong> You can browse and choose tracks, but submissions are not being sent yet.</p>
+        <p class="preview-notice">OG VHS does not guarantee all requests can be played.</p>
       </section>
       <section class="catalog-panel" aria-labelledby="catalog-heading">
         <div class="section-heading"><div><span class="eyebrow">CRATE DIGGING</span><h2 id="catalog-heading">Browse the catalog</h2></div><span id="catalog-count" class="count">Loading…</span></div>
@@ -46,7 +46,7 @@
         <div id="tracks" class="track-list" aria-live="polite"></div>
       </section>
       <aside class="selection-panel" aria-labelledby="selection-heading">
-        <div><span class="eyebrow">YOUR REQUEST</span><h2 id="selection-heading">Song selection</h2><p id="selection-help" class="helper">Choose a song from the catalog to preview your request.</p></div>
+        <div><span class="eyebrow">YOUR REQUEST</span><h2 id="selection-heading">Song selection</h2><p id="mashup-subhead" class="helper" hidden>Pick two songs to request a mashup. Note: if the beats per minute are too far off it may not be possible.</p><p id="selection-help" class="helper">Choose a song from the catalog to preview your request.</p></div>
         <ol id="selected" class="selected-list"></ol>
         <button id="submit-request" class="submit-button" type="button" disabled>Submit request</button>
         <p class="pending-note">Try a fictional song in demo mode to preview the confirmation page. Real requests are not enabled until the secure backend is connected.</p>

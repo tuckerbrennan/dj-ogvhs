@@ -1,4 +1,6 @@
-import { searchCatalog, filterByGenre, genreOptions } from "./catalog.mjs?v=genre-filter-20261106";
+import { searchCatalog, filterByGenre, genreOptions } from "./catalog.mjs";
+import { makeRequest } from "./request-model.mjs";
+import { loadRequestConfig, sendRequest, getRequestQuota } from "./request-api.mjs";
 import { demoQuota, useDemoRequest } from "./request-quota.mjs";
 
 const $ = id => document.getElementById(id);
@@ -14,9 +16,50 @@ const selectionHeading = $("selection-heading");
 const mashupSubhead = $("mashup-subhead");
 const songBtn = $("request-song");
 const mashupBtn = $("request-mashup");
+const manualTitle = $("manual-title");
+const manualArtist = $("manual-artist");
+const manualButton = $("add-manual");
+const listenerName = $("listener-name");
 const submitButton = $("submit-request");
 const requestLimit = $("request-limit");
+const feedback = $("request-feedback");
 const demoMode = new URLSearchParams(location.search).has("demo");
+let requestConfig = null;
+let sending = false;
+let quotaState = null;
+let quotaRefreshPending = false;
+
+function renderQuota() {
+  const remaining = demoMode ? demoQuota().remaining : quotaState?.remaining;
+  const nextAvailableAt = demoMode ? demoQuota().nextAvailableAt : quotaState?.nextAvailableAt;
+  requestLimit.classList.toggle("exhausted", remaining === 0);
+  if (remaining === undefined) {
+    requestLimit.textContent = !requestConfig && !demoMode
+      ? "Maximum 3 requests per rolling hour. The request service is not connected."
+      : "Checking how many requests you have left this hour…";
+    return;
+  }
+  requestLimit.textContent = (demoMode ? "Demo only: " : "") +
+    remaining + " of 3 requests left this hour." +
+    (remaining === 0 && nextAvailableAt
+      ? " Another request becomes available at " + new Date(nextAvailableAt).toLocaleTimeString([], { hour:"numeric", minute:"2-digit" }) + "."
+      : "") +
+    (demoMode ? " No real requests are sent." : "");
+}
+
+async function refreshQuota() {
+  if (demoMode || !requestConfig || quotaRefreshPending) return;
+  quotaRefreshPending = true;
+  try {
+    quotaState = await getRequestQuota(requestConfig);
+    render();
+  } catch {
+    quotaState = null;
+    render();
+  } finally {
+    quotaRefreshPending = false;
+  }
+}
 
 const demoTracks = [
   { id: "demo1", title: "Electric Evening", artist: "The Example Band", album: "Demo Records" },
@@ -44,6 +87,7 @@ function setMode(next) {
   mashupBtn.setAttribute("aria-pressed", String(next === "mashup"));
   selectionHeading.textContent = next === "song" ? "Song selection" : "Mashup selections";
   mashupSubhead.hidden = next !== "mashup";
+  feedback.textContent = "";
   render();
 }
 
@@ -83,8 +127,8 @@ function renderSelected() {
     selectedList.appendChild(li);
   }
   selectedHelp.textContent = selected.length === slots
-    ? (demoMode ? "Ready to preview submission. Demo requests are not sent." : "Request submission is not yet live.")
-    : "Choose " + (slots - selected.length) + " more " + ((slots - selected.length) === 1 ? "song" : "songs") + " from the catalog.";
+    ? (demoMode ? "Ready to preview submission. No demo request will be sent." : requestConfig ? "Selection ready to send." : "Request service is not connected yet.")
+    : "Choose " + (slots - selected.length) + " more " + ((slots - selected.length) === 1 ? "song" : "songs") + " from the catalog or enter one manually.";
 }
 
 function renderGenres() {
@@ -125,31 +169,23 @@ function renderTracks() {
     btn.type = "button";
     btn.setAttribute("aria-pressed", String(already));
     btn.setAttribute("aria-label", (already ? "Remove " : "Choose ") + track.title + " by " + track.artist);
-    btn.addEventListener("click", () => select(track));
+    btn.addEventListener("click", () => select({ ...track, source: "catalog", catalogId: track.id }));
     row.append(info, btn);
     results.appendChild(row);
   }
 }
 
-function renderQuota() {
-  if (!demoMode) {
-    requestLimit.textContent = "Maximum 3 requests per rolling hour. Real submissions are not enabled yet.";
-    requestLimit.classList.remove("exhausted");
-    return;
-  }
-  const quota = demoQuota();
-  requestLimit.textContent = "Demo only: " + quota.remaining + " of 3 requests left this hour." +
-    (quota.remaining === 0 && quota.nextAvailableAt
-      ? " Your next request becomes available at " + new Date(quota.nextAvailableAt).toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }) + "."
-      : "") + " No real requests are sent.";
-  requestLimit.classList.toggle("exhausted", quota.remaining === 0);
-}
-
 function render() {
   renderSelected();
   renderTracks();
-  const remaining = demoMode ? demoQuota().remaining : 0;
-  submitButton.disabled = !demoMode || remaining === 0 || selected.length !== (mode === "song" ? 1 : 2);
+  if (demoMode) {
+    count.textContent = tracks.length + " fictional demo tracks";
+    message.textContent = "DEMO ONLY: These songs are fictional. No request will be sent.";
+  }
+  const quota = demoMode ? demoQuota() : quotaState;
+  submitButton.disabled = sending || !quota || quota.remaining === 0 ||
+    (!demoMode && !requestConfig) || selected.length !== (mode === "song" ? 1 : 2);
+  submitButton.textContent = sending ? "Submitting…" : "Submit request";
   renderQuota();
 }
 songBtn.addEventListener("click", () => setMode("song"));
@@ -157,21 +193,64 @@ mashupBtn.addEventListener("click", () => setMode("mashup"));
 search.addEventListener("input", renderTracks);
 genreFilter.addEventListener("change", renderTracks);
 clearFilters.addEventListener("click", () => {
-  search.value = "";
-  genreFilter.value = "";
-  renderTracks();
-  search.focus();
+  search.value = ""; genreFilter.value = ""; renderTracks(); search.focus();
 });
-submitButton.addEventListener("click", () => {
-  if (!demoMode || selected.length !== (mode === "song" ? 1 : 2)) return;
-  const quota = useDemoRequest();
-  if (!quota.accepted) { render(); return; }
-  sessionStorage.setItem("dj-ogvhs-confirmation", JSON.stringify({ status: "demo" }));
-  location.assign("./thanks.html");
+
+manualButton.addEventListener("click", () => {
+  const title = manualTitle.value.trim();
+  const artist = manualArtist.value.trim();
+  if (!title) { feedback.textContent = "Enter a song title first."; manualTitle.focus(); return; }
+  if (title.length > 150 || artist.length > 120) { feedback.textContent = "Song or artist is too long."; return; }
+  const id = "manual-" + crypto.randomUUID();
+  select({ id, title, artist, source: "manual" });
+  manualTitle.value = "";
+  manualArtist.value = "";
+  feedback.textContent = "Added to your request.";
+});
+
+submitButton.addEventListener("click", async () => {
+  if (sending) return;
+  if (demoMode) {
+    if (selected.length !== (mode === "song" ? 1 : 2)) return;
+    if (!useDemoRequest().accepted) { render(); return; }
+    sessionStorage.setItem("dj-ogvhs-confirmation", JSON.stringify({ status: "demo" }));
+    location.assign("./thanks.html");
+    return;
+  }
+  if (!requestConfig || !quotaState || quotaState.remaining === 0) return;
+  let payload;
+  try {
+    payload = makeRequest({ type: mode, songs: selected, listenerName: listenerName.value });
+  } catch (error) {
+    feedback.textContent = error.message;
+    return;
+  }
+  sending = true;
+  feedback.textContent = "";
+  render();
+  try {
+    await sendRequest(requestConfig, payload);
+    // Only navigate after the server confirms the request was stored.
+    sessionStorage.setItem("dj-ogvhs-confirmation", JSON.stringify({ status: "submitted" }));
+    location.assign("./thanks.html");
+    return;
+  } catch (error) {
+    feedback.textContent = error.name === "TimeoutError"
+      ? "Request timed out. Please check before trying again."
+      : error.message || "Couldn't send the request.";
+    if (error.status === 429) {
+      quotaState = { limit:3, remaining:0, nextAvailableAt:error.nextAvailableAt };
+    } else {
+      refreshQuota();
+    }
+  } finally {
+    sending = false;
+    render();
+  }
 });
 
 async function load() {
-  if (new URLSearchParams(location.search).has("demo")) {
+  if (demoMode) {
     tracks = demoTracks;
     renderGenres();
     render();
@@ -196,4 +275,10 @@ async function load() {
 renderGenres();
 render();
 load();
-window.setInterval(() => { if (demoMode) render(); }, 30000);
+loadRequestConfig().then(config => {
+  requestConfig = config;
+  render();
+  refreshQuota();
+}).catch(() => { requestConfig = null; render(); });
+window.addEventListener("focus", refreshQuota);
+window.setInterval(() => { if (demoMode) render(); else refreshQuota(); }, 30000);

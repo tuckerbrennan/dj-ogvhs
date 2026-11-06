@@ -1,42 +1,23 @@
 # DJ OGVHS
 
-A mobile-friendly song and mashup request web app for DJ OGVHS.
+Music requests at https://ogvhs.com/ and the owner-only DJ view at https://admin.ogvhs.com/.
 
-**Status:** Catalog browser and safe import tooling are in early development. Request submission, music API fallback, admin authentication, tipping and public hosting are **not built yet**.
+## Listener experience
 
-## Run the catalog preview
+- Search the reviewed catalog by title, artist, album, or genre.
+- Request a song or a two-song mashup, using catalog selections or manual entry.
+- Submit without a listener account. The server limits each browser to three accepted requests per rolling hour.
+- Confirmation appears after the server acknowledges storage. Demo mode (`?demo=1`) uses fictional songs and never sends real requests.
+- About page, social profiles, vinyl favicon, and social preview.
 
-Requires Node 20+ on your computer.
+## Run locally
 
-```sh
-npm test
-npm run dev
-```
+Requires Node 20 or later. Run `npm test`, then `npm run dev` and open the printed local address. Local live submissions require an explicitly allowed development origin; demo mode works without a backend connection.
 
-Open http://127.0.0.1:4173/ in your browser. To try the interface with **clearly fictional demonstration songs**, open http://127.0.0.1:4173/?demo=1 .
+## Hosting and data
 
-### Currently implemented
-- Two prominent modes: **Request a Song** or **Request a Mashup**, with one or two catalog selections.
-- Mobile-responsive, case-insensitive title/artist/album search.
-- Safe CSV/JSON importer for reviewed tracks from the Google Sheet snapshot or the iMac SQLite export.
-- Default-deny publishing: only rows explicitly marked Yes, with artist and title, are output.
-- No private file paths, cloud file IDs, local source addresses, or raw inventories published.
+GitHub Pages hosts the listener site. Supabase stores requests and enforces private queue access. `public/app-config.json` contains only the project URL and public browser key. Never commit secret/service-role keys or listener records.
 
-### Not yet implemented
-- Persisting/submitting requests; the preview does not send anything.
-- External song autocomplete and manual fallback.
-- Private admin dashboard, spam controls and public deployment.
-- Actual Venmo/PayPal links.
+The admin frontend and backend deployment source are maintained privately. Visiting the admin address requires owner access; request reads and edits additionally require the approved DJ identity.
 
-## Catalog data
-
-The default `public/catalog.json` is intentionally an empty array until reviewed songs have been approved. See [Catalog import and privacy guidance](docs/CATALOG_IMPORT.md) for the export and curation commands.
-
-## Project planning
-
-- [Product requirements](docs/PRODUCT_REQUIREMENTS.md)
-- [Feature backlog](https://github.com/tuckerbrennan/dj-ogvhs/issues)
-- [Catalog import procedure](docs/CATALOG_IMPORT.md)
-- [Local library indexing](docs/LOCAL_LIBRARY_UPDATER.md)
-
-The actual music files are **not** served or stored in this repository.
+Catalog import guidance lives in `docs/CATALOG_IMPORT.md`. Actual audio files are not served by this repository. External song autocomplete and connected tipping accounts remain future work.

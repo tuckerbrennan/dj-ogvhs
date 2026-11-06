@@ -27,8 +27,9 @@
   <meta name="twitter:image:alt" content="DJ OGVHS. I believe in Fun. Lime lettering and a vinyl record on black.">
   <link rel="stylesheet" href="./src/styles.css?v=genre-filter-20261106">
   <link rel="stylesheet" href="./src/about.css?v=1">
-  <link rel="stylesheet" href="./src/mixes.css?v=1">
+  <link rel="stylesheet" href="./src/mixes.css?v=hot-1">
   <script type="module" src="./src/mixes.mjs?v=curated-ghost-filter-3"></script>
+  <script type="module" src="./src/drive-mixes.mjs?v=1"></script>
 </head>
 <body>
   <div class="frame">
@@ -51,6 +52,11 @@
         <p id="latest-status" class="helper" role="status">Loading latest mixes…</p>
         <div id="latest-mixes" class="mix-grid"></div>
         <a class="mixcloud-link" href="https://www.mixcloud.com/djogvhs/" target="_blank" rel="noopener noreferrer">More mixes on Mixcloud ↗</a>
+      </section>
+      <section class="mixes-section mixes-hot" aria-labelledby="hot-heading">
+        <div class="mixes-section-heading"><span class="eyebrow">TOO HOT FOR THE FEED</span><h2 id="hot-heading">Too Hot for Mixcloud</h2><p class="helper">These mixes can't be on Mixcloud because they contain too many songs from one artist</p></div>
+        <p id="hot-status" class="helper" role="status">Mixes coming soon.</p>
+        <div id="hot-mixes" class="mix-grid"></div>
       </section>
       <noscript><p class="helper">Visit <a class="mixcloud-link" href="https://www.mixcloud.com/djogvhs/">DJ OGVHS on Mixcloud</a> or <a class="mixcloud-link" href="https://www.mixcloud.com/djogvhs/">latest mixes on Mixcloud</a> to listen. Enable JavaScript for embedded players.</p></noscript>
     </main>

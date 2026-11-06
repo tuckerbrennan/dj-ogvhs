@@ -18,3 +18,7 @@
 .mix-card > a { margin-top:12px; font-size:.8rem; }
 .mix-retry { margin:0 0 20px; padding:10px 16px; color:var(--ink); background:var(--purple); border:1px solid var(--magenta); border-radius:8px; }
 @media(max-width:650px) { .mix-grid { grid-template-columns:1fr; }.mixes-hero { padding:40px 0 30px; }.mixes-section { padding-top:26px; } }
+
+.mixes-hot { border-top-color:var(--magenta); }
+.mixes-hot h2 { color:var(--magenta); }
+.mixes-hot .mix-card { border-color:var(--purple); }

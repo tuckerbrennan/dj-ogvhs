@@ -1,6 +1,7 @@
 import { searchCatalog } from "./catalog.mjs";
 import { makeRequest } from "./request-model.mjs";
-import { loadRequestConfig, sendRequest } from "./request-api.mjs";
+import { loadRequestConfig, sendRequest, getRequestQuota } from "./request-api.mjs";
+import { demoQuota, useDemoRequest } from "./request-quota.mjs";
 
 const $ = id => document.getElementById(id);
 const search = $("search");
@@ -18,10 +19,45 @@ const manualArtist = $("manual-artist");
 const manualButton = $("add-manual");
 const listenerName = $("listener-name");
 const submitButton = $("submit-request");
+const requestLimit = $("request-limit");
 const feedback = $("request-feedback");
 const demoMode = new URLSearchParams(location.search).has("demo");
 let requestConfig = null;
 let sending = false;
+let quotaState = null;
+let quotaRefreshPending = false;
+
+function renderQuota() {
+  const remaining = demoMode ? demoQuota().remaining : quotaState?.remaining;
+  const nextAvailableAt = demoMode ? demoQuota().nextAvailableAt : quotaState?.nextAvailableAt;
+  requestLimit.classList.toggle("exhausted", remaining === 0);
+  if (remaining === undefined) {
+    requestLimit.textContent = !requestConfig && !demoMode
+      ? "Maximum 3 requests per rolling hour. The request service is not connected."
+      : "Checking how many requests you have left this hour…";
+    return;
+  }
+  requestLimit.textContent = (demoMode ? "Demo only: " : "") +
+    remaining + " of 3 requests left this hour." +
+    (remaining === 0 && nextAvailableAt
+      ? " Another request becomes available at " + new Date(nextAvailableAt).toLocaleTimeString([], { hour:"numeric", minute:"2-digit" }) + "."
+      : "") +
+    (demoMode ? " No real requests are sent." : "");
+}
+
+async function refreshQuota() {
+  if (demoMode || !requestConfig || quotaRefreshPending) return;
+  quotaRefreshPending = true;
+  try {
+    quotaState = await getRequestQuota(requestConfig);
+    render();
+  } catch {
+    quotaState = null;
+    render();
+  } finally {
+    quotaRefreshPending = false;
+  }
+}
 
 const demoTracks = [
   { id: "demo1", title: "Electric Evening", artist: "The Example Band", album: "Demo Records" },
@@ -123,8 +159,11 @@ function renderTracks() {
 function render() {
   renderSelected();
   renderTracks();
-  submitButton.disabled = sending || (!demoMode && !requestConfig) || selected.length !== (mode === "song" ? 1 : 2);
+  const quota = demoMode ? demoQuota() : quotaState;
+  submitButton.disabled = sending || !quota || quota.remaining === 0 ||
+    (!demoMode && !requestConfig) || selected.length !== (mode === "song" ? 1 : 2);
   submitButton.textContent = sending ? "Submitting…" : "Submit request";
+  renderQuota();
 }
 songBtn.addEventListener("click", () => setMode("song"));
 mashupBtn.addEventListener("click", () => setMode("mashup"));
@@ -146,11 +185,12 @@ submitButton.addEventListener("click", async () => {
   if (sending) return;
   if (demoMode) {
     if (selected.length !== (mode === "song" ? 1 : 2)) return;
+    if (!useDemoRequest().accepted) { render(); return; }
     sessionStorage.setItem("dj-ogvhs-confirmation", JSON.stringify({ status: "demo" }));
     location.assign("./thanks.html");
     return;
   }
-  if (!requestConfig) return;
+  if (!requestConfig || !quotaState || quotaState.remaining === 0) return;
   let payload;
   try {
     payload = makeRequest({ type: mode, songs: selected, listenerName: listenerName.value });
@@ -171,6 +211,11 @@ submitButton.addEventListener("click", async () => {
     feedback.textContent = error.name === "TimeoutError"
       ? "Request timed out. Please check before trying again."
       : error.message || "Couldn't send the request.";
+    if (error.status === 429) {
+      quotaState = { limit:3, remaining:0, nextAvailableAt:error.nextAvailableAt };
+    } else {
+      refreshQuota();
+    }
   } finally {
     sending = false;
     render();
@@ -203,4 +248,7 @@ load();
 loadRequestConfig().then(config => {
   requestConfig = config;
   render();
+  refreshQuota();
 }).catch(() => { requestConfig = null; render(); });
+window.addEventListener("focus", refreshQuota);
+window.setInterval(() => { if (demoMode) render(); else refreshQuota(); }, 30000);

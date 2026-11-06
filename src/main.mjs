@@ -85,7 +85,7 @@ function renderTracks() {
   results.replaceChildren();
   const query = search.value.trim();
   const matches = searchCatalog(tracks, query);
-  count.textContent = tracks.length + " reviewed " + (tracks.length === 1 ? "track" : "tracks");
+  count.textContent = tracks.length + " catalog " + (tracks.length === 1 ? "track" : "tracks");
   if (!tracks.length) {
     message.textContent = "No songs have been approved for public requests yet. The DJ is preparing the catalog.";
     results.appendChild(el("div", "empty-state", "Check back soon for the searchable library."));

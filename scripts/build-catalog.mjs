@@ -58,12 +58,23 @@ export function generatePublicCatalog(rows, curationRows = []) {
   const curated = new Map(curationRows.map(r => [sourcePath(r), r]));
   const tracks = [];
   const seen = new Set();
-  const stats = { total: rows.length, published: 0, excludedUnapproved: 0, excludedIncomplete: 0, excludedMissingMetadata: 0, excludedDuplicate: 0 };
+  const stats = { total: rows.length, published: 0, excludedUnapproved: 0, excludedUnreviewed: 0, excludedIncomplete: 0, excludedMissingMetadata: 0, excludedDuplicate: 0 };
 
   for (const raw of rows) {
     const edits = curated.get(sourcePath(raw)) || {};
     const publish = field(edits, ["publish", "requestable", "Publish? (Yes/No)"]) || field(raw, ["Publish? (Yes/No)", "publish", "requestable"]);
     if (!YES.has(normalize(publish))) { stats.excludedUnapproved++; continue; }
+
+    // New review-queue CSVs require BOTH explicit approval and "Verified".
+    // Older catalogs without a Review Status column retain the opt-in policy.
+    const hasReviewField = [edits, raw].some(row => Object.keys(row).some(
+      key => ["review status", "review_status"].includes(normalize(key))
+    ));
+    const reviewStatus = field(edits, ["Review Status", "review_status"]) || field(raw, ["Review Status", "review_status"]);
+    if (hasReviewField && normalize(reviewStatus) !== "verified") {
+      stats.excludedUnreviewed++;
+      continue;
+    }
 
     const filename = field(raw, ["Filename", "filename", "File name"]);
     const format = field(raw, ["Format", "format", "Extension"]) || extname(filename).slice(1);

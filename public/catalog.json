@@ -1,1 +1,1106 @@
-[]
+[
+  {
+    "id": "d13a29a0af2616ce1c4a",
+    "artist": "ABBA",
+    "title": "S.O.S.",
+    "album": "ABBA Gold",
+    "genre": "Pop, Disco, Glam Rock, Rock"
+  },
+  {
+    "id": "dde96c83e21d3ebecd5c",
+    "artist": "Air Supply",
+    "title": "Without You",
+    "album": "The Earth Is…"
+  },
+  {
+    "id": "afa179f39f3eaf3bf155",
+    "artist": "Alice Cooper",
+    "title": "You and Me",
+    "album": "Lace and Whiskey"
+  },
+  {
+    "id": "1a36db2cd832e5de6448",
+    "artist": "Althea & Donna",
+    "title": "Uptown Top Ranking",
+    "album": "The Best Reggae Album In The World... Ever (Disc 1)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "b4d46cf33398dbdbf294",
+    "artist": "Amy Winehouse",
+    "title": "Valerie (Live At BBC Radio 1 Live Lounge, London / 2007)",
+    "album": "Back To Black: Songs From The Original Motion Picture"
+  },
+  {
+    "id": "d337248c5c0b16bc4e86",
+    "artist": "Ashanti",
+    "title": "Rain on Me",
+    "album": "Chapter II"
+  },
+  {
+    "id": "842595400d13e9a79007",
+    "artist": "Aventura",
+    "title": "Ella y yo",
+    "album": "God's Project"
+  },
+  {
+    "id": "eb5c9555d4b7eccc9819",
+    "artist": "Barrington Levy",
+    "title": "Here I Come",
+    "album": "Grand Theft Auto: San Andreas Radio: K-Jah West"
+  },
+  {
+    "id": "69910e8e68878d8863bb",
+    "artist": "Billie Eilish",
+    "title": "What Was I Made For? (live from Lollapalooza Chicago 2023)",
+    "album": "What Was I Made For? (live from Lollapalooza Chicago 2023)"
+  },
+  {
+    "id": "b8b5013cde23068d70df",
+    "artist": "Blues Traveler",
+    "title": "Run-Around",
+    "album": "Billboard Usa - Top 100 Hits Of 1995",
+    "genre": "Pop"
+  },
+  {
+    "id": "47bb6ab7ea05b1b8bf65",
+    "artist": "Bob Dylan",
+    "title": "Forever Young",
+    "album": "Planet Waves",
+    "genre": "Rock"
+  },
+  {
+    "id": "051211172d3c00aa694b",
+    "artist": "Bob Marley",
+    "title": "Could You Be Loved (12″ mix)",
+    "album": "Songs of Freedom",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8d3d52a3ecd03b925206",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Exodus",
+    "album": "Exodus"
+  },
+  {
+    "id": "96239db1aa74b6eecbd8",
+    "artist": "Booker T. & the MG’s",
+    "title": "Green Onions",
+    "album": "Green Onions"
+  },
+  {
+    "id": "860e2c328f8d7749c2d5",
+    "artist": "Bruce Springsteen",
+    "title": "Adam Raised A Cain",
+    "album": "Darkness On The Edge Of Town",
+    "genre": "Rock"
+  },
+  {
+    "id": "83288375b8c2eecdba27",
+    "artist": "Bruce Springsteen",
+    "title": "Atlantic City",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "6d3f9df80e401a0f204f",
+    "artist": "Bruce Springsteen",
+    "title": "Badlands",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "1d4803fa7cf5c4230e43",
+    "artist": "Bruce Springsteen",
+    "title": "Better Days",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "3248b2e291fb10096680",
+    "artist": "Bruce Springsteen",
+    "title": "Blood Brothers",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "73c0bd37a7ac7888196a",
+    "artist": "Bruce Springsteen",
+    "title": "Born in the U.S.A.",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "af3e0d860b3ccb61bc01",
+    "artist": "Bruce Springsteen",
+    "title": "Born to Run",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "5160b4d407257761ea52",
+    "artist": "Bruce Springsteen",
+    "title": "Brilliant Disguise",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "5219d609e2519ac13479",
+    "artist": "Bruce Springsteen",
+    "title": "Dancing in the Dark",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "508bacacf205bc6395e9",
+    "artist": "Bruce Springsteen",
+    "title": "Darkness On The Edge Of Town",
+    "album": "Darkness On The Edge Of Town",
+    "genre": "Rock"
+  },
+  {
+    "id": "e6c1f5496f045d698a67",
+    "artist": "Bruce Springsteen",
+    "title": "Glory Days",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "eddf19c536c67c7400f3",
+    "artist": "Bruce Springsteen",
+    "title": "Human Touch",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "b03fd28a9df91c7af7ef",
+    "artist": "Bruce Springsteen",
+    "title": "Hungry Heart",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "c634c139be0434195c46",
+    "artist": "Bruce Springsteen",
+    "title": "Murder Incorporated",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "90e2d0687d750f176015",
+    "artist": "Bruce Springsteen",
+    "title": "My Hometown",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "24501e4d9cf1f4f47326",
+    "artist": "Bruce Springsteen",
+    "title": "Secret Garden",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "ee05885f4468f6c60839",
+    "artist": "Bruce Springsteen",
+    "title": "Streets of Philadelphia",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "9914aafcbafecb38f58f",
+    "artist": "Bruce Springsteen",
+    "title": "The Ghost of Tom Joad",
+    "album": "High Hopes",
+    "genre": "Classic Rock"
+  },
+  {
+    "id": "eb7f0a41ebd429f66862",
+    "artist": "Bruce Springsteen",
+    "title": "The River",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "27adc68e3b8fa1831d11",
+    "artist": "Bruce Springsteen",
+    "title": "This Hard Land",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "4cf9a6cd4c945999ab7c",
+    "artist": "Bruce Springsteen",
+    "title": "Thunder Road",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "5d5c9c14d974940b1c18",
+    "artist": "Candlebox",
+    "title": "Far Behind",
+    "album": "Candlebox"
+  },
+  {
+    "id": "dd509a0c004e6e188fe9",
+    "artist": "Charles Bradley",
+    "title": "Ain't It a Sin",
+    "album": "Changes"
+  },
+  {
+    "id": "e531dc9cf27673f72042",
+    "artist": "Charles Bradley",
+    "title": "Changes",
+    "album": "Changes",
+    "genre": "Soul"
+  },
+  {
+    "id": "46664574786bae5fac28",
+    "artist": "Charli xcx",
+    "title": "Guess",
+    "album": "Guess / Spring breakers"
+  },
+  {
+    "id": "6652dea6f9ba730496a3",
+    "artist": "Cutty Ranks",
+    "title": "Limb By Limb",
+    "album": "Reggae Anthology: Cutty Ranks - Limb By Limb"
+  },
+  {
+    "id": "b9e0b81b4436258ac803",
+    "artist": "Desmond Dekker & the Aces",
+    "title": "Poor Me Israelites",
+    "album": "Intensified"
+  },
+  {
+    "id": "5bd34fd5b30d39679304",
+    "artist": "Dr. Hook",
+    "title": "Sharing the Night Together",
+    "album": "Pleasure & Pain"
+  },
+  {
+    "id": "26a1f8f4d4f3f4ab7523",
+    "artist": "Eek‐A‐Mouse",
+    "title": "Ganja Smuggling",
+    "album": "Wa-Do-Dem"
+  },
+  {
+    "id": "50ef75472e3e1f1b41f6",
+    "artist": "Ella Mai",
+    "title": "One Of These",
+    "album": "3"
+  },
+  {
+    "id": "1416b9f7e65f9f997bf0",
+    "artist": "Elton John",
+    "title": "Tiny Dancer",
+    "album": "Now 100 Hits Sing-A-Long"
+  },
+  {
+    "id": "dacf5fb4a7f777aeac4b",
+    "artist": "Elvis Presley",
+    "title": "Suspicious Minds",
+    "album": "From Elvis in Memphis"
+  },
+  {
+    "id": "1f1110950826cfe61062",
+    "artist": "Fat Joe feat. Ashanti",
+    "title": "What’s Luv?",
+    "album": "Hits 53"
+  },
+  {
+    "id": "7c0eb371f080fc2f8d15",
+    "artist": "Frank Sinatra",
+    "title": "Stardust",
+    "album": "The Complete Reprise Studio Recordings",
+    "genre": "Vocal"
+  },
+  {
+    "id": "59250dd654fdb227b457",
+    "artist": "Frank Sinatra",
+    "title": "That Lucky Old Sun",
+    "album": "That Old Feeling",
+    "genre": "Jazz"
+  },
+  {
+    "id": "41dfa959d434926c1d89",
+    "artist": "Frank Sinatra",
+    "title": "You Lucky People, You",
+    "album": "Night & Day",
+    "genre": "Vocal Jazz"
+  },
+  {
+    "id": "eadc238175220bb3bd98",
+    "artist": "Fugees",
+    "title": "Killing Me Softly (radio edit)",
+    "album": "The Road Ahead 96"
+  },
+  {
+    "id": "203911fcd23262d4a3d6",
+    "artist": "Gnarls Barkley",
+    "title": "Crazy",
+    "album": "St. Elsewhere",
+    "genre": "Alternative Hip-Hop"
+  },
+  {
+    "id": "1807e788891c0b90e3b4",
+    "artist": "Grateful Dead",
+    "title": "Uncle John's Band",
+    "album": "Workingman's Dead [2013 Remaster]",
+    "genre": "Rock"
+  },
+  {
+    "id": "95dafee07fd813f30c57",
+    "artist": "James Brown",
+    "title": "Get Up Offa That Thing",
+    "album": "The Ultimate Collection"
+  },
+  {
+    "id": "1d7e5dac46385cb9d6e0",
+    "artist": "James Brown",
+    "title": "Papa's Got A Brand New Bag",
+    "album": "Star Time"
+  },
+  {
+    "id": "1d7b314db7c49b33c3df",
+    "artist": "James Brown",
+    "title": "The Boss",
+    "album": "Black Caesar"
+  },
+  {
+    "id": "5bbed94fe8477d806ab5",
+    "artist": "Janis Joplin",
+    "title": "Me And Bobby McGee",
+    "album": "Janis CD3",
+    "genre": "Blues"
+  },
+  {
+    "id": "2d28a17c3ea118b7eb46",
+    "artist": "Janis Joplin",
+    "title": "Me And Bobby McGee Alternate Version",
+    "album": "Janis CD3",
+    "genre": "Blues"
+  },
+  {
+    "id": "176932e88fe780ddbaa2",
+    "artist": "Jennifer Hudson",
+    "title": "Spotlight",
+    "album": "Jennifer Hudson"
+  },
+  {
+    "id": "a7c12e54e7bcd20d7aba",
+    "artist": "Jessie Reyez",
+    "title": "CRAZY",
+    "album": "CRAZY"
+  },
+  {
+    "id": "bebb2cd00b30c1756f27",
+    "artist": "Jimmy Cliff",
+    "title": "Many Rivers To Cross",
+    "album": "The Harder They Come (Original Motion Picture Soundtrack)"
+  },
+  {
+    "id": "3390c75392fdcb2e3e58",
+    "artist": "Jimmy Cliff",
+    "title": "The Harder They Come",
+    "album": "The Harder They Come (Original Motion Picture Soundtrack)"
+  },
+  {
+    "id": "42e0bca8aedb132057e0",
+    "artist": "Jimmy Cliff",
+    "title": "Wild World",
+    "album": "The 70's: 1970",
+    "genre": "Other",
+    "bpm": 77
+  },
+  {
+    "id": "1d291458c7e52457cb6f",
+    "artist": "Joe Cocker",
+    "title": "Feeling Alright",
+    "album": "With a Little Help From My Friends"
+  },
+  {
+    "id": "2497381d1d9f36f254ce",
+    "artist": "Juvenile",
+    "title": "Back That Thang Up",
+    "album": "Universal Smash Hits"
+  },
+  {
+    "id": "98b9d87cc21816aba8fd",
+    "artist": "Kendrick Lamar",
+    "title": "heart pt. 6",
+    "album": "GNX"
+  },
+  {
+    "id": "ca34bad9bc5da1e820dc",
+    "artist": "Kendrick Lamar",
+    "title": "HUMBLE.",
+    "album": "DAMN."
+  },
+  {
+    "id": "f039a3bdfb4c40ead16a",
+    "artist": "Kendrick Lamar",
+    "title": "man at the garden",
+    "album": "GNX"
+  },
+  {
+    "id": "10da2449eaf1b186e39f",
+    "artist": "Kendrick Lamar",
+    "title": "Not Like Us",
+    "album": "Not Like Us"
+  },
+  {
+    "id": "3c3397cda8828fa1538c",
+    "artist": "Kendrick Lamar",
+    "title": "reincarnated",
+    "album": "GNX"
+  },
+  {
+    "id": "b9f5301ed47729c79a6b",
+    "artist": "Kendrick Lamar",
+    "title": "squabble up",
+    "album": "GNX"
+  },
+  {
+    "id": "8294c3ca9a032114ce4b",
+    "artist": "Kendrick Lamar",
+    "title": "wacced out murals",
+    "album": "GNX"
+  },
+  {
+    "id": "ba339b039ed280d0d15f",
+    "artist": "Kendrick Lamar; AZ Chike",
+    "title": "peekaboo",
+    "album": "GNX"
+  },
+  {
+    "id": "52a1002947dcaa2f7f56",
+    "artist": "Kendrick Lamar; DODY6",
+    "title": "hey now",
+    "album": "GNX"
+  },
+  {
+    "id": "433b67c96f9f3309b027",
+    "artist": "Kendrick Lamar; Hitta J3; YoungThreat; Peysoh",
+    "title": "gnx",
+    "album": "GNX"
+  },
+  {
+    "id": "c6ed92ef86e3d2315f12",
+    "artist": "Kendrick Lamar; Lefty Gunplay",
+    "title": "tv off",
+    "album": "GNX"
+  },
+  {
+    "id": "52a6869c028a5ae8bbe4",
+    "artist": "Kendrick Lamar; SZA",
+    "title": "gloria",
+    "album": "GNX"
+  },
+  {
+    "id": "450f0793b36e4cc028d1",
+    "artist": "Kendrick Lamar; SZA",
+    "title": "luther",
+    "album": "GNX"
+  },
+  {
+    "id": "3b2ac33bc4ea0b11e2ca",
+    "artist": "Kendrick Lamar; Wallie the Sensei; Siete7x; Roddy Ricch",
+    "title": "dodger blue",
+    "album": "GNX"
+  },
+  {
+    "id": "11d4d864045c6de5b2b7",
+    "artist": "Kenny Rogers & The First Edition",
+    "title": "Just Dropped In (to See What Condition My Condition Was In)",
+    "album": "The First Edition"
+  },
+  {
+    "id": "7c4ec1f5cf404f264fc5",
+    "artist": "Kool & the Gang",
+    "title": "Jungle Boogie",
+    "album": "Wild and Peaceful"
+  },
+  {
+    "id": "67d49221d072d435328d",
+    "artist": "Lil Wayne feat. Static Major",
+    "title": "Lollipop",
+    "album": "Tha Carter III"
+  },
+  {
+    "id": "0a93f8c06b63f6366f1e",
+    "artist": "Mary J. Blige",
+    "title": "Real Love",
+    "album": "What’s the 411?"
+  },
+  {
+    "id": "fb3db02c5cc00e85c566",
+    "artist": "Meek Mill",
+    "title": "Dreams and Nightmares",
+    "album": "Dreams and Nightmares"
+  },
+  {
+    "id": "bb1af7640c3e91d7bfd2",
+    "artist": "Muddy Waters",
+    "title": "Mannish Boy",
+    "album": "King of the Electric Blues"
+  },
+  {
+    "id": "d3c7e1808edd320230d1",
+    "artist": "Neil Diamond",
+    "title": "Sweet Caroline (Good Times Never Seemed So Good)",
+    "album": "Sweet Caroline"
+  },
+  {
+    "id": "f14683d3de460bcc9876",
+    "artist": "Nicki Minaj",
+    "title": "Beautiful Sinner",
+    "album": "Pink Friday: Roman Reloaded: The Re‐Up"
+  },
+  {
+    "id": "967d4fcdc05f371b7a89",
+    "artist": "Nicki Minaj",
+    "title": "Stupid Hoe",
+    "album": "Pink Friday: Roman Reloaded"
+  },
+  {
+    "id": "491d65be0e1e00071f16",
+    "artist": "Nicki Minaj feat. Beyoncé",
+    "title": "Feeling Myself",
+    "album": "The Pinkprint"
+  },
+  {
+    "id": "e5a425086c55b4385f6e",
+    "artist": "Nicki Minaj feat. Eminem",
+    "title": "Roman's Revenge",
+    "album": "Pink Friday"
+  },
+  {
+    "id": "095f69d70318b95b754b",
+    "artist": "Otis Redding",
+    "title": "Hard to Handle",
+    "album": "Dock of the Bay Sessions"
+  },
+  {
+    "id": "32c9d7ec88452dceedc7",
+    "artist": "Outkast",
+    "title": "Hey Ya!",
+    "album": "Rolling Stone Magazine's 500 Greatest Songs Of All Time",
+    "genre": "Top 40"
+  },
+  {
+    "id": "16ac17e897ab3afd32b5",
+    "artist": "OutKast",
+    "title": "Ms. Jackson",
+    "album": "Stankonia",
+    "genre": "Rap & Hip-Hop"
+  },
+  {
+    "id": "e6b2d9fe853cfff9ba36",
+    "artist": "Parliament",
+    "title": "Give Up the Funk (Tear the Roof Off the Sucker)",
+    "album": "Mothership Connection"
+  },
+  {
+    "id": "151246ca831924616e81",
+    "artist": "Paul Simon",
+    "title": "50 Ways to Leave Your Lover",
+    "album": "Still Crazy After All These Years"
+  },
+  {
+    "id": "533ed31adc0915de09d9",
+    "artist": "Paul Simon",
+    "title": "Diamonds on the Soles of Her Shoes",
+    "album": "Graceland"
+  },
+  {
+    "id": "c3023f0b65b575f9d9e4",
+    "artist": "Paul Simon",
+    "title": "You Can Call Me Al",
+    "album": "Graceland",
+    "genre": "Pop"
+  },
+  {
+    "id": "095aec9d9eb569c23789",
+    "artist": "Paul Simon/Ladysmith Black Mambazo",
+    "title": "Homeless (with Ladysmith Black Mambazo)",
+    "album": "Graceland"
+  },
+  {
+    "id": "5ab4ac3616ea5294b282",
+    "artist": "Peter Tosh",
+    "title": "Johnny B. Goode (long version)",
+    "album": "Mama Africa"
+  },
+  {
+    "id": "a76db61762cb07e2da5e",
+    "artist": "Petey Pablo",
+    "title": "Freek-A-Leek",
+    "album": "Absolute R&B Party"
+  },
+  {
+    "id": "d22cc50e621e438f48d8",
+    "artist": "Prince",
+    "title": "Quiero Ser Tu Amante",
+    "album": "Quiero Ser Tu Amante"
+  },
+  {
+    "id": "6c5e53bbd03f2077710a",
+    "artist": "Prince Buster",
+    "title": "Enjoy Yourself",
+    "album": "The Original Golden Oldies Volume 1",
+    "genre": "Ska"
+  },
+  {
+    "id": "7f5eef3cae76ddb9dc1a",
+    "artist": "Ray Charles",
+    "title": "What’d I Say, Part 1",
+    "album": "What’d I Say"
+  },
+  {
+    "id": "8c040fc4bd13e750774d",
+    "artist": "REO Speedwagon",
+    "title": "Keep On Loving You",
+    "album": "Hi Infidelity"
+  },
+  {
+    "id": "8641900c56b2cda8ae7a",
+    "artist": "Robert Randolph & The Family Band",
+    "title": "I Need More Love",
+    "album": "Unclassified"
+  },
+  {
+    "id": "fae1d233f90b356f4945",
+    "artist": "Roy Orbison",
+    "title": "Oh, Pretty Woman",
+    "album": "Oh, Pretty Woman"
+  },
+  {
+    "id": "3c88ac89b2eb78ff99a1",
+    "artist": "Rusted Root",
+    "title": "Send Me On My Way",
+    "album": "Cruel Sun",
+    "genre": "Folk Rock; Rock"
+  },
+  {
+    "id": "f6b6d5fc17325c1fce0f",
+    "artist": "Sam & Dave",
+    "title": "Hold On, I’m Comin’",
+    "album": "Hold On, I’m Comin’"
+  },
+  {
+    "id": "fbe0ae142068bf024a41",
+    "artist": "Sam & Dave",
+    "title": "Hold On, I’m Comin’ (Extended Version)",
+    "album": "The Soul Classics",
+    "genre": "Soul"
+  },
+  {
+    "id": "e7b24c0adcd55d2f9cfe",
+    "artist": "Scene Queen",
+    "title": "Whips and Chains",
+    "album": "Whips and Chains",
+    "genre": "Alternative Metal"
+  },
+  {
+    "id": "c9e407ffc06f6c9bcbfd",
+    "artist": "Sly & the Family Stone",
+    "title": "Dance to the Music",
+    "album": "Dance to the Music"
+  },
+  {
+    "id": "54c18ec0a42dccb2d541",
+    "artist": "Snow Tha Product",
+    "title": "Say Bitch",
+    "album": "Say Bitch"
+  },
+  {
+    "id": "9271e90abfd96f048d44",
+    "artist": "Spin Doctors",
+    "title": "Two Princes",
+    "album": "Pocket Full Of Kryptonite",
+    "genre": "Rock"
+  },
+  {
+    "id": "76a88cd11da2f936c0d9",
+    "artist": "Steve Miller Band",
+    "title": "Fly Like an Eagle",
+    "album": "Fly Like an Eagle"
+  },
+  {
+    "id": "a9be4ba2c078b81f98ea",
+    "artist": "Stevie Ray Vaughan and Double Trouble",
+    "title": "Little Wing",
+    "album": "Couldn't Stand The Weather (Legacy Edition)"
+  },
+  {
+    "id": "cb0af28cdc90de520c79",
+    "artist": "Stevie Wonder",
+    "title": "Higher Ground",
+    "album": "Song Review: A Greatest Hits Collection"
+  },
+  {
+    "id": "71bd1d86f7d6cfd23358",
+    "artist": "Stevie Wonder",
+    "title": "Master Blaster (Jammin’)",
+    "album": "Hotter Than July"
+  },
+  {
+    "id": "c3596b24f96e966c9250",
+    "artist": "Stevie Wonder",
+    "title": "Superstition",
+    "album": "Talking Book"
+  },
+  {
+    "id": "10d6449da1bc9b6d98b0",
+    "artist": "Sublime",
+    "title": "40oz. To Freedom",
+    "album": "40oz. To Freedom"
+  },
+  {
+    "id": "3b4451bff41513cd68ce",
+    "artist": "Sublime",
+    "title": "Date Rape",
+    "album": "Living In a Boring Nation"
+  },
+  {
+    "id": "6a74635e4c0e96563456",
+    "artist": "Sublime",
+    "title": "Santeria",
+    "album": "Sublime",
+    "genre": "Rock"
+  },
+  {
+    "id": "e4e7368964d6c90baf71",
+    "artist": "Sublime",
+    "title": "Smoke Two Joints",
+    "album": "40oz. To Freedom"
+  },
+  {
+    "id": "5a6fb5705964935b6a5c",
+    "artist": "Sublime",
+    "title": "What I Got",
+    "album": "Sublime"
+  },
+  {
+    "id": "8dbb0d951fad61fa9ea2",
+    "artist": "The 1975",
+    "title": "It’s Not Living (If It’s Not With You)",
+    "album": "No Album",
+    "genre": "Indie Rock"
+  },
+  {
+    "id": "4277a16e1a239916c68b",
+    "artist": "The Animals",
+    "title": "We're Gonna Howl Tonight",
+    "album": "The Dangerous Christmas of Red Riding Hood",
+    "genre": "Blues"
+  },
+  {
+    "id": "9c011ad41f8da3f70926",
+    "artist": "The Band",
+    "title": "The Weight",
+    "album": "Music From Big Pink",
+    "genre": "Classic Rock"
+  },
+  {
+    "id": "17a50edb8a2e6be1ab6a",
+    "artist": "The Band",
+    "title": "The Weight (feat. The Staples)",
+    "album": "The Last Waltz",
+    "genre": "Rock"
+  },
+  {
+    "id": "62f60e14f853e5cb0bed",
+    "artist": "The Beach Boys",
+    "title": "God Only Knows",
+    "album": "Pet Sounds",
+    "genre": "Rock"
+  },
+  {
+    "id": "dc8bc1207d288381ffa3",
+    "artist": "The Isley Brothers",
+    "title": "It's Your Thing",
+    "album": "It's Our Thing"
+  },
+  {
+    "id": "dd84132033c1a52cc7e7",
+    "artist": "The Jimi Hendrix Experience",
+    "title": "The Wind Cries Mary",
+    "album": "Are You Experienced"
+  },
+  {
+    "id": "18bcc3c8ab55943716be",
+    "artist": "The Meters",
+    "title": "Cissy Strut",
+    "album": "The Meters"
+  },
+  {
+    "id": "e020320dcab86114002c",
+    "artist": "The Notorious B.I.G.",
+    "title": "Big Poppa",
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "b5144b2523ae8c0d55bc",
+    "artist": "The Notorious B.I.G.",
+    "title": "Big Poppa (Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "43586744d8aec20e90f8",
+    "artist": "The Notorious B.I.G.",
+    "title": "Dead Wrong (feat. Eminem) [2007 Remaster] (Featuring Eminem Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "0aa1519afe380f53f9fc",
+    "artist": "The Notorious B.I.G.",
+    "title": "Fuck You Tonight (feat. R. Kelly) [2007 Remaster] (Featuring R. Kelly Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "594c7620fbf722f04b0b",
+    "artist": "The Notorious B.I.G.",
+    "title": "Get Money (feat. Junior M.A.F.I.A.) [2007 Remaster] (Performed by Junior M.A.F.I.A. Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "a4a6f3ff09ed4c69f0f0",
+    "artist": "The Notorious B.I.G.",
+    "title": "Gimme the Loot",
+    "album": "Ready to Die",
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "4a5beadcbf746dc8e1fc",
+    "artist": "The Notorious B.I.G.",
+    "title": "Hypnotize",
+    "album": "Life After Death"
+  },
+  {
+    "id": "0adbe6e1860451dc5e91",
+    "artist": "The Notorious B.I.G.",
+    "title": "Hypnotize (2007 Remaster) (Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "64c7ba49fd84fc2c146c",
+    "artist": "The Notorious B.I.G.",
+    "title": "Juicy",
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "6b95962a48e82163a2df",
+    "artist": "The Notorious B.I.G.",
+    "title": "Juicy (2007 Remaster) (Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "6ed62e183651d7e332d8",
+    "artist": "The Notorious B.I.G.",
+    "title": "N***as Bleed (Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "818a62f44764852686c3",
+    "artist": "The Notorious B.I.G.",
+    "title": "Nasty Girl (feat. Diddy, Nelly, Jagged Edge & Avery Storm) [2007 Remaster] (Featuring P. Diddy, Nelly, Jagged Edge and Avery Storm Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "ad8c70e5c047f3a85d64",
+    "artist": "The Notorious B.I.G.",
+    "title": "Notorious B.I.G.",
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "7b9e828a3c072d57d348",
+    "artist": "The Notorious B.I.G.",
+    "title": "Notorious B.I.G. (feat. Lil' Kim & Puff Daddy) [2007 Remaster] (Featuring Lil' Kim and Puff Daddy Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "46c4a96eeecf97236dc1",
+    "artist": "The Notorious B.I.G.",
+    "title": "Notorious Thugs (2014 Remaster)",
+    "album": "Life After Death (2014 Remastered Edition)",
+    "bpm": 154.8
+  },
+  {
+    "id": "0b23bb2b48ecf0ac9b7c",
+    "artist": "The Notorious B.I.G.",
+    "title": "Notorious Thugs (feat. Bone Thugs-n-Harmony) [2007 Remaster] (Featuring Bone Thugs and Harmony Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "a7c84ed01c10e8237c83",
+    "artist": "The Notorious B.I.G.",
+    "title": "One More Chance(Stay With Me Remix)",
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "e20568defcd13579e317",
+    "artist": "The Notorious B.I.G.",
+    "title": "One More Chance/Stay With Me Remix (Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "07745ba413f0b0de81b5",
+    "artist": "The Notorious B.I.G.",
+    "title": "Running Your Mouth (feat. Snoop Dogg, Nate Dogg, Fabolous & Busta Rhymes) [2007 Remaster] (Featuring Snoop Dogg, Nate Dogg, Fabolous and Busta Rhymes Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "ec112a9ceb566642dd2f",
+    "artist": "The Notorious B.I.G.",
+    "title": "Suicidal Thoughts",
+    "album": "Ready to Die",
+    "genre": "East Coast Hip Hop",
+    "bpm": 84
+  },
+  {
+    "id": "b5ad7df48758d2b4ac46",
+    "artist": "The Notorious B.I.G.",
+    "title": "Ten Crack Commandments",
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "d1548be688f472bf68eb",
+    "artist": "The Notorious B.I.G.",
+    "title": "Ten Crack Commandments (Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "d9b3de70e8cfe0edc00f",
+    "artist": "The Notorious B.I.G.",
+    "title": "Unbelievable (Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "5c31247c1e480364e4a8",
+    "artist": "The Notorious B.I.G.",
+    "title": "Want That Old Thing Back",
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "7b4b4de5aa2e95ad50be",
+    "artist": "The Notorious B.I.G.",
+    "title": "Want That Old Thing Back (feat. Ja Rule & Ralph Tresvant) [2007 Remaster] (Featuring Ja Rule and Ralph Tresvant Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "9c5dc788f10231e87492",
+    "artist": "The Notorious B.I.G.",
+    "title": "Warning (Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "ba2c5f4ceaea26fd834d",
+    "artist": "The Notorious B.I.G.",
+    "title": "Who Shot Ya",
+    "album": "Born Again",
+    "genre": "Gangsta Rap"
+  },
+  {
+    "id": "484a383f2ccfb4cfe4ae",
+    "artist": "The Notorious B.I.G.",
+    "title": "Who Shot Ya (Explicit Album Version)",
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "5dc1445b10ef09e9619e",
+    "artist": "The Notorious B.I.G.",
+    "title": "You’re Nobody (Til Somebody Kills You)",
+    "album": "Life After Death",
+    "genre": "Gangsta Rap"
+  },
+  {
+    "id": "79a1dc10f7fda1f31270",
+    "artist": "The Notorious B.I.G. feat. Diddy, Nelly, Jagged Edge & Avery Storm",
+    "title": "Nasty Girl",
+    "album": "Duets: The Final Chapter"
+  },
+  {
+    "id": "50cd9007c8ccb0fe8c3d",
+    "artist": "The Rolling Stones",
+    "title": "Gimme Shelter",
+    "album": "Let It Bleed"
+  },
+  {
+    "id": "9fc69c1c7ef455a51e8d",
+    "artist": "The Rolling Stones",
+    "title": "Let’s Spend the Night Together",
+    "album": "Between the Buttons"
+  },
+  {
+    "id": "ee5021f7b2428da99bbb",
+    "artist": "The Rolling Stones",
+    "title": "Miss You",
+    "album": "Some Girls"
+  },
+  {
+    "id": "0058a645f71ad7ab69c6",
+    "artist": "The Rolling Stones",
+    "title": "You Can't Always Get What You Want",
+    "album": "Let It Bleed (Mono)",
+    "genre": "Rock"
+  },
+  {
+    "id": "493b7f5c67916567a10a",
+    "artist": "The Specials",
+    "title": "A Message to You Rudy",
+    "album": "The Specials"
+  },
+  {
+    "id": "6d531b50d08b2d4f932c",
+    "artist": "Tony Bennett",
+    "title": "The Lady Is a Tramp feat. Lady Gaga",
+    "album": "Tony Bennett Celebrates 90",
+    "genre": "Jazz"
+  },
+  {
+    "id": "4059797d8be251240bc4",
+    "artist": "Toots & The Maytals",
+    "title": "54-46 Was My Number",
+    "album": "Funky Kingston / In the Dark"
+  },
+  {
+    "id": "9b8aed159d6f95d3a023",
+    "artist": "Toots & The Maytals",
+    "title": "Funky Kingston",
+    "album": "Grand Theft Auto: San Andreas Radio: K-Jah West"
+  },
+  {
+    "id": "3533d0d21cf2320bb40d",
+    "artist": "Vanilla Ice",
+    "title": "Ninja Rap",
+    "album": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+    "genre": "Soundtrack"
+  },
+  {
+    "id": "b8e6bd5fb9aaa9466753",
+    "artist": "Weezer",
+    "title": "Go Away",
+    "album": "Everything Will Be Alright in the End",
+    "genre": "Alternative"
+  },
+  {
+    "id": "b8f46ab7b2a659d2b8db",
+    "artist": "Whitney Houston",
+    "title": "I Wanna Dance With Somebody (Who Loves Me)",
+    "album": "The Concert for a New South Africa (Durban)",
+    "genre": "Contemporary R&B"
+  },
+  {
+    "id": "ad96c2ec9afe5cd0489e",
+    "artist": "Wilson Pickett",
+    "title": "In the Midnight Hour",
+    "album": "In the Midnight Hour"
+  }
+]

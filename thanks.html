@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09151b">
+  <meta name="description" content="DJ OGVHS — request confirmation and optional tips.">
+  <title>DJ OGVHS | Thanks for Your Request</title>
+  <link rel="stylesheet" href="./src/styles.css">
+  <script type="module" src="./src/thanks.mjs"></script>
+</head>
+<body>
+  <div class="frame">
+    <header class="site-header">
+      <a href="./" class="brand" aria-label="DJ OGVHS home"><span class="brand-mark">OG</span><span class="brand-text">DJ <strong>OGVHS</strong><small>GOOD MUSIC. YOUR CALL.</small></span></a>
+      <span class="preview-label">REQUEST LINE</span>
+    </header>
+    <main class="thankyou-main">
+      <section id="confirmation" class="thankyou-panel" hidden aria-labelledby="thanks-heading">
+        <p id="demo-warning" class="demo-warning" hidden><strong>Demo preview only:</strong> No request was sent or added to the real queue.</p>
+        <span class="eyebrow">REQUEST LINE</span>
+        <h1 id="thanks-heading">Thanks for submitting your request!</h1>
+        <p class="confirmation-subtitle">Your song will be added to the queue.</p>
+        <p class="tip-invitation">And if you like what you're hearing leave the DJ a tip!</p>
+        <p class="helper">Tips are completely optional. They don't change request priority.</p>
+        <div id="tip-options" class="tip-grid" aria-label="Optional ways to tip"></div>
+        <p id="tip-feedback" class="helper" role="status" aria-live="polite"></p>
+        <a class="return-link" href="./">Make another request</a>
+      </section>
+      <section id="no-confirmation" class="thankyou-panel" hidden>
+        <h1>Nothing submitted yet.</h1>
+        <p class="helper">The thank-you page appears after a request is successfully submitted. You can also preview it by submitting a fictional song in demo mode.</p>
+        <a class="return-link" href="./?demo=1">Go to the request demo</a>
+      </section>
+    </main>
+    <footer>DJ OGVHS <span aria-hidden="true">·</span> REQUEST THE UNEXPECTED</footer>
+  </div>
+</body>
+</html>

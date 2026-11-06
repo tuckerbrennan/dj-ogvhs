@@ -1,4 +1,5 @@
 import { searchCatalog } from "./catalog.mjs";
+import { demoQuota, useDemoRequest } from "./request-quota.mjs";
 
 const $ = id => document.getElementById(id);
 const search = $("search");
@@ -12,6 +13,7 @@ const mashupSubhead = $("mashup-subhead");
 const songBtn = $("request-song");
 const mashupBtn = $("request-mashup");
 const submitButton = $("submit-request");
+const requestLimit = $("request-limit");
 const demoMode = new URLSearchParams(location.search).has("demo");
 
 const demoTracks = [
@@ -110,16 +112,34 @@ function renderTracks() {
   }
 }
 
+function renderQuota() {
+  if (!demoMode) {
+    requestLimit.textContent = "Maximum 3 requests per rolling hour. Real submissions are not enabled yet.";
+    requestLimit.classList.remove("exhausted");
+    return;
+  }
+  const quota = demoQuota();
+  requestLimit.textContent = "Demo only: " + quota.remaining + " of 3 requests left this hour." +
+    (quota.remaining === 0 && quota.nextAvailableAt
+      ? " Your next request becomes available at " + new Date(quota.nextAvailableAt).toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }) + "."
+      : "") + " No real requests are sent.";
+  requestLimit.classList.toggle("exhausted", quota.remaining === 0);
+}
+
 function render() {
   renderSelected();
   renderTracks();
-  submitButton.disabled = !demoMode || selected.length !== (mode === "song" ? 1 : 2);
+  const remaining = demoMode ? demoQuota().remaining : 0;
+  submitButton.disabled = !demoMode || remaining === 0 || selected.length !== (mode === "song" ? 1 : 2);
+  renderQuota();
 }
 songBtn.addEventListener("click", () => setMode("song"));
 mashupBtn.addEventListener("click", () => setMode("mashup"));
 search.addEventListener("input", renderTracks);
 submitButton.addEventListener("click", () => {
   if (!demoMode || selected.length !== (mode === "song" ? 1 : 2)) return;
+  const quota = useDemoRequest();
+  if (!quota.accepted) { render(); return; }
   sessionStorage.setItem("dj-ogvhs-confirmation", JSON.stringify({ status: "demo" }));
   location.assign("./thanks.html");
 });
@@ -147,3 +167,4 @@ async function load() {
 }
 render();
 load();
+window.setInterval(() => { if (demoMode) render(); }, 30000);

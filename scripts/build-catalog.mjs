@@ -100,6 +100,9 @@ export function generatePublicCatalog(rows, curationRows = []) {
     const track = { id, artist, title };
     if (album) track.album = album;
     if (genre) track.genre = genre;
+    const bpmText = field(edits, ["bpm"]) || field(raw, ["bpm"]);
+    const bpm = Number(bpmText);
+    if (bpmText && Number.isFinite(bpm) && bpm > 0 && bpm <= 400) track.bpm = bpm;
     // No filesystem paths, cloud IDs, Dropbox IDs, file metadata, or audio URLs in public output.
     tracks.push(track);
     stats.published++;
@@ -144,3 +147,4 @@ export async function main(args) {
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main(process.argv.slice(2)).catch(error => { console.error(error.message); process.exitCode = 1; });
 }
+

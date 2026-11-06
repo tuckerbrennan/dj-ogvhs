@@ -1,0 +1,36 @@
+/* Invite-only collaboration interface, same OGVHS brand palette. */
+.collab-main {display:block;padding-bottom:70px}
+.collab-hero {padding:62px 0 38px}
+.collab-hero h1 {font-size:clamp(3rem,8.3vw,6.5rem);margin-bottom:22px}
+.collab-hero p {max-width:690px;color:var(--muted);line-height:1.7}
+.collab-privacy {font-size:.85rem;border-left:3px solid var(--magenta);padding-left:13px}
+.collab-room {border:1px solid var(--blue);border-radius:17px;background:var(--card);padding:25px;margin:0 0 24px}
+.collab-workspace {display:grid;grid-template-columns:minmax(0,1.55fr) minmax(280px,1fr);align-items:start;gap:24px;margin-bottom:24px}
+.collab-builder,.collab-submit {min-width:0}
+.collab-submit {position:static}
+.collab-builder .search-wrap {margin:10px 0}
+.collab-suggestions {display:grid;gap:8px;margin:18px 0}
+.collab-suggestion {width:100%;padding:13px;text-align:left;background:#171717;color:var(--ink);border:1px solid var(--gray);border-radius:9px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.collab-suggestion:hover,.collab-suggestion:focus-visible {border-color:var(--lime)}
+.collab-suggestion strong {font-size:.93rem;display:block;line-height:1.35}
+.collab-suggestion small {font-size:.78rem;color:var(--muted);display:block;margin-top:3px}
+.collab-source {font-size:.68rem;line-height:1.2;white-space:nowrap;padding:5px 7px;border:1px solid var(--blue);border-radius:6px;color:#c6d6fb}
+.collab-source.external {border-color:var(--magenta);color:#f5b6ff}
+.collab-manual {border-top:1px solid var(--gray);padding:16px 0}
+.collab-manual summary {cursor:pointer;color:var(--lime);font-weight:750}
+.collab-manual-fields {display:grid;gap:11px;padding:14px 0 5px}
+.collab-manual input,.collab-spotify input,.collab-submit input {width:100%;background:#080808;color:var(--ink);padding:13px;border:1px solid var(--gray);border-radius:10px}
+.collab-spotify {border-top:1px solid var(--blue);padding-top:24px;margin-top:14px;display:grid;gap:11px}
+.collab-spotify .add-track {justify-self:start}
+.collab-submit {display:grid;gap:15px}
+.collab-submit h2 {margin:0}
+.collab-selection {padding:15px;border-radius:9px;border:1px dashed var(--gray);color:var(--muted);min-height:80px;line-height:1.5}
+.collab-selection strong {color:var(--lime);display:block}
+.collab-submit .submit-button {width:100%;margin-top:4px}
+.collab-entry {display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--edge);padding:15px 0;overflow-wrap:anywhere}
+.collab-entry strong {display:block}
+.collab-entry small {display:block;color:var(--muted);margin-top:5px}
+.collab-entry a {color:var(--lime)}
+.collab-entry .collab-source {align-self:start}
+@media(max-width:750px){.collab-workspace{grid-template-columns:1fr}.collab-hero{padding:42px 0 25px}}
+@media(max-width:530px){.collab-room,.collab-builder,.collab-submit{padding:19px}.collab-hero h1{font-size:clamp(2.9rem,13vw,4rem)}.collab-suggestion{align-items:start}.collab-source{font-size:.62rem}}

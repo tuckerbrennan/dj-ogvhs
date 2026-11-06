@@ -1,5 +1,5 @@
 import {loadRequestConfig} from "./request-api.mjs";
-import {inviteFromHash} from "./collab-model.mjs";
+import {inviteFromHash,normalizeCollabEmail,validateCollabUpload} from "./collab-model.mjs";
 
 const $=id=>document.getElementById(id);
 const invite=inviteFromHash(location.hash);
@@ -32,7 +32,8 @@ toggle.addEventListener("click",()=>{
 form.addEventListener("submit",async event=>{
   event.preventDefault();
   const input=$("collab-access-email");
-  if(!input.validity.valid||!input.value.trim()){
+  const email=normalizeCollabEmail(input.value);
+  if(!input.validity.valid||!email){
     accessStatus.textContent="Enter a valid email address.";return;
   }
   if(!config){
@@ -45,7 +46,7 @@ form.addEventListener("submit",async event=>{
     const response=await fetch(config.supabaseUrl+"/functions/v1/collab-access",{
       method:"POST",
       headers:{"Content-Type":"application/json","apikey":config.supabaseAnonKey,"x-dj-collab-client":clientId},
-      body:JSON.stringify({email:input.value.trim(),website:$("collab-access-website").value}),
+      body:JSON.stringify({email,website:$("collab-access-website").value}),
       signal:AbortSignal.timeout(20000)
     });
     const data=await response.json().catch(()=>({}));
@@ -68,9 +69,8 @@ fileButton.addEventListener("click",async()=>{
   if(!config||!invite||!uploadsEnabled||uploading)return;
   const file=fileInput.files?.[0];
   if(!file){fileStatus.textContent="Choose a file first.";return;}
-  if(file.size<=0||file.size>15*1024*1024){
-    fileStatus.textContent="Files must be 15 MB or smaller.";return;
-  }
+  const error=validateCollabUpload(file.name,file.size);
+  if(error){fileStatus.textContent=error;return;}
   uploading=true;updateUploadControls();
   fileStatus.textContent="Uploading to this Collab's private Google Drive folder…";
   try{

@@ -34,3 +34,11 @@
 .collab-entry .collab-source {align-self:start}
 @media(max-width:750px){.collab-workspace{grid-template-columns:1fr}.collab-hero{padding:42px 0 25px}}
 @media(max-width:530px){.collab-room,.collab-builder,.collab-submit{padding:19px}.collab-hero h1{font-size:clamp(2.9rem,13vw,4rem)}.collab-suggestion{align-items:start}.collab-source{font-size:.62rem}}
+
+.collab-manual-fields textarea,.collab-created input {width:100%;background:#080808;color:var(--ink);padding:13px;border:1px solid var(--gray);border-radius:10px}
+.collab-created {margin:25px 0;padding:18px;border:1px solid var(--magenta);border-radius:10px;display:grid;gap:12px}
+.collab-created[hidden] {display:none}
+.collab-divider {border:none;border-top:1px solid var(--blue);margin:28px 0}
+.collab-admin-room {display:flex;justify-content:space-between;align-items:center;gap:14px;padding:17px 0;border-top:1px solid var(--gray)}
+.collab-admin-room small {display:block;color:var(--muted);margin-top:5px}
+.collab-admin-room .add-track {flex-shrink:0}

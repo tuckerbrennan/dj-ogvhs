@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#000000">
   <meta name="description" content="DJ OGVHS — browse the library and build a song or mashup request.">
   <title>DJ OGVHS | Music Requests</title>
-  <link rel="stylesheet" href="./src/styles.css?v=ogvhs-palette-20261106">
-  <script type="module" src="./src/main.mjs?v=choose-toggle-20261106"></script>
+  <link rel="stylesheet" href="./src/styles.css?v=genre-filter-20261106">
+  <script type="module" src="./src/main.mjs?v=genre-filter-20261106"></script>
 </head>
 <body>
   <div class="frame">
@@ -42,6 +42,11 @@
         <div class="section-heading"><div><span class="eyebrow">CRATE DIGGING</span><h2 id="catalog-heading">Browse the catalog</h2></div><span id="catalog-count" class="count">Loading…</span></div>
         <label for="search" class="field-label">Search by song, artist or album</label>
         <div class="search-wrap"><span aria-hidden="true" class="search-symbol">⌕</span><input id="search" type="search" placeholder="Try an artist or song title…" autocomplete="off" spellcheck="false"></div>
+        <div class="catalog-filters">
+          <div class="genre-field"><label for="genre-filter" class="field-label">Genre</label><select id="genre-filter"><option value="">All genres</option></select></div>
+          <button id="clear-filters" type="button" hidden>Clear filters</button>
+        </div>
+        <p class="genre-note">Tracks without a reliable genre are listed under Unclassified.</p>
         <p id="catalog-message" class="helper" role="status" aria-live="polite"></p>
         <div id="tracks" class="track-list" aria-live="polite"></div>
       </section>

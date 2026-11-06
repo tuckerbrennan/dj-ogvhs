@@ -15,7 +15,8 @@
     "id": "2e955ec80f15dd86db76",
     "artist": "ABBA",
     "title": "S.O.S.",
-    "album": "ABBA Gold"
+    "album": "ABBA Gold",
+    "genre": "Disco; Pop; Rock"
   },
   {
     "id": "2b6fdfd2c074ad0d08a7",
@@ -63,7 +64,8 @@
     "id": "2bd2b6b118fec3e9a655",
     "artist": "Althea & Donna",
     "title": "Uptown Top Ranking",
-    "album": "The Best Reggae Album In The World... Ever (Disc 1)"
+    "album": "The Best Reggae Album In The World... Ever (Disc 1)",
+    "genre": "Reggae"
   },
   {
     "id": "685aee4cf259b6bb53f2",
@@ -135,19 +137,22 @@
     "id": "fc8f2b4dbf95d3d961fd",
     "artist": "Blues Traveler",
     "title": "Run-Around",
-    "album": "Billboard Usa - Top 100 Hits Of 1995"
+    "album": "Billboard Usa - Top 100 Hits Of 1995",
+    "genre": "Pop"
   },
   {
     "id": "31cf0c57ece264393b00",
     "artist": "Bob Dylan",
     "title": "Forever Young",
-    "album": "Planet Waves"
+    "album": "Planet Waves",
+    "genre": "Rock"
   },
   {
     "id": "d776d2769228780a1427",
     "artist": "Bob Dylan",
     "title": "Forever Young",
-    "album": "Planet Waves"
+    "album": "Planet Waves",
+    "genre": "Rock"
   },
   {
     "id": "e6ad7d92e6bb7871479e",
@@ -165,7 +170,8 @@
     "id": "71c7fe97e391b1d5ef84",
     "artist": "Bob Marley",
     "title": "Could You Be Loved (12″ mix)",
-    "album": "Songs of Freedom"
+    "album": "Songs of Freedom",
+    "genre": "Reggae"
   },
   {
     "id": "b0452f73304a65da3edb",
@@ -219,7 +225,8 @@
     "id": "ef3827877bedcfcff5ca",
     "artist": "Bruce Springsteen",
     "title": "Adam Raised A Cain",
-    "album": "Darkness On The Edge Of Town"
+    "album": "Darkness On The Edge Of Town",
+    "genre": "Rock"
   },
   {
     "id": "6123bbf2ffda8c327d12",
@@ -273,7 +280,8 @@
     "id": "b978255ce465d4dceb3f",
     "artist": "Bruce Springsteen",
     "title": "Darkness On The Edge Of Town",
-    "album": "Darkness On The Edge Of Town"
+    "album": "Darkness On The Edge Of Town",
+    "genre": "Rock"
   },
   {
     "id": "0ce278f5ed525627c9f2",
@@ -321,7 +329,8 @@
     "id": "6f0f83e4d8db771efdfb",
     "artist": "Bruce Springsteen",
     "title": "The Ghost of Tom Joad",
-    "album": "High Hopes"
+    "album": "High Hopes",
+    "genre": "Rock"
   },
   {
     "id": "e146d5f9ff9a862750a2",
@@ -627,7 +636,8 @@
     "id": "27b6b9cfe06f8982c951",
     "artist": "Charles Bradley",
     "title": "Changes",
-    "album": "Changes"
+    "album": "Changes",
+    "genre": "Soul"
   },
   {
     "id": "6f782fae5baab209e547",
@@ -1161,13 +1171,15 @@
     "id": "a6bacafb16a77c0a9e4a",
     "artist": "Frank Sinatra",
     "title": "That Lucky Old Sun",
-    "album": "That Old Feeling"
+    "album": "That Old Feeling",
+    "genre": "Jazz"
   },
   {
     "id": "b6f9787d240df2e6ec6e",
     "artist": "Frank Sinatra",
     "title": "You Lucky People, You",
-    "album": "Night & Day"
+    "album": "Night & Day",
+    "genre": "Jazz"
   },
   {
     "id": "a0b0293fe29fbd21904e",
@@ -1221,13 +1233,15 @@
     "id": "efa93bb4762512ffdafb",
     "artist": "Gnarls Barkley",
     "title": "Crazy",
-    "album": "St. Elsewhere"
+    "album": "St. Elsewhere",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "4ae976ce7d69ea841bc9",
     "artist": "Grateful Dead",
     "title": "Uncle John's Band",
-    "album": "Workingman's Dead [2013 Remaster]"
+    "album": "Workingman's Dead [2013 Remaster]",
+    "genre": "Rock"
   },
   {
     "id": "db2554100c4a9d69860c",
@@ -1593,13 +1607,15 @@
     "id": "3f455fd86a17a33ce60e",
     "artist": "Jalen Ngonda",
     "title": "All About Me",
-    "album": "All About Me"
+    "album": "All About Me",
+    "genre": "Reggae"
   },
   {
     "id": "624f3ed547eeece82c3f",
     "artist": "Jalen Ngonda",
     "title": "All About Me (Dub)",
-    "album": "All About Me"
+    "album": "All About Me",
+    "genre": "Reggae"
   },
   {
     "id": "9e9b0c280ec8bdbb7271",
@@ -1629,13 +1645,15 @@
     "id": "224f7c41c9c36da2d802",
     "artist": "Janis Joplin",
     "title": "Me And Bobby McGee",
-    "album": "Janis CD3"
+    "album": "Janis CD3",
+    "genre": "Blues"
   },
   {
     "id": "5103a6bcb4fb23a7790b",
     "artist": "Janis Joplin",
     "title": "Me And Bobby McGee Alternate Version",
-    "album": "Janis CD3"
+    "album": "Janis CD3",
+    "genre": "Blues"
   },
   {
     "id": "f83a8211556eec4574e5",
@@ -1671,7 +1689,8 @@
     "id": "ca7bc68c9e238b6c8453",
     "artist": "Jimmy Cliff",
     "title": "Wild World",
-    "album": "Anthology (Disc 1)"
+    "album": "Anthology (Disc 1)",
+    "genre": "Reggae"
   },
   {
     "id": "ba98725becb2cac9630d",
@@ -2247,7 +2266,8 @@
     "id": "064a2c3bee6d7fc4201d",
     "artist": "OutKast",
     "title": "Ms. Jackson",
-    "album": "Stankonia"
+    "album": "Stankonia",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "502aebf28bb74c0f541c",
@@ -2313,7 +2333,8 @@
     "id": "395352f75a9e17fb84af",
     "artist": "Paul Simon",
     "title": "You Can Call Me Al",
-    "album": "Graceland"
+    "album": "Graceland",
+    "genre": "Pop"
   },
   {
     "id": "d85efc1a54eae9c4f7fc",
@@ -2457,7 +2478,8 @@
     "id": "45421b7fb0a19ab7c164",
     "artist": "Prince Buster",
     "title": "Enjoy Yourself",
-    "album": "The Original Golden Oldies Volume 1"
+    "album": "The Original Golden Oldies Volume 1",
+    "genre": "Ska"
   },
   {
     "id": "547c88e379eb43e09c42",
@@ -2481,7 +2503,8 @@
     "id": "bd2de24c5b9c8bbd7c9a",
     "artist": "Rihanna feat. JAY‐Z",
     "title": "Umbrella",
-    "album": "Good Girl Gone Bad: Reloaded"
+    "album": "Good Girl Gone Bad: Reloaded",
+    "genre": "Pop"
   },
   {
     "id": "580bfc81fff861269912",
@@ -2517,7 +2540,8 @@
     "id": "9d828fc5e0e6a4f5be30",
     "artist": "Rusted Root",
     "title": "Send Me On My Way",
-    "album": "Cruel Sun"
+    "album": "Cruel Sun",
+    "genre": "Folk; Rock"
   },
   {
     "id": "8e4f88b520877c84ef06",
@@ -2529,7 +2553,8 @@
     "id": "5a6badf3bcb613313c90",
     "artist": "Sam & Dave",
     "title": "Hold On, I’m Comin’ (Extended Version)",
-    "album": "The Soul Classics"
+    "album": "The Soul Classics",
+    "genre": "Soul"
   },
   {
     "id": "aad9aa80418c398afc4d",
@@ -2541,7 +2566,8 @@
     "id": "2ae40402e7b5e6c69142",
     "artist": "Scene Queen",
     "title": "Whips and Chains",
-    "album": "Whips and Chains"
+    "album": "Whips and Chains",
+    "genre": "Rock"
   },
   {
     "id": "f868c92649a6f33ce1ed",
@@ -2661,7 +2687,8 @@
     "id": "68e72d2e3c42f757a47e",
     "artist": "Spin Doctors",
     "title": "Two Princes",
-    "album": "Pocket Full Of Kryptonite"
+    "album": "Pocket Full Of Kryptonite",
+    "genre": "Rock"
   },
   {
     "id": "82f028d63357a14482da",
@@ -2709,7 +2736,8 @@
     "id": "2d2bfe6f1804dd29786e",
     "artist": "Sublime",
     "title": "Santeria",
-    "album": "Sublime"
+    "album": "Sublime",
+    "genre": "Rock"
   },
   {
     "id": "030bce6bc2a0fe8359f8",
@@ -2769,13 +2797,15 @@
     "id": "420363b70dabc9582062",
     "artist": "The 1975",
     "title": "It’s Not Living (If It’s Not With You)",
-    "album": "[standalone recordings]"
+    "album": "[standalone recordings]",
+    "genre": "Rock"
   },
   {
     "id": "4132baebc1bf07ff23e2",
     "artist": "The 1975",
     "title": "It’s Not Living (If It’s Not With You)",
-    "album": "No Album"
+    "album": "No Album",
+    "genre": "Rock"
   },
   {
     "id": "c909cd4c0416a0c39bdc",
@@ -2787,19 +2817,22 @@
     "id": "dd87dc7678b072cdda11",
     "artist": "The Band",
     "title": "The Weight",
-    "album": "Music From Big Pink"
+    "album": "Music From Big Pink",
+    "genre": "Rock"
   },
   {
     "id": "3bd1aba4638e2f4a05a1",
     "artist": "The Band",
     "title": "The Weight (feat. The Staples)",
-    "album": "The Last Waltz"
+    "album": "The Last Waltz",
+    "genre": "Rock"
   },
   {
     "id": "4dc2029371ca86738de6",
     "artist": "The Beach Boys",
     "title": "God Only Knows",
-    "album": "Pet Sounds"
+    "album": "Pet Sounds",
+    "genre": "Rock"
   },
   {
     "id": "7975e1afa5a73841b35f",
@@ -3591,37 +3624,43 @@
     "id": "2ebc739dfedb698fe6ab",
     "artist": "The Notorious B.I.G.",
     "title": "Big Poppa",
-    "album": "The Notorious B.I.G. - Greatest Hits"
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "9ab940fca6c124b82355",
     "artist": "The Notorious B.I.G.",
     "title": "Big Poppa (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "2bf7eafd637ed3c04284",
     "artist": "The Notorious B.I.G.",
     "title": "Dead Wrong (feat. Eminem) [2007 Remaster] (Featuring Eminem Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "35d6289f6eb3896b0fe1",
     "artist": "The Notorious B.I.G.",
     "title": "Fuck You Tonight (feat. R. Kelly) [2007 Remaster] (Featuring R. Kelly Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "ec8421b13335416cd7a6",
     "artist": "The Notorious B.I.G.",
     "title": "Get Money (feat. Junior M.A.F.I.A.) [2007 Remaster] (Performed by Junior M.A.F.I.A. Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "1f3b76343032c5216a20",
     "artist": "The Notorious B.I.G.",
     "title": "Gimme the Loot",
-    "album": "Ready to Die"
+    "album": "Ready to Die",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "1b31c7d27b358996b1c2",
@@ -3633,49 +3672,57 @@
     "id": "5caffac5a84a95111971",
     "artist": "The Notorious B.I.G.",
     "title": "Hypnotize",
-    "album": "The Notorious B.I.G. - Greatest Hits"
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "110ce6b6ff68465512ad",
     "artist": "The Notorious B.I.G.",
     "title": "Hypnotize (2007 Remaster) (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "19c5cbf5c3c9678fcd6b",
     "artist": "The Notorious B.I.G.",
     "title": "Juicy",
-    "album": "The Notorious B.I.G. - Greatest Hits"
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "62cff0f86976316b1e85",
     "artist": "The Notorious B.I.G.",
     "title": "Juicy (2007 Remaster) (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "09d5e97ceba9583bb7ac",
     "artist": "The Notorious B.I.G.",
     "title": "N***as Bleed (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "763b212a8c4d7adb68e9",
     "artist": "The Notorious B.I.G.",
     "title": "Nasty Girl (feat. Diddy, Nelly, Jagged Edge & Avery Storm) [2007 Remaster] (Featuring P. Diddy, Nelly, Jagged Edge and Avery Storm Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "1030fe405daaa8cf8011",
     "artist": "The Notorious B.I.G.",
     "title": "Notorious B.I.G.",
-    "album": "The Notorious B.I.G. - Greatest Hits"
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "d77cf244a6e993ec1a6d",
     "artist": "The Notorious B.I.G.",
     "title": "Notorious B.I.G. (feat. Lil' Kim & Puff Daddy) [2007 Remaster] (Featuring Lil' Kim and Puff Daddy Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "dee72fbdfedaab53d36a",
@@ -3687,85 +3734,99 @@
     "id": "ed7a69b845143c305d72",
     "artist": "The Notorious B.I.G.",
     "title": "Notorious Thugs (feat. Bone Thugs-n-Harmony) [2007 Remaster] (Featuring Bone Thugs and Harmony Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "faabac6470fd67ca0322",
     "artist": "The Notorious B.I.G.",
     "title": "One More Chance(Stay With Me Remix)",
-    "album": "The Notorious B.I.G. - Greatest Hits"
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "e864d6551a574eb2ef77",
     "artist": "The Notorious B.I.G.",
     "title": "One More Chance/Stay With Me Remix (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "cc7b8b2baf7c681e5dee",
     "artist": "The Notorious B.I.G.",
     "title": "Running Your Mouth (feat. Snoop Dogg, Nate Dogg, Fabolous & Busta Rhymes) [2007 Remaster] (Featuring Snoop Dogg, Nate Dogg, Fabolous and Busta Rhymes Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "f45a8bc047d8e36a91c6",
     "artist": "The Notorious B.I.G.",
     "title": "Suicidal Thoughts",
-    "album": "Ready to Die"
+    "album": "Ready to Die",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "8da2993f2754b6ea231c",
     "artist": "The Notorious B.I.G.",
     "title": "Ten Crack Commandments",
-    "album": "The Notorious B.I.G. - Greatest Hits"
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "161055e643b19f554d13",
     "artist": "The Notorious B.I.G.",
     "title": "Ten Crack Commandments (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "1481e84ffb079b53440c",
     "artist": "The Notorious B.I.G.",
     "title": "Unbelievable (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "cbcd47d50b943520ce74",
     "artist": "The Notorious B.I.G.",
     "title": "Want That Old Thing Back",
-    "album": "The Notorious B.I.G. - Greatest Hits"
+    "album": "The Notorious B.I.G. - Greatest Hits",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "55d7ed64ad6a853ca9ba",
     "artist": "The Notorious B.I.G.",
     "title": "Want That Old Thing Back (feat. Ja Rule & Ralph Tresvant) [2007 Remaster] (Featuring Ja Rule and Ralph Tresvant Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "bcf26a584bf9c042322e",
     "artist": "The Notorious B.I.G.",
     "title": "Warning (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "0781e8df884a282d4999",
     "artist": "The Notorious B.I.G.",
     "title": "Who Shot Ya",
-    "album": "Born Again"
+    "album": "Born Again",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "92717d72a3133de77d94",
     "artist": "The Notorious B.I.G.",
     "title": "Who Shot Ya (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "93efe13c6d49ae79e5c3",
     "artist": "The Notorious B.I.G.",
     "title": "You’re Nobody (Til Somebody Kills You)",
-    "album": "Life After Death"
+    "album": "Life After Death",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "b485fb058a2e058225d5",
@@ -3873,7 +3934,8 @@
     "id": "c64e71536ff57280b1ce",
     "artist": "The Rolling Stones",
     "title": "You Can't Always Get What You Want",
-    "album": "Let It Bleed (Mono)"
+    "album": "Let It Bleed (Mono)",
+    "genre": "Rock"
   },
   {
     "id": "1bbef1c12e2126e906d3",
@@ -4029,7 +4091,8 @@
     "id": "1da89c47a4554e72b546",
     "artist": "Tony Bennett",
     "title": "The Lady Is a Tramp feat. Lady Gaga",
-    "album": "Tony Bennett Celebrates 90"
+    "album": "Tony Bennett Celebrates 90",
+    "genre": "Jazz"
   },
   {
     "id": "b496942ac619718a7f79",
@@ -4059,7 +4122,8 @@
     "id": "2667df3359c86fb13b8a",
     "artist": "Weezer",
     "title": "Go Away",
-    "album": "Everything Will Be Alright in the End"
+    "album": "Everything Will Be Alright in the End",
+    "genre": "Alternative"
   },
   {
     "id": "cbd59a58f46f31ac9c87",
@@ -4077,7 +4141,8 @@
     "id": "cb379181bb80ae2fada9",
     "artist": "Whitney Houston",
     "title": "I Wanna Dance With Somebody (Who Loves Me)",
-    "album": "The Concert for a New South Africa (Durban)"
+    "album": "The Concert for a New South Africa (Durban)",
+    "genre": "R&B"
   },
   {
     "id": "afae1266398a6a7fb125",
@@ -4179,6 +4244,7 @@
     "id": "d6bfabdccc3337411b6a",
     "artist": "Zac Brown Band feat. Sara Bareilles",
     "title": "Mango Tree",
-    "album": "Jekyll + Hyde"
+    "album": "Jekyll + Hyde",
+    "genre": "Country"
   }
 ]

@@ -2,9 +2,9 @@
 :root { color-scheme: dark; --lime:#73ED00; --magenta:#D400ED; --blue:#2055AD; --purple:#3A0C99; --gray:#6C6D6E; --ink:#f6f6f6; --muted:#c6c6c6; --bg:#000000; --card:#101010; --edge:var(--gray); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 * { box-sizing: border-box; }
 body { margin: 0; color: var(--ink); background:var(--bg); }
-button,input { font: inherit; }
+button,input,select { font: inherit; }
 button { cursor: pointer; }
-button:focus-visible,input:focus-visible,a:focus-visible { outline: 3px solid var(--magenta); outline-offset: 3px; }
+button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible { outline: 3px solid var(--magenta); outline-offset: 3px; }
 .frame { max-width: 1120px; margin: auto; padding: 0 clamp(18px,4vw,48px); }
 .site-header { display:flex; justify-content:space-between; align-items:center; gap:16px; border-bottom:1px solid var(--edge); padding:24px 0; }
 .brand { display:flex; align-items:center; gap:13px; color:var(--ink); text-decoration:none; }
@@ -42,7 +42,7 @@ h2 { margin:8px 0 4px; font-size:clamp(1.3rem,3vw,1.7rem); letter-spacing:-.025e
 .track-info span { color:var(--muted); font-size:.78rem; }
 .add-track { background:#282828; border:1px solid #666666; color:var(--lime); border-radius:8px; padding:9px 11px; white-space:nowrap; }
 .add-track:hover:not(:disabled) { background:#343434; }
-.add-track.chosen { color:var(--muted); background:transparent; border-color:var(--edge); cursor:default; }
+.add-track.chosen { color:var(--muted); background:transparent; border-color:var(--edge); cursor:pointer; }
 .empty-state { padding:40px 16px; border:1px dashed var(--edge); border-radius:10px; text-align:center; color:var(--muted); }
 .selection-panel { position:sticky; top:16px; }
 .selected-list { list-style:none; padding:0; margin:20px 0; }
@@ -137,3 +137,13 @@ h1 em { color:var(--lime); }
 .request-limit.exhausted { color:var(--magenta); border-color:var(--magenta); background:#1c061d; }
 .admin-panel { border-color:var(--blue); }
 .admin-controls button { color:#fff; background:var(--blue); border-color:var(--blue); }
+
+/* Catalog genre filter. */
+.catalog-filters { display:flex; align-items:end; flex-wrap:wrap; gap:12px; margin-top:18px; }
+.genre-field { flex:1; min-width:160px; }
+.genre-field label { display:block; margin-bottom:9px; }
+.genre-field select { width:100%; min-height:48px; padding:12px; border:1px solid #565656; border-radius:11px; background:#080808; color:var(--ink); }
+.genre-field select:focus { border-color:var(--lime); }
+#clear-filters { min-height:48px; border:1px solid var(--blue); border-radius:10px; padding:10px 13px; color:var(--lime); background:transparent; }
+#clear-filters:hover { border-color:var(--magenta); }
+.genre-note { color:var(--muted); font-size:.75rem; line-height:1.5; margin:10px 0 0; }

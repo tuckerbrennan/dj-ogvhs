@@ -1,8 +1,10 @@
-import { searchCatalog } from "./catalog.mjs";
+import { searchCatalog, filterByGenre, genreOptions } from "./catalog.mjs?v=genre-filter-20261106";
 import { demoQuota, useDemoRequest } from "./request-quota.mjs";
 
 const $ = id => document.getElementById(id);
 const search = $("search");
+const genreFilter = $("genre-filter");
+const clearFilters = $("clear-filters");
 const results = $("tracks");
 const count = $("catalog-count");
 const message = $("catalog-message");
@@ -85,19 +87,32 @@ function renderSelected() {
     : "Choose " + (slots - selected.length) + " more " + ((slots - selected.length) === 1 ? "song" : "songs") + " from the catalog.";
 }
 
+function renderGenres() {
+  const current = genreFilter.value;
+  genreFilter.replaceChildren(...genreOptions(tracks).map(({value, label, count}) => {
+    const option = el("option", "", label + " (" + count + ")");
+    option.value = value;
+    return option;
+  }));
+  genreFilter.value = genreOptions(tracks).some(option => option.value === current) ? current : "";
+}
+
 function renderTracks() {
   results.replaceChildren();
   const query = search.value.trim();
-  const matches = searchCatalog(tracks, query);
+  const matching = searchCatalog(filterByGenre(tracks, genreFilter.value), query, Infinity);
+  const matches = matching.slice(0, 60);
+  const filtered = Boolean(query || genreFilter.value);
+  clearFilters.hidden = !filtered;
   count.textContent = tracks.length + " catalog " + (tracks.length === 1 ? "track" : "tracks");
   if (!tracks.length) {
     message.textContent = "No songs have been approved for public requests yet. The DJ is preparing the catalog.";
     results.appendChild(el("div", "empty-state", "Check back soon for the searchable library."));
     return;
   }
-  message.textContent = query ? matches.length + (matches.length === 60 ? "+" : "") + " matching tracks shown" : "Showing up to 60 tracks. Search to narrow the list.";
+  message.textContent = "Showing " + matches.length + " of " + matching.length + (filtered ? " matching tracks." : " tracks. Search or filter to narrow the list.");
   if (!matches.length) {
-    results.appendChild(el("div", "empty-state", "Not in this catalog yet. External song lookup and manual requests are coming next."));
+    results.appendChild(el("div", "empty-state", "No tracks match your search and genre. Try another genre or clear the filters."));
     return;
   }
   for (const track of matches) {
@@ -140,6 +155,13 @@ function render() {
 songBtn.addEventListener("click", () => setMode("song"));
 mashupBtn.addEventListener("click", () => setMode("mashup"));
 search.addEventListener("input", renderTracks);
+genreFilter.addEventListener("change", renderTracks);
+clearFilters.addEventListener("click", () => {
+  search.value = "";
+  genreFilter.value = "";
+  renderTracks();
+  search.focus();
+});
 submitButton.addEventListener("click", () => {
   if (!demoMode || selected.length !== (mode === "song" ? 1 : 2)) return;
   const quota = useDemoRequest();
@@ -151,6 +173,7 @@ submitButton.addEventListener("click", () => {
 async function load() {
   if (new URLSearchParams(location.search).has("demo")) {
     tracks = demoTracks;
+    renderGenres();
     render();
     count.textContent = tracks.length + " fictional demo tracks";
     message.textContent = "DEMO ONLY: These songs are fictional. No request will be sent.";
@@ -162,6 +185,7 @@ async function load() {
     const data = await response.json();
     if (!Array.isArray(data)) throw new Error("Unexpected catalog format");
     tracks = data.filter(t => t && typeof t.id === "string" && typeof t.title === "string" && typeof t.artist === "string");
+    renderGenres();
     render();
   } catch {
     tracks = [];
@@ -169,6 +193,7 @@ async function load() {
     message.textContent = "The catalog could not be loaded. Please try again later.";
   }
 }
+renderGenres();
 render();
 load();
 window.setInterval(() => { if (demoMode) render(); }, 30000);

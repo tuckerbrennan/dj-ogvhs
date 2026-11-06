@@ -44,3 +44,9 @@ test("listener ID is stable across visits with the same storage", () => {
   assert.match(id, /^[0-9a-f-]{36}$/i);
   assert.equal(getListenerId(s), id);
 });
+
+test("separate browser stores receive distinct listener IDs", () => {
+  const a = storage(), b = storage();
+  assert.notEqual(getListenerId(a), getListenerId(b));
+  assert.equal(getListenerId(a), getListenerId(a));
+});

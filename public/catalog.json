@@ -664,6 +664,27 @@
     "album": "Bonnie & Clyde (feat. Natti Natasha)"
   },
   {
+    "id": "2c4756d94646085a2993",
+    "artist": "Count Basie & His Orchestra",
+    "title": "All of Me",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "35da6bbb827fb397fec9",
+    "artist": "Count Basie & His Orchestra",
+    "title": "Makin’ Whoopee!",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "e652feac6f77dabef482",
+    "artist": "Count Basie & His Orchestra",
+    "title": "One O’Clock Jump",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
     "id": "35cec45b7c3db0cd18e5",
     "artist": "Culture Club",
     "title": "Do You Really Want To Hurt Me?",
@@ -1162,10 +1183,956 @@
     "album": "Hits 53"
   },
   {
+    "id": "6f40b45b35e44075c794",
+    "artist": "Frank Sinatra",
+    "title": "(How Little It Matters) How Little We Know",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "8b85e902335541664b0c",
+    "artist": "Frank Sinatra",
+    "title": "(Love Is) The Tender Trap",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "b935ba00e6ee1ded38bc",
+    "artist": "Frank Sinatra",
+    "title": "A Hundred Years From Today",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "35c1edc6693511339919",
+    "artist": "Frank Sinatra",
+    "title": "After You’ve Gone",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "c9dacb717178e0b2fbb5",
+    "artist": "Frank Sinatra",
+    "title": "All Of Me",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "73e05c289c211603eafb",
+    "artist": "Frank Sinatra",
+    "title": "All or Nothing at All",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
+    "id": "4a3c2cd1e9e1d7bca47d",
+    "artist": "Frank Sinatra",
+    "title": "All The Way",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "9655608131b994c33509",
+    "artist": "Frank Sinatra",
+    "title": "All The Way",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "6804214bc84c494a19ea",
+    "artist": "Frank Sinatra",
+    "title": "Almost Like Being In Love",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "31bc1f0dd7cd0ad09d62",
+    "artist": "Frank Sinatra",
+    "title": "Angel Eyes",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "ac756216be4daf542c33",
+    "artist": "Frank Sinatra",
+    "title": "Angel Eyes",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "1e105b52dac7595ba982",
+    "artist": "Frank Sinatra",
+    "title": "Angel Eyes",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "40e6119717d0cc8a7654",
+    "artist": "Frank Sinatra",
+    "title": "Autumn In New York",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "7f9811a0c1acfac39e4a",
+    "artist": "Frank Sinatra",
+    "title": "Bad, Bad Leroy Brown",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
+    "id": "0303ae5b558d0a1575ec",
+    "artist": "Frank Sinatra",
+    "title": "Blues In The Night",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "fddad2402e562b19e9a3",
+    "artist": "Frank Sinatra",
+    "title": "Blues in the Night",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "1c51106e5770dd0867c1",
+    "artist": "Frank Sinatra",
+    "title": "By the Time I Get to Phoenix",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "dcae2caea4e91a10e56c",
+    "artist": "Frank Sinatra",
+    "title": "Can't We Be Friends? (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "fa16d479882951dc789f",
+    "artist": "Frank Sinatra",
+    "title": "Chicago",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "ab75247f715602d180cc",
+    "artist": "Frank Sinatra",
+    "title": "Close To You",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "d5296cc07eccb7de8c08",
+    "artist": "Frank Sinatra",
+    "title": "Come Dance With Me",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "060857b1c3d28aae71d2",
+    "artist": "Frank Sinatra",
+    "title": "Come Dance With Me",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "660372ecf26cf73420eb",
+    "artist": "Frank Sinatra",
+    "title": "Come Fly With Me",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "e414b0979353936d4a5c",
+    "artist": "Frank Sinatra",
+    "title": "Come Fly With Me",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "859eab00eb8d1dad6b21",
+    "artist": "Frank Sinatra",
+    "title": "Come Rain or Come Shine",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
+    "id": "c0af5c3af5447d0384cd",
+    "artist": "Frank Sinatra",
+    "title": "Cycles",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "1e3f2e78fe0d457c6b1b",
+    "artist": "Frank Sinatra",
+    "title": "Dancing On The Ceiling (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "5d40ffae85a522eabf85",
+    "artist": "Frank Sinatra",
+    "title": "Deep In A Dream (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "99917aebafad6ac9a663",
+    "artist": "Frank Sinatra",
+    "title": "Don't Like Goodbyes",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "a4a85fba3ce0113602bc",
+    "artist": "Frank Sinatra",
+    "title": "Dream Away",
+    "album": "Ol' Blue Eyes Is Back",
+    "genre": "Jazz"
+  },
+  {
+    "id": "5025c01d7a7e0335b424",
+    "artist": "Frank Sinatra",
+    "title": "Ebb Tide",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "8a695a9a29b71dc031dc",
+    "artist": "Frank Sinatra",
+    "title": "Ebb Tide",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "2356b892bfcbcc57967b",
+    "artist": "Frank Sinatra",
+    "title": "Ebb Tide",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "df68130d25bfca501cd6",
+    "artist": "Frank Sinatra",
+    "title": "Embraceable You",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "d153f1e331cb74b4082f",
+    "artist": "Frank Sinatra",
+    "title": "Everybody Loves Somebody",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "201b80fa947d8051c8cd",
+    "artist": "Frank Sinatra",
+    "title": "French Foreign Legion",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "c6ea75d3d0c815d2f1bd",
+    "artist": "Frank Sinatra",
+    "title": "From Both Sides, Now",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "f54fa55c0857dbfdf9fd",
+    "artist": "Frank Sinatra",
+    "title": "From Here To Eternity",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "aa6390810e942b9323e3",
+    "artist": "Frank Sinatra",
+    "title": "Gentle on My Mind",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "e108e7d3b0f9530895fa",
+    "artist": "Frank Sinatra",
+    "title": "Glad To Be Unhappy (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "7a40b7dbc041c9647c99",
+    "artist": "Frank Sinatra",
+    "title": "Gone With The Wind",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "d5161aa7db31c96301c1",
+    "artist": "Frank Sinatra",
+    "title": "Gone With the Wind",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "5dcc073d2f14e851880d",
+    "artist": "Frank Sinatra",
+    "title": "Good-Bye",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "0ad3feb2b2dc87e57378",
+    "artist": "Frank Sinatra",
+    "title": "Good-Bye",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "5386e498df21b010cb86",
+    "artist": "Frank Sinatra",
+    "title": "Guess I'll Hang My Tears Out To Dry",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "12fcaa323ab7e2a16e39",
+    "artist": "Frank Sinatra",
+    "title": "Guess I'll Hang My Tears Out to Dry",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "f1903b2302f57014b293",
+    "artist": "Frank Sinatra",
+    "title": "Guess I'll Hang My Tears Out To Dry",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "c277cba63b9f29898948",
+    "artist": "Frank Sinatra",
+    "title": "Here Goes",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "849b7df456283f502709",
+    "artist": "Frank Sinatra",
+    "title": "Here's That Rainy Day",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "8836b08ac620a88362c0",
+    "artist": "Frank Sinatra",
+    "title": "Hey! Jealous Lover",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "26d73b5ef1c9bd805fd1",
+    "artist": "Frank Sinatra",
+    "title": "High Hopes",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "601f48c19c7812465fb2",
+    "artist": "Frank Sinatra",
+    "title": "How Do You Keep the Music Playing",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "055cd31f8007114b4c86",
+    "artist": "Frank Sinatra",
+    "title": "I Can't Believe That You're In Love With Me",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "856b5e3b79d7ff3d14f2",
+    "artist": "Frank Sinatra",
+    "title": "I Couldn't Care Less",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "0e66fe02eefc652df7f1",
+    "artist": "Frank Sinatra",
+    "title": "I Get A Kick Out Of You",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "122ec489baff0b68ef6e",
+    "artist": "Frank Sinatra",
+    "title": "I Get A Kick Out Of You",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "564ffc9c60281758118d",
+    "artist": "Frank Sinatra",
+    "title": "I Get Along Without You Very Well (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "e4cb5a4eae5129c56f0a",
+    "artist": "Frank Sinatra",
+    "title": "I Got Plenty Of Nothing",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "e08d578a768f12eb4960",
+    "artist": "Frank Sinatra",
+    "title": "I Gotta Right To Sing The Blues",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "db63d0f39fc81d293950",
+    "artist": "Frank Sinatra",
+    "title": "I Hadn't Anyone Till You",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
+    "id": "98cb7df09c96560fc612",
+    "artist": "Frank Sinatra",
+    "title": "I Love You",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "75f5f20753ab4d65606f",
+    "artist": "Frank Sinatra",
+    "title": "I See Your Face Before Me (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "482c8192092bb4743d50",
+    "artist": "Frank Sinatra",
+    "title": "I Thought About You",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "87719337ee42a750135d",
+    "artist": "Frank Sinatra",
+    "title": "I Wish I Were In Love Again",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "c1af45395412c1605b84",
+    "artist": "Frank Sinatra",
+    "title": "I'll Be Around (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "f7212f6248eb415963a7",
+    "artist": "Frank Sinatra",
+    "title": "I'll Be Seeing You",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "633fc51f90cb5e57386e",
+    "artist": "Frank Sinatra",
+    "title": "I'll Never Be The Same (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "8e663b080f340058b03c",
+    "artist": "Frank Sinatra",
+    "title": "I'll Never Smile Again",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "d9e2c501b338b2fc975e",
+    "artist": "Frank Sinatra",
+    "title": "I'm A Fool To Want You",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "3f9c61b275fcdf8cbd74",
+    "artist": "Frank Sinatra",
+    "title": "I'm Gonna Make It All the Way",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
+    "id": "ef854a32ae31013ac3ee",
+    "artist": "Frank Sinatra",
+    "title": "I've Got A Crush On You",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "a9449ea37cdd1a2adc6e",
+    "artist": "Frank Sinatra",
+    "title": "I've Got The World On A String",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "d6c25756d4bfe3371725",
+    "artist": "Frank Sinatra",
+    "title": "I've Got The World On A String",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "0fbbbb4e153585d0062a",
+    "artist": "Frank Sinatra",
+    "title": "I've Got You Under My Skin",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "70a235ac72845eda5a96",
+    "artist": "Frank Sinatra",
+    "title": "I've Got You Under My Skin",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "700f4e8f2d52c999153a",
+    "artist": "Frank Sinatra",
+    "title": "I've Heard That Song Before",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "edec95b17a28ea7fe7f8",
+    "artist": "Frank Sinatra",
+    "title": "If",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
+    "id": "41dc6dc29325106d8feb",
+    "artist": "Frank Sinatra",
+    "title": "If I Had You",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "8d4c6585c25247fba8a9",
+    "artist": "Frank Sinatra",
+    "title": "If I Should Lose You",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "e0d4c2e3b0fdc663a069",
+    "artist": "Frank Sinatra",
+    "title": "Ill Wind (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "7a11babe62f6c429d504",
+    "artist": "Frank Sinatra",
+    "title": "In The Wee Small Hours Of The Morning",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "b0020ce6b633713df40c",
+    "artist": "Frank Sinatra",
+    "title": "In The Wee Small Hours Of The Morning",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "3b6b3473ad08ae201888",
+    "artist": "Frank Sinatra",
+    "title": "In The Wee Small Hours Of The Morning (Remastered 1998)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "585cdfbdb0d1ad82fbc7",
+    "artist": "Frank Sinatra",
+    "title": "It Happened In Monterey",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "66e446f60b0f48f645af",
+    "artist": "Frank Sinatra",
+    "title": "It Might as Well Be Spring",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
+    "id": "66f190274433f49375fa",
+    "artist": "Frank Sinatra",
+    "title": "It Never Entered My Mind (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "2bc25c530b957ce1a319",
+    "artist": "Frank Sinatra",
+    "title": "It's A Lonesome Old Town",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "2a9478af146afda69d7b",
+    "artist": "Frank Sinatra",
+    "title": "It's The Same Old Dream",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "731a5d726388dfc56553",
+    "artist": "Frank Sinatra",
+    "title": "It’s All Right With Me",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "53333c71b919eed69b03",
+    "artist": "Frank Sinatra",
+    "title": "Just In Time",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "8d614ba44186f6c09ea9",
+    "artist": "Frank Sinatra",
+    "title": "L.A. Is My Lady",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "9871e514bbdb930aa8b6",
+    "artist": "Frank Sinatra",
+    "title": "Last Night When We Were Young (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "5047f5d17903935970e2",
+    "artist": "Frank Sinatra",
+    "title": "Lean Baby",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "9ffa76cdb67acc27c75f",
+    "artist": "Frank Sinatra",
+    "title": "Learnin' The Blues",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "17b65564dc3b2bdb1833",
+    "artist": "Frank Sinatra",
+    "title": "Let Me Try Again (Laisse Moi le Temps)",
+    "album": "Ol' Blue Eyes Is Back",
+    "genre": "Jazz"
+  },
+  {
+    "id": "a15d8a6d0868f20a2851",
+    "artist": "Frank Sinatra",
+    "title": "Let's Get Away From It All",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "5382db2fce3d8e0b6164",
+    "artist": "Frank Sinatra",
+    "title": "Little Green Apples",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "c54da99c6510777d26ac",
+    "artist": "Frank Sinatra",
+    "title": "Lonesome Road",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "9f4e0ed8fed52db98e0d",
+    "artist": "Frank Sinatra",
+    "title": "Love And Marriage",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "89d138cdbf98bec61eb8",
+    "artist": "Frank Sinatra",
+    "title": "Mack the Knife",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "3cd6c75945ce5c7c9137",
+    "artist": "Frank Sinatra",
+    "title": "Memories Of You",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "557a7f4553848f52c193",
+    "artist": "Frank Sinatra",
+    "title": "Misty",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
+    "id": "476fa6b1541553cd9cb9",
+    "artist": "Frank Sinatra",
+    "title": "Mood Indigo (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "77d540325754c59aa458",
+    "artist": "Frank Sinatra",
+    "title": "Moody River",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "72887e4d8c2fcd98abc7",
+    "artist": "Frank Sinatra",
+    "title": "My Funny Valentine",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "0dd43f049aff8c0aa466",
+    "artist": "Frank Sinatra",
+    "title": "My Way of Life",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "31824b052440c4daa024",
+    "artist": "Frank Sinatra",
+    "title": "Nice 'n Easy",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "5654e7b89bef3d20622a",
+    "artist": "Frank Sinatra",
+    "title": "Nice 'N' Easy",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "ae340b86a67507e42ccd",
+    "artist": "Frank Sinatra",
+    "title": "Night And Day",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "61b59c50da5699883467",
+    "artist": "Frank Sinatra",
+    "title": "Night and Day",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
+    "id": "9bd7ff3ebfc733db6309",
+    "artist": "Frank Sinatra",
+    "title": "Night And Day",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "c24eba1a4d652c1b572d",
+    "artist": "Frank Sinatra",
+    "title": "Noah",
+    "album": "Ol' Blue Eyes Is Back",
+    "genre": "Jazz"
+  },
+  {
+    "id": "fcb02df91c4af88bcd3b",
+    "artist": "Frank Sinatra",
+    "title": "Nobody Wins",
+    "album": "Ol' Blue Eyes Is Back",
+    "genre": "Jazz"
+  },
+  {
+    "id": "efc1332ae05f0683c746",
+    "artist": "Frank Sinatra",
+    "title": "Oh! Look At Me Now",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "08778565fca36e33d7e6",
+    "artist": "Frank Sinatra",
+    "title": "On The Sunny Side Of The Street",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "50fba38a1bdfddcb3c5b",
+    "artist": "Frank Sinatra",
+    "title": "One For My Baby",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "8489c42777e0a6b8b68b",
+    "artist": "Frank Sinatra",
+    "title": "One for My Baby",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "3bce891c2fe5a79b2ac6",
+    "artist": "Frank Sinatra",
+    "title": "One For My Baby",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "eb32530ef55e4f422e7a",
+    "artist": "Frank Sinatra",
+    "title": "One For My Baby (And One More For The Road)",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "cd3a8ad6bc81207947c3",
+    "artist": "Frank Sinatra",
+    "title": "Only The Lonely",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "e8d8bb329c997e7b8b3e",
+    "artist": "Frank Sinatra",
+    "title": "Only the Lonely",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "21de0f2745eda535c38d",
+    "artist": "Frank Sinatra",
+    "title": "Only The Lonely",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "b48293119d59de44e934",
+    "artist": "Frank Sinatra",
+    "title": "Our Town",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "aa291305693296164874",
+    "artist": "Frank Sinatra",
+    "title": "Pretty Colors",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "bb8295b7a1f1e64202fc",
+    "artist": "Frank Sinatra",
+    "title": "Prisoner of Love",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
+    "id": "c11a141c341d91b3c893",
+    "artist": "Frank Sinatra",
+    "title": "Put Your Dreams Away",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "a841b98ad76ce350863e",
+    "artist": "Frank Sinatra",
+    "title": "Put Your Dreams Away (For Another Day)",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "8e7b18832c5f90333d83",
+    "artist": "Frank Sinatra",
+    "title": "Rain in My Heart",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "99cc9ee34539cd64e3f1",
+    "artist": "Frank Sinatra",
+    "title": "Satisfy Me One More Time",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
+    "id": "e5e15a0bc87051e9c9cc",
+    "artist": "Frank Sinatra",
+    "title": "Saturday Night Is The Loneliest Night",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "56876c1a1c04a08cb3a1",
+    "artist": "Frank Sinatra",
+    "title": "Send In The Clowns",
+    "album": "Ol' Blue Eyes Is Back",
+    "genre": "Jazz"
+  },
+  {
+    "id": "a6bd77cfe27157cb7e55",
+    "artist": "Frank Sinatra",
+    "title": "Someone To Watch Over Me",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "1ede0f15a6a252ee711d",
+    "artist": "Frank Sinatra",
+    "title": "Someone To Watch Over Me",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "c4fc0f48bb1d6c177917",
+    "artist": "Frank Sinatra",
+    "title": "Something Wonderful Happens In Summer",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "2277e2114a566435835f",
+    "artist": "Frank Sinatra",
+    "title": "Song Is You",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "9ebd93a6d719402fe7bc",
+    "artist": "Frank Sinatra",
+    "title": "South Of The Border",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "cedb4858cfa101ca7774",
+    "artist": "Frank Sinatra",
+    "title": "Spring Is Here",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "7d45f27b25ede220b5ba",
+    "artist": "Frank Sinatra",
+    "title": "Stardust",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
     "id": "e1c0d5e13a39150b1daa",
     "artist": "Frank Sinatra",
     "title": "Stardust",
     "album": "The Complete Reprise Studio Recordings"
+  },
+  {
+    "id": "7817f1aef91164cda44b",
+    "artist": "Frank Sinatra",
+    "title": "Stars Fell On Alabama",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "38aff88c29cbe4f6a568",
+    "artist": "Frank Sinatra",
+    "title": "Stormy Weather",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "16ee5b2c1f3909f5871e",
+    "artist": "Frank Sinatra",
+    "title": "Sweet Caroline",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
+    "id": "1fb3748cfbb641c2af42",
+    "artist": "Frank Sinatra",
+    "title": "Taking A Chance On Love",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "0e1f2bd7643478a1a593",
+    "artist": "Frank Sinatra",
+    "title": "Teach Me Tonight",
+    "album": "L.A. Is My Lady"
   },
   {
     "id": "a6bacafb16a77c0a9e4a",
@@ -1175,10 +2142,465 @@
     "genre": "Jazz"
   },
   {
+    "id": "5332077c6e295905876e",
+    "artist": "Frank Sinatra",
+    "title": "That's All",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
+    "id": "2a22f5b9a68ec68600d2",
+    "artist": "Frank Sinatra",
+    "title": "The Best of Everything",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "3ad5bb6a2b09e992d74d",
+    "artist": "Frank Sinatra",
+    "title": "The Lady Is A Tramp",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "040360728993fcc38cf7",
+    "artist": "Frank Sinatra",
+    "title": "The Lady Is A Tramp",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "97959d16983a65d01e01",
+    "artist": "Frank Sinatra",
+    "title": "The One I Love Belongs To Somebody Else",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "1576b75b30b75aa55633",
+    "artist": "Frank Sinatra",
+    "title": "The Summer Knows",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
+    "id": "66895f08f25f44c194c7",
+    "artist": "Frank Sinatra",
+    "title": "There Used To Be A Ballpark",
+    "album": "Ol' Blue Eyes Is Back",
+    "genre": "Jazz"
+  },
+  {
+    "id": "67b24ce4924d6949bbe9",
+    "artist": "Frank Sinatra",
+    "title": "They Can't Take That Away From Me",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "baff561946e2dc030df1",
+    "artist": "Frank Sinatra",
+    "title": "They Can't Take That Away From Me",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "dabf4a7d53d25e1207d2",
+    "artist": "Frank Sinatra",
+    "title": "This Love Of Mine (1998 Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "b35c11dbb5f8a90a9b72",
+    "artist": "Frank Sinatra",
+    "title": "Three Coins In The Fountain",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "2b61587c7aea92d3c8f1",
+    "artist": "Frank Sinatra",
+    "title": "Tie a Yellow Ribbon 'Round the Ole Oak Tree",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
+    "id": "103292a200c1c5958b03",
+    "artist": "Frank Sinatra",
+    "title": "To Love And Be Loved",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "a224d73faa5a14317e1d",
+    "artist": "Frank Sinatra",
+    "title": "Too Marvelous For Words",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "dc20ef0f01d319278e49",
+    "artist": "Frank Sinatra",
+    "title": "Until the Real Thing Comes Along",
+    "album": "L.A. Is My Lady"
+  },
+  {
+    "id": "ffc3839d66291f35b193",
+    "artist": "Frank Sinatra",
+    "title": "Wandering",
+    "album": "Cycles",
+    "genre": "Pop"
+  },
+  {
+    "id": "ff5a50b3ad494e87a212",
+    "artist": "Frank Sinatra",
+    "title": "Weep They Will",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "23689008243a10c73059",
+    "artist": "Frank Sinatra",
+    "title": "What Are You Doing the Rest of Your Life",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
+    "id": "4904268787f4167fcff3",
+    "artist": "Frank Sinatra",
+    "title": "What Is This Thing Called Love",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "9948ec56677045430360",
+    "artist": "Frank Sinatra",
+    "title": "What Is This Thing Called Love (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "ba6e19e98bac6873d6eb",
+    "artist": "Frank Sinatra",
+    "title": "What's New",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "71785cada7f544a5e5b9",
+    "artist": "Frank Sinatra",
+    "title": "What's New?",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "b8f6188a112354dd4e5f",
+    "artist": "Frank Sinatra",
+    "title": "When No One Cares",
+    "album": "The Capitol Years [Disc 3]",
+    "genre": "Pop"
+  },
+  {
+    "id": "3aa19367f7d750a4ee18",
+    "artist": "Frank Sinatra",
+    "title": "When Your Lover Has Gone (Remastered)",
+    "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "9ad6fc5ee8672bd8a990",
+    "artist": "Frank Sinatra",
+    "title": "Where Are You",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "ae9ba4a62dcce34d4237",
+    "artist": "Frank Sinatra",
+    "title": "Willow Weep For Me",
+    "album": "Frank Sinatra Sings for Only the Lonely"
+  },
+  {
+    "id": "bfe4243ce40b9affcd45",
+    "artist": "Frank Sinatra",
+    "title": "Willow Weep for Me",
+    "album": "Frank Sinatra Sings for Only the Lonely (Stereo Version)"
+  },
+  {
+    "id": "390960ca32a1dd14d9c7",
+    "artist": "Frank Sinatra",
+    "title": "Winners",
+    "album": "Ol' Blue Eyes Is Back",
+    "genre": "Jazz"
+  },
+  {
+    "id": "bebb747a34ea85f3c02d",
+    "artist": "Frank Sinatra",
+    "title": "Witchcraft",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "9ec2810168c383ffc930",
+    "artist": "Frank Sinatra",
+    "title": "Witchcraft",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "9341ce52170947851ceb",
+    "artist": "Frank Sinatra",
+    "title": "Yesterdays",
+    "album": "Sinatra and Strings",
+    "genre": "Pop"
+  },
+  {
+    "id": "93e8c670ad3da0ec45b6",
+    "artist": "Frank Sinatra",
+    "title": "You Are the Sunshine of My Life",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
     "id": "b6f9787d240df2e6ec6e",
     "artist": "Frank Sinatra",
     "title": "You Lucky People, You",
     "album": "Night & Day",
+    "genre": "Jazz"
+  },
+  {
+    "id": "efe9b8cdaa9b30ae7f89",
+    "artist": "Frank Sinatra",
+    "title": "You Make Me Feel So Young",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "4f464bf4283d590ad7a0",
+    "artist": "Frank Sinatra",
+    "title": "You Make Me Feel So Young",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "b6d81de21f273928fd5b",
+    "artist": "Frank Sinatra",
+    "title": "You Turned My World Around",
+    "album": "Some Nice Things I've Missed",
+    "genre": "Pop"
+  },
+  {
+    "id": "da3b368b350febf42ef1",
+    "artist": "Frank Sinatra",
+    "title": "You Will Be My Music",
+    "album": "Ol' Blue Eyes Is Back",
+    "genre": "Jazz"
+  },
+  {
+    "id": "c0047f10ab78a6d0b76b",
+    "artist": "Frank Sinatra",
+    "title": "You're Sensational",
+    "album": "The Capitol Years [Disc 2]",
+    "genre": "Pop"
+  },
+  {
+    "id": "4ee85468d6dac30b527d",
+    "artist": "Frank Sinatra",
+    "title": "You're So Right (For What's Wrong In My Life)",
+    "album": "Ol' Blue Eyes Is Back",
+    "genre": "Jazz"
+  },
+  {
+    "id": "fdbcab466be31ae4e478",
+    "artist": "Frank Sinatra",
+    "title": "Young At Heart",
+    "album": "Classic Sinatra (His Great Performances 1953-1960)"
+  },
+  {
+    "id": "a4163e779fcf2caae309",
+    "artist": "Frank Sinatra",
+    "title": "Young At Heart",
+    "album": "The Capitol Years [Disc 1]",
+    "genre": "Pop"
+  },
+  {
+    "id": "170e00e02816e539f840",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "Baubles, Bangles and Beads",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "38b0a9395d709527d9bb",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "Change Partners",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "a37791a59360e94e8754",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "Dindi",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "f7538e75d152cc34799f",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "How Insensitive (Insensatez)",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "dd7fca0390815472ba72",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "I Concentrate on You",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "de4d1211414b8dc17f66",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "If You Never Come To Me",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "51cb69cbef175d1bc337",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "Meditation (Meditacao)",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "5eb71b20909dd5ae997a",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "Once I Loved (O Amor En Paz)",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "591dea650a8e99689016",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "Quiet Nights of Quiet Stars (Corcovado)",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "cd8f4b8e7754efd2c7aa",
+    "artist": "Frank Sinatra & Antonio Jobim",
+    "title": "The Girl From Ipanema (Garota De Ipanema)",
+    "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+    "genre": "Jazz"
+  },
+  {
+    "id": "fe28acbd3707fdc1b85c",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "Angel Eyes",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "d492548a33ad098af7d2",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "Come Fly With Me",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "8431c533e7fe4224a5b6",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "Don’t Worry ’Bout Me",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "70beeb03a31be7b46725",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "Fly Me to the Moon (In Other Words)",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "5c78177c1780dfbcbd01",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "Get Me to the Church on Time",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "d79a314acd8285421057",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "It Was a Very Good Year",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "631c3c34e61c5a52a52f",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "I’ve Got a Crush on You",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "1075d77a272a0042c193",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "I’ve Got You Under My Skin",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "97b3b84f63eceb1ef92f",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "Luck Be a Lady",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "40431ed187d9f81d3e0b",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "My Kind of Town",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "aa9544fd8fab677a3c84",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "My Kind of Town (reprise)",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "fbfccbc960b73887617b",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "One for My Baby (and One More for the Road)",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "17c987e03ac6c2fa65dc",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "Street of Dreams",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "84aa51d6731c147b5e87",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "The September of My Years",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "5206dac7bcfe47b7d02e",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "The Shadow of Your Smile",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "86f86d2ffeb2af1e8310",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "Where or When",
+    "album": "Sinatra at the Sands",
+    "genre": "Jazz"
+  },
+  {
+    "id": "a8224ac5e8f778033a43",
+    "artist": "Frank Sinatra with Count Basie & His Orchestra",
+    "title": "You Make Me Feel So Young",
+    "album": "Sinatra at the Sands",
     "genre": "Jazz"
   },
   {
@@ -2433,10 +3855,322 @@
     "album": "Libertad 548"
   },
   {
+    "id": "c06cb7d202f20e203621",
+    "artist": "Prince",
+    "title": "1999",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "a898625c4eb53e88171f",
+    "artist": "Prince",
+    "title": "1999",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "32146a8a07818a505ce9",
+    "artist": "Prince",
+    "title": "Alphabet St.",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "217fdf191d99d2a9445d",
+    "artist": "Prince",
+    "title": "Alphabet St.",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "5f715a8eb80e9820b98f",
+    "artist": "Prince",
+    "title": "Batdance",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "dde7beaa9fa536f35b5f",
+    "artist": "Prince",
+    "title": "Controversy",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "2e0ca42341df94daa42c",
+    "artist": "Prince",
+    "title": "Cream",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "98427d01abd22dadd466",
+    "artist": "Prince",
+    "title": "Delirious",
+    "album": "4Ever",
+    "genre": "Funk"
+  },
+  {
+    "id": "c300baa5676880019f7f",
+    "artist": "Prince",
+    "title": "Diamonds and Pearls",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "eb423374b05648a6579d",
+    "artist": "Prince",
+    "title": "Gett Off",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "10c7b2ec3009fcb006b6",
+    "artist": "Prince",
+    "title": "Glam Slam",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "483b14f4e8bae436ef03",
+    "artist": "Prince",
+    "title": "Gotta Stop (Messin’ About)",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "1e324470130c65368ee0",
+    "artist": "Prince",
+    "title": "Head",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "1bc2b9d7c860202efcbb",
+    "artist": "Prince",
+    "title": "I Could Never Take the Place of Your Man",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "d405f5606a61d3843c7e",
+    "artist": "Prince",
+    "title": "I Wanna Be Your Lover",
+    "album": "4Ever",
+    "genre": "Funk"
+  },
+  {
+    "id": "908a2d3e99a38a977f04",
+    "artist": "Prince",
+    "title": "I Wanna Be Your Lover",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "1264a4536c330f366734",
+    "artist": "Prince",
+    "title": "I Would Die 4 U",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "45dfbb14cf6dce9a7288",
+    "artist": "Prince",
+    "title": "If I Was Your Girlfriend",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "c909173bf1ffb0c961b2",
+    "artist": "Prince",
+    "title": "Kiss",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "6660722e31a6dba3ae66",
+    "artist": "Prince",
+    "title": "Let’s Go Crazy",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "1199635e2dbdf7f8b688",
+    "artist": "Prince",
+    "title": "Let’s Work",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "c16dfde8232f576219c3",
+    "artist": "Prince",
+    "title": "Little Red Corvette",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "f1bd102d1e4a5cf9d8a5",
+    "artist": "Prince",
+    "title": "Little Red Corvette",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "ac5e67463246668da8fe",
+    "artist": "Prince",
+    "title": "Money Don’t Matter 2 Night",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "7d6d9b83fd3c7b40b846",
+    "artist": "Prince",
+    "title": "Moonbeam Levels",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "1869ca6f026d3ad9a086",
+    "artist": "Prince",
+    "title": "Peach",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "40ff04d04263d7bee6e4",
+    "artist": "Prince",
+    "title": "Purple Rain",
+    "album": "The Very Best of Prince"
+  },
+  {
     "id": "7e26f1d5253be10e4a7a",
     "artist": "Prince",
     "title": "Quiero Ser Tu Amante",
     "album": "Quiero Ser Tu Amante"
+  },
+  {
+    "id": "6b0d99b0235f404003ab",
+    "artist": "Prince",
+    "title": "Raspberry Beret",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "69be0aefd77b22a8ddc5",
+    "artist": "Prince",
+    "title": "Sign ’o’ The Times",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "5512ed1a78c2b3e48d9a",
+    "artist": "Prince",
+    "title": "Sign “o” The Times",
+    "album": "4Ever",
+    "genre": "Funk"
+  },
+  {
+    "id": "1853dc905c441e3f05cf",
+    "artist": "Prince",
+    "title": "Soft and Wet",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "95a5b91ea955a5fb3b36",
+    "artist": "Prince",
+    "title": "Thieves in the Temple",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "0838acde301180b4833c",
+    "artist": "Prince",
+    "title": "Thieves in the Temple",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "97a15181a3d80ff60c32",
+    "artist": "Prince",
+    "title": "U Got the Look",
+    "album": "4Ever",
+    "genre": "Funk"
+  },
+  {
+    "id": "48d64f2b1a68c3e6a91b",
+    "artist": "Prince",
+    "title": "U Got the Look",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "ca2389c2dd3712167a3d",
+    "artist": "Prince",
+    "title": "Uptown",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "f7c80cda3af0da953218",
+    "artist": "Prince",
+    "title": "When Doves Cry",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "c5dc4c0cd0b7f46e6e49",
+    "artist": "Prince",
+    "title": "When Doves Cry",
+    "album": "The Very Best of Prince"
+  },
+  {
+    "id": "5b29a05903d1ba622ca1",
+    "artist": "Prince",
+    "title": "When You Were Mine",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "4441509d8a78b2529e80",
+    "artist": "Prince",
+    "title": "Why You Wanna Treat Me So Bad?",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "5feee81782cf9de68d90",
+    "artist": "Prince and The New Power Generation",
+    "title": "7 (album edit)",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "1a4d602184becba6baa4",
+    "artist": "Prince and The New Power Generation",
+    "title": "Cream",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "6230ad4f38613a128739",
+    "artist": "Prince and The New Power Generation",
+    "title": "Diamonds and Pearls",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "61980aa5216c2398bcea",
+    "artist": "Prince and The New Power Generation",
+    "title": "Gett Off",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "c0fd9f9aa2f67c1bcd50",
+    "artist": "Prince and The New Power Generation",
+    "title": "My Name Is Prince",
+    "album": "4Ever",
+    "genre": "Funk"
+  },
+  {
+    "id": "6e4b4478f3f1e9811f65",
+    "artist": "Prince and The New Power Generation",
+    "title": "Nothing Compares 2 U",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "1dd6bbde54f9f73b8495",
+    "artist": "Prince and The New Power Generation",
+    "title": "Sexy M.F.",
+    "album": "4Ever",
+    "genre": "Pop"
   },
   {
     "id": "93436e39d01517e37307",
@@ -2463,16 +4197,86 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "ec927a948947cde11788",
+    "artist": "Prince and The Revolution",
+    "title": "Girls & Boys",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "5212afc509b5ccf31c34",
+    "artist": "Prince and The Revolution",
+    "title": "I Would Die 4 U",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "bcb8e40c045ac37f3507",
+    "artist": "Prince and The Revolution",
+    "title": "Kiss",
+    "album": "4Ever",
+    "genre": "Funk"
+  },
+  {
     "id": "91953e05d943b5b83650",
     "artist": "Prince And The Revolution",
     "title": "Let's Go Crazy (Special Dance Mix)",
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "2fdc11391afd09b9ac36",
+    "artist": "Prince and The Revolution",
+    "title": "Let’s Go Crazy",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "e127e8d0d0c7216f70c6",
+    "artist": "Prince and The Revolution",
+    "title": "Mountains",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "d400bbc19f7ae46855cf",
+    "artist": "Prince and The Revolution",
+    "title": "Paisley Park",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "a03d30717507a9dc0b02",
+    "artist": "Prince and The Revolution",
+    "title": "Pop Life",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "b020885bbe0f829cf4a6",
+    "artist": "Prince and The Revolution",
+    "title": "Purple Rain",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
+    "id": "151e2e4d38b8bc35e416",
+    "artist": "Prince and The Revolution",
+    "title": "Raspberry Beret",
+    "album": "4Ever",
+    "genre": "Pop"
+  },
+  {
     "id": "b61ec11c3e30e71f3f29",
     "artist": "Prince And The Revolution",
     "title": "When Doves Cry (LP Version)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "769d882426b7629d32b7",
+    "artist": "Prince and The Revolution, duet with Apollonia",
+    "title": "Take Me With U",
+    "album": "4Ever",
+    "genre": "Pop"
   },
   {
     "id": "45421b7fb0a19ab7c164",

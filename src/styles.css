@@ -55,3 +55,13 @@ h2 { margin:8px 0 4px; font-size:clamp(1.3rem,3vw,1.7rem); letter-spacing:-.025e
 footer { padding:24px 0 38px; display:flex; justify-content:space-between; gap:16px; border-top:1px solid var(--edge); color:var(--muted); font-size:.7rem; letter-spacing:.13em; }
 @media (max-width:760px) { main { grid-template-columns:1fr; gap:18px; } .hero { padding:44px 0 20px; } .selection-panel { position:static; } }
 @media (max-width:490px) { .request-actions { grid-template-columns:1fr; } .site-header { padding:17px 0; } .preview-label { font-size:.55rem; } .catalog-panel,.selection-panel { padding:19px; } footer { flex-direction:column; } }
+
+/* DJ OGVHS social links: add verified profiles only. */
+.follow-section { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:18px; margin:0 0 32px; padding:26px; border:1px solid var(--edge); border-radius:17px; background:rgba(16,34,43,.96); }
+.follow-copy h2 { margin:7px 0 2px; }
+.follow-copy p { margin:7px 0 0; }
+.social-links { display:flex; gap:10px; flex-wrap:wrap; }
+.social-links a { display:inline-flex; align-items:center; gap:12px; padding:12px 17px; border:1px solid #477077; border-radius:10px; background:#132c34; color:var(--mint); font-weight:750; text-decoration:none; }
+.social-links a:hover { border-color:var(--mint); background:#234349; }
+.social-links a:focus-visible { outline:3px solid var(--orange); outline-offset:3px; }
+@media (max-width:490px) { .follow-section { padding:19px; } .social-links,.social-links a { width:100%; justify-content:center; } }

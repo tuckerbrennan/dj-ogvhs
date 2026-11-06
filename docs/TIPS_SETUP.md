@@ -1,25 +1,12 @@
-# Optional tipping links (DJ OGVHS)
+# Optional tips
 
-The thank-you page offers **Venmo, Zelle, PayPal, and Cash App**, only *after* a submission/preview. Tipping is completely optional and never changes how requests are handled.
+After a successful submission (or a clearly marked demo preview), the confirmation page offers:
 
-## Enable a payment method
+- Venmo: **@TuckerBrennan732** — `https://account.venmo.com/u/TuckerBrennan732`
+- Zelle: **732-245-0486** — copies the recipient for the listener's banking app.
+- PayPal: **ogvhstape@gmail.com** — opens PayPal's Send screen and copies the email. The listener pastes it as the recipient and chooses an amount. No PayPal.Me username is assumed.
+- Cash App: **$ogvhs** — `https://cash.app/$ogvhs`
 
-Edit `public/tip-config.json` in the GitHub repository:
+The values in `public/tip-config.json` were supplied by the owner for public use. Never put secret credentials or bank account details there. Payment URLs must use HTTPS and an approved provider hostname; the UI renders recipient text as plain text.
 
-```json
-{
-  "venmoUrl": "",
-  "paypalUrl": "",
-  "cashAppUrl": "",
-  "zelleRecipient": ""
-}
-```
-
-- **Venmo**: paste the exact link to the DJ's own Venmo account/profile. You can share it from the Venmo app.
-- **PayPal**: paste your PayPal.Me link, e.g. your own `https://paypal.me/...` URL.
-- **Cash App**: paste your Cash App profile link or your own reusable payment request link from Cash App.
-- **Zelle**: set a *publicly shareable* enrolled recipient address (email or US phone number), not a bank account or routing number. The Zelle button **copies the recipient** and explains that the listener can send through their banking app. An external website **cannot generate a Zelle payment request automatically**. Zelle requests must be initiated from a bank's Zelle interface and can be sent only to enrolled users.
-
-Until values are configured, the four methods appear disabled and tell visitors that tipping links are not yet connected. Do not guess any payment handles or paste private account details into the repository; these values are publicly visible and are not encrypted.
-
-The app does **not** accept, process, verify, or record payments. Listeners leave to the chosen payment provider (or their own bank) and complete payments there. The server-side song request must be stored successfully before showing a real success confirmation. In `?demo=1` the success page is only a preview and prominently states that no request was submitted.
+The website does not initiate, process, verify, or record payments. Tips are optional and never change request priority. If copying is unavailable, the recipient remains visible for manual entry. Unconfigured methods remain disabled.

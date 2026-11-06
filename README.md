@@ -20,4 +20,4 @@ GitHub Pages hosts the listener site. Supabase stores requests and enforces priv
 
 The admin frontend and backend deployment source are maintained privately. Visiting the admin address requires owner access; request reads and edits additionally require the approved DJ identity.
 
-Catalog import guidance lives in `docs/CATALOG_IMPORT.md`. Actual audio files are not served by this repository. External song autocomplete and connected tipping accounts remain future work.
+Catalog import guidance lives in `docs/CATALOG_IMPORT.md`. Actual audio files are not served by this repository. Venmo and Cash App profile links are connected. PayPal uses the supplied email and Zelle uses the supplied phone number; listeners complete tips with the provider. External song autocomplete remains future work.

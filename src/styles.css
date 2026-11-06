@@ -147,3 +147,7 @@ h1 em { color:var(--lime); }
 #clear-filters { min-height:48px; border:1px solid var(--blue); border-radius:10px; padding:10px 13px; color:var(--lime); background:transparent; }
 #clear-filters:hover { border-color:var(--magenta); }
 .genre-note { color:var(--muted); font-size:.75rem; line-height:1.5; margin:10px 0 0; }
+
+/* Payment recipients remain visible so listeners can verify where a tip goes. */
+.tip-button { flex-direction:column; gap:6px; }
+.tip-button small { font-size:.75rem; font-weight:550; overflow-wrap:anywhere; text-align:center; }

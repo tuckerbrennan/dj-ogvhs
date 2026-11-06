@@ -13,7 +13,7 @@ test("listener page has a submit button and confirmation navigation", async () =
 
 test("thanks page includes exact requested message and all four optional tip services", async () => {
   const html = await file("thanks.html");
-  const js = await file("src/thanks.mjs");
+  const js = await file("src/thanks.mjs") + await file("src/tip-options.mjs");
   assert.match(html, /Thanks for submitting your request!/);
   assert.match(html, /Your song will be added to the queue\./);
   assert.match(html, /And if you like what you're hearing leave the DJ a tip!/);
@@ -22,11 +22,12 @@ test("thanks page includes exact requested message and all four optional tip ser
   }
 });
 
-test("unconfigured tips do not point to an invented recipient", async () => {
+test("tip recipients match the owner's supplied payment details", async () => {
   const tips = JSON.parse(await file("public/tip-config.json"));
-  for (const field of ["venmoUrl", "paypalUrl", "cashAppUrl", "zelleRecipient"]) {
-    assert.equal(tips[field], "");
-  }
+  assert.equal(tips.venmoUrl, "https://account.venmo.com/u/TuckerBrennan732");
+  assert.equal(tips.cashAppUrl, "https://cash.app/$ogvhs");
+  assert.equal(tips.paypalRecipient, "ogvhstape@gmail.com");
+  assert.equal(tips.zelleRecipient, "732-245-0486");
 });
 
 test("the confirmation distinguishes demo preview from a successful submission", async () => {

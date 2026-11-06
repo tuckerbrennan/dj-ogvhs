@@ -1,6 +1,7 @@
 {
-  "venmoUrl": "",
-  "paypalUrl": "",
-  "cashAppUrl": "",
-  "zelleRecipient": ""
+  "venmoUrl": "https://account.venmo.com/u/TuckerBrennan732",
+  "paypalUrl": "https://www.paypal.com/myaccount/transfer/send",
+  "paypalRecipient": "ogvhstape@gmail.com",
+  "cashAppUrl": "https://cash.app/$ogvhs",
+  "zelleRecipient": "732-245-0486"
 }

@@ -89,3 +89,21 @@ h3 { margin:0 0 6px; font-size:1.03rem; }
 /* The Follow section sits between the header and welcome hero. */
 .follow-section + main .hero { padding-top:42px; }
 @media (max-width:760px) { .follow-section + main .hero { padding-top:30px; } }
+
+/* Listener submit and request confirmation. */
+.submit-button { display:block; width:100%; background:var(--mint); color:#082127; border:0; border-radius:10px; padding:15px; margin-top:12px; font-weight:850; }
+.submit-button:disabled { opacity:.48; cursor:not-allowed; }
+.thankyou-main { display:block; max-width:840px; margin:44px auto 0; min-height:55vh; padding-bottom:64px; }
+.thankyou-panel { border:1px solid var(--edge); border-radius:19px; padding:clamp(24px,5vw,50px); background:rgba(16,34,43,.96); }
+.thankyou-panel h1 { font-size:clamp(2.4rem,5.2vw,4rem); line-height:1.08; margin:18px 0 24px; }
+.confirmation-subtitle { font-size:clamp(1.15rem,2.5vw,1.5rem); font-weight:700; }
+.tip-invitation { font-size:clamp(1.1rem,2.3vw,1.35rem); margin-top:20px; }
+.tip-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin:28px 0 18px; }
+.tip-button { display:flex; align-items:center; justify-content:center; min-height:58px; border:1px solid #477077; border-radius:12px; background:#132c34; color:var(--mint); text-decoration:none; font-weight:850; font-size:1.05rem; padding:12px 16px; }
+.tip-button:hover:not(:disabled) { background:#234d52; border-color:var(--mint); }
+.tip-button:disabled { opacity:.48; cursor:not-allowed; }
+.tip-button:focus-visible { outline:3px solid var(--orange); outline-offset:3px; }
+.return-link { display:inline-block; margin-top:24px; color:var(--mint); font-weight:700; }
+.demo-warning { border:1px solid var(--orange); border-radius:9px; padding:12px; color:var(--orange); background:rgba(255,185,120,.09); line-height:1.5; }
+[hidden] { display:none !important; }
+@media (max-width:490px) { .thankyou-main { margin-top:24px; } .tip-grid { grid-template-columns:1fr; } }

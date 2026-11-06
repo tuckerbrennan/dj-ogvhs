@@ -5,7 +5,7 @@ DJ OGVHS's static GitHub Pages site uses a separate Supabase project for durable
 ## One-time configuration
 
 1. Create a Supabase project under the owner's account. Save the project URL and its **publishable/anon** key. Keep all secret/service-role keys in Supabase only.
-2. Apply `supabase/migrations/202611030001_requests.sql` to the project using the SQL editor or a reviewed migration. This creates an admin allowlist, private request table, and a rate-limited submission function.
+2. Apply `supabase/migrations/202611030001_requests.sql` **then** `supabase/migrations/202611060001_rolling_request_quota.sql` through reviewed migrations. Together they create the private requests table, admin allowlist, and atomic rolling-hour quota.
 3. In Supabase Authentication, configure the site's `admin.html` URL as an allowed redirect. Invite the DJ admin email via Auth Users (public signup is not required), then find that user's UUID.
 4. From the Supabase SQL editor as project administrator, grant that user access:
    ```sql
@@ -16,7 +16,7 @@ DJ OGVHS's static GitHub Pages site uses a separate Supabase project for durable
 6. Deploy the Edge Function with the Supabase CLI: `supabase functions deploy submit-request`. Its `verify_jwt = false` setting deliberately permits listener submissions; rate control and payload validation execute server-side.
 7. Enter the **public** project URL and publishable/anon key in `public/app-config.json`. Nothing else belongs in that file. The interface stays in safe preview mode while either value is blank.
 8. Run `npm test` and `npm run dev`. Test a real manual song and mashup request, then open `admin.html` and check the private queue and status/BPM controls. Publish only after testing auth and permissions.
-9. Review Supabase logs and rate limits during the first gig. Per-IP HMAC-based throttling (5 submissions per 10 minutes) is a basic control, **not** strong bot protection: forwarded-IP headers may be spoofable depending on your infrastructure. Add a verified CAPTCHA/Turnstile challenge or managed WAF and monitor abuse before wider promotion.
+9. Review Supabase logs and quota activity during the first gig. Each browser receives a random ID stored in localStorage. A keyed HMAC of that ID is stored on the server; listeners on the same venue Wi-Fi do not share their 3-request allowance. **The limit is per browser, not guaranteed per person:** clearing browser data or using another browser/device can reset the anonymous identity. To enforce a strict per-person quota, introduce authenticated or verified visitor identity. Add CAPTCHA/Turnstile or a managed WAF and aggregate abuse monitoring before wider promotion.
 
 ## API contract
 
@@ -33,7 +33,9 @@ DJ OGVHS's static GitHub Pages site uses a separate Supabase project for durable
 }
 ```
 
-A song request contains exactly one selection; a mashup contains two. Source can be `catalog`, `external`, or `manual`. A catalog selection includes `catalogId`. On success the function returns HTTP 201 and `{"id":"...","accepted":true}`. Both request types receive the same default status and queue treatment. The edge function accepts only configured browser origins; that is a CORS safeguard, not authentication or bot prevention.
+A song request contains exactly one selection; a mashup contains two. Source can be `catalog`, `external`, or `manual`. A catalog selection includes `catalogId`. On success the function returns HTTP 201 with `{"id":"...","accepted":true,"limit":3,"remaining":2}` (remaining changes with usage). All successful submissions, song or mashup, count as **one** request toward the **3 requests per rolling 60 minutes per browser** limit. On exhaustion the endpoint returns HTTP 429 with `remaining:0` and `nextAvailableAt`. The quota check and insertion are protected by a PostgreSQL row lock. Both request types receive the same default status and queue treatment. The edge function accepts only configured browser origins; that is a CORS safeguard, not authentication or bot prevention.
+
+Clients can request the current allowance with `GET /functions/v1/submit-request`. The browser sends the same `x-dj-listener-id` header on GET and POST; the server stores only its HMAC digest. The interface shows `N of 3 requests left this hour`, plus the next available time when exhausted. Demo mode stores a separate local counter and never submits a real request.
 
 The private admin screen uses Supabase Auth email links. RLS restricts selecting/updating request records to UUIDs in `dj_admins`, and no anonymous direct-table access is granted. Never put an elevated secret key in JavaScript, HTML, `app-config.json`, or GitHub Actions output.
 

@@ -135,7 +135,7 @@ begin
   return pg_catalog.jsonb_build_object('status','accepted','id',v_id);
 end;
 $$;
-revoke all on function public.dj_submit_collab_entry(text,text,text,text,text,text,text,text,text,text,text)
+revoke all on function public.dj_submit_collab_entry(text,text,text,text,text,text,text,text,text,text)
   from public, anon, authenticated;
-grant execute on function public.dj_submit_collab_entry(text,text,text,text,text,text,text,text,text,text,text)
+grant execute on function public.dj_submit_collab_entry(text,text,text,text,text,text,text,text,text,text)
   to service_role;

@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import {spotifyPlaylistUrl,inviteFromHash,validateContribution,itunesSearchUrl,parseITunesTracks} from "../src/collab-model.mjs";
+import {spotifyPlaylistUrl,inviteFromHash,validateContribution,itunesSearchUrl,parseITunesTracks,normalizeCollabEmail,validateCollabUpload} from "../src/collab-model.mjs";
 
 const valid="https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M";
 test("Spotify links are canonicalized, query removed, and non-playlist URLs rejected",()=>{
@@ -47,4 +47,22 @@ test("validation distinguishes local catalog, external suggestion, manual and Sp
   assert.throws(()=>validateContribution({kind:"external",title:"Bad",externalProvider:"spotify",externalId:"1"}));
   assert.throws(()=>validateContribution({kind:"catalog",title:"No ID"}));
   assert.throws(()=>validateContribution({kind:"manual",title:""}));
+});
+
+test("email requests normalize case and reject invalid addresses",()=>{
+  assert.equal(normalizeCollabEmail("  Foo.Bar@Example.Com  "),"foo.bar@example.com");
+  assert.equal(normalizeCollabEmail("not an email"),null);
+  assert.equal(normalizeCollabEmail("x@localhost"),null);
+  assert.equal(normalizeCollabEmail("abc@@example.com"),null);
+  assert.equal(normalizeCollabEmail("x@"+("a".repeat(255))+".com"),null);
+});
+test("guest upload preflight allows only approved file types up to 15 MiB",()=>{
+  for(const file of ["song.mp3","mix.flac","set.m3u8","notes.txt","playlist.csv","contract.pdf"]){
+    assert.equal(validateCollabUpload(file,300000),null);
+  }
+  for(const bad of ["script.js","archive.zip","malware.exe","no-extension","fake.mp3.exe"]){
+    assert.notEqual(validateCollabUpload(bad,1234),null);
+  }
+  assert.notEqual(validateCollabUpload("song.mp3",0),null);
+  assert.notEqual(validateCollabUpload("song.mp3",15*1024*1024+1),null);
 });

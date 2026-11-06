@@ -41,3 +41,25 @@ test("search matches partial title, artist, accents and multiple terms", () => {
   assert.equal(searchCatalog(tracks,"another").length,1);
   assert.equal(searchCatalog(tracks,"not found").length,0);
 });
+
+test("new website review queue requires both Verified and Yes", () => {
+  const row = {
+    "Filename": "Lively Up Yourself.flac",
+    "Artist (edit)": "Bob Marley & The Wailers",
+    "Title (edit)": "Lively Up Yourself",
+    "Album (edit)": "Natty Dread",
+    "File Status": "Present (playback untested)",
+    "Size (bytes)": "10000000",
+    "Review Status": "Needs review",
+    "Publish? (Yes/No)": "Yes",
+    "Full Source Path": "PRIVATE/NoPathShouldLeak.flac",
+    "Source": "Google Drive"
+  };
+  assert.equal(generatePublicCatalog([row]).tracks.length, 0);
+  assert.equal(generatePublicCatalog([row]).stats.excludedUnreviewed, 1);
+  assert.equal(generatePublicCatalog([{ ...row, "Review Status": "Verified", "Publish? (Yes/No)": "No" }]).tracks.length, 0);
+  const {tracks} = generatePublicCatalog([{ ...row, "Review Status": "Verified" }]);
+  assert.equal(tracks.length, 1);
+  assert.equal(tracks[0].title, "Lively Up Yourself");
+  assert.ok(!JSON.stringify(tracks).includes("PRIVATE"));
+});

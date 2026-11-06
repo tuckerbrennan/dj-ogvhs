@@ -4,11 +4,14 @@ const WINDOW_MS = 60 * 60 * 1000;
 const DEMO_KEY = "dj-ogvhs-demo-requests-v1";
 const LISTENER_KEY = "dj-ogvhs-listener-id-v1";
 
-export function getListenerId(storage = localStorage) {
-  let id = storage.getItem(LISTENER_KEY);
+let fallbackListenerId = null;
+export function getListenerId(storage = globalThis.localStorage) {
+  let id = null;
+  try { id = storage?.getItem(LISTENER_KEY); } catch { /* Storage may be blocked. */ }
   if (/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(id || "")) return id;
-  id = crypto.randomUUID();
-  storage.setItem(LISTENER_KEY, id);
+  id = fallbackListenerId || crypto.randomUUID();
+  fallbackListenerId = id;
+  try { storage?.setItem(LISTENER_KEY, id); } catch { /* Session-only fallback. */ }
   return id;
 }
 

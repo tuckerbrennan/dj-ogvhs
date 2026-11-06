@@ -10,6 +10,7 @@ const message = $("catalog-message");
 const selectedList = $("selected");
 const selectedHelp = $("selection-help");
 const selectionHeading = $("selection-heading");
+const mashupSubhead = $("mashup-subhead");
 const songBtn = $("request-song");
 const mashupBtn = $("request-mashup");
 const manualTitle = $("manual-title");
@@ -47,6 +48,7 @@ function setMode(next) {
   songBtn.setAttribute("aria-pressed", String(next === "song"));
   mashupBtn.setAttribute("aria-pressed", String(next === "mashup"));
   selectionHeading.textContent = next === "song" ? "Song selection" : "Mashup selections";
+  mashupSubhead.hidden = next !== "mashup";
   feedback.textContent = "";
   render();
 }

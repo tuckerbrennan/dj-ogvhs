@@ -83,7 +83,7 @@ function renderSelected() {
     selectedList.appendChild(li);
   }
   selectedHelp.textContent = selected.length === slots
-    ? (demoMode ? "Fictional demo tracks cannot be submitted." : requestConfig ? "Selection ready to send." : "Request service is not connected yet.")
+    ? (demoMode ? "Ready to preview submission. No demo request will be sent." : requestConfig ? "Selection ready to send." : "Request service is not connected yet.")
     : "Choose " + (slots - selected.length) + " more " + ((slots - selected.length) === 1 ? "song" : "songs") + " from the catalog or enter one manually.";
 }
 
@@ -121,8 +121,8 @@ function renderTracks() {
 function render() {
   renderSelected();
   renderTracks();
-  submitButton.disabled = sending || demoMode || !requestConfig || selected.length !== (mode === "song" ? 1 : 2);
-  submitButton.textContent = sending ? "Sending…" : "Send request";
+  submitButton.disabled = sending || (!demoMode && !requestConfig) || selected.length !== (mode === "song" ? 1 : 2);
+  submitButton.textContent = sending ? "Submitting…" : "Submit request";
 }
 songBtn.addEventListener("click", () => setMode("song"));
 mashupBtn.addEventListener("click", () => setMode("mashup"));
@@ -141,7 +141,14 @@ manualButton.addEventListener("click", () => {
 });
 
 submitButton.addEventListener("click", async () => {
-  if (sending || demoMode || !requestConfig) return;
+  if (sending) return;
+  if (demoMode) {
+    if (selected.length !== (mode === "song" ? 1 : 2)) return;
+    sessionStorage.setItem("dj-ogvhs-confirmation", JSON.stringify({ status: "demo" }));
+    location.assign("./thanks.html");
+    return;
+  }
+  if (!requestConfig) return;
   let payload;
   try {
     payload = makeRequest({ type: mode, songs: selected, listenerName: listenerName.value });
@@ -154,9 +161,10 @@ submitButton.addEventListener("click", async () => {
   render();
   try {
     await sendRequest(requestConfig, payload);
-    selected = [];
-    listenerName.value = "";
-    feedback.textContent = "Request received! Thanks for the suggestion.";
+    // Only navigate after the server confirms the request was stored.
+    sessionStorage.setItem("dj-ogvhs-confirmation", JSON.stringify({ status: "submitted" }));
+    location.assign("./thanks.html");
+    return;
   } catch (error) {
     feedback.textContent = error.name === "TimeoutError"
       ? "Request timed out. Please check before trying again."

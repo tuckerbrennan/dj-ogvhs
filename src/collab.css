@@ -42,3 +42,5 @@
 .collab-admin-room {display:flex;justify-content:space-between;align-items:center;gap:14px;padding:17px 0;border-top:1px solid var(--gray)}
 .collab-admin-room small {display:block;color:var(--muted);margin-top:5px}
 .collab-admin-room .add-track {flex-shrink:0}
+
+.collab-workspace[hidden],.collab-admin-content[hidden] { display:none; }

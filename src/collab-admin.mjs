@@ -39,7 +39,7 @@ async function renderRooms(){
       });
       row.append(left,toggle);rooms.appendChild(row);
     }
-  }catch(e){status.textContent=e.message;}
+  }catch(e){status.textContent=e.message;throw e;}
 }
 async function showSession(s){
   session=s;
@@ -79,7 +79,7 @@ $("copy-invite").addEventListener("click",async()=>{
   try{await navigator.clipboard.writeText(input.value);status.textContent="Invitation copied.";}
   catch{input.focus();input.select();status.textContent="Select and copy the private link above.";}
 });
-$("collab-admin-refresh").addEventListener("click",renderRooms);
+$("collab-admin-refresh").addEventListener("click",()=>renderRooms().catch(e=>{status.textContent=e.message;}));
 $("collab-admin-signout").addEventListener("click",async()=>{
   await client?.auth.signOut();
   $("created-link-panel").hidden=true;$("created-link").value="";

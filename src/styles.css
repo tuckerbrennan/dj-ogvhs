@@ -171,3 +171,18 @@ h1 em { color:var(--lime); }
 #request-feedback:empty { display:none; }
 .selection-panel .pending-note { margin:20px 0 0; line-height:1.65; }
 @media(max-width:490px) { .selection-panel { padding:20px; }.manual-entry { padding:16px; }.request-field .field-label { font-size:.85rem; } }
+
+/* Homepage tipping mirrors Follow, including its repeating color order. */
+.homepage-tips .follow-copy > .helper { color:#fff; }
+.homepage-tip-actions { max-width:100%; }
+.tips-links { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; }
+.tips-links a,.tips-links button { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; min-height:64px; min-width:0; padding:12px 14px; border:1px solid var(--purple); border-radius:10px; background:var(--purple); color:#fff; font:inherit; font-size:.85rem; font-weight:750; text-decoration:none; cursor:pointer; }
+.tips-links small { font-size:.62rem; font-weight:500; overflow-wrap:anywhere; text-align:center; line-height:1.4; }
+.tips-links > :nth-child(4n + 2) { background:var(--blue); border-color:var(--blue); }
+.tips-links > :nth-child(4n + 3) { background:var(--gray); border-color:var(--gray); }
+.tips-links > :hover { background:var(--magenta); border-color:var(--magenta); color:#000; }
+.tips-links > :focus-visible { outline:3px solid var(--lime); outline-offset:3px; }
+.tip-feedback { max-width:580px; margin:12px 0 0; font-size:.8rem; line-height:1.6; }
+.tip-feedback:empty { display:none; }
+@media(max-width:760px) { .homepage-tip-actions { width:100%; }.tips-links { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:490px) { .tips-links a,.tips-links button { width:100%; }.tips-links small { font-size:.7rem; } }

@@ -25,7 +25,7 @@
   <meta name="twitter:description" content="I believe in Fun. Browse the DJ OGVHS library and request a song or mashup.">
   <meta name="twitter:image" content="https://ogvhs.com/public/branding/social-preview-v1.png">
   <meta name="twitter:image:alt" content="DJ OGVHS. I believe in Fun. Lime lettering and a vinyl record on black.">
-  <link rel="stylesheet" href="./src/styles.css?v=genre-filter-20261106">
+  <link rel="stylesheet" href="./src/styles.css?v=request-form-20261106">
   <script type="module" src="./src/main.mjs?v=requests-v1"></script>
   <link rel="stylesheet" href="./src/about.css?v=1">
 </head>
@@ -74,18 +74,28 @@
         <div><span class="eyebrow">YOUR REQUEST</span><h2 id="selection-heading">Song selection</h2><p id="mashup-subhead" class="helper" hidden>Pick two songs to request a mashup. Note: if the beats per minute are too far off it may not be possible.</p><p id="selection-help" class="helper">Choose a song from the catalog to preview your request.</p></div>
         <ol id="selected" class="selected-list"></ol>
         <div class="request-form">
-          <h3>Can't find it?</h3>
-          <p class="helper">Add a song manually, even if it isn't in the DJ catalog.</p>
-          <label class="field-label" for="manual-title">Song title</label>
-          <input id="manual-title" maxlength="150" placeholder="Song title">
-          <label class="field-label" for="manual-artist">Artist (optional)</label>
-          <input id="manual-artist" maxlength="120" placeholder="Artist">
-          <button id="add-manual" class="add-track" type="button">Add this song +</button>
-          <label class="field-label" for="listener-name">Your name (optional)</label>
-          <input id="listener-name" maxlength="80" autocomplete="name" placeholder="How should I call you out?">
-          <p id="request-limit" class="request-limit" role="status" aria-live="polite">3 requests per hour. Checking your requests remaining…</p>
-          <button id="submit-request" class="submit-button" type="button" disabled>Submit request</button>
-          <p id="request-feedback" class="helper" role="status" aria-live="polite"></p>
+          <section class="manual-entry" aria-labelledby="manual-entry-heading">
+            <h3 id="manual-entry-heading">Can't find it?</h3>
+            <p id="manual-entry-help" class="helper">Submit a request for a song and DJ OGVHS will add it to his list for the future.</p>
+            <div class="request-field">
+              <label class="field-label" for="manual-title">Song title</label>
+              <input id="manual-title" maxlength="150" placeholder="Enter a song title" aria-describedby="manual-entry-help">
+            </div>
+            <div class="request-field">
+              <label class="field-label" for="manual-artist">Artist <span class="optional-label">optional</span></label>
+              <input id="manual-artist" maxlength="120" placeholder="Enter an artist">
+            </div>
+            <button id="add-manual" class="add-track" type="button">Add this song +</button>
+          </section>
+          <div class="request-field listener-field">
+            <label class="field-label" for="listener-name">Your name <span class="optional-label">optional</span></label>
+            <input id="listener-name" maxlength="80" autocomplete="name" placeholder="How should I call you out?">
+          </div>
+          <div class="submission-actions">
+            <p id="request-limit" class="request-limit" role="status" aria-live="polite">3 requests per hour. Checking your requests remaining…</p>
+            <button id="submit-request" class="submit-button" type="button" disabled>Submit request</button>
+            <p id="request-feedback" class="helper" role="status" aria-live="polite"></p>
+          </div>
         </div>
         <p class="pending-note">Requests are limited to 3 per rolling hour. DJ OGVHS does not guarantee every request can be played.</p>
       </aside>

@@ -10,6 +10,8 @@ const selectedHelp = $("selection-help");
 const selectionHeading = $("selection-heading");
 const songBtn = $("request-song");
 const mashupBtn = $("request-mashup");
+const submitButton = $("submit-request");
+const demoMode = new URLSearchParams(location.search).has("demo");
 
 const demoTracks = [
   { id: "demo1", title: "Electric Evening", artist: "The Example Band", album: "Demo Records" },
@@ -71,7 +73,7 @@ function renderSelected() {
     selectedList.appendChild(li);
   }
   selectedHelp.textContent = selected.length === slots
-    ? "Selection ready. Sending requests will be enabled when the secure request system is built."
+    ? (demoMode ? "Ready to preview submission. Demo requests are not sent." : "Request submission is not yet live.")
     : "Choose " + (slots - selected.length) + " more " + ((slots - selected.length) === 1 ? "song" : "songs") + " from the catalog.";
 }
 
@@ -106,10 +108,19 @@ function renderTracks() {
   }
 }
 
-function render() { renderSelected(); renderTracks(); }
+function render() {
+  renderSelected();
+  renderTracks();
+  submitButton.disabled = !demoMode || selected.length !== (mode === "song" ? 1 : 2);
+}
 songBtn.addEventListener("click", () => setMode("song"));
 mashupBtn.addEventListener("click", () => setMode("mashup"));
 search.addEventListener("input", renderTracks);
+submitButton.addEventListener("click", () => {
+  if (!demoMode || selected.length !== (mode === "song" ? 1 : 2)) return;
+  sessionStorage.setItem("dj-ogvhs-confirmation", JSON.stringify({ status: "demo" }));
+  location.assign("./thanks.html");
+});
 
 async function load() {
   if (new URLSearchParams(location.search).has("demo")) {

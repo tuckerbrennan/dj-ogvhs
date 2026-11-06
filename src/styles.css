@@ -22,11 +22,11 @@ h2 { margin:8px 0 4px; font-size:clamp(1.3rem,3vw,1.7rem); letter-spacing:-.025e
 .hero > p:not(.preview-notice) { color:#d6d6d6; max-width:520px; font-size:1.06rem; line-height:1.6; }
 .request-actions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; max-width:670px; margin-top:30px; }
 .request-button { display:flex; gap:15px; align-items:center; text-align:left; color:var(--ink); border:1px solid #555555; background:#171717; border-radius:14px; padding:18px; font-weight:850; }
-.request-button.active { background:var(--mint); border-color:var(--mint); color:#0a2226; }
+.request-button.active { background:var(--mint); border-color:var(--mint); color:#090909; }
 .request-button small { display:block; font-size:.77rem; font-weight:450; margin-top:4px; opacity:.75; }
 .action-icon { font-size:1.6rem; }
 .preview-notice { color:var(--muted); margin-top:16px; font-size:.85rem; }
-.catalog-panel, .selection-panel { border:1px solid var(--edge); border-radius:17px; padding:25px; background:rgba(16,34,43,.96); align-self:start; }
+.catalog-panel, .selection-panel { border:1px solid var(--edge); border-radius:17px; padding:25px; background:rgba(16,16,16,.96); align-self:start; }
 .section-heading { display:flex; justify-content:space-between; align-items:end; gap:10px; margin-bottom:24px; }
 .count { color:var(--muted); white-space:nowrap; font-size:.75rem; }
 .field-label { font-weight:700; font-size:.8rem; }
@@ -58,7 +58,7 @@ footer { padding:24px 0 38px; display:flex; justify-content:space-between; gap:1
 @media (max-width:490px) { .request-actions { grid-template-columns:1fr; } .site-header { padding:17px 0; } .preview-label { font-size:.55rem; } .catalog-panel,.selection-panel { padding:19px; } footer { flex-direction:column; } }
 
 /* DJ OGVHS social links: add verified profiles only. */
-.follow-section { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:18px; margin:22px 0 0; padding:20px 24px; border:1px solid var(--edge); border-radius:17px; background:rgba(16,34,43,.96); }
+.follow-section { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:18px; margin:22px 0 0; padding:20px 24px; border:1px solid var(--edge); border-radius:17px; background:rgba(16,16,16,.96); }
 .follow-copy h2 { margin:7px 0 2px; }
 .follow-copy p { margin:7px 0 0; }
 .social-links { display:flex; gap:10px; flex-wrap:wrap; }
@@ -72,10 +72,10 @@ footer { padding:24px 0 38px; display:flex; justify-content:space-between; gap:1
 @media (max-width:760px) { .follow-section + main .hero { padding-top:30px; } }
 
 /* Listener submit and request confirmation. */
-.submit-button { display:block; width:100%; background:var(--mint); color:#082127; border:0; border-radius:10px; padding:15px; margin-top:12px; font-weight:850; }
+.submit-button { display:block; width:100%; background:var(--mint); color:#090909; border:0; border-radius:10px; padding:15px; margin-top:12px; font-weight:850; }
 .submit-button:disabled { opacity:.48; cursor:not-allowed; }
 .thankyou-main { display:block; max-width:840px; margin:44px auto 0; min-height:55vh; padding-bottom:64px; }
-.thankyou-panel { border:1px solid var(--edge); border-radius:19px; padding:clamp(24px,5vw,50px); background:rgba(16,34,43,.96); }
+.thankyou-panel { border:1px solid var(--edge); border-radius:19px; padding:clamp(24px,5vw,50px); background:rgba(16,16,16,.96); }
 .thankyou-panel h1 { font-size:clamp(2.4rem,5.2vw,4rem); line-height:1.08; margin:18px 0 24px; }
 .confirmation-subtitle { font-size:clamp(1.15rem,2.5vw,1.5rem); font-weight:700; }
 .tip-invitation { font-size:clamp(1.1rem,2.3vw,1.35rem); margin-top:20px; }

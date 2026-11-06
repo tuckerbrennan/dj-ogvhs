@@ -1,1106 +1,4184 @@
 [
   {
-    "id": "d13a29a0af2616ce1c4a",
-    "artist": "ABBA",
-    "title": "S.O.S.",
-    "album": "ABBA Gold",
-    "genre": "Pop, Disco, Glam Rock, Rock"
+    "id": "845e81999d88f0797e73",
+    "artist": "2Pac featuring K‐Ci & JoJo",
+    "title": "How Do U Want It (instrumental)",
+    "album": "How Do U Want It"
   },
   {
-    "id": "dde96c83e21d3ebecd5c",
+    "id": "608070461bc3382d3940",
+    "artist": "50 Cent",
+    "title": "P.I.M.P. Remix (explicit) - The Video",
+    "album": "P.I.M.P."
+  },
+  {
+    "id": "2e955ec80f15dd86db76",
+    "artist": "ABBA",
+    "title": "S.O.S.",
+    "album": "ABBA Gold"
+  },
+  {
+    "id": "2b6fdfd2c074ad0d08a7",
+    "artist": "ABC",
+    "title": "The Look Of Love (Part 1)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "b4f3e8e2cf9384a5ac33",
+    "artist": "ABC",
+    "title": "The Look Of Love (Part 2)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "9783d29b759854e8caaf",
+    "artist": "ABC",
+    "title": "The Look Of Love (Part 3)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "068318babf48d946903b",
+    "artist": "ABC",
+    "title": "The Look Of Love (Part 4)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "796a9e22430a06ab5c75",
     "artist": "Air Supply",
     "title": "Without You",
     "album": "The Earth Is…"
   },
   {
-    "id": "afa179f39f3eaf3bf155",
+    "id": "1279b5985c37a7411d72",
+    "artist": "Akon feat. Eminem",
+    "title": "Smack That",
+    "album": "Smack That"
+  },
+  {
+    "id": "556eac46e79336387089",
     "artist": "Alice Cooper",
     "title": "You and Me",
     "album": "Lace and Whiskey"
   },
   {
-    "id": "1a36db2cd832e5de6448",
+    "id": "2bd2b6b118fec3e9a655",
     "artist": "Althea & Donna",
     "title": "Uptown Top Ranking",
-    "album": "The Best Reggae Album In The World... Ever (Disc 1)",
-    "genre": "Reggae"
+    "album": "The Best Reggae Album In The World... Ever (Disc 1)"
   },
   {
-    "id": "b4d46cf33398dbdbf294",
+    "id": "685aee4cf259b6bb53f2",
     "artist": "Amy Winehouse",
     "title": "Valerie (Live At BBC Radio 1 Live Lounge, London / 2007)",
     "album": "Back To Black: Songs From The Original Motion Picture"
   },
   {
-    "id": "d337248c5c0b16bc4e86",
+    "id": "37fabe20b7651a6540a7",
+    "artist": "Anuel AA & KAROL G",
+    "title": "Secreto",
+    "album": "Secreto"
+  },
+  {
+    "id": "8c5e14136676ca7adf18",
+    "artist": "Arsonists vs. Firemen",
+    "title": "Blinding Lights",
+    "album": "OBLIQUE"
+  },
+  {
+    "id": "fff33c9917f4a8a19cc2",
     "artist": "Ashanti",
     "title": "Rain on Me",
     "album": "Chapter II"
   },
   {
-    "id": "842595400d13e9a79007",
+    "id": "b0125807f53bf8dfed0c",
+    "artist": "August Alsina",
+    "title": "Kissin’ on My Tattoos",
+    "album": "Testimony"
+  },
+  {
+    "id": "182090a9d833ac5fc3ce",
     "artist": "Aventura",
     "title": "Ella y yo",
     "album": "God's Project"
   },
   {
-    "id": "eb5c9555d4b7eccc9819",
+    "id": "0a39b3191dd0df6df485",
+    "artist": "Band Aid",
+    "title": "Do They Know It's Christmas? (Extended Remix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "e09db970f07a88da4dd7",
+    "artist": "Band Aid",
+    "title": "Do They Know It's Christmas? (Standard Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "e2c9e4f6c1661c415547",
+    "artist": "Band Aid",
+    "title": "Feed The World",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "4f1e833bb7f0813a056e",
     "artist": "Barrington Levy",
     "title": "Here I Come",
     "album": "Grand Theft Auto: San Andreas Radio: K-Jah West"
   },
   {
-    "id": "69910e8e68878d8863bb",
+    "id": "b7fd2c9176bb372d9405",
     "artist": "Billie Eilish",
     "title": "What Was I Made For? (live from Lollapalooza Chicago 2023)",
     "album": "What Was I Made For? (live from Lollapalooza Chicago 2023)"
   },
   {
-    "id": "b8b5013cde23068d70df",
+    "id": "fc8f2b4dbf95d3d961fd",
     "artist": "Blues Traveler",
     "title": "Run-Around",
-    "album": "Billboard Usa - Top 100 Hits Of 1995",
-    "genre": "Pop"
+    "album": "Billboard Usa - Top 100 Hits Of 1995"
   },
   {
-    "id": "47bb6ab7ea05b1b8bf65",
+    "id": "31cf0c57ece264393b00",
     "artist": "Bob Dylan",
     "title": "Forever Young",
-    "album": "Planet Waves",
-    "genre": "Rock"
+    "album": "Planet Waves"
   },
   {
-    "id": "051211172d3c00aa694b",
+    "id": "d776d2769228780a1427",
+    "artist": "Bob Dylan",
+    "title": "Forever Young",
+    "album": "Planet Waves"
+  },
+  {
+    "id": "e6ad7d92e6bb7871479e",
+    "artist": "Bob Hannon with Orchestra",
+    "title": "Peewee the Kiwi Bird",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "2b31322be83355d11274",
+    "artist": "Bob Hannon with Orchestra",
+    "title": "The Little White Duck",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "71c7fe97e391b1d5ef84",
     "artist": "Bob Marley",
     "title": "Could You Be Loved (12″ mix)",
-    "album": "Songs of Freedom",
-    "genre": "Reggae"
+    "album": "Songs of Freedom"
   },
   {
-    "id": "8d3d52a3ecd03b925206",
+    "id": "b0452f73304a65da3edb",
     "artist": "Bob Marley & The Wailers",
     "title": "Exodus",
     "album": "Exodus"
   },
   {
-    "id": "96239db1aa74b6eecbd8",
+    "id": "a06392e1619b54a15b2f",
+    "artist": "Bob McGrath",
+    "title": "Black and White",
+    "album": "Bob McGrath Sings for All the Boys and Girls"
+  },
+  {
+    "id": "094c1cfd0d396af70c66",
+    "artist": "Bob McGrath",
+    "title": "Everything Is Beautiful",
+    "album": "Bob McGrath Sings for All the Boys and Girls"
+  },
+  {
+    "id": "b11ad67831479b475eac",
+    "artist": "Bob McGrath",
+    "title": "I'd Like to Teach the World to Sing",
+    "album": "Bob McGrath Sings for All the Boys and Girls"
+  },
+  {
+    "id": "a2ac6ec7e85cd3f655f2",
+    "artist": "Bob McGrath",
+    "title": "It's a Small World",
+    "album": "Bob McGrath Sings for All the Boys and Girls"
+  },
+  {
+    "id": "6dcb51d70b2e3011daae",
+    "artist": "Bob McGrath",
+    "title": "Joy to the World",
+    "album": "Bob McGrath Sings for All the Boys and Girls"
+  },
+  {
+    "id": "672cc7bd20a118551fca",
+    "artist": "Bob McGrath",
+    "title": "The Unbirthday Song",
+    "album": "Bob McGrath Sings for All the Boys and Girls"
+  },
+  {
+    "id": "4cc56455c1ca1cce9c85",
     "artist": "Booker T. & the MG’s",
     "title": "Green Onions",
     "album": "Green Onions"
   },
   {
-    "id": "860e2c328f8d7749c2d5",
+    "id": "ef3827877bedcfcff5ca",
     "artist": "Bruce Springsteen",
     "title": "Adam Raised A Cain",
-    "album": "Darkness On The Edge Of Town",
-    "genre": "Rock"
+    "album": "Darkness On The Edge Of Town"
   },
   {
-    "id": "83288375b8c2eecdba27",
+    "id": "6123bbf2ffda8c327d12",
     "artist": "Bruce Springsteen",
     "title": "Atlantic City",
     "album": "Greatest Hits"
   },
   {
-    "id": "6d3f9df80e401a0f204f",
+    "id": "68fd44be43617a53e36c",
     "artist": "Bruce Springsteen",
     "title": "Badlands",
     "album": "Greatest Hits"
   },
   {
-    "id": "1d4803fa7cf5c4230e43",
+    "id": "3a2ab21348b8e3a9ed50",
     "artist": "Bruce Springsteen",
     "title": "Better Days",
     "album": "Greatest Hits"
   },
   {
-    "id": "3248b2e291fb10096680",
+    "id": "25189dbe3b8af5e40837",
     "artist": "Bruce Springsteen",
     "title": "Blood Brothers",
     "album": "Greatest Hits"
   },
   {
-    "id": "73c0bd37a7ac7888196a",
+    "id": "4935401e056a3610162f",
     "artist": "Bruce Springsteen",
     "title": "Born in the U.S.A.",
     "album": "Greatest Hits"
   },
   {
-    "id": "af3e0d860b3ccb61bc01",
+    "id": "bd9acd8516cb1e739706",
     "artist": "Bruce Springsteen",
     "title": "Born to Run",
     "album": "Greatest Hits"
   },
   {
-    "id": "5160b4d407257761ea52",
+    "id": "05ec625ceca96044bf5a",
     "artist": "Bruce Springsteen",
     "title": "Brilliant Disguise",
     "album": "Greatest Hits"
   },
   {
-    "id": "5219d609e2519ac13479",
+    "id": "17c9ea44571162c49b4e",
     "artist": "Bruce Springsteen",
     "title": "Dancing in the Dark",
     "album": "Greatest Hits"
   },
   {
-    "id": "508bacacf205bc6395e9",
+    "id": "b978255ce465d4dceb3f",
     "artist": "Bruce Springsteen",
     "title": "Darkness On The Edge Of Town",
-    "album": "Darkness On The Edge Of Town",
-    "genre": "Rock"
+    "album": "Darkness On The Edge Of Town"
   },
   {
-    "id": "e6c1f5496f045d698a67",
+    "id": "0ce278f5ed525627c9f2",
     "artist": "Bruce Springsteen",
     "title": "Glory Days",
     "album": "Greatest Hits"
   },
   {
-    "id": "eddf19c536c67c7400f3",
+    "id": "b0159bc8c6ae3eddfe9a",
     "artist": "Bruce Springsteen",
     "title": "Human Touch",
     "album": "Greatest Hits"
   },
   {
-    "id": "b03fd28a9df91c7af7ef",
+    "id": "c856ead81d1e5c5f723b",
     "artist": "Bruce Springsteen",
     "title": "Hungry Heart",
     "album": "Greatest Hits"
   },
   {
-    "id": "c634c139be0434195c46",
+    "id": "394ed1ece19bd8e92967",
     "artist": "Bruce Springsteen",
     "title": "Murder Incorporated",
     "album": "Greatest Hits"
   },
   {
-    "id": "90e2d0687d750f176015",
+    "id": "d6896aa0d1b913ae41b5",
     "artist": "Bruce Springsteen",
     "title": "My Hometown",
     "album": "Greatest Hits"
   },
   {
-    "id": "24501e4d9cf1f4f47326",
+    "id": "0d8f233d137eaf920cbc",
     "artist": "Bruce Springsteen",
     "title": "Secret Garden",
     "album": "Greatest Hits"
   },
   {
-    "id": "ee05885f4468f6c60839",
+    "id": "830aac8474a074c46820",
     "artist": "Bruce Springsteen",
     "title": "Streets of Philadelphia",
     "album": "Greatest Hits"
   },
   {
-    "id": "9914aafcbafecb38f58f",
+    "id": "6f0f83e4d8db771efdfb",
     "artist": "Bruce Springsteen",
     "title": "The Ghost of Tom Joad",
-    "album": "High Hopes",
-    "genre": "Classic Rock"
+    "album": "High Hopes"
   },
   {
-    "id": "eb7f0a41ebd429f66862",
+    "id": "e146d5f9ff9a862750a2",
     "artist": "Bruce Springsteen",
     "title": "The River",
     "album": "Greatest Hits"
   },
   {
-    "id": "27adc68e3b8fa1831d11",
+    "id": "edc161830a657178782b",
     "artist": "Bruce Springsteen",
     "title": "This Hard Land",
     "album": "Greatest Hits"
   },
   {
-    "id": "4cf9a6cd4c945999ab7c",
+    "id": "86ace1659d6b7186b0fd",
     "artist": "Bruce Springsteen",
     "title": "Thunder Road",
     "album": "Greatest Hits"
   },
   {
-    "id": "5d5c9c14d974940b1c18",
+    "id": "1b5a848728dcbd29a799",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "Aloha Oe",
+    "album": "Songs of America"
+  },
+  {
+    "id": "d2739adf977bf08fd509",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "America the Beautiful",
+    "album": "Songs of America"
+  },
+  {
+    "id": "827a3f48c08447249657",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "Arkansas Traveler",
+    "album": "Songs of America"
+  },
+  {
+    "id": "2b311e7f1fd7dec0c490",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "Down in a Coal Mine",
+    "album": "Songs of America"
+  },
+  {
+    "id": "ac886368dc9b5ef789fd",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "Down the Ohio",
+    "album": "Songs of America"
+  },
+  {
+    "id": "03c0459f924b6da57f85",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "Keemio Kimio",
+    "album": "Songs of America"
+  },
+  {
+    "id": "6d3b3d147d48664a6342",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "Maple Sweet",
+    "album": "Songs of America"
+  },
+  {
+    "id": "a51db8e4d413f6d45b4d",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "On Top of Old Smokey",
+    "album": "Songs of America"
+  },
+  {
+    "id": "40e108c095ea20e820cd",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "Peanut Picking Song",
+    "album": "Songs of America"
+  },
+  {
+    "id": "3782b756772635ea40c2",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "Pick a Bale of Cotton",
+    "album": "Songs of America"
+  },
+  {
+    "id": "fb973750c0ae6b32a95e",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "Sidewalks of New York",
+    "album": "Songs of America"
+  },
+  {
+    "id": "bdcf30a43a03cf306512",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "The Glendy Burke",
+    "album": "Songs of America"
+  },
+  {
+    "id": "0eaf29687f00a8d2f16c",
+    "artist": "Bubble Gum Singers and Orchestra",
+    "title": "The Yellow Rose of Texas",
+    "album": "Songs of America"
+  },
+  {
+    "id": "3e8ee3ec44fac910c933",
+    "artist": "Buju Banton feat. Tenor Saw",
+    "title": "Ring the Alarm",
+    "album": "Buju and Friends"
+  },
+  {
+    "id": "9a5fbcbeab83d76c39e0",
+    "artist": "Burl Ives",
+    "title": "Aunt Rhody",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "b991ebe9701c28625f63",
+    "artist": "Burl Ives",
+    "title": "Big Rock Candy Mountain",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "8687bd3119e7dafbf0f2",
+    "artist": "Burl Ives",
+    "title": "Blue Tail Fly",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "8847fc3014cc34492b24",
+    "artist": "Burl Ives",
+    "title": "Goober Peas",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "8a0e0a02a4345d631686",
+    "artist": "Burl Ives",
+    "title": "I'm Goin' Down The Road",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "8d57acc57aca6b4ac569",
+    "artist": "Burl Ives",
+    "title": "Killigrew's Soiree",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "3f057353be7675f59cc8",
+    "artist": "Burl Ives",
+    "title": "Let's Go Hunting",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "e8bab7a1957ab530cafb",
+    "artist": "Burl Ives",
+    "title": "My Good Old Man",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "daaede159a410968f200",
+    "artist": "Burl Ives",
+    "title": "Old Dan Tucker",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "9ab47c642ae8613ac476",
+    "artist": "Burl Ives",
+    "title": "The Boll Weevil",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "4693b1c45dee72911b76",
+    "artist": "Burl Ives",
+    "title": "The Erie Canal",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "2cff9547e8739a6cd2bc",
+    "artist": "Burl Ives",
+    "title": "The Fox",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "db9169c5ac218ff4afcb",
+    "artist": "Burl Ives",
+    "title": "The Three Jolly Huntsmen",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "5d62988783c958f705ef",
+    "artist": "Burl Ives",
+    "title": "Wooly Boogie Bee",
+    "album": "Burl Ives Sings... For Fun"
+  },
+  {
+    "id": "da8e0de69ec052fc5dae",
+    "artist": "Burt Taylor with Orchestra",
+    "title": "Fuzzy Wuzzy",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "c60566d42a90cc74ce23",
+    "artist": "Burt Taylor with Orchestra",
+    "title": "What Kind of an Animal Are You?",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "5116093aa11414058e7e",
     "artist": "Candlebox",
     "title": "Far Behind",
     "album": "Candlebox"
   },
   {
-    "id": "dd509a0c004e6e188fe9",
+    "id": "faca23863c0547d856de",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "Hamburger Mine",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "2b413d786696b9535e1f",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "I Wanna Be a Life Guard",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "fc699c50e39cc05e4e2b",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "I Wants What I Wants When I Wants It",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "e5af27c6c8d4ad6956e3",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "I'll Be Seein' Ya in the Movies",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "28b19ec715f2f9136795",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "I'm Popeye the Sailor Man",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "75c699a17101c74fc0e6",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "I'm Sindbad the Sailor",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "93ef48cdb154fac3a088",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "Olive Oyl's Family Reunion",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "e17f695dcb8221548ad8",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "Popeye on Parade",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "2695f68b95b3c570fc57",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "Sing a Song of Popeye",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "0ed485b3919c635c0bea",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "Strike Me Pink Do I See Red",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "101fd103dade2b058536",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "The Land of Popeye",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "f9384f93b93aa0df8997",
+    "artist": "Captain Paul and the Seafaring Band",
+    "title": "The Looney Goon",
+    "album": "The Popeye Song Folio"
+  },
+  {
+    "id": "93ded2b5da9b85a00d05",
+    "artist": "Cardi B/Bad Bunny/J Balvin",
+    "title": "I Like It",
+    "album": "Invasion of Privacy"
+  },
+  {
+    "id": "6eaacf041b9ecaf61b07",
+    "artist": "Cardi B/SZA",
+    "title": "I Do (feat. SZA)",
+    "album": "Invasion of Privacy"
+  },
+  {
+    "id": "7bcf94cb6518c5b14ba1",
+    "artist": "Chaka Demus & Pliers",
+    "title": "Bam Bam",
+    "album": "Tease Me"
+  },
+  {
+    "id": "3d28b8d7d0ed5dbceb40",
     "artist": "Charles Bradley",
     "title": "Ain't It a Sin",
     "album": "Changes"
   },
   {
-    "id": "e531dc9cf27673f72042",
+    "id": "27b6b9cfe06f8982c951",
     "artist": "Charles Bradley",
     "title": "Changes",
-    "album": "Changes",
-    "genre": "Soul"
+    "album": "Changes"
   },
   {
-    "id": "46664574786bae5fac28",
+    "id": "6f782fae5baab209e547",
+    "artist": "Charles Wright & the Watts 103rd Street Rhythm Band",
+    "title": "Express Yourself",
+    "album": "Express Yourself"
+  },
+  {
+    "id": "3b8acd1f59672e334316",
     "artist": "Charli xcx",
     "title": "Guess",
     "album": "Guess / Spring breakers"
   },
   {
-    "id": "6652dea6f9ba730496a3",
+    "id": "b48b6a5811ca613e874c",
+    "artist": "Chris Brown feat. Ella Mai",
+    "title": "Sex Memories",
+    "album": "Breezy"
+  },
+  {
+    "id": "5e7db732ac07b4bc4766",
+    "artist": "Cosculluela/NATTI NATASHA",
+    "title": "Bonnie & Clyde (feat. Natti Natasha)",
+    "album": "Bonnie & Clyde (feat. Natti Natasha)"
+  },
+  {
+    "id": "35cec45b7c3db0cd18e5",
+    "artist": "Culture Club",
+    "title": "Do You Really Want To Hurt Me?",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "5635e0dd3f6bc4f8c9b7",
+    "artist": "Culture Club",
+    "title": "Do You Really Want To Hurt Me? (Dub Version feat. Pappa Weasel)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "66432e6484c3ef5d208d",
+    "artist": "Culture Club",
+    "title": "Love Is Cold",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "ad4d96fceed39759d2fd",
     "artist": "Cutty Ranks",
     "title": "Limb By Limb",
     "album": "Reggae Anthology: Cutty Ranks - Limb By Limb"
   },
   {
-    "id": "b9e0b81b4436258ac803",
+    "id": "326e76c966482a6da263",
+    "artist": "D Jam Saw/Lapiz Conciente",
+    "title": "Que Yo Fumo Hierba - Remix",
+    "album": "Que Yo Fumo Hierba (Remix)"
+  },
+  {
+    "id": "6de08b91e820c015e266",
+    "artist": "Daddy Yankee feat. Becky G, Bad Bunny & Natti Natasha",
+    "title": "Dura (remix)",
+    "album": "Dura (remix)"
+  },
+  {
+    "id": "2eea0088871aebffb3fb",
+    "artist": "David Bowie",
+    "title": "Blue Jean (Extended Dance Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "2eacaa5977ebdcb89e69",
+    "artist": "David Bowie",
+    "title": "Dancing With The Big Boys (Extended Dance Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "fa8d1525fe1c1f950f94",
+    "artist": "David Bowie",
+    "title": "Dancing With The Big Boys (Extended Dub Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "57adb544f59da5c9529d",
     "artist": "Desmond Dekker & the Aces",
     "title": "Poor Me Israelites",
     "album": "Intensified"
   },
   {
-    "id": "5bd34fd5b30d39679304",
+    "id": "90463cd12f32dec1512c",
+    "artist": "Devo",
+    "title": "Find Out",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "33725153badeddf294b4",
+    "artist": "Devo",
+    "title": "Peek-A-Boo! (Dance Velocity)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "902e78716bfafcb86dbc",
+    "artist": "Devo",
+    "title": "Peek-A-Boo! (Devo Dub)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "86ec849166021343fd0d",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "(Baby) Hully Gully",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "023bc1707a21e0fb8072",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "Alley-Oop",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "2e35bb42267e6074b81a",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "Happy-Go-Lucky Me",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "91733cb6e76d3672fc44",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "Itsy Bitsy Teenie Weenie Yellow Polka Dot Bikini",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "7d6619b7fd13f8532332",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "Mr. Custer",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "796b699435b45e0ac9b8",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "New Orleans",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "631368d313e119f7b488",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "Oliver Cool",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "3457e23236904431079c",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "Shimmy, Shimmy, Ko-Ko-Bop",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "721711d1765bf4e28bf5",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "The Twist",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "d9a0178ebc12f408937f",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "Time Machine",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "d464b9b3e81ee0da7d51",
+    "artist": "Dick Kerr And The Sing-Along Teen-Agers",
+    "title": "Yogi",
+    "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "992481a172c2b08cd554",
+    "artist": "Disneyland Records",
+    "title": "3 Little Pigs Sing Polly Wolly Doodle and Alouette",
+    "album": "LG-710"
+  },
+  {
+    "id": "d3819405cec09721c315",
+    "artist": "Disneyland Records",
+    "title": "Christmas Songs for Children",
+    "album": "LG-814"
+  },
+  {
+    "id": "2f695d46196dd1e3cf00",
+    "artist": "Disneyland Records",
+    "title": "Siamese Cat Song",
+    "album": "LG-756"
+  },
+  {
+    "id": "2e94e6b68df245a7d4a5",
+    "artist": "Disneyland Records",
+    "title": "Songs from Walt Disney's 101 Dalmations",
+    "album": "LG-714"
+  },
+  {
+    "id": "4fdcbf6005e2b0c1cf19",
+    "artist": "Disneyland Records",
+    "title": "The Swing and the Marching Song",
+    "album": "LG-720"
+  },
+  {
+    "id": "da59ecd1e4675b1c4ce5",
+    "artist": "Disneyland Records",
+    "title": "Walt Disney's Mary Poppins",
+    "album": "617"
+  },
+  {
+    "id": "4ea49787a27617ab9b79",
+    "artist": "Disneyland Records",
+    "title": "Walt Disney's Mother Goose Rhymes",
+    "album": "612"
+  },
+  {
+    "id": "9625ef7f2ad1a327365a",
+    "artist": "Disneyland Records",
+    "title": "Walt Disney's Song of the South",
+    "album": "606"
+  },
+  {
+    "id": "91ae7805cad54eb6876d",
+    "artist": "DJ Khaled feat. Lil Wayne & Gunna",
+    "title": "Freak N You",
+    "album": "Father of Asahd"
+  },
+  {
+    "id": "bcbc0c9e24f2f6ba13de",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "A Spoonful Of Sugar With Mary Martin",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "e1fbf7cb85fbc63d5fd8",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "Bibbidi-Bobbidi-Boo (The Magic Song)",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "2fbed791e7ace5627896",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "Chim Chim Cher-Ee",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "eec98f5dba6e50461ee3",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "Feed The Birds",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "c0e201fceb976596327d",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "How Can Anyone Keep From Singin'",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "3d54adefd7809e3e4708",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "I Ain't Down Yet",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "b6f06d05693fa3324658",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "I'm Flying",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "749429bcad3cb0fd8a7f",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "Lavender Blue (Dilly Dilly)",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "6d482c6f2a59bc022b9c",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "Let's Go Fly A Kite",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "6c75b45acd42f71e5bb5",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "Stay Awake",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "a31bc8cfcfa7b6047b6c",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "Supercalifragilisticexpialidocius",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "fd65ea2328b564375bb2",
+    "artist": "Do Re Mi Children's Chorus",
+    "title": "When You Wish Upon A Star",
+    "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "31e146642d8260fc8d43",
+    "artist": "Dolby's Cube",
+    "title": "Don't Turn Away",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "f2746102f3bc54256ec1",
+    "artist": "Dolby's Cube",
+    "title": "Howard The Duck (edit)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "56526f62e18fd4d20d00",
+    "artist": "Dolby's Cube",
+    "title": "Howard The Duck (Extended Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "77fcb3fb884651d7918c",
+    "artist": "Doug E. Fresh and The Get Fresh Crew",
+    "title": "La-Di-Da-Di (feat. Slick Rick)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "19e155781c83fa06ba6e",
+    "artist": "Doug E. Fresh and The Get Fresh Crew",
+    "title": "The Show",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "06644b9fda72fe6ebd0d",
+    "artist": "Doug E. Fresh and The Get Fresh Crew",
+    "title": "The Show (Extended)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "2942900e73063e166653",
+    "artist": "Doug E. Fresh and The Get Fresh Crew",
+    "title": "The Show (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "e803a2c0f6d6ab3bd649",
     "artist": "Dr. Hook",
     "title": "Sharing the Night Together",
     "album": "Pleasure & Pain"
   },
   {
-    "id": "26a1f8f4d4f3f4ab7523",
+    "id": "efcb9ea40ce523c6b2c1",
+    "artist": "Drake feat. Nicki Minaj",
+    "title": "Up All Night",
+    "album": "Thank Me Later"
+  },
+  {
+    "id": "ed95d082b669eb80de98",
+    "artist": "Duran Duran",
+    "title": "Cracks In The Pavement (Live)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "ac5ec7084883ec18f31c",
+    "artist": "Duran Duran",
+    "title": "The Wild Boys (Single Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "8dd986eb4659e50bcc8e",
+    "artist": "Duran Duran",
+    "title": "The Wild Boys (Wilder Than Wild Boys Extended Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "4adcb1d62fbfb2216d9c",
     "artist": "Eek‐A‐Mouse",
     "title": "Ganja Smuggling",
     "album": "Wa-Do-Dem"
   },
   {
-    "id": "50ef75472e3e1f1b41f6",
+    "id": "b2d5ebf0ab78416d7307",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "A La Vibora De La Mar",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "edc77e3bfb166c1234e7",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "Arrurru",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "72860f117a7389d92512",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "Cantos De Animaliots",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "95b285c9df6534722790",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "Desde Mexico He Venido",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "678661d7f1ee541aaade",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "Diez Ninitos",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "3ef59879a2a98ba2b652",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "El Barco Chiquitito",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "e09d83505fe27ac18f1a",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "El Mandado",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "7875ac5dcfb6065b7ba3",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "El Zapatero",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "db8f3bab6675903c7ab4",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "La Rana",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "7ee30b254c45a5f31a57",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "Los Meses Del Año",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "b8990a5bc74abcd0978a",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "Los Pichones",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "2d69df0b0e9a4c1bfc59",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "Los Quehaceras De La Semana",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "f21810c326cd761a1c5e",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "Mi Granja",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "aafc53c4daaf2965c2ac",
+    "artist": "Elena Paz Travesi; Martita; Jesus de Jerez; Juan Rojas",
+    "title": "Nina Despierta",
+    "album": "Songs in Spanish for Children"
+  },
+  {
+    "id": "ab1f4bbb1b885f00f4dc",
     "artist": "Ella Mai",
     "title": "One Of These",
     "album": "3"
   },
   {
-    "id": "1416b9f7e65f9f997bf0",
+    "id": "84ff4479941364e2abe5",
+    "artist": "Ella Mai/Roddy Ricch",
+    "title": "How (feat. Roddy Ricch)",
+    "album": "Heart On My Sleeve"
+  },
+  {
+    "id": "3fa8b0106c4071e4fe80",
     "artist": "Elton John",
     "title": "Tiny Dancer",
     "album": "Now 100 Hits Sing-A-Long"
   },
   {
-    "id": "dacf5fb4a7f777aeac4b",
+    "id": "675f8123dd7c8f1bd64c",
     "artist": "Elvis Presley",
     "title": "Suspicious Minds",
     "album": "From Elvis in Memphis"
   },
   {
-    "id": "1f1110950826cfe61062",
+    "id": "999b4d086199bb19bbe2",
+    "artist": "Eurythmics",
+    "title": "Here Comes The Rain Again",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "9117c0c3d78a17d0b643",
+    "artist": "Eurythmics",
+    "title": "Paint A Rumour",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "9040e8d1c4d40e876217",
+    "artist": "Eurythmics",
+    "title": "This City Never Sleeps (Live)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "895f8c673b61a6870982",
+    "artist": "Falco",
+    "title": "Auf Der Flucht",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "4fe30ff260e28b84ef2f",
+    "artist": "Falco",
+    "title": "Der Kommissar",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "2947a1becedeb171040a",
+    "artist": "Falco",
+    "title": "Helden Von Heute",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "fd1679327010d83c3235",
     "artist": "Fat Joe feat. Ashanti",
     "title": "What’s Luv?",
     "album": "Hits 53"
   },
   {
-    "id": "7c0eb371f080fc2f8d15",
+    "id": "e1c0d5e13a39150b1daa",
     "artist": "Frank Sinatra",
     "title": "Stardust",
-    "album": "The Complete Reprise Studio Recordings",
-    "genre": "Vocal"
+    "album": "The Complete Reprise Studio Recordings"
   },
   {
-    "id": "59250dd654fdb227b457",
+    "id": "a6bacafb16a77c0a9e4a",
     "artist": "Frank Sinatra",
     "title": "That Lucky Old Sun",
-    "album": "That Old Feeling",
-    "genre": "Jazz"
+    "album": "That Old Feeling"
   },
   {
-    "id": "41dfa959d434926c1d89",
+    "id": "b6f9787d240df2e6ec6e",
     "artist": "Frank Sinatra",
     "title": "You Lucky People, You",
-    "album": "Night & Day",
-    "genre": "Vocal Jazz"
+    "album": "Night & Day"
   },
   {
-    "id": "eadc238175220bb3bd98",
+    "id": "a0b0293fe29fbd21904e",
+    "artist": "Frankie Goes To Hollywood",
+    "title": "Relax (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "66a68f612a323d5ea303",
+    "artist": "Frankie Goes To Hollywood",
+    "title": "Relax (Long Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "ec93896eb708cc703f0a",
+    "artist": "Frankie Goes To Hollywood",
+    "title": "Relax (Single Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "ec0f09a19ba9a00190a8",
     "artist": "Fugees",
     "title": "Killing Me Softly (radio edit)",
     "album": "The Road Ahead 96"
   },
   {
-    "id": "203911fcd23262d4a3d6",
+    "id": "153d104c9abbcf4b238c",
+    "artist": "Gene Kelly",
+    "title": "Jack and Jill / London Bridge",
+    "album": "Nursery Songs"
+  },
+  {
+    "id": "8822c4b240fcb06e2723",
+    "artist": "Gene Kelly",
+    "title": "Little Boy Blue / Pop! Goes the Weasel",
+    "album": "Nursery Songs"
+  },
+  {
+    "id": "7ec6389878fac499f0ac",
+    "artist": "Gene Kelly",
+    "title": "Sing a Song of Sixpence / Mary Had a Little Lamb",
+    "album": "Nursery Songs"
+  },
+  {
+    "id": "c0c5876df6e998e47eb3",
+    "artist": "Ghostface Killah feat. Raekwon",
+    "title": "Kilo",
+    "album": "Fishscale"
+  },
+  {
+    "id": "efa93bb4762512ffdafb",
     "artist": "Gnarls Barkley",
     "title": "Crazy",
-    "album": "St. Elsewhere",
-    "genre": "Alternative Hip-Hop"
+    "album": "St. Elsewhere"
   },
   {
-    "id": "1807e788891c0b90e3b4",
+    "id": "4ae976ce7d69ea841bc9",
     "artist": "Grateful Dead",
     "title": "Uncle John's Band",
-    "album": "Workingman's Dead [2013 Remaster]",
-    "genre": "Rock"
+    "album": "Workingman's Dead [2013 Remaster]"
   },
   {
-    "id": "95dafee07fd813f30c57",
+    "id": "db2554100c4a9d69860c",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Coal Miner's Song",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "2667ae4a60b6ec1ca211",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Come Firefly",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "0a2bb9b1221964f4ba7b",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Dancing Teakettle",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "b7db2503f9d033b9c93f",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Goldfish Man",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "998e1d00d0b0e2d13430",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Little Bear",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "3da9383b457250116050",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Over The Mountain",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "cb50d057db4d4dd14874",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Plate Passing",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "ef7496e74e2a01a81945",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Please, Go Through",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "e22f3d4a81a255bbeaa7",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Rain",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "996d2927ca984a4485ac",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Snow",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "d123b1703df161a44b12",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Sounds of Autumn Insects",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "ae7c5f2056262f35add0",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Sparrow's Singing School",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "f81023f6e25a13a90490",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Spring Has Come",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "08c02a5564ac04fa290f",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Sun Parasol",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "7ca18acc86aefe2b3957",
+    "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
+    "title": "Water Wheel",
+    "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "2b4740a7755709b073b4",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "A Visit to Central Park",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "d4710ffcbbcef8d1b4c7",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "A Visit to France",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "cc486d7930bb2d017f3d",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Baa Baa Black Sheep",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "a37435a8404b24cbfcc9",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Chicken Licken",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "a366578885a3f63b7351",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Fiddle-Dee-Dee",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "2aca12c9b5f426c7fe05",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Goldie Locks and the Three Bears",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "9a2c9d18d7543b0b791a",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Humpty Dumpty",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "e3c109abcf085aaf31dc",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Jack and the Bean Stalk",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "ef86e26dad553550c1dc",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Little Boy Blue",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "428bf9e5e61bbc7f9ee6",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Little Red Riding Hood",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "90b9aa509c095e604dba",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "London Bridge Is Falling Down",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "5b176aa3cb9a41359503",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Lullaby for Little Ones",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "2fe39241b550a22bceb8",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Old Mother Hubbard",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "058719fef52ab3654155",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Pat-a-Cake",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "526d9830bbec562f54f3",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Pop Goes the Weasel",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "6d7f6d083442ae62c927",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Sing a Song of Sixpence",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "90e73534395bd2cbff66",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "The Farmer in the Dell",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "99a0cd425ea3be4a6963",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "The Fisherman and the Flounder",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "e4294c217cec6b96930d",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "The Frog and the Ox",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "d719f3baa33ce0802097",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "The Monkey Who Wanted to Fly",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "2a6afc968617f85be359",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "The Muffin Man",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "58f4e24ecd05068cbab3",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "The Shoemaker and the Elves",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "e590eebe7a53802395bd",
+    "artist": "Hollywood Orchestra and Singers",
+    "title": "Where Has My Little Dog Gone",
+    "album": "Kiddies Playtime Songs"
+  },
+  {
+    "id": "50d4f30874a444ee0964",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "America",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "5e027ff6a2b7e3582ab5",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "America the Beautiful",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "d2943ecb3ea480f6cc61",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "Battle Hymn of the Republic",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "118b3879bda17a2098d2",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "Columbia the Gem of the Ocean",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "396c6840a006f76893af",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "Flag Song",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "c040b45121f6aedd715a",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "God Bless America",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "d43e550a91a0db89fd77",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "Marines' Hymn",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "7e649eaa48f9e5f25b8a",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "The Caisson Song",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "20caf773a4164b503212",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "The Star Spangled Banner",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "a48dc6d366a12cd11361",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "This Is My Country",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "dd4b7ab66575da89bcd7",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "This Land Is Your Land",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "fa193f555e4448c5cdec",
+    "artist": "Howard Chitjian and the Concert Band of Los Angeles",
+    "title": "You're a Grand Old Flag",
+    "album": "Patriotic Songs"
+  },
+  {
+    "id": "86152ad551d62958ca3a",
+    "artist": "Howard Jones",
+    "title": "New Song (New Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "a42624780b0249a0d223",
+    "artist": "Howard Jones",
+    "title": "Things Can Only Get Better (Extended Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "2874b63ca95799ad0455",
+    "artist": "Howard Jones",
+    "title": "Things Can Only Get Better (LP Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "4dcb20f58c51dc53714a",
+    "artist": "Howard Jones",
+    "title": "What Is Love? (Extended Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "52d10b960fcda4fd6b59",
+    "artist": "Howard Jones",
+    "title": "What Is Love? (LP Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "85b7799b92db098ef349",
+    "artist": "Howard Jones",
+    "title": "What Is Love? (New Extended Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "2b1c5d902fb80106c246",
+    "artist": "Huey Lewis And The News",
+    "title": "The Power Of Love (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "c06607f2be57dd32fd6f",
+    "artist": "Huey Lewis And The News",
+    "title": "The Power Of Love (LP Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "b5857175b5af28482436",
+    "artist": "Huey Lewis And The News",
+    "title": "The Power Of Love (Remix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "f3de693750c28800afa4",
+    "artist": "INNA",
+    "title": "Hot",
+    "album": "Hot"
+  },
+  {
+    "id": "3f455fd86a17a33ce60e",
+    "artist": "Jalen Ngonda",
+    "title": "All About Me",
+    "album": "All About Me"
+  },
+  {
+    "id": "624f3ed547eeece82c3f",
+    "artist": "Jalen Ngonda",
+    "title": "All About Me (Dub)",
+    "album": "All About Me"
+  },
+  {
+    "id": "9e9b0c280ec8bdbb7271",
+    "artist": "James Brown",
+    "title": "Get Up (I Feel Like Being A) Sex Machine",
+    "album": "Star Time"
+  },
+  {
+    "id": "fc2c9d1c3f62c29e627a",
     "artist": "James Brown",
     "title": "Get Up Offa That Thing",
     "album": "The Ultimate Collection"
   },
   {
-    "id": "1d7e5dac46385cb9d6e0",
+    "id": "72300444df32dcc1a6f6",
     "artist": "James Brown",
     "title": "Papa's Got A Brand New Bag",
     "album": "Star Time"
   },
   {
-    "id": "1d7b314db7c49b33c3df",
+    "id": "9152074e5d195a1f6f55",
     "artist": "James Brown",
     "title": "The Boss",
     "album": "Black Caesar"
   },
   {
-    "id": "5bbed94fe8477d806ab5",
+    "id": "224f7c41c9c36da2d802",
     "artist": "Janis Joplin",
     "title": "Me And Bobby McGee",
-    "album": "Janis CD3",
-    "genre": "Blues"
+    "album": "Janis CD3"
   },
   {
-    "id": "2d28a17c3ea118b7eb46",
+    "id": "5103a6bcb4fb23a7790b",
     "artist": "Janis Joplin",
     "title": "Me And Bobby McGee Alternate Version",
-    "album": "Janis CD3",
-    "genre": "Blues"
+    "album": "Janis CD3"
   },
   {
-    "id": "176932e88fe780ddbaa2",
+    "id": "f83a8211556eec4574e5",
+    "artist": "Jeni Fleming Trio",
+    "title": "Time After Time",
+    "album": "Best Audiophile Voices VII"
+  },
+  {
+    "id": "d2b948a8ef5bc6731d3e",
     "artist": "Jennifer Hudson",
     "title": "Spotlight",
     "album": "Jennifer Hudson"
   },
   {
-    "id": "a7c12e54e7bcd20d7aba",
+    "id": "933a8ead1597e178ae92",
     "artist": "Jessie Reyez",
     "title": "CRAZY",
     "album": "CRAZY"
   },
   {
-    "id": "bebb2cd00b30c1756f27",
+    "id": "91dea474cc79d9fac104",
     "artist": "Jimmy Cliff",
     "title": "Many Rivers To Cross",
     "album": "The Harder They Come (Original Motion Picture Soundtrack)"
   },
   {
-    "id": "3390c75392fdcb2e3e58",
+    "id": "44f325d097412b34e678",
     "artist": "Jimmy Cliff",
     "title": "The Harder They Come",
     "album": "The Harder They Come (Original Motion Picture Soundtrack)"
   },
   {
-    "id": "42e0bca8aedb132057e0",
+    "id": "ca7bc68c9e238b6c8453",
     "artist": "Jimmy Cliff",
     "title": "Wild World",
-    "album": "The 70's: 1970",
-    "genre": "Other",
-    "bpm": 77
+    "album": "Anthology (Disc 1)"
   },
   {
-    "id": "1d291458c7e52457cb6f",
+    "id": "ba98725becb2cac9630d",
+    "artist": "Jimmy Cliff",
+    "title": "Wild World",
+    "album": "The 70's: 1970"
+  },
+  {
+    "id": "ff568c86bda36807d531",
     "artist": "Joe Cocker",
     "title": "Feeling Alright",
     "album": "With a Little Help From My Friends"
   },
   {
-    "id": "2497381d1d9f36f254ce",
+    "id": "98e999518cf748ed1ecb",
+    "artist": "John Raitt",
+    "title": "Abdul A Bulbul Amir; Weggis Song",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "e1752e934eb927190cf1",
+    "artist": "John Raitt",
+    "title": "Burglar's Song",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "a01e9917332bf8a36d51",
+    "artist": "John Raitt",
+    "title": "John Brown's Baby; Hey, Ho, Nobody Home; Down By The Riverside",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "6b9d1d74af3c89c74913",
+    "artist": "John Raitt",
+    "title": "John Jacob Jingleheimer Schmidt; Michael Finnigin; Who Did?; Dunderbeck's Machine",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "eab6e7f82b6bc8751dbb",
+    "artist": "John Raitt",
+    "title": "My Grandfather's Clock; Nickernacks",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "afb2f7fe46e0e33fb16f",
+    "artist": "John Raitt",
+    "title": "My Neighbor's Goat; Johnny Schmoker; Damper Song",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "2bece6ef0a58235419d8",
+    "artist": "John Raitt",
+    "title": "Old MacDonald Had A Car; Thousand Legged Worm; When Father Put The Paper; Dear Old Father",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "2691684e477da7905fe9",
+    "artist": "John Raitt",
+    "title": "The Billboard; O, How Lovely Is The Evening; A Capital Ship",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "8c71c5c318eb659358ae",
+    "artist": "John Raitt",
+    "title": "The Bulldog On The Bank; A Frog Went A-Courting",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "eef2582837f3f6647b1d",
+    "artist": "John Raitt",
+    "title": "The Menu Song",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "78aad5dedea40107b40e",
+    "artist": "John Raitt",
+    "title": "The Tree In The Wood; Home On The Range; Good Night Ladies",
+    "album": "Songs The Kids Brought Home From Camp"
+  },
+  {
+    "id": "44b74ec9a52e1e3d1d7c",
+    "artist": "José Augusto",
+    "title": "Fantasias",
+    "album": "Fantasias"
+  },
+  {
+    "id": "906e25ca34c0c39d5632",
     "artist": "Juvenile",
     "title": "Back That Thang Up",
     "album": "Universal Smash Hits"
   },
   {
-    "id": "98b9d87cc21816aba8fd",
+    "id": "3bc6fe5ab429879e7be9",
+    "artist": "Kat Graham",
+    "title": "Put Your Graffiti on Me",
+    "album": "Put Your Graffiti on Me"
+  },
+  {
+    "id": "c94b3d88a9e45e978151",
     "artist": "Kendrick Lamar",
     "title": "heart pt. 6",
     "album": "GNX"
   },
   {
-    "id": "ca34bad9bc5da1e820dc",
+    "id": "89ce945e421dad96ef03",
     "artist": "Kendrick Lamar",
     "title": "HUMBLE.",
     "album": "DAMN."
   },
   {
-    "id": "f039a3bdfb4c40ead16a",
+    "id": "a15233d6a38e0ff0b0b3",
     "artist": "Kendrick Lamar",
     "title": "man at the garden",
     "album": "GNX"
   },
   {
-    "id": "10da2449eaf1b186e39f",
+    "id": "83b7cb8b4b1ebd5e7da5",
     "artist": "Kendrick Lamar",
     "title": "Not Like Us",
     "album": "Not Like Us"
   },
   {
-    "id": "3c3397cda8828fa1538c",
+    "id": "afdf353b5f0e4eff05a7",
     "artist": "Kendrick Lamar",
     "title": "reincarnated",
     "album": "GNX"
   },
   {
-    "id": "b9f5301ed47729c79a6b",
+    "id": "40c93a23b38e58ea87ec",
     "artist": "Kendrick Lamar",
     "title": "squabble up",
     "album": "GNX"
   },
   {
-    "id": "8294c3ca9a032114ce4b",
+    "id": "db758cf6cac1d6f271f8",
     "artist": "Kendrick Lamar",
     "title": "wacced out murals",
     "album": "GNX"
   },
   {
-    "id": "ba339b039ed280d0d15f",
+    "id": "70cf0ee359c46f90f030",
     "artist": "Kendrick Lamar; AZ Chike",
     "title": "peekaboo",
     "album": "GNX"
   },
   {
-    "id": "52a1002947dcaa2f7f56",
+    "id": "a6eb2005cf85d0adfe55",
     "artist": "Kendrick Lamar; DODY6",
     "title": "hey now",
     "album": "GNX"
   },
   {
-    "id": "433b67c96f9f3309b027",
+    "id": "3c2cf3edaf128c2b86d4",
     "artist": "Kendrick Lamar; Hitta J3; YoungThreat; Peysoh",
     "title": "gnx",
     "album": "GNX"
   },
   {
-    "id": "c6ed92ef86e3d2315f12",
+    "id": "9f64a52d6f9944b39a24",
     "artist": "Kendrick Lamar; Lefty Gunplay",
     "title": "tv off",
     "album": "GNX"
   },
   {
-    "id": "52a6869c028a5ae8bbe4",
+    "id": "988e1d91cbe104479dcc",
     "artist": "Kendrick Lamar; SZA",
     "title": "gloria",
     "album": "GNX"
   },
   {
-    "id": "450f0793b36e4cc028d1",
+    "id": "f75264fb67874cfb0acf",
     "artist": "Kendrick Lamar; SZA",
     "title": "luther",
     "album": "GNX"
   },
   {
-    "id": "3b2ac33bc4ea0b11e2ca",
+    "id": "a3ef3029e7b04dccc3b1",
     "artist": "Kendrick Lamar; Wallie the Sensei; Siete7x; Roddy Ricch",
     "title": "dodger blue",
     "album": "GNX"
   },
   {
-    "id": "11d4d864045c6de5b2b7",
+    "id": "7c0091e83eb5a01c5d29",
     "artist": "Kenny Rogers & The First Edition",
     "title": "Just Dropped In (to See What Condition My Condition Was In)",
     "album": "The First Edition"
   },
   {
-    "id": "7c4ec1f5cf404f264fc5",
+    "id": "00f0dde14cea9d4c40fc",
+    "artist": "Kiana Ledé feat. Jenifer Lewis",
+    "title": "Heavy",
+    "album": "Myself"
+  },
+  {
+    "id": "85a711c71606530b7bcc",
     "artist": "Kool & the Gang",
     "title": "Jungle Boogie",
     "album": "Wild and Peaceful"
   },
   {
-    "id": "67d49221d072d435328d",
+    "id": "06121512c60a2286d4a9",
+    "artist": "Larry Thor",
+    "title": "Answer Every Question",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "f9b3492363d8dcd14ee8",
+    "artist": "Larry Thor",
+    "title": "Galloping on My Dinosaur",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "406aea3e19a54236f946",
+    "artist": "Larry Thor",
+    "title": "Lullaby",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "4fb7d112208324929fc7",
+    "artist": "Larry Thor",
+    "title": "Matinee Lullaby",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "a6182bb2dc46bbcbe45c",
+    "artist": "Larry Thor",
+    "title": "Picnic",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "d0510471b027e2786744",
+    "artist": "Larry Thor",
+    "title": "Sad Day Lonely Day",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "5e070b862902626c2a3b",
+    "artist": "Larry Thor",
+    "title": "Scary Song",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "2081a4bb00e0cd4e4fa8",
+    "artist": "Larry Thor",
+    "title": "Since You Went Away",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "73d6d9cd4b935e9c14a4",
+    "artist": "Larry Thor",
+    "title": "The Gimme Pig",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "8e61f0ccb1f73aa46807",
+    "artist": "Larry Thor",
+    "title": "TV Song",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "c4278434349c7f286931",
+    "artist": "Larry Thor",
+    "title": "When You Hurt",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "ed131baca947d8922643",
+    "artist": "Larry Thor",
+    "title": "Worry Time",
+    "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
+  },
+  {
+    "id": "7e82decbfbb8cebc23bb",
+    "artist": "Lil Jon & The East Side Boyz",
+    "title": "Get Low",
+    "album": "Need for Speed: Underground"
+  },
+  {
+    "id": "d8c20f574ae9452624e7",
     "artist": "Lil Wayne feat. Static Major",
     "title": "Lollipop",
     "album": "Tha Carter III"
   },
   {
-    "id": "0a93f8c06b63f6366f1e",
+    "id": "9238aa871eb12664f14c",
+    "artist": "Lil’ Kim",
+    "title": "No Matter What They Say (radio edit)",
+    "album": "No Matter What They Say"
+  },
+  {
+    "id": "244ba0fd9a7aecbafb53",
+    "artist": "Lil’ Kim feat. Mr. Cheeks",
+    "title": "The Jump Off",
+    "album": "La Bella Mafia"
+  },
+  {
+    "id": "69d58ab01d8f3f7b7955",
+    "artist": "Marcy Tigner",
+    "title": "Do Lord",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "55374e5c055f086953dc",
+    "artist": "Marcy Tigner",
+    "title": "Do You Know?",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "c73c2f63eebbcf0e5442",
+    "artist": "Marcy Tigner",
+    "title": "God",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "0988116065ac452a0b87",
+    "artist": "Marcy Tigner",
+    "title": "He's Got the Whole World in His Hands",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "6d4f18bfb107e2d0bc65",
+    "artist": "Marcy Tigner",
+    "title": "I Don't Have to Wait",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "08b03221e36b7ec01200",
+    "artist": "Marcy Tigner",
+    "title": "I'm Gonna Work",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "647b0aa66bfe8b9333a4",
+    "artist": "Marcy Tigner",
+    "title": "I've a Longing in My Heart",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "6505995b90a96733fa8b",
+    "artist": "Marcy Tigner",
+    "title": "Is It Fair?",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "e2eeff100d3ba601416c",
+    "artist": "Marcy Tigner",
+    "title": "Join the Gospel Express",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "2f33ac70373a44b70c79",
+    "artist": "Marcy Tigner",
+    "title": "Little Feet Be Careful",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "b561a0fdedcd3570705b",
+    "artist": "Marcy Tigner",
+    "title": "O Say, But I'm Glad",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "97346ec322ad175d8f64",
+    "artist": "Marcy Tigner",
+    "title": "Over the Sunset Mountains",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "4fdfc1345824c6f659b4",
+    "artist": "Marcy Tigner",
+    "title": "Thank You, Lord",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "bdcb3d096193e77cce43",
+    "artist": "Marcy Tigner",
+    "title": "The Lord Is Counting on You",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "9dc7ef97808f2455e41f",
+    "artist": "Marcy Tigner",
+    "title": "The Wise Man and the Foolish Man",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "ff470847cab4b12e1685",
+    "artist": "Marcy Tigner",
+    "title": "There's a New Song in My Heart",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "7ac18edf73d51d3d8a5c",
+    "artist": "Marcy Tigner",
+    "title": "When We See Christ",
+    "album": "Sing with Marcy"
+  },
+  {
+    "id": "f9eb52b9c468da5cf5a1",
     "artist": "Mary J. Blige",
     "title": "Real Love",
     "album": "What’s the 411?"
   },
   {
-    "id": "fb3db02c5cc00e85c566",
+    "id": "88af38dd1e03b00c272b",
     "artist": "Meek Mill",
     "title": "Dreams and Nightmares",
     "album": "Dreams and Nightmares"
   },
   {
-    "id": "bb1af7640c3e91d7bfd2",
+    "id": "5fce7d408debca1188ae",
+    "artist": "Men Without Hats",
+    "title": "Antarctica",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "e11a4578585762328466",
+    "artist": "Men Without Hats",
+    "title": "I Got The Message",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "ac619f204717fcf3860d",
+    "artist": "Men Without Hats",
+    "title": "The Safety Dance (Extended Club Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "595df59e83b1400c7752",
+    "artist": "Michael Jackson",
+    "title": "Thriller",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "264238d4ac7d47bb80df",
+    "artist": "Michael Jackson",
+    "title": "Thriller (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "d10004af1d9d1f2c3ca9",
+    "artist": "Michael Sembello",
+    "title": "Maniac (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "b12f9de9db308a0027c4",
+    "artist": "Michael Sembello",
+    "title": "Maniac (Re-Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "650c1ffc57954e505255",
+    "artist": "Modern English",
+    "title": "I Melt With You",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "006748057c8c85889258",
+    "artist": "Modern English",
+    "title": "Life In The Gladhouse",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "74573fa1dc0d1b7cc78c",
+    "artist": "Modern English",
+    "title": "Someone's Calling",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "a83b13629a03e4d97a03",
+    "artist": "Morrissey",
+    "title": "Hold On To Your Friends",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "da5f19eb97ac2298476e",
+    "artist": "Morrissey",
+    "title": "Moon River (Extended Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "671dd281aed75ab2c91d",
     "artist": "Muddy Waters",
     "title": "Mannish Boy",
     "album": "King of the Electric Blues"
   },
   {
-    "id": "d3c7e1808edd320230d1",
+    "id": "0099e6747e3b8b0352d7",
+    "artist": "Naked Eyes",
+    "title": "Always Something There To Remind Me (Extended Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "23c0a9f5c66205a69c04",
+    "artist": "Naked Eyes",
+    "title": "I'll Stop",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "9f54297d78f38f41e03e",
+    "artist": "Naked Eyes",
+    "title": "Promises, Promises (Extended Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "3a4e97b2aee9aa2ad788",
+    "artist": "Naked Eyes",
+    "title": "Promises, Promises (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "474c44e4ff63e86029cd",
     "artist": "Neil Diamond",
     "title": "Sweet Caroline (Good Times Never Seemed So Good)",
     "album": "Sweet Caroline"
   },
   {
-    "id": "f14683d3de460bcc9876",
+    "id": "7122211dfdc000e8946e",
+    "artist": "New Order",
+    "title": "Blue Monday",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "dd62463a0f1c6fc4ab66",
+    "artist": "New Order",
+    "title": "The Beach",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "75def9e8b57d60fcc48b",
     "artist": "Nicki Minaj",
     "title": "Beautiful Sinner",
     "album": "Pink Friday: Roman Reloaded: The Re‐Up"
   },
   {
-    "id": "967d4fcdc05f371b7a89",
+    "id": "2c749a8903c52cb058c4",
     "artist": "Nicki Minaj",
     "title": "Stupid Hoe",
     "album": "Pink Friday: Roman Reloaded"
   },
   {
-    "id": "491d65be0e1e00071f16",
+    "id": "0ebe368f97d5e12e6508",
     "artist": "Nicki Minaj feat. Beyoncé",
     "title": "Feeling Myself",
     "album": "The Pinkprint"
   },
   {
-    "id": "e5a425086c55b4385f6e",
+    "id": "c06a8f60685af6fc1d00",
     "artist": "Nicki Minaj feat. Eminem",
     "title": "Roman's Revenge",
     "album": "Pink Friday"
   },
   {
-    "id": "095f69d70318b95b754b",
+    "id": "1d17cb79deda9c484cfd",
+    "artist": "Original Koffee",
+    "title": "Toast",
+    "album": "Rapture"
+  },
+  {
+    "id": "6643723f4fb2bc4016c2",
     "artist": "Otis Redding",
     "title": "Hard to Handle",
     "album": "Dock of the Bay Sessions"
   },
   {
-    "id": "32c9d7ec88452dceedc7",
+    "id": "25253373bca8976738dd",
     "artist": "Outkast",
     "title": "Hey Ya!",
-    "album": "Rolling Stone Magazine's 500 Greatest Songs Of All Time",
-    "genre": "Top 40"
+    "album": "Rolling Stone Magazine's 500 Greatest Songs Of All Time"
   },
   {
-    "id": "16ac17e897ab3afd32b5",
+    "id": "064a2c3bee6d7fc4201d",
     "artist": "OutKast",
     "title": "Ms. Jackson",
-    "album": "Stankonia",
-    "genre": "Rap & Hip-Hop"
+    "album": "Stankonia"
   },
   {
-    "id": "e6b2d9fe853cfff9ba36",
+    "id": "502aebf28bb74c0f541c",
     "artist": "Parliament",
     "title": "Give Up the Funk (Tear the Roof Off the Sucker)",
     "album": "Mothership Connection"
   },
   {
-    "id": "151246ca831924616e81",
+    "id": "79ea3d822560ec55752e",
+    "artist": "Pat Benatar",
+    "title": "Invincible (Extended Remix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "c2c0ac3243050503ccab",
+    "artist": "Pat Benatar",
+    "title": "Invincible (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "1c3c2791ad15c4134a7f",
+    "artist": "Patty McGovern with Orchestra",
+    "title": "How Much is That Doggie in the Window",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "76ed221144234a653232",
+    "artist": "Patty McGovern with Orchestra",
+    "title": "Snoopy the Pussycat",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "fd14f7e20179a4c4e4fa",
+    "artist": "Paul McCartney",
+    "title": "Ode To A Koala Bear",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "0cdddef62512ece4e69f",
+    "artist": "Paul McCartney and Michael Jackson",
+    "title": "Say Say Say (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "56b869f9dc3d9cee7ec1",
+    "artist": "Paul McCartney and Michael Jackson",
+    "title": "Say Say Say (Remix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "01bf1bd87ffbb2c39630",
     "artist": "Paul Simon",
     "title": "50 Ways to Leave Your Lover",
     "album": "Still Crazy After All These Years"
   },
   {
-    "id": "533ed31adc0915de09d9",
+    "id": "a04e0d8fef6512aac531",
     "artist": "Paul Simon",
     "title": "Diamonds on the Soles of Her Shoes",
     "album": "Graceland"
   },
   {
-    "id": "c3023f0b65b575f9d9e4",
+    "id": "395352f75a9e17fb84af",
     "artist": "Paul Simon",
     "title": "You Can Call Me Al",
-    "album": "Graceland",
-    "genre": "Pop"
+    "album": "Graceland"
   },
   {
-    "id": "095aec9d9eb569c23789",
+    "id": "d85efc1a54eae9c4f7fc",
+    "artist": "Paul Simon",
+    "title": "You Can Call Me Al",
+    "album": "Graceland"
+  },
+  {
+    "id": "f0255c232120bddd830f",
     "artist": "Paul Simon/Ladysmith Black Mambazo",
     "title": "Homeless (with Ladysmith Black Mambazo)",
     "album": "Graceland"
   },
   {
-    "id": "5ab4ac3616ea5294b282",
+    "id": "b3bba3aca96390cb9040",
+    "artist": "Peter Pan Orchestra & Chorus",
+    "title": "Because",
+    "album": "I Believe: Songs of Devotion"
+  },
+  {
+    "id": "abb6f9049f26dd0a36af",
+    "artist": "Peter Pan Orchestra & Chorus",
+    "title": "Climb Every Mountain",
+    "album": "I Believe: Songs of Devotion"
+  },
+  {
+    "id": "4f7d57f91c825b326185",
+    "artist": "Peter Pan Orchestra & Chorus",
+    "title": "Deck of Cards",
+    "album": "I Believe: Songs of Devotion"
+  },
+  {
+    "id": "b84a553c59db407df3c3",
+    "artist": "Peter Pan Orchestra & Chorus",
+    "title": "Faith of Our Fathers",
+    "album": "I Believe: Songs of Devotion"
+  },
+  {
+    "id": "731668fc0ae23216bc66",
+    "artist": "Peter Pan Orchestra & Chorus",
+    "title": "He's Got the Whole World in His Hands",
+    "album": "I Believe: Songs of Devotion"
+  },
+  {
+    "id": "eb6bfeffe4694fd6c5a8",
+    "artist": "Peter Pan Orchestra & Chorus",
+    "title": "I Believe",
+    "album": "I Believe: Songs of Devotion"
+  },
+  {
+    "id": "a6f70ab077bc38924dd3",
+    "artist": "Peter Pan Orchestra & Chorus",
+    "title": "Little Child",
+    "album": "I Believe: Songs of Devotion"
+  },
+  {
+    "id": "a1f015a6804e52203e6d",
+    "artist": "Peter Pan Orchestra & Chorus",
+    "title": "Open Up Your Heart and Let the Sunshine In",
+    "album": "I Believe: Songs of Devotion"
+  },
+  {
+    "id": "10a4d147b9d4ee12a969",
+    "artist": "Peter Pan Orchestra & Chorus",
+    "title": "The Great Pretender",
+    "album": "I Believe: Songs of Devotion"
+  },
+  {
+    "id": "7920b86461e2246f4723",
+    "artist": "Peter Piper, Forty-Niners Quartet with Orchestra",
+    "title": "Frog Went A-Courtin'",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "da653f178d359426e439",
+    "artist": "Peter Piper, Forty-Niners Quartet with Orchestra",
+    "title": "The Teddy Bears' Picnic",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "76be5e3de772564da296",
     "artist": "Peter Tosh",
     "title": "Johnny B. Goode (long version)",
     "album": "Mama Africa"
   },
   {
-    "id": "a76db61762cb07e2da5e",
+    "id": "65dc49797908751fce97",
     "artist": "Petey Pablo",
     "title": "Freek-A-Leek",
     "album": "Absolute R&B Party"
   },
   {
-    "id": "d22cc50e621e438f48d8",
+    "id": "e5f6f160fb9a6db4b88a",
+    "artist": "Pitbull, Daddy Yankee & Natti Natasha",
+    "title": "No lo trates",
+    "album": "Libertad 548"
+  },
+  {
+    "id": "7e26f1d5253be10e4a7a",
     "artist": "Prince",
     "title": "Quiero Ser Tu Amante",
     "album": "Quiero Ser Tu Amante"
   },
   {
-    "id": "6c5e53bbd03f2077710a",
-    "artist": "Prince Buster",
-    "title": "Enjoy Yourself",
-    "album": "The Original Golden Oldies Volume 1",
-    "genre": "Ska"
+    "id": "93436e39d01517e37307",
+    "artist": "Prince And The Revolution",
+    "title": "17 Days",
+    "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
-    "id": "7f5eef3cae76ddb9dc1a",
+    "id": "64a3f3ca29acee50070c",
+    "artist": "Prince And The Revolution",
+    "title": "4 The Tears In Your Eyes",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "d215de2edb803702cc6d",
+    "artist": "Prince And The Revolution",
+    "title": "Another Lonely Christmas",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "e686eda4c04a3b49dc72",
+    "artist": "Prince And The Revolution",
+    "title": "Erotic City",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "91953e05d943b5b83650",
+    "artist": "Prince And The Revolution",
+    "title": "Let's Go Crazy (Special Dance Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "b61ec11c3e30e71f3f29",
+    "artist": "Prince And The Revolution",
+    "title": "When Doves Cry (LP Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "45421b7fb0a19ab7c164",
+    "artist": "Prince Buster",
+    "title": "Enjoy Yourself",
+    "album": "The Original Golden Oldies Volume 1"
+  },
+  {
+    "id": "547c88e379eb43e09c42",
     "artist": "Ray Charles",
     "title": "What’d I Say, Part 1",
     "album": "What’d I Say"
   },
   {
-    "id": "8c040fc4bd13e750774d",
+    "id": "8ca6d42ab6ab83d13d33",
+    "artist": "Ray J feat. Hitmaka",
+    "title": "Sexy Can I",
+    "album": "All I Feel"
+  },
+  {
+    "id": "fba3b98c0f6b87698eda",
     "artist": "REO Speedwagon",
     "title": "Keep On Loving You",
     "album": "Hi Infidelity"
   },
   {
-    "id": "8641900c56b2cda8ae7a",
+    "id": "bd2de24c5b9c8bbd7c9a",
+    "artist": "Rihanna feat. JAY‐Z",
+    "title": "Umbrella",
+    "album": "Good Girl Gone Bad: Reloaded"
+  },
+  {
+    "id": "580bfc81fff861269912",
     "artist": "Robert Randolph & The Family Band",
     "title": "I Need More Love",
     "album": "Unclassified"
   },
   {
-    "id": "fae1d233f90b356f4945",
+    "id": "de5dc36be91437ea66a8",
+    "artist": "Rockwell",
+    "title": "Somebody's Watching Me",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "5507aa1b7893f57b1962",
+    "artist": "Rockwell",
+    "title": "Somebody's Watching Me (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "02d0e20a1b247acdb988",
+    "artist": "Rotimi feat. Wale",
+    "title": "In My Bed",
+    "album": "The Beauty of Becoming"
+  },
+  {
+    "id": "421e8a6f3fa6bf6b4e6a",
     "artist": "Roy Orbison",
     "title": "Oh, Pretty Woman",
     "album": "Oh, Pretty Woman"
   },
   {
-    "id": "3c88ac89b2eb78ff99a1",
+    "id": "9d828fc5e0e6a4f5be30",
     "artist": "Rusted Root",
     "title": "Send Me On My Way",
-    "album": "Cruel Sun",
-    "genre": "Folk Rock; Rock"
+    "album": "Cruel Sun"
   },
   {
-    "id": "f6b6d5fc17325c1fce0f",
+    "id": "8e4f88b520877c84ef06",
     "artist": "Sam & Dave",
     "title": "Hold On, I’m Comin’",
     "album": "Hold On, I’m Comin’"
   },
   {
-    "id": "fbe0ae142068bf024a41",
+    "id": "5a6badf3bcb613313c90",
     "artist": "Sam & Dave",
     "title": "Hold On, I’m Comin’ (Extended Version)",
-    "album": "The Soul Classics",
-    "genre": "Soul"
+    "album": "The Soul Classics"
   },
   {
-    "id": "e7b24c0adcd55d2f9cfe",
+    "id": "aad9aa80418c398afc4d",
+    "artist": "Samir Guerrero/Navigator/Betzabeth/Hamilton/Young F",
+    "title": "Ragga Tonseh",
+    "album": "Ragga Tonseh (Remix)"
+  },
+  {
+    "id": "2ae40402e7b5e6c69142",
     "artist": "Scene Queen",
     "title": "Whips and Chains",
-    "album": "Whips and Chains",
-    "genre": "Alternative Metal"
+    "album": "Whips and Chains"
   },
   {
-    "id": "c9e407ffc06f6c9bcbfd",
+    "id": "f868c92649a6f33ce1ed",
+    "artist": "Shamu And His Crew",
+    "title": "01 The Sea Is My World",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "dc3b394915a94dfaf862",
+    "artist": "Shamu And His Crew",
+    "title": "02 The Fun Ship",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "9fddffb6c8ea377bca11",
+    "artist": "Shamu And His Crew",
+    "title": "03 Don't Clam Up",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "dcd6a6126023775fd893",
+    "artist": "Shamu And His Crew",
+    "title": "04 The Ballad Of Pete And Penn",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "0f0adb8ac88e39d89e0f",
+    "artist": "Shamu And His Crew",
+    "title": "05 Fill Your Bill",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "94cd64cc63fc166b7628",
+    "artist": "Shamu And His Crew",
+    "title": "06 Doin' The Dolphin",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "cdaaaf39a831e1b2699c",
+    "artist": "Shamu And His Crew",
+    "title": "07 Seal It With A Kiss",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "e548061280d424451ebe",
+    "artist": "Shamu And His Crew",
+    "title": "08 Stick With It",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "111f1d4944485b399311",
+    "artist": "Shamu And His Crew",
+    "title": "09 That's The Way We Are",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "a974d1869c019c4b7dc9",
+    "artist": "Shamu And His Crew",
+    "title": "10 The Sea Is My World (Repris",
+    "album": "The Fun Songs Of Shamu And His"
+  },
+  {
+    "id": "bbc834bbe008ded3cd70",
     "artist": "Sly & the Family Stone",
     "title": "Dance to the Music",
     "album": "Dance to the Music"
   },
   {
-    "id": "54c18ec0a42dccb2d541",
+    "id": "54a87f0deafd96a7a719",
     "artist": "Snow Tha Product",
     "title": "Say Bitch",
     "album": "Say Bitch"
   },
   {
-    "id": "9271e90abfd96f048d44",
-    "artist": "Spin Doctors",
-    "title": "Two Princes",
-    "album": "Pocket Full Of Kryptonite",
-    "genre": "Rock"
+    "id": "052375e542c2b540fc33",
+    "artist": "Soft Cell",
+    "title": "Frustration (Collector's Edition Vol. 6)",
+    "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
-    "id": "76a88cd11da2f936c0d9",
+    "id": "67b03d1ee876f35ba068",
+    "artist": "Soft Cell",
+    "title": "Memorabilia",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "8b1cdb5cc4f6a96d2240",
+    "artist": "Soft Cell",
+    "title": "Metro MR. X (Collector's Edition Vol. 6)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "0f015eb2c99be24ae343",
+    "artist": "Soft Cell",
+    "title": "Seedy Films (Collector's Edition Vol. 6)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "c7f9bcd87916271f8387",
+    "artist": "Soft Cell",
+    "title": "Tainted Dub",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "1a4a3271c3e60640f818",
+    "artist": "Soft Cell",
+    "title": "Tainted Love (Collector's Edition Vol. 6)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "9d25a5904702f5147dfa",
+    "artist": "Soft Cell",
+    "title": "Tainted Love / Where Did Our Love Go?",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "68e72d2e3c42f757a47e",
+    "artist": "Spin Doctors",
+    "title": "Two Princes",
+    "album": "Pocket Full Of Kryptonite"
+  },
+  {
+    "id": "82f028d63357a14482da",
     "artist": "Steve Miller Band",
     "title": "Fly Like an Eagle",
     "album": "Fly Like an Eagle"
   },
   {
-    "id": "a9be4ba2c078b81f98ea",
+    "id": "2d786abc61cfc4e47274",
     "artist": "Stevie Ray Vaughan and Double Trouble",
     "title": "Little Wing",
     "album": "Couldn't Stand The Weather (Legacy Edition)"
   },
   {
-    "id": "cb0af28cdc90de520c79",
+    "id": "88419ae2f3cb8fc3e81b",
     "artist": "Stevie Wonder",
     "title": "Higher Ground",
     "album": "Song Review: A Greatest Hits Collection"
   },
   {
-    "id": "71bd1d86f7d6cfd23358",
+    "id": "de214edb46405753406f",
     "artist": "Stevie Wonder",
     "title": "Master Blaster (Jammin’)",
     "album": "Hotter Than July"
   },
   {
-    "id": "c3596b24f96e966c9250",
+    "id": "7a000ee4a4b74bae1778",
     "artist": "Stevie Wonder",
     "title": "Superstition",
     "album": "Talking Book"
   },
   {
-    "id": "10d6449da1bc9b6d98b0",
+    "id": "be478615da1ed9a42fc9",
     "artist": "Sublime",
     "title": "40oz. To Freedom",
     "album": "40oz. To Freedom"
   },
   {
-    "id": "3b4451bff41513cd68ce",
+    "id": "7aab3a8eab9cf7fad81f",
     "artist": "Sublime",
     "title": "Date Rape",
     "album": "Living In a Boring Nation"
   },
   {
-    "id": "6a74635e4c0e96563456",
+    "id": "2d2bfe6f1804dd29786e",
     "artist": "Sublime",
     "title": "Santeria",
-    "album": "Sublime",
-    "genre": "Rock"
+    "album": "Sublime"
   },
   {
-    "id": "e4e7368964d6c90baf71",
+    "id": "030bce6bc2a0fe8359f8",
     "artist": "Sublime",
     "title": "Smoke Two Joints",
     "album": "40oz. To Freedom"
   },
   {
-    "id": "5a6fb5705964935b6a5c",
+    "id": "34e5298aaffce7bb50fa",
     "artist": "Sublime",
     "title": "What I Got",
     "album": "Sublime"
   },
   {
-    "id": "8dbb0d951fad61fa9ea2",
+    "id": "4e3f235e81c96ebc2a77",
+    "artist": "Talk Talk",
+    "title": "Candy",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "ffc2de695c3ee5a9f797",
+    "artist": "Talk Talk",
+    "title": "Serious",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "5889afc049e36ac1ba12",
+    "artist": "Talk Talk",
+    "title": "Talk Talk",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "1de8981deb8ded8b885c",
+    "artist": "Talk Talk",
+    "title": "Today",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "ea8ca21d2d8dd37e0915",
+    "artist": "Tears For Fears",
+    "title": "Suffer The Children (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "f14ec982b0ad9194443c",
+    "artist": "Tears For Fears",
+    "title": "Suffer The Children (Remix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "0d1542dc569130579788",
+    "artist": "Tears For Fears",
+    "title": "Wino",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "420363b70dabc9582062",
     "artist": "The 1975",
     "title": "It’s Not Living (If It’s Not With You)",
-    "album": "No Album",
-    "genre": "Indie Rock"
+    "album": "[standalone recordings]"
   },
   {
-    "id": "4277a16e1a239916c68b",
+    "id": "4132baebc1bf07ff23e2",
+    "artist": "The 1975",
+    "title": "It’s Not Living (If It’s Not With You)",
+    "album": "No Album"
+  },
+  {
+    "id": "c909cd4c0416a0c39bdc",
     "artist": "The Animals",
     "title": "We're Gonna Howl Tonight",
-    "album": "The Dangerous Christmas of Red Riding Hood",
-    "genre": "Blues"
+    "album": "The Dangerous Christmas of Red Riding Hood"
   },
   {
-    "id": "9c011ad41f8da3f70926",
+    "id": "dd87dc7678b072cdda11",
     "artist": "The Band",
     "title": "The Weight",
-    "album": "Music From Big Pink",
-    "genre": "Classic Rock"
+    "album": "Music From Big Pink"
   },
   {
-    "id": "17a50edb8a2e6be1ab6a",
+    "id": "3bd1aba4638e2f4a05a1",
     "artist": "The Band",
     "title": "The Weight (feat. The Staples)",
-    "album": "The Last Waltz",
-    "genre": "Rock"
+    "album": "The Last Waltz"
   },
   {
-    "id": "62f60e14f853e5cb0bed",
+    "id": "4dc2029371ca86738de6",
     "artist": "The Beach Boys",
     "title": "God Only Knows",
-    "album": "Pet Sounds",
-    "genre": "Rock"
+    "album": "Pet Sounds"
   },
   {
-    "id": "dc8bc1207d288381ffa3",
+    "id": "7975e1afa5a73841b35f",
+    "artist": "The Dallas Cowboys",
+    "title": "A Tropical Winter",
+    "album": "Holiday Halftime"
+  },
+  {
+    "id": "9c6119a3db09394e2329",
+    "artist": "The Dallas Cowboys",
+    "title": "All I Want for Christmas Is My Two Front Teeth",
+    "album": "Holiday Halftime"
+  },
+  {
+    "id": "7de73434ae4b3390b39e",
+    "artist": "The Dallas Cowboys",
+    "title": "Auld Lang Syne",
+    "album": "Holiday Halftime"
+  },
+  {
+    "id": "a074e6859e0104ff52ca",
+    "artist": "The Dallas Cowboys",
+    "title": "Deck the Halls",
+    "album": "Holiday Halftime"
+  },
+  {
+    "id": "41cf7fa86a717e19da44",
+    "artist": "The Dallas Cowboys",
+    "title": "Frosty the Snowman",
+    "album": "Holiday Halftime"
+  },
+  {
+    "id": "14952953d01e848d46e4",
+    "artist": "The Dallas Cowboys",
+    "title": "Let It Snow",
+    "album": "Holiday Halftime"
+  },
+  {
+    "id": "02a937b1196fd6e22930",
+    "artist": "The Dallas Cowboys",
+    "title": "We Wish You a Merry Christmas",
+    "album": "Holiday Halftime"
+  },
+  {
+    "id": "b2309ee05c067a4e6922",
+    "artist": "The Dallas Cowboys",
+    "title": "Winter Wonderland",
+    "album": "Holiday Halftime"
+  },
+  {
+    "id": "a0312fbf4d7904e7a124",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "A Bushel and a Peck",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "6e6e0114c22445a30d8b",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Bend Me, Shape Me",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "fcd3bc9e3f9a1fd9d077",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Chitty Chitty Bang Bang",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "dc55e7b29a1f424c38d6",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Dear World",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "7208edc8cb7d42a634da",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Goin' Out of My Head",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "ab360e979177f59f153b",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Green Tambourine",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "a519f078233a13bb00f3",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Hushabye Mountain",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "a07fa99539f59ac0199c",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "I Wonder What She's Doing Tonight?",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "275b38901f80af20fa71",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Java Jive",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "6a8c5dd31a6c7973b72f",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Judy in Disguise (With Glasses)",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "6351c74162e71f28cb5e",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Love is Blue",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "5dd599f83c8aa4683390",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Me Ol' Bamboo",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "160a67991ad2c24b59a5",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Mr. Clown",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "3f711d4d72c1cd8001ca",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Never My Love",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "161343c25ad8a121ca1f",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Simon Says",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "e0230f83995c27e810f5",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Spooky",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "5e5898092f699a0fdcff",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "The Roses of Success",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "5e99731216300aabb049",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "The Wonderful Things (That He Can Do)",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "590f63e38f8c29f3e12e",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Toot Sweets",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "128d1f23b591999369bb",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Truly Scrumptious",
+    "album": "Sing the Songs from Chitty Chitty Bang Bang and Other Favorites"
+  },
+  {
+    "id": "74f3b33879a64c86cd01",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "Up, Up and Away",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "f022a54e1cf060acb21c",
+    "artist": "The Do-Re-Mi Children's Chorus",
+    "title": "We Can Fly",
+    "album": "The Do-Re-Mi Children's Chorus Sing"
+  },
+  {
+    "id": "3b096234b3b33ae5f873",
+    "artist": "The Firm",
+    "title": "Dub Trek",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "5c5e7fd9bfb7117f8bcf",
+    "artist": "The Firm",
+    "title": "Star Trekkin'",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "1bff001fbe598e7dbff6",
+    "artist": "The Firm",
+    "title": "Star Trekkin' (Extended Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "9f41bd65afa3ac27e97b",
+    "artist": "The Forty-Niners Quartet with Ray Carter Orchestra",
+    "title": "Ducks on Parade",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "51b750c1504d88b96c96",
+    "artist": "The Forty-Niners Quartet with Ray Carter Orchestra",
+    "title": "The Bulldog on the Bank",
+    "album": "Animal Song Parade"
+  },
+  {
+    "id": "fd875c7d65f63b09b22c",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "Big Rock Candy Mountain",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "c0c46597cec8f43b5149",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "Cheer Up Charlie",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "7591dcd89b6c31359cbc",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "Cindy",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "a2fe3ce26265eef52d73",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "I Want It Now",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "3e73fc31036615366f7d",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "I've Got a Golden Ticket",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "c62c49b3e561c41b6ffb",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "Oompa-Loompa-Doompadee-Doo",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "cad6f873f7c31c2fc75f",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "Pat-a-Cake Pat-a-Cake",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "6492a326030857212991",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "Pure Imagination",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "d6e5fb76d249db25bdc6",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "Raisins and Almonds",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "4d6f21146796f326c6a6",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "Strawberry Jam",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "a27986be5cd99068bab6",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "The Candy Man",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "44476f66be68f64a4af7",
+    "artist": "The Golden Orchestra and Chorus",
+    "title": "You Turn for Sugar and Tea",
+    "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
+  },
+  {
+    "id": "4fc4161688853ee12db1",
+    "artist": "The Human League",
+    "title": "(Keep Feeling) Fascination (Extended)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "f2a169a5ac23ad71cdfb",
+    "artist": "The Human League",
+    "title": "(Keep Feeling) Fascination (Improvisation)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "a1b4973b5b739b66e40c",
+    "artist": "The Human League",
+    "title": "Don't You Want Me",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "1f5b4d6362446b5f5a06",
+    "artist": "The Human League",
+    "title": "Don't You Want Me (Extended Dance Mix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "960725abdb506cc2b1ee",
+    "artist": "The Human League",
+    "title": "Hard Times",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "6657d534de335b392fab",
+    "artist": "The Human League",
+    "title": "I Love You Too Much",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "f65288c8d7bb1ef73067",
+    "artist": "The Human League",
+    "title": "Mirror Man",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "4df7cc30ad0f01007931",
+    "artist": "The Human League",
+    "title": "Seconds",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "3e887b5cde3e061129bf",
+    "artist": "The Human League",
+    "title": "You Remind Me Of Gold",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "8b6519b6e36c9384d915",
     "artist": "The Isley Brothers",
     "title": "It's Your Thing",
     "album": "It's Our Thing"
   },
   {
-    "id": "dd84132033c1a52cc7e7",
+    "id": "e026a30a9d1b9384fc58",
     "artist": "The Jimi Hendrix Experience",
     "title": "The Wind Cries Mary",
     "album": "Are You Experienced"
   },
   {
-    "id": "18bcc3c8ab55943716be",
+    "id": "8d3d2f880c039c192e07",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "All the Pretty Little Horses",
+    "album": "Rubber Duckie and Other Pet Songs"
+  },
+  {
+    "id": "6c44c59739945d41fe37",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Dog and Cat",
+    "album": "Rubber Duckie and Other Pet Songs"
+  },
+  {
+    "id": "89f851e55380455b69e5",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Evening Prayer",
+    "album": "Bedtime Songs"
+  },
+  {
+    "id": "496c9ff35d18cddbd656",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Frere Jacques",
+    "album": "Bedtime Songs"
+  },
+  {
+    "id": "4caf7ba0c7321fcb3141",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Goosey Goosey Gander",
+    "album": "Rubber Duckie and Other Pet Songs"
+  },
+  {
+    "id": "ef47d5ee8fe3cefde7f7",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Happiness",
+    "album": "Songs from Your a Good Man Charlie Brown"
+  },
+  {
+    "id": "cd6067ef4b7ea27d79e0",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Hush Little Baby",
+    "album": "Bedtime Songs"
+  },
+  {
+    "id": "1c5ce98687185df8b3cc",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "I Love Little Pussy",
+    "album": "Rubber Duckie and Other Pet Songs"
+  },
+  {
+    "id": "65a7ef7990fb92bf058f",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Johnnie Had a Little Dog",
+    "album": "Rubber Duckie and Other Pet Songs"
+  },
+  {
+    "id": "f3c749eda07d2898244e",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "My Blanket and Me",
+    "album": "Songs from Your a Good Man Charlie Brown"
+  },
+  {
+    "id": "5984e089f4276787b4a6",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Now I Lay Me Down to Sleep",
+    "album": "Bedtime Songs"
+  },
+  {
+    "id": "3560eee03b38904d0bb1",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Now the Day Is Over",
+    "album": "Bedtime Songs"
+  },
+  {
+    "id": "5df80e7675f66a711a62",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Pussy Cat",
+    "album": "Rubber Duckie and Other Pet Songs"
+  },
+  {
+    "id": "e15620dbc13c356a1e2b",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Rock-a-Bye Baby",
+    "album": "Bedtime Songs"
+  },
+  {
+    "id": "6eabc76db76035b6e82f",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Rubber Duckie",
+    "album": "Rubber Duckie and Other Pet Songs"
+  },
+  {
+    "id": "042b1abda17bfe4cd6cc",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Snoopy",
+    "album": "Songs from Your a Good Man Charlie Brown"
+  },
+  {
+    "id": "bdd058878ee69e549980",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Suppertime",
+    "album": "Songs from Your a Good Man Charlie Brown"
+  },
+  {
+    "id": "ad3149b4cb74bfc71d7b",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "The Kite",
+    "album": "Songs from Your a Good Man Charlie Brown"
+  },
+  {
+    "id": "73bb7cedc0105bc9f409",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Twinkle Twinkle Little Star",
+    "album": "Bedtime Songs"
+  },
+  {
+    "id": "4d588417df79e52fcf20",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "What Is Home Without a Mother",
+    "album": "Bedtime Songs"
+  },
+  {
+    "id": "10717e95f525f4935610",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "Where Has My Little Dog Gone",
+    "album": "Rubber Duckie and Other Pet Songs"
+  },
+  {
+    "id": "7f4dc3161679b37620df",
+    "artist": "The Kid Stuff Repertory Company",
+    "title": "You're a Good Man Charlie Brown",
+    "album": "Songs from Your a Good Man Charlie Brown"
+  },
+  {
+    "id": "93867240904bdd69c120",
+    "artist": "The Merry Singers",
+    "title": "A Policeman's Lot Is Not A Happy One",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "fee731c3c9848aaadcf9",
+    "artist": "The Merry Singers",
+    "title": "A Wand'ring Minstrel I",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "c11d06955302c5a24dc8",
+    "artist": "The Merry Singers",
+    "title": "For He's Gone And Married Yum-Yum",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "d33a8a6cd14b55de28de",
+    "artist": "The Merry Singers",
+    "title": "I Am A Pirate King",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "290044141ec7b4ad1955",
+    "artist": "The Merry Singers",
+    "title": "I Am The Captain Of The Pinafore",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "dfee70ab5635ae6532ca",
+    "artist": "The Merry Singers",
+    "title": "I Am The Very Model Of A Modern Major General",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "a62205a85faa187976d7",
+    "artist": "The Merry Singers",
+    "title": "I'm Called Little Buttercup",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "f39cddc3ed98e285f323",
+    "artist": "The Merry Singers",
+    "title": "My Object All Sublime",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "f0bc0e0f7167fc659a47",
+    "artist": "The Merry Singers",
+    "title": "Never Mind The Why And Wherefore",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "ef5c3160a87737439400",
+    "artist": "The Merry Singers",
+    "title": "The Flowers That Bloom In The Spring",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "28f464944d28efbba1fc",
+    "artist": "The Merry Singers",
+    "title": "The Mikado Overture, We Are Gentlemen Of Japan",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "a2c011d998310b0e2d1b",
+    "artist": "The Merry Singers",
+    "title": "We Sail The Ocean Blue",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "8006815f235a2ad4798a",
+    "artist": "The Merry Singers",
+    "title": "When I Was A Lad",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "ba2f6c7d69e8df8cfe1b",
+    "artist": "The Merry Singers",
+    "title": "When The Foeman Bares His Steel",
+    "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "c1fab0944ced10371ea4",
     "artist": "The Meters",
     "title": "Cissy Strut",
     "album": "The Meters"
   },
   {
-    "id": "e020320dcab86114002c",
+    "id": "d12847db070abf0505b7",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "America",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "993cdbe629fd3c1a1444",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Betty Co-Ed",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "3f6741e70beae1918b94",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Camptown Races",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "431c11f90808b3dc48db",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Columbia the Gem of the Ocean",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "0ac8a4c4b1677d0c6e61",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Dixie",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "939aac944ae921cb10ea",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Dixieland Style March",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "710a6e7050d1cad56bd5",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Hail Columbia",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "a98bba4d1cdda0a2f031",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "I've Been Working on the Railroad",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "552df55aa20f7659612f",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Invercargill",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "c9a0fc66bd2f4fcebe43",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Lassus Trombone",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "2a1a1381a3f11fda3276",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Mulberry Bush March",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "63f1e91ca55a0f52b0ab",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "On the Mall",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "68c5f268842a31f0fd64",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Pomp and Circumstance",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "eb324cc5613d2007556a",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Semper Fidelis",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "b54f9117386b1ceeec79",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Star Spangled Banner",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "38031e4b30e16f373e46",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "Stars and Stripes Forever",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "ec6fa1537901692a614c",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "The Caissons Go Rolling Along",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "9e4b53f27c0d489ff748",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "The Marines Hymn",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "af630b00f2e44450a93d",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "The Thunderer",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "3cbc4aed4970d4378785",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "The U.S. Air Force",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "ca8a7cd649eeac839676",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "This Old Man",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "5952650b820fc15d35dd",
+    "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
+    "title": "When Johnny Comes Marching Home",
+    "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "e6bfb5215b6361932b34",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "Gentle Annie",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "4d1fadffcfe54110a7cc",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "Great Grandad",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "c26489e4eef1b6287207",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "La Truya (The Group)",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "874144dcf433b5984ee3",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "Meshivotzi No-otz (Good Little Baby)",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "3e34fd7b5f4ba60e1a14",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "Ol' Dan Tucker",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "ffef63572fde79603afb",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "Shenandoah",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "291585c36a0a742b64a9",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "Simple Gifts",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "2baec2827542cd650d7e",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "Stars Shining By and By",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "491bebea63e840bd1a51",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "The Blue Tail Fly",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "a329c54db54ab204be4b",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "The Erie Canal",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "d72eae9d11cad59e7a2a",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "The Farmer Is the Man",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "6238ee2d272960874b2a",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "The Singing School",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "970407c79a20d6fac70d",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "Uncle Sam's Farm",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "22dec370019781b07ca0",
+    "artist": "The New York City Opera Children's Chorus",
+    "title": "Wayfaring Stranger",
+    "album": "Sing Children Sing"
+  },
+  {
+    "id": "2ebc739dfedb698fe6ab",
     "artist": "The Notorious B.I.G.",
     "title": "Big Poppa",
-    "album": "The Notorious B.I.G. - Greatest Hits",
-    "genre": "Hip Hop"
+    "album": "The Notorious B.I.G. - Greatest Hits"
   },
   {
-    "id": "b5144b2523ae8c0d55bc",
+    "id": "9ab940fca6c124b82355",
     "artist": "The Notorious B.I.G.",
     "title": "Big Poppa (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "43586744d8aec20e90f8",
+    "id": "2bf7eafd637ed3c04284",
     "artist": "The Notorious B.I.G.",
     "title": "Dead Wrong (feat. Eminem) [2007 Remaster] (Featuring Eminem Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "0aa1519afe380f53f9fc",
+    "id": "35d6289f6eb3896b0fe1",
     "artist": "The Notorious B.I.G.",
     "title": "Fuck You Tonight (feat. R. Kelly) [2007 Remaster] (Featuring R. Kelly Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "594c7620fbf722f04b0b",
+    "id": "ec8421b13335416cd7a6",
     "artist": "The Notorious B.I.G.",
     "title": "Get Money (feat. Junior M.A.F.I.A.) [2007 Remaster] (Performed by Junior M.A.F.I.A. Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "a4a6f3ff09ed4c69f0f0",
+    "id": "1f3b76343032c5216a20",
     "artist": "The Notorious B.I.G.",
     "title": "Gimme the Loot",
-    "album": "Ready to Die",
-    "genre": "Hip Hop"
+    "album": "Ready to Die"
   },
   {
-    "id": "4a5beadcbf746dc8e1fc",
+    "id": "1b31c7d27b358996b1c2",
     "artist": "The Notorious B.I.G.",
     "title": "Hypnotize",
     "album": "Life After Death"
   },
   {
-    "id": "0adbe6e1860451dc5e91",
+    "id": "5caffac5a84a95111971",
+    "artist": "The Notorious B.I.G.",
+    "title": "Hypnotize",
+    "album": "The Notorious B.I.G. - Greatest Hits"
+  },
+  {
+    "id": "110ce6b6ff68465512ad",
     "artist": "The Notorious B.I.G.",
     "title": "Hypnotize (2007 Remaster) (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "64c7ba49fd84fc2c146c",
+    "id": "19c5cbf5c3c9678fcd6b",
     "artist": "The Notorious B.I.G.",
     "title": "Juicy",
-    "album": "The Notorious B.I.G. - Greatest Hits",
-    "genre": "Hip Hop"
+    "album": "The Notorious B.I.G. - Greatest Hits"
   },
   {
-    "id": "6b95962a48e82163a2df",
+    "id": "62cff0f86976316b1e85",
     "artist": "The Notorious B.I.G.",
     "title": "Juicy (2007 Remaster) (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "6ed62e183651d7e332d8",
+    "id": "09d5e97ceba9583bb7ac",
     "artist": "The Notorious B.I.G.",
     "title": "N***as Bleed (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "818a62f44764852686c3",
+    "id": "763b212a8c4d7adb68e9",
     "artist": "The Notorious B.I.G.",
     "title": "Nasty Girl (feat. Diddy, Nelly, Jagged Edge & Avery Storm) [2007 Remaster] (Featuring P. Diddy, Nelly, Jagged Edge and Avery Storm Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "ad8c70e5c047f3a85d64",
+    "id": "1030fe405daaa8cf8011",
     "artist": "The Notorious B.I.G.",
     "title": "Notorious B.I.G.",
-    "album": "The Notorious B.I.G. - Greatest Hits",
-    "genre": "Hip Hop"
+    "album": "The Notorious B.I.G. - Greatest Hits"
   },
   {
-    "id": "7b9e828a3c072d57d348",
+    "id": "d77cf244a6e993ec1a6d",
     "artist": "The Notorious B.I.G.",
     "title": "Notorious B.I.G. (feat. Lil' Kim & Puff Daddy) [2007 Remaster] (Featuring Lil' Kim and Puff Daddy Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "46c4a96eeecf97236dc1",
+    "id": "dee72fbdfedaab53d36a",
     "artist": "The Notorious B.I.G.",
     "title": "Notorious Thugs (2014 Remaster)",
-    "album": "Life After Death (2014 Remastered Edition)",
-    "bpm": 154.8
+    "album": "Life After Death (2014 Remastered Edition)"
   },
   {
-    "id": "0b23bb2b48ecf0ac9b7c",
+    "id": "ed7a69b845143c305d72",
     "artist": "The Notorious B.I.G.",
     "title": "Notorious Thugs (feat. Bone Thugs-n-Harmony) [2007 Remaster] (Featuring Bone Thugs and Harmony Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "a7c84ed01c10e8237c83",
+    "id": "faabac6470fd67ca0322",
     "artist": "The Notorious B.I.G.",
     "title": "One More Chance(Stay With Me Remix)",
-    "album": "The Notorious B.I.G. - Greatest Hits",
-    "genre": "Hip Hop"
+    "album": "The Notorious B.I.G. - Greatest Hits"
   },
   {
-    "id": "e20568defcd13579e317",
+    "id": "e864d6551a574eb2ef77",
     "artist": "The Notorious B.I.G.",
     "title": "One More Chance/Stay With Me Remix (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "07745ba413f0b0de81b5",
+    "id": "cc7b8b2baf7c681e5dee",
     "artist": "The Notorious B.I.G.",
     "title": "Running Your Mouth (feat. Snoop Dogg, Nate Dogg, Fabolous & Busta Rhymes) [2007 Remaster] (Featuring Snoop Dogg, Nate Dogg, Fabolous and Busta Rhymes Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "ec112a9ceb566642dd2f",
+    "id": "f45a8bc047d8e36a91c6",
     "artist": "The Notorious B.I.G.",
     "title": "Suicidal Thoughts",
-    "album": "Ready to Die",
-    "genre": "East Coast Hip Hop",
-    "bpm": 84
+    "album": "Ready to Die"
   },
   {
-    "id": "b5ad7df48758d2b4ac46",
+    "id": "8da2993f2754b6ea231c",
     "artist": "The Notorious B.I.G.",
     "title": "Ten Crack Commandments",
-    "album": "The Notorious B.I.G. - Greatest Hits",
-    "genre": "Hip Hop"
+    "album": "The Notorious B.I.G. - Greatest Hits"
   },
   {
-    "id": "d1548be688f472bf68eb",
+    "id": "161055e643b19f554d13",
     "artist": "The Notorious B.I.G.",
     "title": "Ten Crack Commandments (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "d9b3de70e8cfe0edc00f",
+    "id": "1481e84ffb079b53440c",
     "artist": "The Notorious B.I.G.",
     "title": "Unbelievable (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "5c31247c1e480364e4a8",
+    "id": "cbcd47d50b943520ce74",
     "artist": "The Notorious B.I.G.",
     "title": "Want That Old Thing Back",
-    "album": "The Notorious B.I.G. - Greatest Hits",
-    "genre": "Hip Hop"
+    "album": "The Notorious B.I.G. - Greatest Hits"
   },
   {
-    "id": "7b4b4de5aa2e95ad50be",
+    "id": "55d7ed64ad6a853ca9ba",
     "artist": "The Notorious B.I.G.",
     "title": "Want That Old Thing Back (feat. Ja Rule & Ralph Tresvant) [2007 Remaster] (Featuring Ja Rule and Ralph Tresvant Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "9c5dc788f10231e87492",
+    "id": "bcf26a584bf9c042322e",
     "artist": "The Notorious B.I.G.",
     "title": "Warning (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "ba2c5f4ceaea26fd834d",
+    "id": "0781e8df884a282d4999",
     "artist": "The Notorious B.I.G.",
     "title": "Who Shot Ya",
-    "album": "Born Again",
-    "genre": "Gangsta Rap"
+    "album": "Born Again"
   },
   {
-    "id": "484a383f2ccfb4cfe4ae",
+    "id": "92717d72a3133de77d94",
     "artist": "The Notorious B.I.G.",
     "title": "Who Shot Ya (Explicit Album Version)",
-    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)",
-    "genre": "Hip-Hop/Rap"
+    "album": "Greatest Hits (International Explicit Version) (International Explicit iTunes)"
   },
   {
-    "id": "5dc1445b10ef09e9619e",
+    "id": "93efe13c6d49ae79e5c3",
     "artist": "The Notorious B.I.G.",
     "title": "You’re Nobody (Til Somebody Kills You)",
-    "album": "Life After Death",
-    "genre": "Gangsta Rap"
+    "album": "Life After Death"
   },
   {
-    "id": "79a1dc10f7fda1f31270",
+    "id": "b485fb058a2e058225d5",
     "artist": "The Notorious B.I.G. feat. Diddy, Nelly, Jagged Edge & Avery Storm",
     "title": "Nasty Girl",
     "album": "Duets: The Final Chapter"
   },
   {
-    "id": "50cd9007c8ccb0fe8c3d",
+    "id": "dc192bef54c701c13ef5",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "Chitty Chitty Bang Bang",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "ff65c4ab9a6a5aacb080",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "Dear World",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "9b884e174a930fce3b96",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "Happiness Is",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "7a16bf18c3f048f2eb88",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "Happy Birthday to Me",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "c60eff9c17fa8445c5a6",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "Just One of Those Songs",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "2344084ded70e29430bb",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "Puff the Magic Dragon",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "d0226e6de4860c619e91",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "The Alley Cat Dance",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "5d116bcd69ab9a04c35c",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "The Unicorn",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "41738db26c86eb15bccf",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "What's More American",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "93d76071179987239c34",
+    "artist": "The Pickwick Children's Chorus",
+    "title": "Yellow Submarine",
+    "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
+  },
+  {
+    "id": "146f23880daa0871c354",
+    "artist": "The Power Station",
+    "title": "Some LIke It Hot (Single Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "20357d739ad794042dab",
+    "artist": "The Power Station",
+    "title": "Some Like It Hot / The Heat Is On (Extended Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "0191390c38f27a45d352",
+    "artist": "The Power Station",
+    "title": "The Heat Is On (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "245ac51a5e6be508e06d",
     "artist": "The Rolling Stones",
     "title": "Gimme Shelter",
     "album": "Let It Bleed"
   },
   {
-    "id": "9fc69c1c7ef455a51e8d",
+    "id": "47e652b3e27f591cf93c",
     "artist": "The Rolling Stones",
     "title": "Let’s Spend the Night Together",
     "album": "Between the Buttons"
   },
   {
-    "id": "ee5021f7b2428da99bbb",
+    "id": "17c705d380b1ef9410b2",
     "artist": "The Rolling Stones",
     "title": "Miss You",
     "album": "Some Girls"
   },
   {
-    "id": "0058a645f71ad7ab69c6",
+    "id": "c64e71536ff57280b1ce",
     "artist": "The Rolling Stones",
     "title": "You Can't Always Get What You Want",
-    "album": "Let It Bleed (Mono)",
-    "genre": "Rock"
+    "album": "Let It Bleed (Mono)"
   },
   {
-    "id": "493b7f5c67916567a10a",
+    "id": "1bbef1c12e2126e906d3",
+    "artist": "The Romantics",
+    "title": "Talking In Your Sleep (Instrumental)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "49d71b3ed8c87b0e3d12",
+    "artist": "The Romantics",
+    "title": "Talking In Your Sleep (Special Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "e5e26942b16fa660cbdc",
+    "artist": "The Sandpipers",
+    "title": "The Christmas Song / We Wish You a Merry Christmas",
+    "album": "The Christmas Song"
+  },
+  {
+    "id": "1dc705f24f23a2e6ff11",
+    "artist": "The Serendipity Singers",
+    "title": "Boa Constrictor",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "5ad5415f02fa6d633d37",
+    "artist": "The Serendipity Singers",
+    "title": "Everytime",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "69f822203fc68d5934b7",
+    "artist": "The Serendipity Singers",
+    "title": "If You Come Back in Summer",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "f3a09de9091829f225c8",
+    "artist": "The Serendipity Singers",
+    "title": "Little Sally Saucer",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "93f5cb8ee6ba4b566189",
+    "artist": "The Serendipity Singers",
+    "title": "Muddy Old River",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "e4f4de6ea003a75a6888",
+    "artist": "The Serendipity Singers",
+    "title": "Plastic",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "76ab4993975fdded2d1f",
+    "artist": "The Serendipity Singers",
+    "title": "Some Days",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "ce980ce274c250231a36",
+    "artist": "The Serendipity Singers",
+    "title": "The Clam",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "a87140e55cf9b8321fac",
+    "artist": "The Serendipity Singers",
+    "title": "The Lion",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "fdc689ef5c87f5f8c166",
+    "artist": "The Serendipity Singers",
+    "title": "The Monkey and the Elephant",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "e9195e29c3298e5dada5",
+    "artist": "The Serendipity Singers",
+    "title": "When Peaches Grow on Lilac Trees",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "00707417342febc19daa",
+    "artist": "The Serendipity Singers",
+    "title": "Willowy Billowy Land",
+    "album": "Sing of Love, Lies, and Flying Festoons"
+  },
+  {
+    "id": "79e9c401098e30276dca",
     "artist": "The Specials",
     "title": "A Message to You Rudy",
     "album": "The Specials"
   },
   {
-    "id": "6d531b50d08b2d4f932c",
-    "artist": "Tony Bennett",
-    "title": "The Lady Is a Tramp feat. Lady Gaga",
-    "album": "Tony Bennett Celebrates 90",
-    "genre": "Jazz"
+    "id": "9cc0dfb10a94349cfc96",
+    "artist": "Thomas Dolby",
+    "title": "Get Out Of My Mix (Special Dance Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
-    "id": "4059797d8be251240bc4",
+    "id": "06830e8754a5f1b223c8",
+    "artist": "Thomas Dolby",
+    "title": "Hyperactive! (Heavy Breather Subversion)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "18269ae1e0cea905f51c",
+    "artist": "Thurl Ravenscroft with Stan Jones and the Ranger Chorus",
+    "title": "Along the Yellowstone",
+    "album": "Songs of the National Parks"
+  },
+  {
+    "id": "d4538c78ebdb51eb8ec7",
+    "artist": "Thurl Ravenscroft with Stan Jones and the Ranger Chorus",
+    "title": "Grand Canyon",
+    "album": "Songs of the National Parks"
+  },
+  {
+    "id": "1bb609bf4ce29135a440",
+    "artist": "Thurl Ravenscroft with Stan Jones and the Ranger Chorus",
+    "title": "Rangers' Hymn",
+    "album": "Songs of the National Parks"
+  },
+  {
+    "id": "6b8c98569bb605988c86",
+    "artist": "Thurl Ravenscroft with Stan Jones and the Ranger Chorus",
+    "title": "Song of the Trail",
+    "album": "Songs of the National Parks"
+  },
+  {
+    "id": "fcf3a41f858cce570e0c",
+    "artist": "Thurl Ravenscroft with Stan Jones and the Ranger Chorus",
+    "title": "Sons of the Mountains",
+    "album": "Songs of the National Parks"
+  },
+  {
+    "id": "aac5dc2a466487f2caa6",
+    "artist": "Thurl Ravenscroft with Stan Jones and the Ranger Chorus",
+    "title": "The Desert",
+    "album": "Songs of the National Parks"
+  },
+  {
+    "id": "bbd75a951b903e512319",
+    "artist": "Thurl Ravenscroft with Stan Jones and the Ranger Chorus",
+    "title": "Woodsman's Prayer",
+    "album": "Songs of the National Parks"
+  },
+  {
+    "id": "1da89c47a4554e72b546",
+    "artist": "Tony Bennett",
+    "title": "The Lady Is a Tramp feat. Lady Gaga",
+    "album": "Tony Bennett Celebrates 90"
+  },
+  {
+    "id": "b496942ac619718a7f79",
     "artist": "Toots & The Maytals",
     "title": "54-46 Was My Number",
     "album": "Funky Kingston / In the Dark"
   },
   {
-    "id": "9b8aed159d6f95d3a023",
+    "id": "e26e8077e91778808be8",
     "artist": "Toots & The Maytals",
     "title": "Funky Kingston",
     "album": "Grand Theft Auto: San Andreas Radio: K-Jah West"
   },
   {
-    "id": "3533d0d21cf2320bb40d",
+    "id": "97ca4848e6479219f301",
+    "artist": "USA For Africa",
+    "title": "We Are The World",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "9e21427b921582c016ca",
     "artist": "Vanilla Ice",
     "title": "Ninja Rap",
-    "album": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
-    "genre": "Soundtrack"
+    "album": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze"
   },
   {
-    "id": "b8e6bd5fb9aaa9466753",
+    "id": "2667df3359c86fb13b8a",
     "artist": "Weezer",
     "title": "Go Away",
-    "album": "Everything Will Be Alright in the End",
-    "genre": "Alternative"
+    "album": "Everything Will Be Alright in the End"
   },
   {
-    "id": "b8f46ab7b2a659d2b8db",
+    "id": "cbd59a58f46f31ac9c87",
+    "artist": "Wham",
+    "title": "Everything She Wants (Remix)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "005a2ae2463667546894",
+    "artist": "Wham",
+    "title": "Like A Baby",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "cb379181bb80ae2fada9",
     "artist": "Whitney Houston",
     "title": "I Wanna Dance With Somebody (Who Loves Me)",
-    "album": "The Concert for a New South Africa (Durban)",
-    "genre": "Contemporary R&B"
+    "album": "The Concert for a New South Africa (Durban)"
   },
   {
-    "id": "ad96c2ec9afe5cd0489e",
+    "id": "afae1266398a6a7fb125",
     "artist": "Wilson Pickett",
     "title": "In the Midnight Hour",
     "album": "In the Midnight Hour"
+  },
+  {
+    "id": "ac3475192748e15dd305",
+    "artist": "Wishniks",
+    "title": "Down in the Valley",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "9ba843bb9440c9ea3fc5",
+    "artist": "Wishniks",
+    "title": "I Love a Parade",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "a4fe1e473ed94569e5e0",
+    "artist": "Wishniks",
+    "title": "Mommy I Found My Wishnik",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "09140212954013cb6b22",
+    "artist": "Wishniks",
+    "title": "Mommy Where Is My Wishnik",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "064aa6daee8d2f893911",
+    "artist": "Wishniks",
+    "title": "Mother Goosenik Rhymes",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "cf53c909bbf3a057ca3a",
+    "artist": "Wishniks",
+    "title": "Oh Dear What Can the Matter Be",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "e8487c210418f7901376",
+    "artist": "Wishniks",
+    "title": "The Farmer in the Dell",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "6f74e71121290e6cd670",
+    "artist": "Wishniks",
+    "title": "The Wishnik Went Over the Mountain",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "9c0da461e8afd06b6a88",
+    "artist": "Wishniks",
+    "title": "Twinkle Twinkle Little Star",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "88a670427cc6a0eeb002",
+    "artist": "Wishniks",
+    "title": "When Wishnik Eyes Are Smiling",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "e8aeeb4f3a589bcde80f",
+    "artist": "Wishniks",
+    "title": "Yankee Doodle Dandy",
+    "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "46d21ecd2de11e9a7272",
+    "artist": "Yazoo",
+    "title": "Nobody's Diary (Extended Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "7f0a76b08e6dd7cf0b70",
+    "artist": "Yazoo",
+    "title": "Situation",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "56e45fda56811d7431ec",
+    "artist": "Yazoo",
+    "title": "Situation (Dub Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "85f5f7eb5dab687318a8",
+    "artist": "Yazoo",
+    "title": "State Farm (Extended Version)",
+    "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "d6bfabdccc3337411b6a",
+    "artist": "Zac Brown Band feat. Sara Bareilles",
+    "title": "Mango Tree",
+    "album": "Jekyll + Hyde"
   }
 ]

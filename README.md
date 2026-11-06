@@ -37,5 +37,6 @@ The default `public/catalog.json` is intentionally an empty array until reviewed
 - [Product requirements](docs/PRODUCT_REQUIREMENTS.md)
 - [Feature backlog](https://github.com/tuckerbrennan/dj-ogvhs/issues)
 - [Catalog import procedure](docs/CATALOG_IMPORT.md)
+- [Local library indexing](docs/LOCAL_LIBRARY_UPDATER.md)
 
 The actual music files are **not** served or stored in this repository.

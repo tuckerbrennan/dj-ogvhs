@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#000000"><meta name="robots" content="noindex,nofollow,noarchive">
+<title>DJ OGVHS | Collab Invitations</title>
+<link rel="icon" type="image/svg+xml" href="./public/branding/favicon.svg">
+<link rel="stylesheet" href="./src/styles.css?v=ogvhs-palette-20261106">
+<link rel="stylesheet" href="./src/about.css?v=1">
+<link rel="stylesheet" href="./src/collab.css?v=1">
+<script type="module" src="./src/collab-admin.mjs?v=1"></script>
+</head><body><div class="frame">
+<header class="site-header">
+<a href="./" class="brand"><span class="brand-mark">OG</span><span class="brand-text">DJ <strong>OGVHS</strong><small>PRIVATE COLLAB ADMIN</small></span></a>
+<nav class="site-nav"><a href="./">Requests</a><a href="./collab.html">Collab page</a></nav>
+</header>
+<main class="collab-main">
+<section class="collab-hero"><span class="eyebrow">DJ ONLY</span><h1>Start a <em>collab.</em></h1>
+<p>Build a private playlist room, create an invitation link, and decide when submissions close.</p></section>
+<section class="collab-room">
+<h2>Manage invitations</h2>
+<p id="admin-status" class="helper" role="status" aria-live="polite">Checking your session…</p>
+<form id="collab-admin-login" hidden>
+<label class="field-label" for="collab-admin-email">Your authorized DJ admin email</label>
+<div class="collab-manual-fields"><input type="email" id="collab-admin-email" required autocomplete="email" placeholder="you@example.com">
+<button type="submit" class="add-track">Send sign-in link</button></div>
+</form>
+<div id="collab-admin-content" hidden>
+<div class="collab-manual-fields">
+<label class="field-label" for="room-name">Playlist room title</label>
+<input id="room-name" maxlength="120" placeholder="Friday Night Guest Picks">
+<label class="field-label" for="room-description">Description (optional)</label>
+<textarea id="room-description" maxlength="500" rows="2" placeholder="What kind of songs are we collecting?"></textarea>
+<label class="field-label" for="room-days">Invitation expires in (days)</label>
+<input id="room-days" type="number" min="1" max="180" value="30">
+<button id="collab-create" class="submit-button" type="button">Create private invitation</button>
+</div>
+<div id="created-link-panel" class="collab-created" hidden>
+<p class="eyebrow">NEW PRIVATE LINK — SAVE IT NOW</p>
+<p class="helper">For security, the raw invitation token is shown only when created. Share privately; anyone holding it can contribute.</p>
+<input id="created-link" readonly aria-label="New collaboration invitation URL">
+<button id="copy-invite" type="button" class="add-track">Copy invitation link</button>
+</div>
+<hr class="collab-divider">
+<div class="section-heading"><h2>Existing rooms</h2><button type="button" class="add-track" id="collab-admin-refresh">Refresh</button></div>
+<div id="admin-rooms"></div>
+<button type="button" class="add-track" id="collab-admin-signout">Sign out</button>
+</div>
+</section></main><footer>DJ OGVHS · PRIVATE ADMIN</footer>
+</div></body></html>

@@ -87,3 +87,7 @@ footer { padding:24px 0 38px; display:flex; justify-content:space-between; gap:1
 .demo-warning { border:1px solid var(--orange); border-radius:9px; padding:12px; color:var(--orange); background:rgba(255,185,120,.09); line-height:1.5; }
 [hidden] { display:none !important; }
 @media (max-width:490px) { .thankyou-main { margin-top:24px; } .tip-grid { grid-template-columns:1fr; } }
+
+/* Anonymous rolling 60-minute quota. Place near the submit control. */
+.request-limit { margin:14px 0 6px; padding:12px 14px; border-radius:10px; border:1px solid var(--edge); color:var(--mint); background:#102e35; font-size:.88rem; line-height:1.55; }
+.request-limit.exhausted { color:var(--orange); border-color:#9c6f50; background:#38271f; }

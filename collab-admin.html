@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="./src/about.css?v=1">
 <link rel="stylesheet" href="./src/collab.css?v=1">
 <script type="module" src="./src/collab-admin.mjs?v=1"></script>
+<script type="module" src="./src/collab-admin-extras.mjs?v=1"></script>
 </head><body><div class="frame">
 <header class="site-header">
 <a href="./" class="brand"><span class="brand-mark">OG</span><span class="brand-text">DJ <strong>OGVHS</strong><small>PRIVATE COLLAB ADMIN</small></span></a>
@@ -43,7 +44,12 @@
 <div class="section-heading"><h2>Existing rooms</h2><button type="button" class="add-track" id="collab-admin-refresh">Refresh</button></div>
 <div id="admin-rooms"></div>
 <div id="collab-admin-drive" class="collab-admin-private" hidden>
-<h3>Room uploads</h3>
+<h3>Google Drive uploads</h3>
+<label class="field-label" for="collab-drive-room">Collab room</label>
+<select id="collab-drive-room"><option value="">Choose a room</option></select>
+<button id="collab-drive-connect" type="button" class="add-track" disabled>Enable private Drive folder</button>
+<button id="collab-drive-refresh" type="button" class="add-track">Refresh uploads</button>
+<a id="collab-drive-folder-link" hidden target="_blank" rel="noopener noreferrer">Open private folder in Drive</a>
 <p id="collab-admin-drive-feedback" class="helper" role="status" aria-live="polite"></p>
 <div id="collab-admin-files"></div>
 </div>

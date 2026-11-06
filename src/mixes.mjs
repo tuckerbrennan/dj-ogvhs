@@ -1,7 +1,7 @@
 import { playerUrl, showsFromResponse } from './mixes-model.mjs';
 const feeds = [
-  {id:'faves', endpoint:'favorites', limit:4, empty:'No favorites yet. Check back soon.'},
-  {id:'latest', endpoint:'cloudcasts', limit:6, empty:'No mixes published yet. Check back soon.'}
+  {id:'faves', url:new URL('../public/featured-mixes.json', import.meta.url), limit:12, empty:'Handpicked mixes are coming soon.'},
+  {id:'latest', url:'https://api.mixcloud.com/djogvhs/cloudcasts/?limit=6', limit:6, empty:'No mixes published yet. Check back soon.'}
 ];
 function card(show) {
   const article = document.createElement('article'); article.className = 'mix-card';
@@ -22,9 +22,10 @@ async function loadFeed(feed) {
   grid.replaceChildren(); status.textContent = 'Loading mixes…';
   document.getElementById(feed.id + '-retry')?.remove();
   try {
-    const response = await fetch('https://api.mixcloud.com/djogvhs/' + feed.endpoint + '/?limit=' + feed.limit, {signal:AbortSignal.timeout(15000)});
+    const response = await fetch(feed.url, {signal:AbortSignal.timeout(15000), cache:'no-store'});
     if (!response.ok) throw new Error('Mixcloud unavailable');
     const shows = showsFromResponse(await response.json(),feed.limit);
+    if (feed.id === 'faves' && shows.some(show => !show.key.startsWith('/djogvhs/'))) throw new Error('Featured mixes must belong to DJ OGVHS');
     grid.replaceChildren(...shows.map(card));
     status.textContent = shows.length ? '' : feed.empty;
   } catch {

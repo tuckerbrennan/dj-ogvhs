@@ -67,3 +67,26 @@ export function parseITunesTracks(response) {
       album:typeof row.collectionName==="string" ? row.collectionName.slice(0,140) : ""}];
   });
 }
+
+/** Request-to-Collab email. Not a newsletter signup. */
+export function normalizeCollabEmail(value) {
+  if (typeof value !== "string" || value.length > 254) return null;
+  const email = value.trim().toLowerCase();
+  if (!/^[^\s@]{1,64}@[^\s@]{1,189}$/.test(email)) return null;
+  const host = email.split("@")[1];
+  if (!host.includes(".") || host.startsWith(".") || host.endsWith(".")) return null;
+  return email;
+}
+
+const collabUploadExtensions = new Set([
+  "mp3", "m4a", "aac", "wav", "flac", "ogg", "aif", "aiff",
+  "mid", "midi", "m3u", "m3u8", "csv", "txt", "pdf"
+]);
+export function validateCollabUpload(name, size) {
+  const ext = String(name || "").trim().split(".").pop().toLowerCase();
+  if (!collabUploadExtensions.has(ext))
+    return "Please choose an audio, playlist, text, CSV, or PDF file.";
+  if (!Number.isFinite(size) || size <= 0 || size > 15*1024*1024)
+    return "Files must be between 1 byte and 15 MB.";
+  return null;
+}

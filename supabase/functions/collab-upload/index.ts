@@ -173,17 +173,41 @@ Deno.serve(async request=>{
   const clientId=request.headers.get("x-dj-collab-client")||"";
   if(!invitePattern.test(invite)||!browserPattern.test(clientId))
     return reply(403,{error:"A valid collaboration invitation is required."});
-  const declared=Number(request.headers.get("content-length")||0);
-  if(!Number.isInteger(declared)||declared<=0)
-    return reply(411,{error:"Upload size must be provided."});
-  if(declared>maxBytes+1024*1024)
-    return reply(413,{error:"Files must be 15 MB or smaller."});
+  const totalLimit=maxBytes+1024*1024; // include multipart framing overhead
+  const declaredHeader=request.headers.get("content-length");
+  if(declaredHeader!==null){
+    const declared=Number(declaredHeader);
+    if(!Number.isSafeInteger(declared)||declared<1)
+      return reply(400,{error:"Invalid upload size."});
+    if(declared>totalLimit)
+      return reply(413,{error:"Files must be 15 MB or smaller."});
+  }
   const type=request.headers.get("content-type")||"";
-  if(!type.toLowerCase().startsWith("multipart/form-data;"))
+  if(!/^multipart\/form-data\s*;.*boundary=/i.test(type))
     return reply(415,{error:"Choose a file to upload."});
   let file:File;
   try{
-    const form=await request.formData();
+    // Edge proxies may strip Content-Length. Limit actual streamed bytes too;
+    // never trust a declared size before parsing attacker-controlled multipart.
+    const reader=request.body?.getReader();
+    if(!reader)return reply(400,{error:"No upload body."});
+    const chunks:Uint8Array[]=[];
+    let size=0;
+    while(true){
+      const {done,value}=await reader.read();
+      if(done)break;
+      size+=value.byteLength;
+      if(size>totalLimit){
+        await reader.cancel().catch(()=>{});
+        return reply(413,{error:"Files must be 15 MB or smaller."});
+      }
+      chunks.push(value);
+    }
+    const bounded=new Request("https://ogvhs.invalid/upload",{
+      method:"POST",headers:{"Content-Type":type},
+      body:new Blob(chunks)
+    });
+    const form=await bounded.formData();
     const part=form.get("file");
     if(!(part instanceof File))return reply(400,{error:"No file selected."});
     file=part;

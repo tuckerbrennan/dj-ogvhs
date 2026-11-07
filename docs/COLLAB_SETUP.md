@@ -75,6 +75,17 @@ For larger WAV/FLAC files, the 15 MiB limit will be insufficient. A later versio
 
 Do not insert invite tokens into a Git commit, query-string parameter, GitHub Issue, analytics URL, or email address. They are generated as browser URL **fragments**, which are normally not sent to the web host. The guest app sends the invite token only to the Edge Function in an HTTP header; the server hashes it to match the stored digest. All tables deny direct anonymous PostgREST reads and writes.
 
+## Deployment readiness gate (before merging PR #13)
+
+1. Make sure the target Supabase project is a **separate staging project** while features are untested. Log in using the Supabase CLI, link to that project, review migration diff, and apply migrations in order. Never paste database passwords or Google refresh tokens into ChatGPT/GitHub.
+2. Verify that all three deployed functions have `verify_jwt = false` at the Supabase gateway, with the functions' own administrator JWT + allowlist checks active. These flags are now declared in `supabase/config.toml`.
+3. Configure `DJ_ALLOWED_ORIGINS`, `DJ_COLLAB_RATE_SECRET`, and the three Google OAuth secrets via Supabase's encrypted secrets interface. The Google OAuth app should have been authorized for the dedicated Collab integration using `drive.file` scope. The `drive.file` grant is separate from your connected ChatGPT Drive account.
+4. Deploy `collab-room`, `collab-access`, and `collab-upload`. Then run `npm test` and `npm run collab:smoke` against that staging Supabase project. To override public configuration for the smoke test, provide environment values `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`, and `COLLAB_TEST_ORIGIN`. The smoke script only makes anonymous or invalid-input calls; it creates **no** rooms, addresses, or uploads.
+5. After smoke checks pass, manually test with an approved DJ administrator: create room, request email invitation as a guest, review private inbox, create Drive folder, upload a harmless short MP3, verify the file is in the correct *private* folder, and close room; ensure a second unauthorized visitor cannot read emails or files.
+6. Test from phones. Confirm the actual `collab.ogvhs.com` DNS/HTTPS origin and that Google Drive refresh tokens still work after their first expiration; publish only after this is verified.
+
+**Important:** The public GitHub branch and static checks alone do not establish a working backend. Neither migrations nor Google OAuth access has been applied or verified through this PR.
+
 ## Deployment / subdomain
 
 The current GitHub Pages repository serves `ogvhs.com` from `main`. A separate `collab.ogvhs.com` hostname needs separate static-site hosting (for example a new Cloudflare Pages project) or a deliberate redirect to `https://ogvhs.com/collab.html`; a GitHub feature branch alone **does not** deploy the subdomain. First validate this branch locally and in staging, then configure DNS/HTTPS for the chosen approach. If you deploy the UI under a dedicated subdomain, ensure the relative `./public/catalog.json`, `./public/app-config.json`, CSS and module assets are served there and that the Auth redirect URL is allowed.

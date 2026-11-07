@@ -1,3 +1,5 @@
+project_id = "dj-ogvhs"
+
 # DJ OGVHS backend functions. The browser routes stay static.
 # Guest-facing endpoints require their own invitation/rate limiting; the
 # Edge Function JWT gate must be off. Admin routes verify auth explicitly.

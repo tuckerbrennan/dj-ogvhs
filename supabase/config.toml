@@ -1,0 +1,11 @@
+# DJ OGVHS backend functions. The browser routes stay static.
+# Guest-facing endpoints require their own invitation/rate limiting; the
+# Edge Function JWT gate must be off. Admin routes verify auth explicitly.
+[functions.collab-room]
+verify_jwt = false
+
+[functions.collab-access]
+verify_jwt = false
+
+[functions.collab-upload]
+verify_jwt = false

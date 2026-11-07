@@ -45,6 +45,8 @@ The invited playlist page now offers file uploads to that room's **own private G
 **One-time Google setup (must be completed separately):**
 
 1. Enable Google Drive API in a Google Cloud project, configure an OAuth consent screen and OAuth client for the DJ's own Google account, and obtain a secure **offline refresh token** for the narrow scope `https://www.googleapis.com/auth/drive.file`. Follow Google's OAuth server authorization flow with `access_type=offline`; verification/publishing state and Google refresh-token expiry rules matter.
+**Google OAuth expiry warning:** An external OAuth consent screen still in **Testing** generally issues Drive-scoped refresh tokens that expire after seven days. Before relying on uploads at gigs, move the app through Google's appropriate production/publishing process and verify that the granted refresh token stays valid. Do not assume a successful first upload proves lasting access.
+
 2. Store these only in the Supabase Edge Function secret manager:
    - `DJ_GOOGLE_CLIENT_ID`
    - `DJ_GOOGLE_CLIENT_SECRET`

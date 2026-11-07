@@ -1,7 +1,7 @@
 // Secure Google Drive upload proxy for DJ OGVHS Collab.
 // One private Drive folder per room; upload tokens remain server-side.
 // Guest uploads require a valid invite and are capped at 15 MiB per file.
-import { createClient } from "npm:@supabase/supabase-js@2";
+import { createClient } from "npm:@supabase/supabase-js@2.119.0";
 
 const encoder=new TextEncoder();
 const maxBytes=15*1024*1024;

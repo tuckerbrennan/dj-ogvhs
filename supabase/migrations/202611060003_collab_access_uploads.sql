@@ -41,6 +41,10 @@ alter table public.dj_collab_uploads enable row level security;
 revoke all on public.dj_collab_access_requests from public, anon, authenticated;
 revoke all on public.dj_collab_uploads from public, anon, authenticated;
 
+-- Do not depend on project-wide default privileges for trusted server access.
+grant select, update on public.dj_collab_access_requests to service_role;
+grant select, update on public.dj_collab_uploads to service_role;
+
 -- Anonymous interested visitors: do not disclose whether an address is already present.
 -- Serialize requests per client_key; limit 3 new addresses per rolling 24 hours.
 create or replace function public.dj_request_collab_access(

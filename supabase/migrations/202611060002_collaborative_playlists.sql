@@ -37,6 +37,11 @@ alter table public.dj_collab_entries enable row level security;
 revoke all on public.dj_collab_rooms from public, anon, authenticated;
 revoke all on public.dj_collab_entries from public, anon, authenticated;
 
+-- Explicit grants also work when automatic Data API table exposure is off.
+-- The Edge Functions authenticate admins before using this server-only role.
+grant select, insert, update on public.dj_collab_rooms to service_role;
+grant select on public.dj_collab_entries to service_role;
+
 -- Transactionally check invite, room status, duplicates and limits before insert.
 -- Lock the ROOM, so parallel submissions cannot defeat its 500-entry cap.
 create or replace function public.dj_submit_collab_entry(

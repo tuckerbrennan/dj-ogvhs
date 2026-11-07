@@ -1,6 +1,6 @@
 # DJ OGVHS Collab — invited playlist rooms (development)
 
-**Status:** Implemented on feature/invite-playlist-collab; not deployed to production. Do not expose or publish `collab.ogvhs.com` until the backend and staging domain are configured and tested.
+**Status:** Backend verified in an isolated staging project on November 7, 2026; see [staging verification](COLLAB_STAGING_VERIFICATION.md). Not deployed to production. Do not expose or publish `collab.ogvhs.com` until the backend and staging domain are configured and tested.
 
 ## Listener experience
 

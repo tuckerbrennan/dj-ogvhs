@@ -1,6 +1,6 @@
 // DJ OGVHS Collab invite-interest inbox. Guest POST, admin GET/PATCH.
 // NEVER store the email list in a public repo, browser bundle, or analytics.
-import { createClient } from "npm:@supabase/supabase-js@2";
+import { createClient } from "npm:@supabase/supabase-js@2.119.0";
 
 const encoder=new TextEncoder();
 const browserPattern=/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;

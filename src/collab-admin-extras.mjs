@@ -67,7 +67,7 @@ async function loadRooms(){
   rooms=data.rooms||[];
   const previous=select.value;
   select.replaceChildren();
-  const empty=element("option","Choose a room");empty.value="";select.appendChild(empty);
+  const empty=element("option","Choose a Collab");empty.value="";select.appendChild(empty);
   for(const room of rooms){
     const opt=element("option",room.title);opt.value=room.id;select.appendChild(opt);
   }
@@ -80,19 +80,19 @@ async function loadDrive(){
   connect.disabled=!id;
   folderLink.hidden=true;folderLink.removeAttribute("href");
   files.replaceChildren();
-  if(!id){driveStatus.textContent="Choose a Collab room to see its uploads.";return;}
+  if(!id){driveStatus.textContent="Choose a Collab to see its uploads.";return;}
   try{
     const data=await api("collab-upload?admin=1&roomId="+encodeURIComponent(id),{method:"GET"});
     connect.disabled=data.configured;
     driveStatus.textContent=data.configured?
-      "This room has a private Google Drive folder. Only authorized admins can open its files.":
-      "This room doesn't have a Drive folder yet. Enable one before guests can upload.";
+      "This Collab has a private Google Drive folder. Only authorized admins can open its files.":
+      "This Collab doesn't have a Drive folder yet. Enable one before guests can upload.";
     if(data.folderUrl){
       folderLink.href=data.folderUrl;folderLink.hidden=false;
     }
     const uploads=(data.uploads||[]).filter(x=>x.status==="complete");
     if(!uploads.length){
-      files.appendChild(element("p","No uploaded files in this room yet.","helper"));
+      files.appendChild(element("p","No uploaded files in this Collab yet.","helper"));
       return;
     }
     for(const entry of uploads){
@@ -113,7 +113,7 @@ async function loadDrive(){
 connect.addEventListener("click",async()=>{
   if(!select.value||!session)return;
   connect.disabled=true;
-  driveStatus.textContent="Creating the room's private folder in Google Drive…";
+  driveStatus.textContent="Creating the Collab's private folder in Google Drive…";
   try{
     const data=await api("collab-upload?admin=1",{
       method:"POST",body:JSON.stringify({roomId:select.value})

@@ -59,7 +59,7 @@ async function createFolder(token:string,title:string,roomId:string):Promise<str
   const body=await result.json().catch(()=>({}));
   if(!result.ok||!driveIdPattern.test(body.id||"")){
     console.error("Drive folder creation failed",result.status);
-    throw Error("Could not create the private room folder.");
+    throw Error("Could not create the private Collab folder.");
   }
   return body.id;
 }
@@ -129,7 +129,7 @@ Deno.serve(async request=>{
     if(!member)return reply(403,{error:"DJ administrator access required."});
     if(request.method==="GET"){
       const id=url.searchParams.get("roomId")||"";
-      if(!uuidPattern.test(id))return reply(400,{error:"Invalid room."});
+      if(!uuidPattern.test(id))return reply(400,{error:"Invalid Collab."});
       const [{data:room},{data:files,error:filesError}]=await Promise.all([
         db.from("dj_collab_rooms").select("drive_folder_id").eq("id",id).maybeSingle(),
         db.from("dj_collab_uploads")
@@ -145,10 +145,10 @@ Deno.serve(async request=>{
     }
     const data=await request.json().catch(()=>null);
     const roomId=String(data?.roomId||"");
-    if(!uuidPattern.test(roomId))return reply(400,{error:"Invalid room."});
+    if(!uuidPattern.test(roomId))return reply(400,{error:"Invalid Collab."});
     const {data:room,error:roomError}=await db.from("dj_collab_rooms")
       .select("id,title,drive_folder_id").eq("id",roomId).maybeSingle();
-    if(roomError||!room)return reply(404,{error:"Room not found."});
+    if(roomError||!room)return reply(404,{error:"Collab not found."});
     if(room.drive_folder_id)return reply(200,{
       configured:true,folderUrl:"https://drive.google.com/drive/folders/"+room.drive_folder_id
     });
@@ -227,9 +227,9 @@ Deno.serve(async request=>{
   }
   const result=reservation?.status;
   if(result!=="reserved"){
-    if(result==="not_configured")return reply(503,{error:"This room's Google Drive folder is not connected yet."});
+    if(result==="not_configured")return reply(503,{error:"This Collab's Google Drive folder is not connected yet."});
     if(result==="limit")return reply(429,{error:"You have reached 5 uploads per hour."});
-    if(result==="full")return reply(409,{error:"This room has reached its file limit."});
+    if(result==="full")return reply(409,{error:"This Collab has reached its file limit."});
     if(result==="closed")return reply(403,{error:"This collaboration is closed."});
     return reply(403,{error:"Invitation or upload not available."});
   }

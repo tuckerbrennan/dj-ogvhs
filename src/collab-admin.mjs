@@ -22,18 +22,18 @@ async function renderRooms(){
   try{
     const {rooms:items}=await response({method:"GET"});
     rooms.replaceChildren();
-    if(!items.length){rooms.appendChild(el("p","helper","No collaboration rooms yet."));return;}
+    if(!items.length){rooms.appendChild(el("p","helper","No Collabs yet."));return;}
     for(const room of items){
       const row=el("div","collab-admin-room"),left=el("div");
       left.appendChild(el("strong","",room.title));
       left.appendChild(el("small","",room.is_open?"Open until "+new Date(room.expires_at).toLocaleDateString():"Closed"));
-      const toggle=el("button","add-track",room.is_open?"Close room":"Reopen room");
+      const toggle=el("button","add-track",room.is_open?"Close Collab":"Reopen Collab");
       toggle.type="button";
       toggle.addEventListener("click",async()=>{
         toggle.disabled=true;
         try{
           await response({method:"PATCH",body:JSON.stringify({roomId:room.id,isOpen:!room.is_open})});
-          status.textContent="Room updated.";
+          status.textContent="Collab updated.";
           await renderRooms();
         }catch(e){status.textContent=e.message;toggle.disabled=false;}
       });
@@ -62,7 +62,7 @@ $("collab-create").addEventListener("click",async()=>{
   const button=$("collab-create");
   const title=$("room-name").value.trim(),description=$("room-description").value.trim(),expiresInDays=Number($("room-days").value);
   if(!title||title.length>120||description.length>500||!Number.isInteger(expiresInDays)||expiresInDays<1||expiresInDays>180){
-    status.textContent="Give the room a title and an expiry between 1 and 180 days.";return;
+    status.textContent="Give the Collab a title and an expiry between 1 and 180 days.";return;
   }
   button.disabled=true;status.textContent="Creating invitation…";
   try{

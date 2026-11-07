@@ -78,7 +78,7 @@ Deno.serve(async request=>{
       const {data,error}=await db.from("dj_collab_rooms")
         .select("id,title,description,is_open,expires_at,created_at,drive_folder_id")
         .order("created_at",{ascending:false}).limit(50);
-      return error?reply(503,{error:"Unable to list rooms."}):reply(200,{rooms:data});
+      return error?reply(503,{error:"Unable to list Collabs."}):reply(200,{rooms:data});
     }
     const input=await body();
     if(!input)return reply(400,{error:"Invalid request."});
@@ -93,17 +93,17 @@ Deno.serve(async request=>{
         title,description,expires_at:expiresAt,invite_hash:await sha(invite),
         created_by:profile.user.id
       }).select("id,title,expires_at").single();
-      if(error)return reply(503,{error:"Unable to create room."});
+      if(error)return reply(503,{error:"Unable to create Collab."});
       return reply(201,{room:data,invite});
     }
     if(request.method==="PATCH"){
       const roomId=String(input.roomId||"");
       if(!uuidPattern.test(roomId)||typeof input.isOpen!=="boolean")
-        return reply(400,{error:"Invalid room change."});
+        return reply(400,{error:"Invalid Collab change."});
       const {data,error}=await db.from("dj_collab_rooms")
         .update({is_open:input.isOpen}).eq("id",roomId)
         .select("id,title,is_open").maybeSingle();
-      if(error||!data)return reply(404,{error:"Room unavailable."});
+      if(error||!data)return reply(404,{error:"Collab unavailable."});
       return reply(200,{room:data});
     }
   }

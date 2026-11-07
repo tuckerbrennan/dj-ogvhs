@@ -15,7 +15,7 @@
 </header>
 <main class="collab-main">
 <section class="collab-hero"><span class="eyebrow">DJ ONLY</span><h1>Start a <em>collab.</em></h1>
-<p>Build a private playlist room, create an invitation link, and decide when submissions close.</p></section>
+<p>Build a private Collab, create an invitation link, and decide when submissions close.</p></section>
 <section class="collab-room">
 <h2>Manage invitations</h2>
 <p id="admin-status" class="helper" role="status" aria-live="polite">Checking your session…</p>
@@ -26,7 +26,7 @@
 </form>
 <div id="collab-admin-content" hidden>
 <div class="collab-manual-fields">
-<label class="field-label" for="room-name">Playlist room title</label>
+<label class="field-label" for="room-name">Collab title</label>
 <input id="room-name" maxlength="120" placeholder="Friday Night Guest Picks">
 <label class="field-label" for="room-description">Description (optional)</label>
 <textarea id="room-description" maxlength="500" rows="2" placeholder="What kind of songs are we collecting?"></textarea>
@@ -41,12 +41,12 @@
 <button id="copy-invite" type="button" class="add-track">Copy invitation link</button>
 </div>
 <hr class="collab-divider">
-<div class="section-heading"><h2>Existing rooms</h2><button type="button" class="add-track" id="collab-admin-refresh">Refresh</button></div>
+<div class="section-heading"><h2>Existing Collabs</h2><button type="button" class="add-track" id="collab-admin-refresh">Refresh</button></div>
 <div id="admin-rooms"></div>
 <div id="collab-admin-drive" class="collab-admin-private" hidden>
 <h3>Google Drive uploads</h3>
-<label class="field-label" for="collab-drive-room">Collab room</label>
-<select id="collab-drive-room"><option value="">Choose a room</option></select>
+<label class="field-label" for="collab-drive-room">Collab</label>
+<select id="collab-drive-room"><option value="">Choose a Collab</option></select>
 <button id="collab-drive-connect" type="button" class="add-track" disabled>Enable private Drive folder</button>
 <button id="collab-drive-refresh" type="button" class="add-track">Refresh uploads</button>
 <a id="collab-drive-folder-link" hidden target="_blank" rel="noopener noreferrer">Open private folder in Drive</a>

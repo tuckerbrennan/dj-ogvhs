@@ -163,7 +163,7 @@ async function refreshRoom(){
     msg.textContent=roomOpen?"Invite-only playlist · Suggestions are open.":"This playlist is closed to new contributions.";
     renderPicked();
     renderEntries(data.entries||[]);
-  }catch(e){heading.textContent="Can't open this room";msg.textContent=e.message;workspace.hidden=true;roomOpen=false;}
+  }catch(e){heading.textContent="Can't open this Collab";msg.textContent=e.message;workspace.hidden=true;roomOpen=false;}
 }
 $("collab-refresh").addEventListener("click",refreshRoom);
 submit.addEventListener("click",async()=>{

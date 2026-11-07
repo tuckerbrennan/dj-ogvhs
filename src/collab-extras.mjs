@@ -112,10 +112,10 @@ fileButton.addEventListener("click",async()=>{
     const data=await res.json().catch(()=>({}));
     if(res.ok&&data.room?.isOpen&&data.room?.uploadsEnabled){
       uploadsEnabled=true;
-      fileStatus.textContent="Uploads are enabled for this room. Files are private and available to the DJ.";
+      fileStatus.textContent="Uploads are enabled for this Collab. Files are private and available to the DJ.";
     }else{
       fileStatus.textContent=data.room?.isOpen?
-        "The DJ hasn't connected a Google Drive folder for this room yet.":
+        "The DJ hasn't connected a Google Drive folder for this Collab yet.":
         "This collaboration isn't open for uploads.";
     }
   }catch{

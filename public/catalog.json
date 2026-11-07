@@ -1,15 +1,203 @@
 [
   {
+    "id": "ed453e772959b0aac3ff",
+    "artist": "10cc",
+    "title": "I'm Not In Love",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "594f968da1a5bc68481e",
+    "artist": "13th Floor Elevators",
+    "title": "You're Gonna Miss Me",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "561d800d3891c651e1ca",
+    "artist": "2Pac",
+    "title": "Brenda’s Got a Baby",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8f8e7adc1df93e4c59e4",
+    "artist": "2Pac",
+    "title": "Changes",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "afb81d314bc7801d675e",
+    "artist": "2Pac",
+    "title": "Dear Mama",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "23e95c983d233c4bab01",
+    "artist": "2Pac",
+    "title": "God Bless the Dead",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "bcf93d04126de717a198",
+    "artist": "2Pac",
+    "title": "Hail Mary",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2824bd4e3b6ecc9a56e5",
+    "artist": "2Pac",
+    "title": "Heartz of Men",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "3c4c9a6d14be85e0f965",
+    "artist": "2Pac",
+    "title": "Keep Ya Head Up",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "3b7cffda7ed0707b764c",
+    "artist": "2Pac",
+    "title": "Life Goes On",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "7f2967b537d489b4a290",
+    "artist": "2Pac",
+    "title": "So Many Tears",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d33a8dcca81c92917f94",
+    "artist": "2Pac",
+    "title": "Temptations",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8e2086c9f696b66f662c",
+    "artist": "2Pac",
+    "title": "Toss it Up",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "4da1939a3eb72a7b8f2d",
+    "artist": "2Pac",
+    "title": "Trapped",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "44fcd1abd4b3fc1b0d0d",
+    "artist": "2Pac",
+    "title": "Troublesome ’96",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "dbe50b3b7c25c3cce73c",
+    "artist": "2Pac",
+    "title": "Unconditional Love",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
     "id": "845e81999d88f0797e73",
     "artist": "2Pac featuring K‐Ci & JoJo",
     "title": "How Do U Want It (instrumental)",
     "album": "How Do U Want It"
   },
   {
+    "id": "95aa3459f9200784e2c1",
+    "artist": "2Pac • Danny Boy",
+    "title": "I Ain’t Mad at Cha",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "92670c6e5c94892e0835",
+    "artist": "2Pac • Danny Boy • Syke • CPO",
+    "title": "Picture Me Rollin’",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "829c1c924e7cd009ac77",
+    "artist": "2Pac • Dr. Dre • Roger Troutman",
+    "title": "California Love",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "360fd15e4f06713fc05c",
+    "artist": "2Pac • Dramacydal",
+    "title": "Me Against the World",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "534b7ee547fcd4bbbaf6",
+    "artist": "2Pac • K-Ci & JoJo",
+    "title": "How Do U Want It",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "35006c13e9cf3d9d5376",
+    "artist": "2Pac • Snoop Doggy Dogg",
+    "title": "2 of Amerikaz Most Wanted",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "c9abb6648442770aae22",
+    "artist": "2Pac • The Outlawz",
+    "title": "Hit ’Em Up",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "69e1dd37be781dc64d5a",
+    "artist": "2Pac • Top Dogg • Nate Dogg • Dru Down",
+    "title": "All About U",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "6d1cc9f5eaf5a7859ca4",
+    "artist": "2Pac • Val Young",
+    "title": "To Live and Die in L.A.",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
     "id": "608070461bc3382d3940",
     "artist": "50 Cent",
     "title": "P.I.M.P. Remix (explicit) - The Video",
     "album": "P.I.M.P."
+  },
+  {
+    "id": "b7b604b8d775e9d070ec",
+    "artist": "? And The Mysterians",
+    "title": "96 Tears",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "d29d8204b3af9269837c",
+    "artist": "Abba",
+    "title": "Dancing Queen",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "2e955ec80f15dd86db76",
@@ -55,10 +243,44 @@
     "album": "Smack That"
   },
   {
+    "id": "c2c4121036ab07993464",
+    "artist": "Al Green",
+    "title": "Let's Stay Together",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "4f7771ec75be2d9920b2",
+    "artist": "Al Green",
+    "title": "Love And Happiness",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "R&B"
+  },
+  {
+    "id": "25108a5b5acf26170cae",
+    "artist": "Albert Ayler",
+    "title": "Ghosts",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "77cf0911afe340e76a97",
+    "artist": "Alice Coltrane",
+    "title": "Journey In Satchidananda",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Jazz"
+  },
+  {
     "id": "556eac46e79336387089",
     "artist": "Alice Cooper",
     "title": "You and Me",
     "album": "Lace and Whiskey"
+  },
+  {
+    "id": "bb427b3a1b499d9158ce",
+    "artist": "Althea & Donna",
+    "title": "Uptown Top Ranking",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
   },
   {
     "id": "2bd2b6b118fec3e9a655",
@@ -68,10 +290,24 @@
     "genre": "Reggae"
   },
   {
+    "id": "57ee8f79ea28997f5266",
+    "artist": "Alton Ellis",
+    "title": "I'm Still In Love With You",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Reggae"
+  },
+  {
     "id": "685aee4cf259b6bb53f2",
     "artist": "Amy Winehouse",
     "title": "Valerie (Live At BBC Radio 1 Live Lounge, London / 2007)",
     "album": "Back To Black: Songs From The Original Motion Picture"
+  },
+  {
+    "id": "9e754173727c32a8d13e",
+    "artist": "Ann Peebles",
+    "title": "I Can't Stand The Rain",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Soul"
   },
   {
     "id": "37fabe20b7651a6540a7",
@@ -80,10 +316,44 @@
     "album": "Secreto"
   },
   {
+    "id": "8769e641911c8f26ecd9",
+    "artist": "Archie Bell & The Drells",
+    "title": "Here I Go Again",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "101164890e3b62d5cab0",
+    "artist": "Archie Bell & The Drells",
+    "title": "Tighten Up",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "R&B"
+  },
+  {
+    "id": "f1040bcf6dbdb5b26ab7",
+    "artist": "Aretha Franklin",
+    "title": "Do Right Woman - Do Right Man",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "R&B"
+  },
+  {
+    "id": "93782adfc04ea2780b75",
+    "artist": "Aretha Franklin",
+    "title": "Think",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
     "id": "8c5e14136676ca7adf18",
     "artist": "Arsonists vs. Firemen",
     "title": "Blinding Lights",
     "album": "OBLIQUE"
+  },
+  {
+    "id": "39e4d72a886dd9da847f",
+    "artist": "Art Ensemble of Chicago",
+    "title": "Theme De Yoyo",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "fff33c9917f4a8a19cc2",
@@ -128,10 +398,91 @@
     "album": "Grand Theft Auto: San Andreas Radio: K-Jah West"
   },
   {
+    "id": "57de5761ff017650eabc",
+    "artist": "Bauhaus",
+    "title": "Bela Lugosi's Dead",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "7d1c6743ae0d89f45c15",
+    "artist": "BBC Radiophonic Workshop",
+    "title": "Doctor Who (Original Theme)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Electronic"
+  },
+  {
+    "id": "f9a3bc044f817a7796fa",
+    "artist": "Bembeya Jazz National",
+    "title": "Armee Guineenne",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "f38a09a74a17d8690082",
+    "artist": "Ben E. King",
+    "title": "Stand By Me",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "R&B"
+  },
+  {
+    "id": "a87e67e585ecb6562152",
+    "artist": "Betty Davis",
+    "title": "He Was A Big Freak",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "bc96f2810c3d53f93287",
+    "artist": "Big Star",
+    "title": "September Gurls",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "98f0ebb9aeca0dbc7b83",
+    "artist": "Big Star",
+    "title": "Thirteen",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "83888441fa43439d5b59",
+    "artist": "Bill Withers",
+    "title": "Ain't No Sunshine",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "b7fd2c9176bb372d9405",
     "artist": "Billie Eilish",
     "title": "What Was I Made For? (live from Lollapalooza Chicago 2023)",
     "album": "What Was I Made For? (live from Lollapalooza Chicago 2023)"
+  },
+  {
+    "id": "396a2804f3f9b341d89b",
+    "artist": "Black Flag",
+    "title": "Nervous Breakdown",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "e850c8d8c6477d0cff05",
+    "artist": "Black Sabbath",
+    "title": "War Pigs",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "49ca2f824b9a4c2ac269",
+    "artist": "Blondie",
+    "title": "Dreaming",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "d0ca69efb3eb3404daf1",
+    "artist": "Blondie",
+    "title": "Heart Of Glass",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "ae34b141f003df9de7c2",
+    "artist": "Blue Oyster Cult",
+    "title": "Don't Fear The Reaper",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "fc8f2b4dbf95d3d961fd",
@@ -139,6 +490,12 @@
     "title": "Run-Around",
     "album": "Billboard Usa - Top 100 Hits Of 1995",
     "genre": "Pop"
+  },
+  {
+    "id": "d6641cacd4d477917be2",
+    "artist": "Bob Dylan",
+    "title": "Don't Think Twice, It's All Right",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
   },
   {
     "id": "31cf0c57ece264393b00",
@@ -152,6 +509,41 @@
     "artist": "Bob Dylan",
     "title": "Forever Young",
     "album": "Planet Waves",
+    "genre": "Rock"
+  },
+  {
+    "id": "a6c546aa066d5fdcd69a",
+    "artist": "Bob Dylan",
+    "title": "It's Alright, Ma (I'm Only Bleeding)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "63694af83f96359b11b5",
+    "artist": "Bob Dylan",
+    "title": "Like A Rolling Stone",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Folk"
+  },
+  {
+    "id": "aabf31c08b17c3be3918",
+    "artist": "Bob Dylan",
+    "title": "Subterranean Homesick Blues",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "e237191da124d7d6837e",
+    "artist": "Bob Dylan",
+    "title": "Tangled Up In Blue",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Folk"
+  },
+  {
+    "id": "9e5aa43b76d3bf373ba1",
+    "artist": "Bob Dylan",
+    "title": "Visions Of Johanna",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Rock"
   },
   {
@@ -174,10 +566,24 @@
     "genre": "Reggae"
   },
   {
+    "id": "55a1a62c10ba10259297",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Concrete Jungle",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
+  },
+  {
     "id": "b0452f73304a65da3edb",
     "artist": "Bob Marley & The Wailers",
     "title": "Exodus",
     "album": "Exodus"
+  },
+  {
+    "id": "c4b4bb5e172bb313f2d3",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Waiting In Vain",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
   },
   {
     "id": "a06392e1619b54a15b2f",
@@ -216,10 +622,70 @@
     "album": "Bob McGrath Sings for All the Boys and Girls"
   },
   {
+    "id": "e02fce99c17a0cb454bf",
+    "artist": "Bobbie Gentry",
+    "title": "Ode To Billie Joe",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "48e5dfc8c3001e5e09e0",
+    "artist": "Bobby Caldwell",
+    "title": "What You Won't Do For Love",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "dd78946c11a9c96ba4cf",
+    "artist": "Bobby Darin",
+    "title": "Beyond The Sea",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "616bbe9fd62055d392eb",
+    "artist": "Bobby Womack",
+    "title": "Across 110th Street",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "4cc56455c1ca1cce9c85",
     "artist": "Booker T. & the MG’s",
     "title": "Green Onions",
     "album": "Green Onions"
+  },
+  {
+    "id": "0487a3c27d76036d8e46",
+    "artist": "bounty killer feat. masta kil",
+    "title": "eyes a bleed (rza remix)",
+    "album": "Wu Chronicles-Chapter II"
+  },
+  {
+    "id": "1a32e433c7afdc67ed6b",
+    "artist": "Brian Eno",
+    "title": "1-1",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "2ca5e423330d4f6156ce",
+    "artist": "Brian Eno",
+    "title": "Baby's On Fire",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "1df57291b0d2e718f563",
+    "artist": "Brian Eno",
+    "title": "St. Elmo's Fire",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "f1268da19e3d4374c89c",
+    "artist": "Brian Wilson",
+    "title": "Surf's Up (Solo Piano Version)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
   },
   {
     "id": "ef3827877bedcfcff5ca",
@@ -265,6 +731,13 @@
     "album": "Greatest Hits"
   },
   {
+    "id": "7c755c5213b2794a0932",
+    "artist": "Bruce Springsteen",
+    "title": "Born To Run",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
     "id": "05ec625ceca96044bf5a",
     "artist": "Bruce Springsteen",
     "title": "Brilliant Disguise",
@@ -282,6 +755,12 @@
     "title": "Darkness On The Edge Of Town",
     "album": "Darkness On The Edge Of Town",
     "genre": "Rock"
+  },
+  {
+    "id": "5dd07dd289de483a280f",
+    "artist": "Bruce Springsteen",
+    "title": "Darkness On The Edge Of Town",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "0ce278f5ed525627c9f2",
@@ -429,6 +908,13 @@
     "album": "Songs of America"
   },
   {
+    "id": "cd533871c0ebdc2541c0",
+    "artist": "Buffalo Springfield",
+    "title": "For What It's Worth",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Folk"
+  },
+  {
     "id": "3e8ee3ec44fac910c933",
     "artist": "Buju Banton feat. Tenor Saw",
     "title": "Ring the Alarm",
@@ -531,10 +1017,42 @@
     "album": "Animal Song Parade"
   },
   {
+    "id": "b992724cfe2911f41946",
+    "artist": "Buzzcocks",
+    "title": "Ever Fallen In Love (With Someone You Shouldn't've)",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "6ecb28735c0ef163a40c",
+    "artist": "Caetano Veloso",
+    "title": "You Don't Know Me",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "2d494a4d9fce7c9781f1",
+    "artist": "Can",
+    "title": "Future Days",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "b295f80e704ec61f99e9",
+    "artist": "Can",
+    "title": "Vitamin C",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "5116093aa11414058e7e",
     "artist": "Candlebox",
     "title": "Far Behind",
     "album": "Candlebox"
+  },
+  {
+    "id": "9def38f387f6f6c972fb",
+    "artist": "Cannonball Adderley",
+    "title": "Mercy, Mercy, Mercy",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
   },
   {
     "id": "faca23863c0547d856de",
@@ -621,6 +1139,13 @@
     "album": "Invasion of Privacy"
   },
   {
+    "id": "b1ce6ec5896989d0c46b",
+    "artist": "Cerrone",
+    "title": "Supernature",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Dance"
+  },
+  {
     "id": "7bcf94cb6518c5b14ba1",
     "artist": "Chaka Demus & Pliers",
     "title": "Bam Bam",
@@ -640,6 +1165,13 @@
     "genre": "Soul"
   },
   {
+    "id": "f74a29e093c373c9e107",
+    "artist": "Charles Mingus",
+    "title": "Solo Dancer",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
+  },
+  {
     "id": "6f782fae5baab209e547",
     "artist": "Charles Wright & the Watts 103rd Street Rhythm Band",
     "title": "Express Yourself",
@@ -650,6 +1182,24 @@
     "artist": "Charli xcx",
     "title": "Guess",
     "album": "Guess / Spring breakers"
+  },
+  {
+    "id": "e594c179a748cd45554c",
+    "artist": "Cheap Trick",
+    "title": "Surrender",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "0e1f22252eccb060cbbe",
+    "artist": "Chic",
+    "title": "Good Times",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "b1da0dccd441348c8dc5",
+    "artist": "Chic",
+    "title": "I Want Your Love",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "b48b6a5811ca613e874c",
@@ -685,6 +1235,27 @@
     "genre": "Jazz"
   },
   {
+    "id": "e0f1e7fef9758a44c32a",
+    "artist": "Creedence Clearwater Revival",
+    "title": "Bad Moon Rising",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "28488e2b5bf6b560b34c",
+    "artist": "Creedence Clearwater Revival",
+    "title": "Fortunate Son",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "25435be73520057b78c1",
+    "artist": "Cromagnon",
+    "title": "Caledonia",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
     "id": "35cec45b7c3db0cd18e5",
     "artist": "Culture Club",
     "title": "Do You Really Want To Hurt Me?",
@@ -703,10 +1274,115 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "b753762f015b57b0c59f",
+    "artist": "Curtis Mayfield",
+    "title": "Move On Up",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Soul"
+  },
+  {
     "id": "ad4d96fceed39759d2fd",
     "artist": "Cutty Ranks",
     "title": "Limb By Limb",
     "album": "Reggae Anthology: Cutty Ranks - Limb By Limb"
+  },
+  {
+    "id": "b98b557e7fcb8fc1ecad",
+    "artist": "Czarface & MF DOOM",
+    "title": "Astral Traveling (feat. Vinnie Paz)",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "a49daf7c44e1c7b9083b",
+    "artist": "Czarface & MF DOOM",
+    "title": "Badness Of Madness",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2036ba4d1465613bbd70",
+    "artist": "Czarface & MF DOOM",
+    "title": "Bomb Thrown",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "a4ea0f010a1237f2e90f",
+    "artist": "Czarface & MF DOOM",
+    "title": "Captain Brunch",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "79b153789109f4e2c256",
+    "artist": "Czarface & MF DOOM",
+    "title": "Close Talker",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "22f33355722b87b9fe3b",
+    "artist": "Czarface & MF DOOM",
+    "title": "Forever People",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "32cb1430db1eeac78545",
+    "artist": "Czarface & MF DOOM",
+    "title": "Meddle With Metal",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "4affaefc8fae00fa5a5f",
+    "artist": "Czarface & MF DOOM",
+    "title": "MF Czar",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "071e8834610eb323c4ce",
+    "artist": "Czarface & MF DOOM",
+    "title": "Nautical Depth",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "52021dfd8ced74e31054",
+    "artist": "Czarface & MF DOOM",
+    "title": "Phantoms (feat. Open Mike Eagle)",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "c7010fa86bb5930efa14",
+    "artist": "Czarface & MF DOOM",
+    "title": "Sleeping Dogs",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "a4d1882c84acf6cc31be",
+    "artist": "Czarface & MF DOOM",
+    "title": "Stun Gun",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "9daf96655063e72aeac3",
+    "artist": "Czarface & MF DOOM",
+    "title": "Take Your Medicine",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2eea0c863f0a97070063",
+    "artist": "Czarface & MF DOOM",
+    "title": "You Masked For It",
+    "album": "Czarface Meets Metal Face",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "326e76c966482a6da263",
@@ -721,10 +1397,30 @@
     "album": "Dura (remix)"
   },
   {
+    "id": "a6425c35284f7dc67cec",
+    "artist": "Darlene Love",
+    "title": "Christmas (Baby Please Come Home)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "89ae80534a0750081f23",
+    "artist": "David Axelrod",
+    "title": "The Human Abstract",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
     "id": "2eea0088871aebffb3fb",
     "artist": "David Bowie",
     "title": "Blue Jean (Extended Dance Mix)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "bda491b3b3424f5fbbd9",
+    "artist": "David Bowie",
+    "title": "Changes",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
   },
   {
     "id": "2eacaa5977ebdcb89e69",
@@ -737,6 +1433,61 @@
     "artist": "David Bowie",
     "title": "Dancing With The Big Boys (Extended Dub Mix)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "d1bf93512d8d2424ee65",
+    "artist": "David Bowie",
+    "title": "Heroes",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "3e6c3af4adf681d3213d",
+    "artist": "David Bowie",
+    "title": "Life On Mars",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "e58bd2a38429722b3515",
+    "artist": "David Bowie",
+    "title": "Space Oddity",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Folk"
+  },
+  {
+    "id": "bc2801be78c22e90be5a",
+    "artist": "David Bowie",
+    "title": "Young Americans",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "af4762c4c454465d8c81",
+    "artist": "Del Shannon",
+    "title": "Runaway",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "29b2975b70285a6eba80",
+    "artist": "Delta 5",
+    "title": "Mind Your Own Business",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "c1215b6bbccad4e80a43",
+    "artist": "Desmond Dekker",
+    "title": "007 (Shanty Town)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Reggae"
+  },
+  {
+    "id": "52baa23aa9f29999fb35",
+    "artist": "Desmond Dekker & The Aces",
+    "title": "Israelites",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Reggae"
   },
   {
     "id": "57adb544f59da5c9529d",
@@ -761,6 +1512,20 @@
     "artist": "Devo",
     "title": "Peek-A-Boo! (Devo Dub)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "561434faa16140726cba",
+    "artist": "Diana Ross",
+    "title": "Love Hangover",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Pop"
+  },
+  {
+    "id": "390f8778fcaa8e3d56a4",
+    "artist": "Dick Dale & The Del-Tones",
+    "title": "Misirlou",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
   },
   {
     "id": "86ec849166021343fd0d",
@@ -827,6 +1592,34 @@
     "artist": "Dick Kerr And The Sing-Along Teen-Agers",
     "title": "Yogi",
     "album": "A Teen-Age Sing Along Crazy, Top 40 & Cool"
+  },
+  {
+    "id": "2d681668c5506f0a73b5",
+    "artist": "Digital Underground",
+    "title": "I Get Around",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "9b3cc42953c43465e446",
+    "artist": "Dillinger",
+    "title": "Cokane in My Brain",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
+  },
+  {
+    "id": "31c9567e5cf41c652b2d",
+    "artist": "Dinosaur",
+    "title": "Kiss Me Again",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Disco"
+  },
+  {
+    "id": "3cf92b62500337f73ec8",
+    "artist": "Dionne Warwick",
+    "title": "Walk On By",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
   },
   {
     "id": "992481a172c2b08cd554",
@@ -973,6 +1766,138 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "13751b4c739393b7565f",
+    "artist": "Dolly Parton",
+    "title": "Jolene",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Electronic"
+  },
+  {
+    "id": "85847411c74079ed3a65",
+    "artist": "Don Cherry",
+    "title": "Brown Rice",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "59cb307fc1b2757e8025",
+    "artist": "Donna Summer",
+    "title": "I Feel Love",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Disco"
+  },
+  {
+    "id": "cee45dc9c7d5210330fb",
+    "artist": "Donnie & Joe Emerson",
+    "title": "Baby",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "f8be440248a82b931091",
+    "artist": "Donny Hathaway",
+    "title": "A Song For You",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "905146367adb6a2d4679",
+    "artist": "Donovan",
+    "title": "Season Of The Witch",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Folk"
+  },
+  {
+    "id": "ba7e98b4623c66096013",
+    "artist": "DOOM",
+    "title": "Absolutely",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "c0fd0daa493a6a8f3c51",
+    "artist": "DOOM",
+    "title": "Angelz (feat. Tony Starks)",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e69458cb6d7690b62fb9",
+    "artist": "DOOM",
+    "title": "Ballskin",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2d3eda21c600e0e0862f",
+    "artist": "DOOM",
+    "title": "Batty Boyz",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "4dc44b90d606979c1e9d",
+    "artist": "DOOM",
+    "title": "Gazzillion Ear",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e9ad195ed5cd51822a99",
+    "artist": "DOOM",
+    "title": "Lightworks",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "b944d2e84c0e54a63708",
+    "artist": "DOOM",
+    "title": "Microwave Mayo",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "4458de0ed4f86c02d076",
+    "artist": "DOOM",
+    "title": "More Rhymin'",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "98096f19ec8c784ceb62",
+    "artist": "DOOM",
+    "title": "Rap Ambush",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "78ee92952e2e393701da",
+    "artist": "DOOM",
+    "title": "Still Dope (feat. Empress Starhh Tha Femcee)",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "a9667b1758a5d8abbb0c",
+    "artist": "DOOM",
+    "title": "Supervillainz (feat. Mr. Chop, Kurious, Mobonix & Slug)",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "9252efce4d5c620b68aa",
+    "artist": "DOOM",
+    "title": "That´s That",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ae8ba1a9b9240fc2d039",
+    "artist": "DOOM",
+    "title": "Yessir! (feat. Raekwon)",
+    "album": "Born Like This",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
     "id": "77fcb3fb884651d7918c",
     "artist": "Doug E. Fresh and The Get Fresh Crew",
     "title": "La-Di-Da-Di (feat. Slick Rick)",
@@ -1027,10 +1952,37 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "49740d738ecc0e355e5e",
+    "artist": "Dusty Springfield",
+    "title": "Son Of A Preacher Man",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "4216260be68a5c87cafb",
+    "artist": "Earth, Wind & Fire",
+    "title": "September",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "0632fdb17128d64ba64a",
+    "artist": "Eddie Kendricks",
+    "title": "Girl You Need A Change Of Mind",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Soul"
+  },
+  {
     "id": "4adcb1d62fbfb2216d9c",
     "artist": "Eek‐A‐Mouse",
     "title": "Ganja Smuggling",
     "album": "Wa-Do-Dem"
+  },
+  {
+    "id": "1158d91f08d2262e6198",
+    "artist": "Electric Light Orchestra",
+    "title": "Mr. Blue Sky",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
   },
   {
     "id": "b2d5ebf0ab78416d7307",
@@ -1129,16 +2081,56 @@
     "album": "Heart On My Sleeve"
   },
   {
+    "id": "5cad8522fd157f22b912",
+    "artist": "Elton John",
+    "title": "Goodbye Yellow Brick Road",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Pop"
+  },
+  {
     "id": "3fa8b0106c4071e4fe80",
     "artist": "Elton John",
     "title": "Tiny Dancer",
     "album": "Now 100 Hits Sing-A-Long"
   },
   {
+    "id": "1a05699f3ce1f2eb858e",
+    "artist": "Elvis Costello",
+    "title": "Alison",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Pop"
+  },
+  {
+    "id": "3f1b877c30a70af5b9d7",
+    "artist": "Elvis Costello & The Attractions",
+    "title": "Radio, Radio",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "675f8123dd7c8f1bd64c",
     "artist": "Elvis Presley",
     "title": "Suspicious Minds",
     "album": "From Elvis in Memphis"
+  },
+  {
+    "id": "c74e8678e3ae61d51fa5",
+    "artist": "Elvis Presley",
+    "title": "Suspicious Minds",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "e8c96292cc734113053b",
+    "artist": "Ennio Morricone",
+    "title": "Il Buono Il Brutto Il Cattivo",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "90bddc7f120efdccc9aa",
+    "artist": "Etta James",
+    "title": "At Last",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
   },
   {
     "id": "999b4d086199bb19bbe2",
@@ -1157,6 +2149,12 @@
     "artist": "Eurythmics",
     "title": "This City Never Sleeps (Live)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "e8e03fc5130a6237809e",
+    "artist": "Faces",
+    "title": "Ooh La La",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "895f8c673b61a6870982",
@@ -1181,6 +2179,39 @@
     "artist": "Fat Joe feat. Ashanti",
     "title": "What’s Luv?",
     "album": "Hits 53"
+  },
+  {
+    "id": "f27ee1a47121713a09f5",
+    "artist": "Faust",
+    "title": "It's a Rainy Day, Sunshine Girl",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "c733ef19ba34fccf9616",
+    "artist": "Fela Anikulapo Kuti & Africa 70",
+    "title": "Zombie",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "778545b41eb2776c6921",
+    "artist": "Fleetwood Mac",
+    "title": "Dreams",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "2ef8ad8721961c260c1b",
+    "artist": "Fleetwood Mac",
+    "title": "The Chain",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "6456b26ae8b76f984aab",
+    "artist": "France Gall",
+    "title": "Laisse Tomber Les Filles",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
   },
   {
     "id": "6f40b45b35e44075c794",
@@ -1748,6 +2779,13 @@
     "artist": "Frank Sinatra",
     "title": "It Never Entered My Mind (Remastered)",
     "album": "In The Wee Small Hours"
+  },
+  {
+    "id": "253f8e32aae7c3ec984c",
+    "artist": "Frank Sinatra",
+    "title": "It Was A Very Good Year",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
   },
   {
     "id": "2bc25c530b957ce1a319",
@@ -2622,10 +3660,40 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "a27444b1ca944b45dfa2",
+    "artist": "Françoise Hardy",
+    "title": "Tous Les Garcons Et Les Filles",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
     "id": "ec0f09a19ba9a00190a8",
     "artist": "Fugees",
     "title": "Killing Me Softly (radio edit)",
     "album": "The Road Ahead 96"
+  },
+  {
+    "id": "ccd5203acdcfc1ec93f9",
+    "artist": "Funkadelic",
+    "title": "Can You Get To That",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "9ed2caf30c46a00efd45",
+    "artist": "Funkadelic",
+    "title": "Maggot Brain",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "4485aa1544ac9729524b",
+    "artist": "Gal Costa",
+    "title": "Baby",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "a84f964dcf6f2d46e103",
+    "artist": "Gang Of Four",
+    "title": "Damaged Goods",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "153d104c9abbcf4b238c",
@@ -2646,10 +3714,42 @@
     "album": "Nursery Songs"
   },
   {
+    "id": "e3654e883aa3b1b4e0a0",
+    "artist": "George Harrison",
+    "title": "My Sweet Lord",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "cdd9bde020896d2218c2",
+    "artist": "George Jones",
+    "title": "She Thinks I Still Care",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
     "id": "c0c5876df6e998e47eb3",
     "artist": "Ghostface Killah feat. Raekwon",
     "title": "Kilo",
     "album": "Fishscale"
+  },
+  {
+    "id": "694771d1e13f47e22ed4",
+    "artist": "Gil Scott-Heron",
+    "title": "The Bottle",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "9e1b8098795f5f799044",
+    "artist": "Giorgio Moroder",
+    "title": "Chase",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "fc7af5af698e5e575ed2",
+    "artist": "Glen Campbell",
+    "title": "Wichita Lineman",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
   },
   {
     "id": "efa93bb4762512ffdafb",
@@ -2659,10 +3759,24 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "f179bbcbd3115b8aeb59",
+    "artist": "Grateful Dead",
+    "title": "Friend of the Devil",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
     "id": "4ae976ce7d69ea841bc9",
     "artist": "Grateful Dead",
     "title": "Uncle John's Band",
     "album": "Workingman's Dead [2013 Remaster]",
+    "genre": "Rock"
+  },
+  {
+    "id": "dbf29619e9d300f901a8",
+    "artist": "Hall & Oates",
+    "title": "She's Gone",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Rock"
   },
   {
@@ -2754,6 +3868,33 @@
     "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
     "title": "Water Wheel",
     "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "e42dc2f1b2f48ab2c849",
+    "artist": "Harry Nilsson",
+    "title": "Everybody's Talkin'",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "2e8238e9ee6d968a85c5",
+    "artist": "Harry Nilsson",
+    "title": "One",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Folk"
+  },
+  {
+    "id": "1a5e6d43bf8390f46eea",
+    "artist": "Harry Nilsson",
+    "title": "Without You",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "6c862f2ac172ee12bd20",
+    "artist": "Herbie Hancock",
+    "title": "Chameleon",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
   },
   {
     "id": "2b4740a7755709b073b4",
@@ -3020,10 +4161,63 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "0a0106d3f24ed1662922",
+    "artist": "Idris Muhammad",
+    "title": "Could Heaven Ever Be Like This",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "1b28af85ed924afa5ea5",
+    "artist": "Iggy Pop",
+    "title": "Lust For Life",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "98314548c26f2417a062",
+    "artist": "Iggy Pop",
+    "title": "The Passenger",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "04fc5d1c71b0d8b68eb6",
+    "artist": "Ike & Tina Turner",
+    "title": "River Deep - Mountain High",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
     "id": "f3de693750c28800afa4",
     "artist": "INNA",
     "title": "Hot",
     "album": "Hot"
+  },
+  {
+    "id": "1da989dee63b8db8d0c2",
+    "artist": "Irma Thomas",
+    "title": "Time Is On My Side",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "092073eae3e465abb782",
+    "artist": "Isaac Hayes",
+    "title": "The Look Of Love",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Soul"
+  },
+  {
+    "id": "56afd07328de30f054dc",
+    "artist": "Isley Brothers",
+    "title": "It's Your Thing",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "bfa1571887840713faa7",
+    "artist": "Jackie Wilson",
+    "title": "(Your Love Keeps Lifting Me) Higher And Higher",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
   },
   {
     "id": "3f455fd86a17a33ce60e",
@@ -3046,10 +4240,38 @@
     "album": "Star Time"
   },
   {
+    "id": "bbe74e353f92b7387b5c",
+    "artist": "James Brown",
+    "title": "Get Up (I Feel Like Being A) Sex Machine (Parts 1&2)",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Funk"
+  },
+  {
     "id": "fc2c9d1c3f62c29e627a",
     "artist": "James Brown",
     "title": "Get Up Offa That Thing",
     "album": "The Ultimate Collection"
+  },
+  {
+    "id": "6a3f5f79a77c3ec41e9a",
+    "artist": "James Brown",
+    "title": "It's A Man's Man's Man's World",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "R&B"
+  },
+  {
+    "id": "6f2550f080cf273ee823",
+    "artist": "James Brown",
+    "title": "Mother Popcorn (You Got To Have A Mother For Me)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "R&B"
+  },
+  {
+    "id": "c48414ccf99894a0dd78",
+    "artist": "James Brown",
+    "title": "Night Train",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
   },
   {
     "id": "72300444df32dcc1a6f6",
@@ -3058,10 +4280,30 @@
     "album": "Star Time"
   },
   {
+    "id": "180cde9e4ae28de07b75",
+    "artist": "James Brown",
+    "title": "Papa's Got A Brand New Bag, Pts 1, 2, And 3",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "R&B"
+  },
+  {
     "id": "9152074e5d195a1f6f55",
     "artist": "James Brown",
     "title": "The Boss",
     "album": "Black Caesar"
+  },
+  {
+    "id": "18cdfb923ece02f2ab66",
+    "artist": "James Brown",
+    "title": "The Payback",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Soul"
+  },
+  {
+    "id": "bd5be6639e9e6fa0c046",
+    "artist": "James Chance & the Contortions",
+    "title": "Contort Yourself",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "224f7c41c9c36da2d802",
@@ -3076,6 +4318,12 @@
     "title": "Me And Bobby McGee Alternate Version",
     "album": "Janis CD3",
     "genre": "Blues"
+  },
+  {
+    "id": "3a5559cc801df8684f19",
+    "artist": "Jefferson Airplane",
+    "title": "White Rabbit",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
   },
   {
     "id": "f83a8211556eec4574e5",
@@ -3096,10 +4344,44 @@
     "album": "CRAZY"
   },
   {
+    "id": "a98bc56f195eb0077f1e",
+    "artist": "Jimi Hendrix",
+    "title": "All Along The Watchtower",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "160824cf09c6c8ec56f6",
+    "artist": "Jimi Hendrix",
+    "title": "Machine Gun",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "a27e531592b0efa2706a",
+    "artist": "Jimi Hendrix",
+    "title": "Manic Depression",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "397d3074a46286158985",
+    "artist": "Jimi Hendrix",
+    "title": "Voodoo Chile (Slight Return)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
     "id": "91dea474cc79d9fac104",
     "artist": "Jimmy Cliff",
     "title": "Many Rivers To Cross",
     "album": "The Harder They Come (Original Motion Picture Soundtrack)"
+  },
+  {
+    "id": "20bed2611f8cbc4e45b4",
+    "artist": "Jimmy Cliff",
+    "title": "The Harder They Come",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
   },
   {
     "id": "44f325d097412b34e678",
@@ -3125,6 +4407,13 @@
     "artist": "Joe Cocker",
     "title": "Feeling Alright",
     "album": "With a Little Help From My Friends"
+  },
+  {
+    "id": "cbc93d9c54d8021874ad",
+    "artist": "John Coltrane",
+    "title": "My Favorite Things",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
   },
   {
     "id": "98e999518cf748ed1ecb",
@@ -3193,10 +4482,69 @@
     "album": "Songs The Kids Brought Home From Camp"
   },
   {
+    "id": "6cd120bd47d6cdf874b4",
+    "artist": "Johnny Cash",
+    "title": "Folsom Prison Blues",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
+    "id": "1be4308238eedfb2c188",
+    "artist": "Johnny Cash",
+    "title": "Ring Of Fire",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
+    "id": "70308672e0919fba44c1",
+    "artist": "Johnny Cash & June Carter",
+    "title": "Jackson",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
+    "id": "bde95cc573fd31f9a6f3",
+    "artist": "Joni Mitchell",
+    "title": "A Case Of You",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "2df489b5965530afc704",
+    "artist": "Joni Mitchell",
+    "title": "Free Man In Paris",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Folk"
+  },
+  {
+    "id": "65ddae95d9cbcabbd771",
+    "artist": "Jorge Ben Jor",
+    "title": "Taj Mahal",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "44b74ec9a52e1e3d1d7c",
     "artist": "José Augusto",
     "title": "Fantasias",
     "album": "Fantasias"
+  },
+  {
+    "id": "7f39ec157504ce21af75",
+    "artist": "Joy Division",
+    "title": "Disorder",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "419c359f9519c65343fe",
+    "artist": "Joy Division",
+    "title": "Transmission",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "f4ee0a4f6c42f2a53990",
+    "artist": "Judee Sill",
+    "title": "The Kiss",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Folk"
   },
   {
     "id": "906e25ca34c0c39d5632",
@@ -3205,10 +4553,24 @@
     "album": "Universal Smash Hits"
   },
   {
+    "id": "8dd4985e50e4040fc1dc",
+    "artist": "Karen Dalton",
+    "title": "Something On Your Mind",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Folk"
+  },
+  {
     "id": "3bc6fe5ab429879e7be9",
     "artist": "Kat Graham",
     "title": "Put Your Graffiti on Me",
     "album": "Put Your Graffiti on Me"
+  },
+  {
+    "id": "b0f6d15a1b2450983f1a",
+    "artist": "Kate Bush",
+    "title": "Wuthering Heights",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
   },
   {
     "id": "c94b3d88a9e45e978151",
@@ -3307,6 +4669,12 @@
     "album": "Myself"
   },
   {
+    "id": "92cc77751ff3bc96d93c",
+    "artist": "King Crimson",
+    "title": "21st Century Schizoid Man (Including 'Mirrors')",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
     "id": "a0ccc904dc85d47207a3",
     "artist": "King Geedorah",
     "title": "Anti-Matter",
@@ -3366,6 +4734,34 @@
     "id": "68b44174ac0bfc9c5900",
     "artist": "King Geedorah",
     "title": "No Snakes Alive",
+    "album": "Take Me to Your Leader",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "1545707d21f7f6da3d4d",
+    "artist": "King Geedorah",
+    "title": "One Smart Nigger",
+    "album": "Take Me to Your Leader",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "96d63d7517f1baa31c05",
+    "artist": "King Geedorah",
+    "title": "Take Me to Your Leader",
+    "album": "Take Me to Your Leader",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "70e5fd56da2e7c07a0a7",
+    "artist": "King Geedorah",
+    "title": "The Final Hour",
+    "album": "Take Me to Your Leader",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ae719d73a18b28f50d18",
+    "artist": "King Geedorah",
+    "title": "The Fine Print",
     "album": "Take Me to Your Leader",
     "genre": "Hip-Hop / Rap"
   },
@@ -3565,6 +4961,20 @@
     "album": "Wild and Peaceful"
   },
   {
+    "id": "68a958428f4286259bcd",
+    "artist": "Kool & the Gang",
+    "title": "Summer Madness",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Funk"
+  },
+  {
+    "id": "229efa049438250e498a",
+    "artist": "Kraftwerk",
+    "title": "Trans-Europe Express",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Electronic"
+  },
+  {
     "id": "06121512c60a2286d4a9",
     "artist": "Larry Thor",
     "title": "Answer Every Question",
@@ -3637,6 +5047,63 @@
     "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
   },
   {
+    "id": "083be2a611db8ca3ea29",
+    "artist": "Led Zeppelin",
+    "title": "Dazed And Confused",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "76df9999164937bc5336",
+    "artist": "Led Zeppelin",
+    "title": "Immigrant Song",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "975e8f30faf057c3a4d2",
+    "artist": "Led Zeppelin",
+    "title": "What Is And What Should Never Be",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "9c72b4d516cbe580a71e",
+    "artist": "Led Zeppelin",
+    "title": "When The Levee Breaks",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "1bae78a74ceb0680ed1f",
+    "artist": "Led Zeppelin",
+    "title": "Whole Lotta Love",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "2504a4a86b08fa6893e7",
+    "artist": "Lee Perry & The Full Experience",
+    "title": "Disco Devil",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "9a534654964e9d15e5e3",
+    "artist": "Leonard Cohen",
+    "title": "Famous Blue Raincoat",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "9578c09af331ea2ae76d",
+    "artist": "Leonard Cohen",
+    "title": "So Long, Marianne",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "cfa8e5ed41796873508d",
+    "artist": "Leonard Cohen",
+    "title": "Suzanne",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Folk"
+  },
+  {
     "id": "7e82decbfbb8cebc23bb",
     "artist": "Lil Jon & The East Side Boyz",
     "title": "Get Low",
@@ -3659,6 +5126,355 @@
     "artist": "Lil’ Kim feat. Mr. Cheeks",
     "title": "The Jump Off",
     "album": "La Bella Mafia"
+  },
+  {
+    "id": "4f145696db77ead447c8",
+    "artist": "Loretta Lynn",
+    "title": "Don't Come Home A Drinkin' (With Lovin' On Your Mind)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
+    "id": "d1861f6ad28f6a92296a",
+    "artist": "Loretta Lynn",
+    "title": "Fist City",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
+    "id": "e4ef28d208029259d3d5",
+    "artist": "Loretta Lynn",
+    "title": "The Pill",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Country"
+  },
+  {
+    "id": "0b688d5ddf7444a74d78",
+    "artist": "Lorraine Ellison",
+    "title": "Stay With Me",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "f6ab6f71775a796470d1",
+    "artist": "Lou Reed",
+    "title": "Perfect Day",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "a05f7a7a2cba4f27a596",
+    "artist": "Lou Reed",
+    "title": "Walk On The Wild Side",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "175faa02bed979663b2f",
+    "artist": "Louis Armstrong",
+    "title": "What A Wonderful World",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "e2c2358ce536ad36b9d1",
+    "artist": "Love",
+    "title": "Alone Again Or",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "3a3492ad346095a80ab9",
+    "artist": "Madvillain",
+    "title": "Accordion",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8ed82f0097d4dedd394c",
+    "artist": "Madvillain",
+    "title": "All Caps",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "4c465829f41c24ce74cc",
+    "artist": "Madvillain",
+    "title": "America’s Most Blunted Feat. Lord Quas",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "b9570a2ed8bceb55d5b8",
+    "artist": "Madvillain",
+    "title": "Bejezus",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "51ee7f289585c2721419",
+    "artist": "Madvillain",
+    "title": "Blueberry Fields (Instrumental)",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "12a2a09cafdb7780ef50",
+    "artist": "Madvillain",
+    "title": "Borrowed Time",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "44eba19d35dfd3ca0a94",
+    "artist": "Madvillain",
+    "title": "Boulder Holder",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "b364f2af76c27e89cec1",
+    "artist": "Madvillain",
+    "title": "Butter King Jewels",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "b1cfb51690398a3fa3ba",
+    "artist": "Madvillain",
+    "title": "Can't Reform Em",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "77bc71490e5984a9f603",
+    "artist": "Madvillain",
+    "title": "Coast 2 Coast",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "c85819c3b36852bcf52c",
+    "artist": "Madvillain",
+    "title": "Curls",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "cf79713d4372336e700c",
+    "artist": "Madvillain",
+    "title": "Do Not Fire! (instrumental)",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "7d6a14341544519ebcb6",
+    "artist": "Madvillain",
+    "title": "Draino",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "4f3c0fcb2ced40c6f54d",
+    "artist": "Madvillain",
+    "title": "Eye Feat. Stacy Epps",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "682aa095ad1d6eb8fd2b",
+    "artist": "Madvillain",
+    "title": "Fancy Clown Feat. Viktor Vaughn",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "5b2e0b00cd608f377df0",
+    "artist": "Madvillain",
+    "title": "Figaro",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d9a832b1bba4ae63821f",
+    "artist": "Madvillain",
+    "title": "Fire In The Hole",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "33421a639bd17847ca42",
+    "artist": "Madvillain",
+    "title": "Fluid (Instrumental)",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2895c56702db5236037e",
+    "artist": "Madvillain",
+    "title": "Great Day",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e022b00fc2d7c91d68b0",
+    "artist": "Madvillain",
+    "title": "Hardcore Hustle Feat. Wildchild",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "0595914e966a78b23f54",
+    "artist": "Madvillain",
+    "title": "Light Of The Past",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "cc72270bd77202a9f46e",
+    "artist": "Madvillain",
+    "title": "Meat Grinder",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "fcd15c40a8cf98c15cca",
+    "artist": "Madvillain",
+    "title": "Money Folder",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "a898ace4d851b3f84034",
+    "artist": "Madvillain",
+    "title": "Monkey Suit",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "020b2578f088aeea1370",
+    "artist": "Madvillain",
+    "title": "Never Go Pop",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e1d9d2261f9b10df2ee4",
+    "artist": "Madvillain",
+    "title": "No Brain",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "c12d10c6f2e7b0d31ede",
+    "artist": "Madvillain",
+    "title": "Operation Lifesaver aka Mint Test",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "95a5e8e1d3ca2b03445b",
+    "artist": "Madvillain",
+    "title": "Pearls",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "663230327a697098e12d",
+    "artist": "Madvillain",
+    "title": "Pi",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ee5b0743c965dc6a9771",
+    "artist": "Madvillain",
+    "title": "Raid Feat. M.E.D.",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "eb957428367d0cb0c0fd",
+    "artist": "Madvillain",
+    "title": "Rainbows",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "0241950a6b1cca861238",
+    "artist": "Madvillain",
+    "title": "Rhinestone Cowboy",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "54598ed65474b0c619ad",
+    "artist": "Madvillain",
+    "title": "Running Around With Another",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "7c93dce7621705d2b406",
+    "artist": "Madvillain",
+    "title": "Savage (Instrumental)",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "5198d17ee6961cfffa5f",
+    "artist": "Madvillain",
+    "title": "Shadows Of Tomorrow Feat. Lord Quas",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "183dc52ac92a85fbd78e",
+    "artist": "Madvillain",
+    "title": "Sickfit (Instrumental)",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ae073c04b7be45c5a2bc",
+    "artist": "Madvillain",
+    "title": "Strange Ways",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f43e141f41cf601760f7",
+    "artist": "Madvillain",
+    "title": "Supervillain Theme (Instrumental)",
+    "album": "Madvillainy",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "aa9ec63be826735e1c0a",
+    "artist": "Madvillain",
+    "title": "The Cold One",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "532e6100a81695149495",
+    "artist": "Madvillain",
+    "title": "The Cold One (Reprise)",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "54a5c891f9d0508c40eb",
+    "artist": "Madvillain",
+    "title": "The Sermon",
+    "album": "Madvillainy 2: The Madlib Remix",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "42306cfc9d0da15891ac",
+    "artist": "Manu Dibango",
+    "title": "Soul Makossa",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "69d58ab01d8f3f7b7955",
@@ -3763,10 +5579,50 @@
     "album": "Sing with Marcy"
   },
   {
+    "id": "2cb30b90d62f98c67424",
+    "artist": "Marianne Faithfull",
+    "title": "Broken English",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "ccc5c5c17c6825d8b961",
+    "artist": "Marvin Gaye",
+    "title": "Got To Give It Up",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "2338ec50d0d30f222b2c",
+    "artist": "Marvin Gaye",
+    "title": "I Heard It Through The Grapevine",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "76e153b79432c4daaefa",
+    "artist": "Marvin Gaye",
+    "title": "I Want You",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Soul"
+  },
+  {
+    "id": "0003e228162ba1a03148",
+    "artist": "Marvin Gaye",
+    "title": "What's Going On",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "f9eb52b9c468da5cf5a1",
     "artist": "Mary J. Blige",
     "title": "Real Love",
     "album": "What’s the 411?"
+  },
+  {
+    "id": "9f5e93fbccb7b8a3ee94",
+    "artist": "MC5",
+    "title": "Kick Out The Jams",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
   },
   {
     "id": "88af38dd1e03b00c272b",
@@ -3791,6 +5647,188 @@
     "artist": "Men Without Hats",
     "title": "The Safety Dance (Extended Club Mix)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "7c60eedb4476de81f5cf",
+    "artist": "Merle Haggard",
+    "title": "Mama Tried",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
+    "id": "76b9aac6bd2bcf347009",
+    "artist": "MF Doom",
+    "title": "?",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "40fe0a7d31af6379a7b7",
+    "artist": "MF Doom",
+    "title": "Beef Rapp",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "32d9ce003c507dfc3e27",
+    "artist": "MF Doom",
+    "title": "Dead Bent",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "08fa28cd449b2ac0dafb",
+    "artist": "MF Doom",
+    "title": "Deep Fried Frenz",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2ec744664ffd847ea835",
+    "artist": "MF Doom",
+    "title": "Doomsday",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2fd1bfb0844157260770",
+    "artist": "MF Doom",
+    "title": "Gas Drawls",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "86267f36a0b47057cdad",
+    "artist": "MF Doom",
+    "title": "Go With The Flow",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8fd3d485957df576338a",
+    "artist": "MF Doom",
+    "title": "Guinesses [f. Angelika, 4-Ize]",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "0ee74174185cb03e6036",
+    "artist": "MF Doom",
+    "title": "Hero v.s. Villain (Epilogue)",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "acf4ea8e037000690b16",
+    "artist": "MF Doom",
+    "title": "Hey!",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e5fb254867ef56dd547a",
+    "artist": "MF Doom",
+    "title": "Hoe Cakes",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "65821f063d7ce0185ad3",
+    "artist": "MF Doom",
+    "title": "Kon Karne",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "bc5fa4558420b0fcabef",
+    "artist": "MF Doom",
+    "title": "Kon Queso",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "de2069f38c6a6f0ce214",
+    "artist": "MF Doom",
+    "title": "Kookies",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "1dc9d911cf0a9ed75647",
+    "artist": "MF Doom",
+    "title": "One Beer",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f18f10ae6fc5b24277d6",
+    "artist": "MF Doom",
+    "title": "Operation: Greenbacks",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "931d6bebaf213a1ba807",
+    "artist": "MF Doom",
+    "title": "Potholderz [f. Count Bass D]",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "6ec19b8920ca53e07866",
+    "artist": "MF Doom",
+    "title": "Rapp Snitch Knishes [f. Mr. Fantastik]",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "5d759d3f5f2d89d25e9a",
+    "artist": "MF Doom",
+    "title": "Red And Gold",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d64322e87068df6c25a8",
+    "artist": "MF Doom",
+    "title": "Rhymes Like Dimes",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "196fad9e75658639bda7",
+    "artist": "MF Doom",
+    "title": "The Finest",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8e8d6724618261384337",
+    "artist": "MF Doom",
+    "title": "The Mic",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "aba00471a4c0c8a9ddf7",
+    "artist": "MF Doom",
+    "title": "Tick, Tick...",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e82611e5af45dbbec0bd",
+    "artist": "MF Doom",
+    "title": "Vomitspit",
+    "album": "MM..Food",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "b5506f3297532f38b997",
+    "artist": "MF Doom",
+    "title": "Who You Think I Am?",
+    "album": "Operation: Doomsday",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "61d6e33a3792a551d2e4",
@@ -3891,6 +5929,19 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "78389369306e413570ba",
+    "artist": "Michael Jackson",
+    "title": "Don't Stop 'Til You Get Enough",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Disco"
+  },
+  {
+    "id": "04004ca2135a75139026",
+    "artist": "Michael Jackson",
+    "title": "Rock With You",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "595df59e83b1400c7752",
     "artist": "Michael Jackson",
     "title": "Thriller",
@@ -3913,6 +5964,26 @@
     "artist": "Michael Sembello",
     "title": "Maniac (Re-Mix)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "bdaf1cc4cae7e7cb80c3",
+    "artist": "Miles Davis",
+    "title": "Shhh/Peaceful",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "4f91425027302b79ae8b",
+    "artist": "Milton Nascimento",
+    "title": "Tudo Que Você Podia Ser",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "f353dc626d99a299bc6d",
+    "artist": "Minnie Riperton",
+    "title": "Les Fleur",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Soul"
   },
   {
     "id": "650c1ffc57954e505255",
@@ -3975,10 +6046,134 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "b9cedded103f9379af24",
+    "artist": "Nancy Sinatra",
+    "title": "These Boots Are Made For Walkin'",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "a3acc50ddf5349883066",
+    "artist": "Nancy Sinatra & Lee Hazlewood",
+    "title": "Some Velvet Morning",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "9a96b581fee23f231be4",
+    "artist": "NehruvianDOOM",
+    "title": "Caskets",
+    "album": "NehruvianDOOM",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "daa4fb410bc0c9900d96",
+    "artist": "NehruvianDOOM",
+    "title": "Coming For You",
+    "album": "NehruvianDOOM",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d8f152b7958ea7058403",
+    "artist": "NehruvianDOOM",
+    "title": "Darkness (HBU)",
+    "album": "NehruvianDOOM",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "138401dcc77c69c2ef3e",
+    "artist": "NehruvianDOOM",
+    "title": "Disastrous",
+    "album": "NehruvianDOOM",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "4e7c29a359dc64c193fe",
+    "artist": "NehruvianDOOM",
+    "title": "First Day of Class",
+    "album": "NehruvianDOOM",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e3fbd417699023122a51",
+    "artist": "NehruvianDOOM",
+    "title": "Great Things",
+    "album": "NehruvianDOOM",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "b7b1cca77092f82cc745",
+    "artist": "NehruvianDOOM",
+    "title": "Mean The Most",
+    "album": "NehruvianDOOM",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "a173b0bdaf9c75fa94c8",
+    "artist": "NehruvianDOOM",
+    "title": "Om",
+    "album": "NehruvianDOOM",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "41e169d043d6c0e815c6",
+    "artist": "NehruvianDOOM",
+    "title": "So Alone",
+    "album": "NehruvianDOOM",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8e12187648f52e9b7fae",
+    "artist": "Neil Diamond",
+    "title": "Sweet Caroline",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
     "id": "474c44e4ff63e86029cd",
     "artist": "Neil Diamond",
     "title": "Sweet Caroline (Good Times Never Seemed So Good)",
     "album": "Sweet Caroline"
+  },
+  {
+    "id": "6b557286c2b687eb2e1f",
+    "artist": "Neil Young",
+    "title": "After The Gold Rush",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "f01c43fed74f5e0f530f",
+    "artist": "Neil Young",
+    "title": "Cinnamon Girl",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "eff36c2d63349a4b4b49",
+    "artist": "Neil Young",
+    "title": "Down By The River",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "1c092ea45a7f4d114f5a",
+    "artist": "Neil Young",
+    "title": "On The Beach",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "bb5750f62822fbeb8dda",
+    "artist": "Neil Young & Crazy Horse",
+    "title": "Hey Hey, My My (Into The Black)",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "e3618c37e9dfef2307f6",
+    "artist": "Neu!",
+    "title": "Hallogallo",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "7122211dfdc000e8946e",
@@ -3991,6 +6186,20 @@
     "artist": "New Order",
     "title": "The Beach",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "1fbdcb552b83db86834b",
+    "artist": "Nick Drake",
+    "title": "Pink Moon",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Folk"
+  },
+  {
+    "id": "df5ad16165c7b04028e2",
+    "artist": "Nick Drake",
+    "title": "River Man",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Folk"
   },
   {
     "id": "75def9e8b57d60fcc48b",
@@ -4017,16 +6226,65 @@
     "album": "Pink Friday"
   },
   {
+    "id": "507d32786ba12e17c2bf",
+    "artist": "Nico",
+    "title": "These Days",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "d61d28067f8dd350ad30",
+    "artist": "Nina Simone",
+    "title": "Baltimore",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "fc2d2b831f9b113e2f46",
+    "artist": "Nina Simone",
+    "title": "Black Is The Color Of My True Love's Hair",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "fde94c4f86cdf86dd0f0",
+    "artist": "Nina Simone",
+    "title": "Sinnerman",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
+  },
+  {
     "id": "1d17cb79deda9c484cfd",
     "artist": "Original Koffee",
     "title": "Toast",
     "album": "Rapture"
   },
   {
+    "id": "99e79f6e465578401243",
+    "artist": "Os Mutantes",
+    "title": "A Minha Menina",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "6f8fd8b21a0dc2eaad58",
+    "artist": "Otis Redding",
+    "title": "(Sittin' On) The Dock Of The Bay",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "R&B"
+  },
+  {
     "id": "6643723f4fb2bc4016c2",
     "artist": "Otis Redding",
     "title": "Hard to Handle",
     "album": "Dock of the Bay Sessions"
+  },
+  {
+    "id": "652fc4e540afebe46539",
+    "artist": "Otis Redding",
+    "title": "I've Been Loving You Too Long",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
   },
   {
     "id": "25253373bca8976738dd",
@@ -4040,6 +6298,19 @@
     "title": "Ms. Jackson",
     "album": "Stankonia",
     "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "4ba6573111a810111e79",
+    "artist": "P.P. Arnold",
+    "title": "The First Cut Is The Deepest",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "094e962fe65e765e89ee",
+    "artist": "Parliament",
+    "title": "Flash Light",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "502aebf28bb74c0f541c",
@@ -4058,6 +6329,45 @@
     "artist": "Pat Benatar",
     "title": "Invincible (Instrumental)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "a4463a85a4a29a4b6a75",
+    "artist": "Patrice Rushen",
+    "title": "Haven't You Heard",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "9baa2beda8875e0a7e91",
+    "artist": "Patsy Cline",
+    "title": "Crazy",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
+    "id": "b3376a49b216a573ae73",
+    "artist": "Patsy Cline",
+    "title": "I Fall To Pieces",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
+    "id": "9d65822321b8eb39c6ec",
+    "artist": "Patsy Cline",
+    "title": "She's Got You",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
+    "id": "77cca74194f6db20761b",
+    "artist": "Patti Smith",
+    "title": "Gloria",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "c1db9e0b80d98cb1bef1",
+    "artist": "Patti Smith",
+    "title": "Land",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "1c3c2791ad15c4134a7f",
@@ -4199,10 +6509,49 @@
     "album": "Absolute R&B Party"
   },
   {
+    "id": "e2960dc4b4c060e7fceb",
+    "artist": "Phil Ochs",
+    "title": "I Ain't Marching Anymore",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Folk"
+  },
+  {
+    "id": "8d7ce1c0e71073251d06",
+    "artist": "Pink Floyd",
+    "title": "Astronomy Domine",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "a176ee9f45bb270f5435",
+    "artist": "Pink Floyd",
+    "title": "See Emily Play",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "a6db77d0c8bba618aeeb",
+    "artist": "Pink Floyd",
+    "title": "Wish You Were Here",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "e5f6f160fb9a6db4b88a",
     "artist": "Pitbull, Daddy Yankee & Natti Natasha",
     "title": "No lo trates",
     "album": "Libertad 548"
+  },
+  {
+    "id": "08e8073d6a9fe91a65bd",
+    "artist": "Plastic Bertrand",
+    "title": "Ca Plane Pour Moi",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "1e0093f05c8ad4d68e43",
+    "artist": "Police & Thieves",
+    "title": "Junior Murvin",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
   },
   {
     "id": "c06cb7d202f20e203621",
@@ -4229,6 +6578,12 @@
     "artist": "Prince",
     "title": "Alphabet St.",
     "album": "The Very Best of Prince"
+  },
+  {
+    "id": "b5d2c557438fe8ccfe4c",
+    "artist": "Prince",
+    "title": "Bambi",
+    "album": "Prince"
   },
   {
     "id": "5f715a8eb80e9820b98f",
@@ -4298,11 +6653,30 @@
     "genre": "Pop"
   },
   {
+    "id": "364cae21f235116c6c8e",
+    "artist": "Prince",
+    "title": "I Feel For You",
+    "album": "Prince"
+  },
+  {
     "id": "d405f5606a61d3843c7e",
     "artist": "Prince",
     "title": "I Wanna Be Your Lover",
     "album": "4Ever",
     "genre": "Funk"
+  },
+  {
+    "id": "99d2bc4a3075ff262b81",
+    "artist": "Prince",
+    "title": "I Wanna Be Your Lover",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Funk"
+  },
+  {
+    "id": "ffce4ee9905011a825c3",
+    "artist": "Prince",
+    "title": "I Wanna Be Your Lover",
+    "album": "Prince"
   },
   {
     "id": "908a2d3e99a38a977f04",
@@ -4322,6 +6696,12 @@
     "title": "If I Was Your Girlfriend",
     "album": "4Ever",
     "genre": "Pop"
+  },
+  {
+    "id": "d594e52c4c10b9b2ba48",
+    "artist": "Prince",
+    "title": "It's Gonna Be Lonely",
+    "album": "Prince"
   },
   {
     "id": "c909173bf1ffb0c961b2",
@@ -4394,6 +6774,12 @@
     "album": "The Very Best of Prince"
   },
   {
+    "id": "8ba93f9b6c36dc3e9a89",
+    "artist": "Prince",
+    "title": "Sexy Dancer",
+    "album": "Prince"
+  },
+  {
     "id": "69be0aefd77b22a8ddc5",
     "artist": "Prince",
     "title": "Sign ’o’ The Times",
@@ -4412,6 +6798,12 @@
     "title": "Soft and Wet",
     "album": "4Ever",
     "genre": "Pop"
+  },
+  {
+    "id": "2960430a1c737d2d91e3",
+    "artist": "Prince",
+    "title": "Still Waiting",
+    "album": "Prince"
   },
   {
     "id": "95a5b91ea955a5fb3b36",
@@ -4460,6 +6852,12 @@
     "album": "The Very Best of Prince"
   },
   {
+    "id": "e675eb226cfb983c2b08",
+    "artist": "Prince",
+    "title": "When We're Dancing Close And Slow",
+    "album": "Prince"
+  },
+  {
     "id": "5b29a05903d1ba622ca1",
     "artist": "Prince",
     "title": "When You Were Mine",
@@ -4472,6 +6870,18 @@
     "title": "Why You Wanna Treat Me So Bad?",
     "album": "4Ever",
     "genre": "Pop"
+  },
+  {
+    "id": "de364d3cc4dc419d5d10",
+    "artist": "Prince",
+    "title": "Why You Wanna Treat Me So Bad?",
+    "album": "Prince"
+  },
+  {
+    "id": "de1768cfe2e62224695b",
+    "artist": "Prince",
+    "title": "With You",
+    "album": "Prince"
   },
   {
     "id": "5feee81782cf9de68d90",
@@ -4541,6 +6951,24 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "77caa9c95fa5a2c6055a",
+    "artist": "Prince And The Revolution",
+    "title": "Baby I'm A Star",
+    "album": "Purple Rain"
+  },
+  {
+    "id": "71c08c33e6f62a64c29e",
+    "artist": "Prince And The Revolution",
+    "title": "Computer Blue",
+    "album": "Purple Rain"
+  },
+  {
+    "id": "fe035dcaceb98178cd11",
+    "artist": "Prince And The Revolution",
+    "title": "Darling Nikki",
+    "album": "Purple Rain"
+  },
+  {
     "id": "e686eda4c04a3b49dc72",
     "artist": "Prince And The Revolution",
     "title": "Erotic City",
@@ -4561,11 +6989,23 @@
     "genre": "Pop"
   },
   {
+    "id": "c7bcb7fa4075b37fd214",
+    "artist": "Prince And The Revolution",
+    "title": "I Would Die 4 U",
+    "album": "Purple Rain"
+  },
+  {
     "id": "bcb8e40c045ac37f3507",
     "artist": "Prince and The Revolution",
     "title": "Kiss",
     "album": "4Ever",
     "genre": "Funk"
+  },
+  {
+    "id": "aabeaa9d19f2d5ad730a",
+    "artist": "Prince And The Revolution",
+    "title": "Let's Go Crazy",
+    "album": "Purple Rain"
   },
   {
     "id": "91953e05d943b5b83650",
@@ -4609,11 +7049,35 @@
     "genre": "Pop"
   },
   {
+    "id": "497f5c919ede26aaf16f",
+    "artist": "Prince And The Revolution",
+    "title": "Purple Rain",
+    "album": "Purple Rain"
+  },
+  {
     "id": "151e2e4d38b8bc35e416",
     "artist": "Prince and The Revolution",
     "title": "Raspberry Beret",
     "album": "4Ever",
     "genre": "Pop"
+  },
+  {
+    "id": "67de85c95ba7ef1bb85e",
+    "artist": "Prince And The Revolution",
+    "title": "Take Me With U",
+    "album": "Purple Rain"
+  },
+  {
+    "id": "185357a55cb4cdd442ab",
+    "artist": "Prince And The Revolution",
+    "title": "The Beautiful Ones",
+    "album": "Purple Rain"
+  },
+  {
+    "id": "7b8c0a3b19dcdc386b69",
+    "artist": "Prince And The Revolution",
+    "title": "When Doves Cry",
+    "album": "Purple Rain"
   },
   {
     "id": "b61ec11c3e30e71f3f29",
@@ -4636,6 +7100,32 @@
     "genre": "Ska"
   },
   {
+    "id": "e495cc87ba4c82fbea37",
+    "artist": "Procol Harum",
+    "title": "A Whiter Shade Of Pale",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "93cb551b8c417031ca7e",
+    "artist": "Queen",
+    "title": "Bohemian Rhapsody",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "2d1a6778b75ccedd913f",
+    "artist": "Ramones",
+    "title": "Sheena Is A Punk Rocker",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Alternative"
+  },
+  {
+    "id": "b9c1a7c1bf4b10f2c7e4",
+    "artist": "Ray Charles",
+    "title": "Georgia On My Mind",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Blues"
+  },
+  {
     "id": "547c88e379eb43e09c42",
     "artist": "Ray Charles",
     "title": "What’d I Say, Part 1",
@@ -4654,6 +7144,12 @@
     "album": "Hi Infidelity"
   },
   {
+    "id": "9685581ef2305c61bccc",
+    "artist": "Richard Hell And The Voidoids",
+    "title": "Blank Generation",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "bd2de24c5b9c8bbd7c9a",
     "artist": "Rihanna feat. JAY‐Z",
     "title": "Umbrella",
@@ -4665,6 +7161,13 @@
     "artist": "Robert Randolph & The Family Band",
     "title": "I Need More Love",
     "album": "Unclassified"
+  },
+  {
+    "id": "f726911acdd90574dd04",
+    "artist": "Roberta Flack",
+    "title": "Killing Me Softly With His Song",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Pop"
   },
   {
     "id": "de5dc36be91437ea66a8",
@@ -4679,10 +7182,36 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "44fbb0d3cd3ef730209a",
+    "artist": "Rose Royce",
+    "title": "I'm Going Down",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "02d0e20a1b247acdb988",
     "artist": "Rotimi feat. Wale",
     "title": "In My Bed",
     "album": "The Beauty of Becoming"
+  },
+  {
+    "id": "7289c35307a076d7f12c",
+    "artist": "Roxy Music",
+    "title": "Love Is The Drug",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "a956609b22d50612f21a",
+    "artist": "Roy Ayers Ubiquity",
+    "title": "Everybody Loves The Sunshine",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Funk"
+  },
+  {
+    "id": "1960bf1d0eca7fae068f",
+    "artist": "Roy Orbison",
+    "title": "Crying",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
   },
   {
     "id": "421e8a6f3fa6bf6b4e6a",
@@ -4698,6 +7227,13 @@
     "genre": "Folk; Rock"
   },
   {
+    "id": "cdf8eb36c2380bcb6d18",
+    "artist": "Sam & Dave",
+    "title": "Hold On, I'm Comin'",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
     "id": "8e4f88b520877c84ef06",
     "artist": "Sam & Dave",
     "title": "Hold On, I’m Comin’",
@@ -4708,6 +7244,20 @@
     "artist": "Sam & Dave",
     "title": "Hold On, I’m Comin’ (Extended Version)",
     "album": "The Soul Classics",
+    "genre": "Soul"
+  },
+  {
+    "id": "056c271b8b5bced92dc5",
+    "artist": "Sam Cooke",
+    "title": "A Change Is Gonna Come",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "3ff3940c0161fec752bb",
+    "artist": "Sam Cooke",
+    "title": "Cupid",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
   },
   {
@@ -4722,6 +7272,25 @@
     "title": "Whips and Chains",
     "album": "Whips and Chains",
     "genre": "Rock"
+  },
+  {
+    "id": "7136f7044ad1bc6a15da",
+    "artist": "Scott Walker",
+    "title": "Big Louise",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "1dd5b1516238d0cbd61d",
+    "artist": "Serge Gainsbourg",
+    "title": "Bonnie And Clyde",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "a31abf39ad245a299f3b",
+    "artist": "Serge Gainsbourg",
+    "title": "Melody",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "f868c92649a6f33ce1ed",
@@ -4784,10 +7353,89 @@
     "album": "The Fun Songs Of Shamu And His"
   },
   {
+    "id": "8c350c0e30043c144e5a",
+    "artist": "Shuggie Otis",
+    "title": "Inspiration Information",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "bd03fbb1e7bcb1783343",
+    "artist": "Silver Apples",
+    "title": "Oscillations",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Electronic"
+  },
+  {
+    "id": "39758544f0e321297052",
+    "artist": "Simon & Garfunkel",
+    "title": "America",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "03e711f4e5921943420e",
+    "artist": "Simon & Garfunkel",
+    "title": "Mrs. Robinson",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "b9f6efe7da3178d22a1a",
+    "artist": "Simon & Garfunkel",
+    "title": "The Boxer",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "8339b2ff8628e6180323",
+    "artist": "Simon & Garfunkel",
+    "title": "The Sounds Of Silence",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "e1aa92f2bd54d8fd9e41",
+    "artist": "Siouxsie and the Banshees",
+    "title": "Hong Kong Garden",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "bbc834bbe008ded3cd70",
     "artist": "Sly & the Family Stone",
     "title": "Dance to the Music",
     "album": "Dance to the Music"
+  },
+  {
+    "id": "121b2dd37e73b2c5f0da",
+    "artist": "Sly & The Family Stone",
+    "title": "Everyday People",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Funk"
+  },
+  {
+    "id": "0ff2d87a9c1f5faf2d7b",
+    "artist": "Sly & The Family Stone",
+    "title": "Family Affair",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "e3210fa81cfa6beba45f",
+    "artist": "Sly & The Family Stone",
+    "title": "Hot Fun In The Summertime",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Funk"
+  },
+  {
+    "id": "f3f215517a829198c451",
+    "artist": "Sly & The Family Stone",
+    "title": "I Want To Take You Higher",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Funk"
+  },
+  {
+    "id": "74b8116b7b103ac887f4",
+    "artist": "Smokey Robinson & The Miracles",
+    "title": "The Tracks Of My Tears",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
   },
   {
     "id": "54a87f0deafd96a7a719",
@@ -4838,11 +7486,38 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "9fe6cfa08f6570265833",
+    "artist": "Sparks",
+    "title": "This Town Ain't Big Enough For The Both Of Us",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "68e72d2e3c42f757a47e",
     "artist": "Spin Doctors",
     "title": "Two Princes",
     "album": "Pocket Full Of Kryptonite",
     "genre": "Rock"
+  },
+  {
+    "id": "c908f0f6d2b23b8b6bf7",
+    "artist": "Stan Getz & João Gilberto",
+    "title": "The Girl From Ipanema",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "56c848356e34b38cd46c",
+    "artist": "Steely Dan",
+    "title": "Deacon Blues",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "1d970b66a96aecdb7a8e",
+    "artist": "Steely Dan",
+    "title": "Peg",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Pop"
   },
   {
     "id": "82f028d63357a14482da",
@@ -4851,10 +7526,22 @@
     "album": "Fly Like an Eagle"
   },
   {
+    "id": "58bd95f74366aad88653",
+    "artist": "Steve Reich",
+    "title": "It's Gonna Rain",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
     "id": "2d786abc61cfc4e47274",
     "artist": "Stevie Ray Vaughan and Double Trouble",
     "title": "Little Wing",
     "album": "Couldn't Stand The Weather (Legacy Edition)"
+  },
+  {
+    "id": "6bfbd748aab3a61a90ba",
+    "artist": "Stevie Wonder",
+    "title": "As",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "88419ae2f3cb8fc3e81b",
@@ -4863,16 +7550,49 @@
     "album": "Song Review: A Greatest Hits Collection"
   },
   {
+    "id": "5d916c7267d5e3d98eec",
+    "artist": "Stevie Wonder",
+    "title": "I Was Made To Love Her",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "e2f8f516581f35a80566",
+    "artist": "Stevie Wonder",
+    "title": "Living For The City",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "de214edb46405753406f",
     "artist": "Stevie Wonder",
     "title": "Master Blaster (Jammin’)",
     "album": "Hotter Than July"
   },
   {
+    "id": "9ef5b148344ea231ea1d",
+    "artist": "Stevie Wonder",
+    "title": "Superstition",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "7a000ee4a4b74bae1778",
     "artist": "Stevie Wonder",
     "title": "Superstition",
     "album": "Talking Book"
+  },
+  {
+    "id": "1e3841754bf893a64b16",
+    "artist": "Stevie Wonder",
+    "title": "Uptight (Everything's Alright)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "d52e4b1510eab8216402",
+    "artist": "Stone Poneys",
+    "title": "Different Drum",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
   },
   {
     "id": "be478615da1ed9a42fc9",
@@ -4906,6 +7626,38 @@
     "album": "Sublime"
   },
   {
+    "id": "bc8067e5733558df8085",
+    "artist": "Sugarhill Gang",
+    "title": "Rappers Delight",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "158c88be392337920645",
+    "artist": "Suicide",
+    "title": "Dream Baby Dream",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "9efeed3a8057c9bfc352",
+    "artist": "Suicide",
+    "title": "Ghost Rider",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "fdf6bf0df59e657ad5a0",
+    "artist": "Sun Ra",
+    "title": "Door of the Cosmos",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "15d7f533f64a98696e8f",
+    "artist": "T. Rex",
+    "title": "Metal Guru",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "4e3f235e81c96ebc2a77",
     "artist": "Talk Talk",
     "title": "Candy",
@@ -4930,6 +7682,25 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "d38c562a25d754d9ed88",
+    "artist": "Talking Heads",
+    "title": "Life During Wartime",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "e729050e7433f52ee2fc",
+    "artist": "Talking Heads",
+    "title": "Psycho Killer",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "1824b7a9bcad0d6b98da",
+    "artist": "Tammy Wynette",
+    "title": "Stand By Your Man",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Country"
+  },
+  {
     "id": "ea8ca21d2d8dd37e0915",
     "artist": "Tears For Fears",
     "title": "Suffer The Children (Instrumental)",
@@ -4948,6 +7719,12 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "2145b9fcffec382b5e9e",
+    "artist": "Television",
+    "title": "Marquee Moon",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "420363b70dabc9582062",
     "artist": "The 1975",
     "title": "It’s Not Living (If It’s Not With You)",
@@ -4962,16 +7739,58 @@
     "genre": "Rock"
   },
   {
+    "id": "c154d5e5bc1eb6fb7c1f",
+    "artist": "The Abyssinians",
+    "title": "Satta Massagana",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
+  },
+  {
+    "id": "dfef391109b685b91dd3",
+    "artist": "The Angels",
+    "title": "My Boyfriend's Back",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
     "id": "c909cd4c0416a0c39bdc",
     "artist": "The Animals",
     "title": "We're Gonna Howl Tonight",
     "album": "The Dangerous Christmas of Red Riding Hood"
   },
   {
+    "id": "c4878d832f26f37562ce",
+    "artist": "The Association",
+    "title": "Never My Love",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "d86b081f92f641697a87",
+    "artist": "The B-52's",
+    "title": "Rock Lobster",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Alternative"
+  },
+  {
+    "id": "fbb3b4342a011d527792",
+    "artist": "The Band",
+    "title": "The Night They Drove Old Dixie Down",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
     "id": "dd87dc7678b072cdda11",
     "artist": "The Band",
     "title": "The Weight",
     "album": "Music From Big Pink",
+    "genre": "Rock"
+  },
+  {
+    "id": "a10df61dea39968ca17e",
+    "artist": "The Band",
+    "title": "The Weight",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Rock"
   },
   {
@@ -4982,11 +7801,172 @@
     "genre": "Rock"
   },
   {
+    "id": "831c91c7d340256e95db",
+    "artist": "The Barbarians",
+    "title": "Moulty",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "dc96ce88d4883913ae90",
+    "artist": "The Beach Boys",
+    "title": "Don't Worry Baby",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
     "id": "4dc2029371ca86738de6",
     "artist": "The Beach Boys",
     "title": "God Only Knows",
     "album": "Pet Sounds",
     "genre": "Rock"
+  },
+  {
+    "id": "9a7bf7e4f9f9a965f09d",
+    "artist": "The Beach Boys",
+    "title": "God Only Knows",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "064076a28a78197b21d8",
+    "artist": "The Beach Boys",
+    "title": "Good Vibrations",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "d370f667c1128a17e269",
+    "artist": "The Beach Boys",
+    "title": "Surf's Up",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "0b4d6f149c55119c710b",
+    "artist": "The Beach Boys",
+    "title": "Wouldn't It Be Nice",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "fd8e44e4e734d511a0d7",
+    "artist": "The Beatles",
+    "title": "A Day In The Life",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "5a0646ff7c09227370f0",
+    "artist": "The Beatles",
+    "title": "Eleanor Rigby",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "c41c334dd36999c15369",
+    "artist": "The Beatles",
+    "title": "I Am The Walrus",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "8a42c8425e78ef9667cf",
+    "artist": "The Beatles",
+    "title": "I Want To Hold Your Hand",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "b86c5561177711550684",
+    "artist": "The Beatles",
+    "title": "Let It Be",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "f741d7e1e314631f99ac",
+    "artist": "The Beatles",
+    "title": "Tomorrow Never Knows",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "d2ccfb58c4d324e39502",
+    "artist": "The Bobby Fuller Four",
+    "title": "I Fought The Law",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "20df581a130967a64b06",
+    "artist": "The Brothers Johnson",
+    "title": "Strawberry Letter 23",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "R&B"
+  },
+  {
+    "id": "1041370bbdea3effe01a",
+    "artist": "The Byrds",
+    "title": "Eight Miles High",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "596d35a35ee297c9b959",
+    "artist": "The Byrds",
+    "title": "I'll Feel A Whole Lot Better",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "0b2652fd9b5172bf6c7b",
+    "artist": "The Cars",
+    "title": "Just What I Needed",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "4088fa7f23e86d28ad51",
+    "artist": "The Chi-Lites",
+    "title": "Have You Seen Her",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "R&B"
+  },
+  {
+    "id": "3de1e9590b9cb847f797",
+    "artist": "The Clash",
+    "title": "London Calling",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "28e38914bb1c69c0bcfd",
+    "artist": "The Clash",
+    "title": "Train In Vain",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "4c4fe79efaf7146fa8ed",
+    "artist": "The Congos",
+    "title": "Fisherman",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "ba4e615e92efb0a6ebcb",
+    "artist": "The Creation",
+    "title": "Making Time",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "0dd00135763c8f9ed13e",
+    "artist": "The Crystals",
+    "title": "Then He Kissed Me",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "5c9c5dc86ccf0102cd9d",
+    "artist": "The Cure",
+    "title": "Boys Don't Cry",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "7975e1afa5a73841b35f",
@@ -5035,6 +8015,19 @@
     "artist": "The Dallas Cowboys",
     "title": "Winter Wonderland",
     "album": "Holiday Halftime"
+  },
+  {
+    "id": "d525a7c12ba9d812c8bf",
+    "artist": "The Damned",
+    "title": "Neat Neat Neat",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "726c83d6df546cd2cdf3",
+    "artist": "The Dixie Cups",
+    "title": "Iko Iko",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
   },
   {
     "id": "a0312fbf4d7904e7a124",
@@ -5169,6 +8162,26 @@
     "album": "The Do-Re-Mi Children's Chorus Sing"
   },
   {
+    "id": "9227ccd2681fd0c5098b",
+    "artist": "The Doobie Brothers",
+    "title": "What A Fool Believes",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "3b26a9dd9607f45c4f1d",
+    "artist": "The Easybeats",
+    "title": "Friday On My Mind",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "b54d6d8e387d6251295c",
+    "artist": "The Equals",
+    "title": "Black Skin Blue Eyed Boys",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "3b096234b3b33ae5f873",
     "artist": "The Firm",
     "title": "Dub Trek",
@@ -5187,6 +8200,19 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "c288e7ac1a67fe5ceec5",
+    "artist": "The Five Stairsteps",
+    "title": "O-O-H Child",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "5398e0440016dde4b9c8",
+    "artist": "The Flirtations",
+    "title": "Nothing But A Heartache",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
     "id": "9f41bd65afa3ac27e97b",
     "artist": "The Forty-Niners Quartet with Ray Carter Orchestra",
     "title": "Ducks on Parade",
@@ -5197,6 +8223,26 @@
     "artist": "The Forty-Niners Quartet with Ray Carter Orchestra",
     "title": "The Bulldog on the Bank",
     "album": "Animal Song Parade"
+  },
+  {
+    "id": "52e2fec69fa18c4ca117",
+    "artist": "The Foundations",
+    "title": "Build Me Up Buttercup",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "4de3d57073ff503bdbf9",
+    "artist": "The Four Tops",
+    "title": "It's The Same Old Song",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "a90d03443adc5f2ba026",
+    "artist": "The Germs",
+    "title": "Lexicon Devil",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "fd875c7d65f63b09b22c",
@@ -5271,6 +8317,13 @@
     "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
   },
   {
+    "id": "57a1d5f1b368455fd51d",
+    "artist": "The Hollies",
+    "title": "Bus Stop",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
     "id": "4fc4161688853ee12db1",
     "artist": "The Human League",
     "title": "(Keep Feeling) Fascination (Extended)",
@@ -5325,10 +8378,31 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "db4c00eb989eb446fced",
+    "artist": "The Impressions",
+    "title": "People Get Ready",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
     "id": "8b6519b6e36c9384d915",
     "artist": "The Isley Brothers",
     "title": "It's Your Thing",
     "album": "It's Our Thing"
+  },
+  {
+    "id": "779d8d1e0bbbbf1c1f5f",
+    "artist": "The Isley Brothers",
+    "title": "That Lady (Parts 1 And 2)",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Soul"
+  },
+  {
+    "id": "150492c88340c4888534",
+    "artist": "The Jackson 5",
+    "title": "I Want You Back",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
   },
   {
     "id": "e026a30a9d1b9384fc58",
@@ -5469,6 +8543,68 @@
     "album": "Songs from Your a Good Man Charlie Brown"
   },
   {
+    "id": "418ae5634639f099f641",
+    "artist": "The Kingsmen",
+    "title": "Louie, Louie",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "e812f7965b028ac48504",
+    "artist": "The Kinks",
+    "title": "Lola",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "9d204034bcb8e088fe92",
+    "artist": "The Kinks",
+    "title": "Shangri-La",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "65e6e8570564849597ad",
+    "artist": "The Kinks",
+    "title": "Sunny Afternoon",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "0a3b06595e4fe24e4cf6",
+    "artist": "The Kinks",
+    "title": "Victoria",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "ed1e13d24eaa5acfa87a",
+    "artist": "The Kinks",
+    "title": "Waterloo Sunset",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "2c198c34acd0c70f2914",
+    "artist": "The Kinks",
+    "title": "You Really Got Me",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "e16cbf52bc1879398aa1",
+    "artist": "The Left Banke",
+    "title": "Walk Away Renee",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "ba7493bf2065572f6bb4",
+    "artist": "The Mamas & The Papas",
+    "title": "California Dreamin'",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
     "id": "93867240904bdd69c120",
     "artist": "The Merry Singers",
     "title": "A Policeman's Lot Is Not A Happy One",
@@ -5551,6 +8687,13 @@
     "artist": "The Merry Singers",
     "title": "When The Foeman Bares His Steel",
     "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "c969d3f0fc344d3f2081",
+    "artist": "The Meters",
+    "title": "Cissy Strut",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Funk"
   },
   {
     "id": "c1fab0944ced10371ea4",
@@ -5689,6 +8832,39 @@
     "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
     "title": "When Johnny Comes Marching Home",
     "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "915ac49a5d5102b5f4ab",
+    "artist": "The Modern Lovers",
+    "title": "Roadrunner",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "3691f6129d38d4f4395f",
+    "artist": "The Monkees",
+    "title": "Daydream Believer",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "3139c1420d0c4857f9ee",
+    "artist": "The Monkees",
+    "title": "I'm A Believer",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "d845ade973a173ee8268",
+    "artist": "The Monks",
+    "title": "Monk Time",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "6773fe49e43e9022b3c0",
+    "artist": "The Nerves",
+    "title": "Hanging On The Telephone",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "e6bfb5215b6361932b34",
@@ -5989,6 +9165,19 @@
     "album": "Duets: The Final Chapter"
   },
   {
+    "id": "95f7b404ca90e75a1db8",
+    "artist": "The O'jays",
+    "title": "For The Love Of Money",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "c696581e30eb7f74ffb8",
+    "artist": "The Paragons",
+    "title": "The Tide Is High",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Reggae"
+  },
+  {
     "id": "dc192bef54c701c13ef5",
     "artist": "The Pickwick Children's Chorus",
     "title": "Chitty Chitty Bang Bang",
@@ -6067,10 +9256,43 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "7b15a0e9b65b63551013",
+    "artist": "The Raincoats",
+    "title": "In Love",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "c127c4aa4ee3ee07a0db",
+    "artist": "The Ramones",
+    "title": "Blitzkrieg Bop",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "2828c8f1c01e567170b4",
+    "artist": "The Righteous Brothers",
+    "title": "Unchained Melody",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "00f3a9055837a0fd0db6",
+    "artist": "The Roches",
+    "title": "Hammond Song",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Folk"
+  },
+  {
     "id": "245ac51a5e6be508e06d",
     "artist": "The Rolling Stones",
     "title": "Gimme Shelter",
     "album": "Let It Bleed"
+  },
+  {
+    "id": "b09365337cc930e90829",
+    "artist": "The Rolling Stones",
+    "title": "Gimme Shelter",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
   },
   {
     "id": "47e652b3e27f591cf93c",
@@ -6079,16 +9301,57 @@
     "album": "Between the Buttons"
   },
   {
+    "id": "357cc9de036164fc8ef2",
+    "artist": "The Rolling Stones",
+    "title": "Miss You",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
     "id": "17c705d380b1ef9410b2",
     "artist": "The Rolling Stones",
     "title": "Miss You",
     "album": "Some Girls"
   },
   {
+    "id": "02122fc0cc9b76d5583c",
+    "artist": "The Rolling Stones",
+    "title": "Paint It Black",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "90864059206d1c3e808b",
+    "artist": "The Rolling Stones",
+    "title": "Street Fighting Man",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "c8018e84d16086aff1d8",
+    "artist": "The Rolling Stones",
+    "title": "Sympathy For The Devil",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "b459634c99c9eb1f24a1",
+    "artist": "The Rolling Stones",
+    "title": "Wild Horses",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "c64e71536ff57280b1ce",
     "artist": "The Rolling Stones",
     "title": "You Can't Always Get What You Want",
     "album": "Let It Bleed (Mono)",
+    "genre": "Rock"
+  },
+  {
+    "id": "ec4d29473de3379174fb",
+    "artist": "The Rolling Stones",
+    "title": "You Can't Always Get What You Want",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Rock"
   },
   {
@@ -6102,6 +9365,12 @@
     "artist": "The Romantics",
     "title": "Talking In Your Sleep (Special Version)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "4efd564fbc31c76b1aad",
+    "artist": "The Ronettes",
+    "title": "Be My Baby",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
   },
   {
     "id": "e5e26942b16fa660cbdc",
@@ -6182,10 +9451,1774 @@
     "album": "Sing of Love, Lies, and Flying Festoons"
   },
   {
+    "id": "3d710a7305c05dc8b941",
+    "artist": "The Sex Pistols",
+    "title": "Anarchy In The U.K.",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "0bab180b7c1c282af923",
+    "artist": "The Shangri-Las",
+    "title": "Give Him A Great Big Kiss",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "48476c3b2e45ee731285",
+    "artist": "The Shangri-Las",
+    "title": "Leader Of The Pack",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "a2aa08b8f6bedc022809",
+    "artist": "The Shangri-Las",
+    "title": "Out In The Streets",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "e9ab64b709e2fddc93df",
+    "artist": "The Shirelles",
+    "title": "Will You Love Me Tomorrow",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "9e5f5b13e025b5db87aa",
+    "artist": "The Slackers",
+    "title": "86 the Mayo",
+    "album": "Peculiar"
+  },
+  {
+    "id": "01b84adae1b20a8cc17d",
+    "artist": "The Slackers",
+    "title": "[BONUS TRACK] New Year's Day",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "bcf19e78eb23699acf5f",
+    "artist": "The Slackers",
+    "title": "A Long Way Off",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "23381798a77c22a55053",
+    "artist": "The Slackers",
+    "title": "Ain't No Sunshine",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "f66532f47d2dc095e195",
+    "artist": "The Slackers",
+    "title": "Ain't No Sunshine (Dub Mix) [b",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "6b6a97def5979f84706e",
+    "artist": "The Slackers",
+    "title": "All I Ever Wanted",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "d39498f0a0101f03080f",
+    "artist": "The Slackers",
+    "title": "All I Ever Wanted",
+    "album": "Do the Ska",
+    "genre": "Ska"
+  },
+  {
+    "id": "a8bf8c37a7a2a3f27830",
+    "artist": "The Slackers",
+    "title": "Alone Again",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "45c6781d65a6a24680e4",
+    "artist": "The Slackers",
+    "title": "Anastasia",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "9bbf3f1fe342f7a58e07",
+    "artist": "The Slackers",
+    "title": "And I Wonder?",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "a24ac25a5521d898a393",
+    "artist": "The Slackers",
+    "title": "Andre",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "99526a2bbbe12106b6d1",
+    "artist": "The Slackers",
+    "title": "Area 51",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "40e431dec97d6888d600",
+    "artist": "The Slackers",
+    "title": "Attitude",
+    "album": "The Radio"
+  },
+  {
+    "id": "43fb6b2deb7c731d99c4",
+    "artist": "The Slackers",
+    "title": "Axes",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "843efa5d0642f2369b04",
+    "artist": "The Slackers",
+    "title": "Because",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "910c5ede353687b3cca7",
+    "artist": "The Slackers",
+    "title": "Because Dub (Bonus Track)",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "4dc683d8dc48ea440a55",
+    "artist": "The Slackers",
+    "title": "Bed Bug",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "267f20a0c3ba802ca4b6",
+    "artist": "The Slackers",
+    "title": "Bed Bug",
+    "album": "Do the Ska",
+    "genre": "Ska"
+  },
+  {
+    "id": "82f53c353dba35843885",
+    "artist": "The Slackers",
+    "title": "Bin Waitin",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "686430ddfd8626c09af4",
+    "artist": "The Slackers",
+    "title": "Bitch",
+    "album": "The Radio"
+  },
+  {
+    "id": "e58b004139007e911945",
+    "artist": "The Slackers",
+    "title": "Bo Evil",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "b78bcb4c4677b0ad7412",
+    "artist": "The Slackers",
+    "title": "Body Double",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "29dbe643b2a3973d32dd",
+    "artist": "The Slackers",
+    "title": "Boll Weevil",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "0a6edff170f35a8eb029",
+    "artist": "The Slackers",
+    "title": "Cheated",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "5c645c97e03e28f57abe",
+    "artist": "The Slackers",
+    "title": "Cheated Dub (Bonus Track)",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "f95f423953a790619f96",
+    "artist": "The Slackers",
+    "title": "Close My Eyes",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "2b1cd6de0a823562998a",
+    "artist": "The Slackers",
+    "title": "Close My Eyes",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "b439fad01c4ccf536895",
+    "artist": "The Slackers",
+    "title": "Come Back Baby",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "5356aa198d47cf24389b",
+    "artist": "The Slackers",
+    "title": "Contemplation",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "24fb185da06589bc9656",
+    "artist": "The Slackers",
+    "title": "Cooking For Tommy",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "69f856e44970cdcaae3d",
+    "artist": "The Slackers",
+    "title": "Crazy",
+    "album": "International War Criminal",
+    "genre": "Ska"
+  },
+  {
+    "id": "9338146a8f5bdcab9da9",
+    "artist": "The Slackers",
+    "title": "Crazy",
+    "album": "Peculiar"
+  },
+  {
+    "id": "81f4b2ebb7aa44952f6c",
+    "artist": "The Slackers",
+    "title": "Cuban Cigar (Flip Record)",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "b33abf7102ec52aa9160",
+    "artist": "The Slackers",
+    "title": "Cupid",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "b6377551085cfd3e3513",
+    "artist": "The Slackers",
+    "title": "Cupid",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "aff3239f4b69005a2fa2",
+    "artist": "The Slackers",
+    "title": "Daddy",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "d66a558e29f930fa0dae",
+    "artist": "The Slackers",
+    "title": "Dave's Friend",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "1226bb666848b85abccc",
+    "artist": "The Slackers",
+    "title": "Dead Girl",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "a52d81198ce549e88caf",
+    "artist": "The Slackers",
+    "title": "Dead Or Alive",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "c7318aa65c7521a407c2",
+    "artist": "The Slackers",
+    "title": "Dear Bossman",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "91a2a1ce6b4c81fba227",
+    "artist": "The Slackers",
+    "title": "Decon Dub",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "973bb0c3bb3dfc1cbcfc",
+    "artist": "The Slackers",
+    "title": "Do You Know",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "4fc9b1a359883ab1fae6",
+    "artist": "The Slackers",
+    "title": "Do You Know",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "dcb14e0f1fcff8dea45b",
+    "artist": "The Slackers",
+    "title": "Don't Forget The Streets",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "82ba5f3a04d4d6e21fb3",
+    "artist": "The Slackers",
+    "title": "Don't Have To",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "0e59dbdbcbfe09c3841f",
+    "artist": "The Slackers",
+    "title": "Don't Look Back",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "6fb7af12afd90d677cb8",
+    "artist": "The Slackers",
+    "title": "Don't Wanna Go",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "05268c751d3c9f797b80",
+    "artist": "The Slackers",
+    "title": "Dub 1",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "2ece9cc645280acce5e5",
+    "artist": "The Slackers",
+    "title": "Dub 2",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "ade48c29f32f373a2ec0",
+    "artist": "The Slackers",
+    "title": "Easy",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "090250069332f0906be1",
+    "artist": "The Slackers",
+    "title": "El Gato",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "ac15e56dbdf002eddb3b",
+    "artist": "The Slackers",
+    "title": "Estranged",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "a62f8cbbb12f3f62ea19",
+    "artist": "The Slackers",
+    "title": "Estranged",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "ed64a1fb8078dfae0684",
+    "artist": "The Slackers",
+    "title": "Every Day is Sunday",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "753d35b70efaf12728ed",
+    "artist": "The Slackers",
+    "title": "Every Day Is Sunday",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "715f79b243944ba032ec",
+    "artist": "The Slackers",
+    "title": "Eviction",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "2d08ad9aaba385d248a2",
+    "artist": "The Slackers",
+    "title": "Face In My Crowd",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "a8f1ac572c51644abf26",
+    "artist": "The Slackers",
+    "title": "Face In My Crowd",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "750abaef72c381078235",
+    "artist": "The Slackers",
+    "title": "Feed My Girl",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "bbd53df037bc390eeb1e",
+    "artist": "The Slackers",
+    "title": "Feed My Girl",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "12751f4fdf917a1438ce",
+    "artist": "The Slackers",
+    "title": "Feed My Girl",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "b251a6c546b4c0d795bb",
+    "artist": "The Slackers",
+    "title": "Feed My Girl Ska",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "f8ef141227b361150278",
+    "artist": "The Slackers",
+    "title": "Fried Chicken/Mary Mary",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "4527b8e875e6cd737ddb",
+    "artist": "The Slackers",
+    "title": "Funk Week",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "89e04c999501dd4c651f",
+    "artist": "The Slackers",
+    "title": "Game of Love",
+    "album": "The Radio"
+  },
+  {
+    "id": "362a1155116449b4f18c",
+    "artist": "The Slackers",
+    "title": "Ganbare",
+    "album": "The Radio"
+  },
+  {
+    "id": "59b3bc7aae4620644692",
+    "artist": "The Slackers",
+    "title": "Gasoline",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "75ab64da4824df1f941e",
+    "artist": "The Slackers",
+    "title": "Greedy Girl",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "b03f01a2c66b88d7592f",
+    "artist": "The Slackers",
+    "title": "Happy Song",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "16f3cf46ae15a3f15ba7",
+    "artist": "The Slackers",
+    "title": "Have The Time",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "828e45254ddcc3cddb7b",
+    "artist": "The Slackers",
+    "title": "Henderson Swamp",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "474ae147f18be42cbd91",
+    "artist": "The Slackers",
+    "title": "How It Feels",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "5b63a3803b293d9495b3",
+    "artist": "The Slackers",
+    "title": "I Shall Be Released",
+    "album": "Peculiar"
+  },
+  {
+    "id": "64524556ea4466efa200",
+    "artist": "The Slackers",
+    "title": "I Still Love You",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "17163614d086a37f69bb",
+    "artist": "The Slackers",
+    "title": "I Still Love You",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "f98a2e76a402a749a048",
+    "artist": "The Slackers",
+    "title": "I Still Love You",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "dcafdf35d10f52914f64",
+    "artist": "The Slackers",
+    "title": "I'd Rather Die Happy",
+    "album": "Peculiar"
+  },
+  {
+    "id": "5eff00b76506fd3892c4",
+    "artist": "The Slackers",
+    "title": "I'll Stay Away",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "4131ee743154e801011f",
+    "artist": "The Slackers",
+    "title": "I'm Still Standing",
+    "album": "The Radio"
+  },
+  {
+    "id": "631d17d0235ccc49069f",
+    "artist": "The Slackers",
+    "title": "If You See My Baby",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "ef002ff5414dcd95a323",
+    "artist": "The Slackers",
+    "title": "In Walked Capo",
+    "album": "Peculiar"
+  },
+  {
+    "id": "a98a54a1afb7bd01a234",
+    "artist": "The Slackers",
+    "title": "Information Error",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "012bdd875039c6de0b73",
+    "artist": "The Slackers",
+    "title": "International War Criminal",
+    "album": "International War Criminal",
+    "genre": "Ska"
+  },
+  {
+    "id": "afd2ce3cadcc882edc79",
+    "artist": "The Slackers",
+    "title": "International War Criminal",
+    "album": "Peculiar"
+  },
+  {
+    "id": "d09ca0251d8a9b5017d2",
+    "artist": "The Slackers",
+    "title": "It Will All Come Back",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "fb444435e08ede55bcd9",
+    "artist": "The Slackers",
+    "title": "It Will All Come Back",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "aa646504e104502f2319",
+    "artist": "The Slackers",
+    "title": "Jeepster",
+    "album": "The Radio"
+  },
+  {
+    "id": "73d3bf8987b01086c909",
+    "artist": "The Slackers",
+    "title": "Keep Him Away",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "d0a7821489abd2302cdb",
+    "artist": "The Slackers",
+    "title": "Keep Him Away",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "e5ef3adf82ac32df6aee",
+    "artist": "The Slackers",
+    "title": "Keep Him Away",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "34faffea7ae5767c3e64",
+    "artist": "The Slackers",
+    "title": "Keep it Simple",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "87a6f81c05a35841921e",
+    "artist": "The Slackers",
+    "title": "Keep It Simple",
+    "album": "International War Criminal",
+    "genre": "Ska"
+  },
+  {
+    "id": "538aec76cd49a6a2706d",
+    "artist": "The Slackers",
+    "title": "Keep It Simple",
+    "album": "Peculiar"
+  },
+  {
+    "id": "aae095a9735b33221550",
+    "artist": "The Slackers",
+    "title": "Knowing",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "46fb230f10d3d8acc21c",
+    "artist": "The Slackers",
+    "title": "Lazy Woman",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "b4770b5ef08acf1b5631",
+    "artist": "The Slackers",
+    "title": "Leave Me",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "00b8a15698d46a9cb233",
+    "artist": "The Slackers",
+    "title": "Leave Me",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "8e672b9021d69bb9fb34",
+    "artist": "The Slackers",
+    "title": "Like a Virgin",
+    "album": "The Radio"
+  },
+  {
+    "id": "18bb0774e160b15e2d9a",
+    "artist": "The Slackers",
+    "title": "Lil Joe",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "00b9bbe69b2d5277812d",
+    "artist": "The Slackers",
+    "title": "Lonely Nights",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "332b6dbe7ded7af63aae",
+    "artist": "The Slackers",
+    "title": "Lost & Found",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "3b2064996c41be3f2e2e",
+    "artist": "The Slackers",
+    "title": "Made Up",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "aa9a3e03d32f98aba8d3",
+    "artist": "The Slackers",
+    "title": "Make Me Smile",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "dea8332ce9ba288ec6b8",
+    "artist": "The Slackers",
+    "title": "Make Me Smile",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "2fe220f90cfc4c3ec21c",
+    "artist": "The Slackers",
+    "title": "Mama Told Me",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "27137bcaf7d435c2039d",
+    "artist": "The Slackers",
+    "title": "Manuel",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "ae6073ceff56a5e4d8d8",
+    "artist": "The Slackers",
+    "title": "Marcus's Song",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "3ebf8be802f1618f0381",
+    "artist": "The Slackers",
+    "title": "Married Girl",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "50634d1c9783825f994b",
+    "artist": "The Slackers",
+    "title": "Married Girl",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "549984da76775e9f7149",
+    "artist": "The Slackers",
+    "title": "Married Girl",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "706b89465cf9a5e5e8b5",
+    "artist": "The Slackers",
+    "title": "Midnight Rendezvous",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "0f2fae34aa744fe47f6a",
+    "artist": "The Slackers",
+    "title": "Mind Your Own Business",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "ec850fd1aa0b5821a82f",
+    "artist": "The Slackers",
+    "title": "Minha Menina",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "34b1b6f6c217f1e1b886",
+    "artist": "The Slackers",
+    "title": "Mommy",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "7e472464bf816891ada2",
+    "artist": "The Slackers",
+    "title": "Mommy",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "70fea6405fcaaf60c505",
+    "artist": "The Slackers",
+    "title": "Motor City",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "1e9cc733656cfb878167",
+    "artist": "The Slackers",
+    "title": "Mountainside",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "b912007603de3512be99",
+    "artist": "The Slackers",
+    "title": "Mr. Tragedy",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "158cc62a7774006a88af",
+    "artist": "The Slackers",
+    "title": "Mush One",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "c22a6ddab70bec5a9a8f",
+    "artist": "The Slackers",
+    "title": "My Way",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "7c56d80ac32785177d3c",
+    "artist": "The Slackers",
+    "title": "No Love",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "1785de7569467c4fc9bd",
+    "artist": "The Slackers",
+    "title": "No More Crying",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "d437b2ef9c1c1c7ab364",
+    "artist": "The Slackers",
+    "title": "Old Days",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "f241753235ab0efdd7b9",
+    "artist": "The Slackers",
+    "title": "Old Dog",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "fa3b6cd018c5dc8eaa44",
+    "artist": "The Slackers",
+    "title": "Old Dog",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "9f1ef01735f125394b34",
+    "artist": "The Slackers",
+    "title": "Our Day Will Come",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "abaf416944d604408b9f",
+    "artist": "The Slackers",
+    "title": "Peculiar",
+    "album": "Peculiar"
+  },
+  {
+    "id": "4074f0c3c3e2c7f515f8",
+    "artist": "The Slackers",
+    "title": "Pedophilia",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "ec264ff075593c301c1c",
+    "artist": "The Slackers",
+    "title": "Pedophillia",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "001568a2756ae2bdbbe0",
+    "artist": "The Slackers",
+    "title": "Pedophillia",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "e46ba7438281d8877fdd",
+    "artist": "The Slackers",
+    "title": "Please Decide",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "5d0d4b982cfedb54705f",
+    "artist": "The Slackers",
+    "title": "Please Decide",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "0fa523867463186d3102",
+    "artist": "The Slackers",
+    "title": "Power",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "44859f34894b703cdbcc",
+    "artist": "The Slackers",
+    "title": "Propaganda",
+    "album": "International War Criminal",
+    "genre": "Ska"
+  },
+  {
+    "id": "af5c9e49397b6f12d672",
+    "artist": "The Slackers",
+    "title": "Propaganda",
+    "album": "Peculiar"
+  },
+  {
+    "id": "8e29fed7398830a04a40",
+    "artist": "The Slackers",
+    "title": "Prophet",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "7211b3cd4ae98fe6b422",
+    "artist": "The Slackers",
+    "title": "Prophet",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "6c9e9ba96c360eaba9f4",
+    "artist": "The Slackers",
+    "title": "Ray-Gun Sally",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "ceec23042b4c8bcaf5ba",
+    "artist": "The Slackers",
+    "title": "Raygun Sally",
+    "album": "Do the Ska",
+    "genre": "Ska"
+  },
+  {
+    "id": "613d90309c04ef6fd781",
+    "artist": "The Slackers",
+    "title": "Reach Out (I'll Be There)",
+    "album": "The Radio"
+  },
+  {
+    "id": "b05efd2b92d6bfde2128",
+    "artist": "The Slackers",
+    "title": "Real War",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "aabdd377820292aa6236",
+    "artist": "The Slackers",
+    "title": "Red Onions",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "03c89025b2d352448ca6",
+    "artist": "The Slackers",
+    "title": "Red Onions",
+    "album": "Do the Ska",
+    "genre": "Ska"
+  },
+  {
+    "id": "5e89719b47641ed67fd3",
+    "artist": "The Slackers",
+    "title": "Redlight",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "467ef86001f4106267d7",
+    "artist": "The Slackers",
+    "title": "Rider",
+    "album": "International War Criminal",
+    "genre": "Ska"
+  },
+  {
+    "id": "38d4496b461fc7fa3a53",
+    "artist": "The Slackers",
+    "title": "Rider",
+    "album": "Peculiar"
+  },
+  {
+    "id": "5b604afc50045aec92e9",
+    "artist": "The Slackers",
+    "title": "Robots",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "32fe18eb9a6c1bfc0b59",
+    "artist": "The Slackers",
+    "title": "Rude And Reckless",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "9072107ccdb59b262bb7",
+    "artist": "The Slackers",
+    "title": "Rude Boy",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "404f0f51c03476018661",
+    "artist": "The Slackers",
+    "title": "Run Away",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "e210c6817e68c35574f1",
+    "artist": "The Slackers",
+    "title": "Run Away",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "7f124c8dbc36e97b989e",
+    "artist": "The Slackers",
+    "title": "Runaway",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "155a5e787406e70996f7",
+    "artist": "The Slackers",
+    "title": "Sabina",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "03cf83dba08c1e7fb340",
+    "artist": "The Slackers",
+    "title": "Santa Claus is Coming to Town",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "4c5fe9188dfa450f6271",
+    "artist": "The Slackers",
+    "title": "Sarah",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "fdffe70cec7438ea97b3",
+    "artist": "The Slackers",
+    "title": "Sarah",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "346a84a318f63b4538fb",
+    "artist": "The Slackers",
+    "title": "Sauron",
+    "album": "Peculiar"
+  },
+  {
+    "id": "04fe6224a48646f04c08",
+    "artist": "The Slackers",
+    "title": "See You In My Dreams",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "79439a5fd9de2d1b1e1f",
+    "artist": "The Slackers",
+    "title": "Self Medication",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "f4643a054c7e9fce5134",
+    "artist": "The Slackers",
+    "title": "Sermon",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "b4fc423c25221d3612f0",
+    "artist": "The Slackers",
+    "title": "Set The Girl Free",
+    "album": "Peculiar"
+  },
+  {
+    "id": "d4ffefe2dc4ad31d6121",
+    "artist": "The Slackers",
+    "title": "Shankbon",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "bf99c5ee45584c87a4cc",
+    "artist": "The Slackers",
+    "title": "She Wants To Be Alone",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "2ed2cae6d35a1379a91b",
+    "artist": "The Slackers",
+    "title": "Sing Your Song",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "e47b347baebf19b452d8",
+    "artist": "The Slackers",
+    "title": "Sister Sister",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "d1b902be08e309d197b8",
+    "artist": "The Slackers",
+    "title": "Ska Boheme",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "209ded7e40f91704d2c8",
+    "artist": "The Slackers",
+    "title": "Sleep Outside",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "b51d0decf666812f844e",
+    "artist": "The Slackers",
+    "title": "Sleep Outside",
+    "album": "Do the Ska",
+    "genre": "Ska"
+  },
+  {
+    "id": "7f5ee5368f191d5c4a03",
+    "artist": "The Slackers",
+    "title": "Soldier",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "f7a92b0abd2e0d7c0850",
+    "artist": "The Slackers",
+    "title": "Soldier",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "7841766f5a2275bce61c",
+    "artist": "The Slackers",
+    "title": "Song For Linda",
+    "album": "Do the Ska",
+    "genre": "Ska"
+  },
+  {
+    "id": "67eb8fe9a0e913b4d0a2",
+    "artist": "The Slackers",
+    "title": "Sooner Or Later",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "6aaf371fbe07c50fc94b",
+    "artist": "The Slackers",
+    "title": "Sooner Or Later",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "5b1586abfc01e8821c4a",
+    "artist": "The Slackers",
+    "title": "Stars",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "b975074c2c0473ded816",
+    "artist": "The Slackers",
+    "title": "Strychnine",
+    "album": "The Radio"
+  },
+  {
+    "id": "6fa2be49bd2226bbf02f",
+    "artist": "The Slackers",
+    "title": "Tarantula",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "acfe56d3b0f71a7eb129",
+    "artist": "The Slackers",
+    "title": "Thank You",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "6188472b795bc49e8bf5",
+    "artist": "The Slackers",
+    "title": "The Dreidel Song",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "c5fb14fca7c8ae76cb87",
+    "artist": "The Slackers",
+    "title": "The Fool",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "a99ea5394679fb1e71c9",
+    "artist": "The Slackers",
+    "title": "The Fried Chicken Song",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "0e012c132525c2d4d0d2",
+    "artist": "The Slackers",
+    "title": "The Letter",
+    "album": "The Radio"
+  },
+  {
+    "id": "74b6a4be796ea28c13e1",
+    "artist": "The Slackers",
+    "title": "The Mummy",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "2566712e5ee005946685",
+    "artist": "The Slackers",
+    "title": "The Nurse",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "fdcb8988b0c1d2449115",
+    "artist": "The Slackers",
+    "title": "The Question (Version 1)",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "7399245121612de949eb",
+    "artist": "The Slackers",
+    "title": "The Question (Version 2)",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "3a506aa1838d5a71aff2",
+    "artist": "The Slackers",
+    "title": "The Same Everyday",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "784a8abbd5ca31aff581",
+    "artist": "The Slackers",
+    "title": "The Tv Dinner Song",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "b8a7422a981592e8db02",
+    "artist": "The Slackers",
+    "title": "This is the Night",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "05677cc73d551ed32ae1",
+    "artist": "The Slackers",
+    "title": "This Is The Night",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "d3724da3bb3f45a9f422",
+    "artist": "The Slackers",
+    "title": "Tin Tin Deo",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "36906d56404200206787",
+    "artist": "The Slackers",
+    "title": "Tonight",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "8eb07b702d6ec95b04cf",
+    "artist": "The Slackers",
+    "title": "Tonight",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "1fea3f47785be85781ee",
+    "artist": "The Slackers",
+    "title": "Tool Shed",
+    "album": "The Great Rocksteady Swindle",
+    "genre": "Ska"
+  },
+  {
+    "id": "c8f287defd36a12aea65",
+    "artist": "The Slackers",
+    "title": "Trash",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "70e91ecf7f56a68d915a",
+    "artist": "The Slackers",
+    "title": "Treat Me Good",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "ac1238aee9506e5d7327",
+    "artist": "The Slackers",
+    "title": "Two Blues In One",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "2c20c3a8f98761a8469b",
+    "artist": "The Slackers",
+    "title": "Two Face",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "f60168ff8773d1c9fba3",
+    "artist": "The Slackers",
+    "title": "Two Face",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "4f30136fda51e142895b",
+    "artist": "The Slackers",
+    "title": "Volunteers",
+    "album": "The Radio"
+  },
+  {
+    "id": "f560f4bff39e16fef933",
+    "artist": "The Slackers",
+    "title": "Walking On",
+    "album": "Wasted Days",
+    "genre": "Blues"
+  },
+  {
+    "id": "dc020f36d9526333f912",
+    "artist": "The Slackers",
+    "title": "Walking With Myself",
+    "album": "Self Medication",
+    "genre": "R&B"
+  },
+  {
+    "id": "13839f034056d544b134",
+    "artist": "The Slackers",
+    "title": "Want a Man",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "45fd63a2349dcf71d408",
+    "artist": "The Slackers",
+    "title": "Wanted Man",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "94d3b3fa59bb2b71c143",
+    "artist": "The Slackers",
+    "title": "Wasted Days",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "46f8957e808c5c7423e5",
+    "artist": "The Slackers",
+    "title": "Wasted Days",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "500ea25c6cad1dfcca7c",
+    "artist": "The Slackers",
+    "title": "Watch This",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "607c0eff0dcc1f8f38e7",
+    "artist": "The Slackers",
+    "title": "Watch This",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "d42f69bc16018312b1d4",
+    "artist": "The Slackers",
+    "title": "Watch This",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "6759137821347e56872f",
+    "artist": "The Slackers",
+    "title": "We Can Work It Out",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "b7bc487942d6c2ad12f7",
+    "artist": "The Slackers",
+    "title": "What Went Wrong",
+    "album": "Lost & Found",
+    "genre": "Ska"
+  },
+  {
+    "id": "cda2ed1201328775408d",
+    "artist": "The Slackers",
+    "title": "What Went Wrong",
+    "album": "Peculiar"
+  },
+  {
+    "id": "25ff8d6e198c83736ac9",
+    "artist": "The Slackers",
+    "title": "Who Knows",
+    "album": "Close My Eyes",
+    "genre": "Ska"
+  },
+  {
+    "id": "679045891663718dbc24",
+    "artist": "The Slackers",
+    "title": "Winter Wonderland",
+    "album": "Holiday Show 2009 Day 1"
+  },
+  {
+    "id": "fd1ca16b9693cfdcff25",
+    "artist": "The Slackers",
+    "title": "Work Song",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "f5c124c97fbf0004b898",
+    "artist": "The Slackers",
+    "title": "Work Song",
+    "album": "Live at Ernesto's",
+    "genre": "Blues"
+  },
+  {
+    "id": "c15582f69c695eb0d008",
+    "artist": "The Slackers",
+    "title": "Yer Still Blue",
+    "album": "The Boss Harmony Sessions",
+    "genre": "Reggae"
+  },
+  {
+    "id": "b472ae9b60294afc7acf",
+    "artist": "The Slackers",
+    "title": "Yes It's True",
+    "album": "The Question",
+    "genre": "Blues"
+  },
+  {
+    "id": "5e9772fa86f8cbc95312",
+    "artist": "The Slackers",
+    "title": "You Don't Know I",
+    "album": "Better Late Than Never",
+    "genre": "Blues"
+  },
+  {
+    "id": "7c028e14ac65c8a63269",
+    "artist": "The Slackers",
+    "title": "You Don't Know I",
+    "album": "Do the Ska",
+    "genre": "Ska"
+  },
+  {
+    "id": "8189f35729ccde5a8e19",
+    "artist": "The Slackers",
+    "title": "You Don't Know I",
+    "album": "Live At Ernesto's"
+  },
+  {
+    "id": "94d42f758b28d33f45d5",
+    "artist": "The Slackers",
+    "title": "You Don't Know I...",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "caa33b8ee69e1b99f481",
+    "artist": "The Slackers",
+    "title": "You Must Be Good",
+    "album": "Redlight",
+    "genre": "Blues"
+  },
+  {
+    "id": "f154cfc1c69ce80ec972",
+    "artist": "The Slackers",
+    "title": "Yuk-Yah",
+    "album": "Before There Were Slackers There Were...The Nods",
+    "genre": "Ska"
+  },
+  {
+    "id": "8af82632de84f4538706",
+    "artist": "The Slits",
+    "title": "Typical Girls",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "7212d9619b54e152a093",
+    "artist": "The Sonics",
+    "title": "Strychnine",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
     "id": "79e9c401098e30276dca",
     "artist": "The Specials",
     "title": "A Message to You Rudy",
     "album": "The Specials"
+  },
+  {
+    "id": "0a5e631df6ddd384ef3d",
+    "artist": "The Spinners",
+    "title": "Could It Be I'm Falling In Love",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Pop"
+  },
+  {
+    "id": "fa15b0c598b5a84bc1f8",
+    "artist": "The Stooges",
+    "title": "1969",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "75a871787cdde0940b38",
+    "artist": "The Stooges",
+    "title": "I Wanna Be Your Dog",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "bd0841b4b392bd2c1210",
+    "artist": "The Stooges",
+    "title": "Search And Destroy",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "163209c550ed8d618a22",
+    "artist": "The Supremes",
+    "title": "Baby Love",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "82c666a3ea8ff93fb176",
+    "artist": "The Supremes",
+    "title": "I Hear A Symphony",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "dca0e861a518ab65dac6",
+    "artist": "The Supremes",
+    "title": "Where Did Our Love Go",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "1f1d75c33b5ee0a746ca",
+    "artist": "The Supremes",
+    "title": "You Can't Hurry Love",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "664110a4f5b0160abb3b",
+    "artist": "The Supremes",
+    "title": "You Keep Me Hangin' On",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "068674557fa364b6fe50",
+    "artist": "The Tammys",
+    "title": "Egyptian Shumba",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "1e93b2d0d2f0a1447a99",
+    "artist": "The Temptations",
+    "title": "Get Ready",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "R&B"
+  },
+  {
+    "id": "e6efa870594c79c0cbb2",
+    "artist": "The Temptations",
+    "title": "Papa Was A Rolling Stone",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Soul"
+  },
+  {
+    "id": "64d6cee5eabc2e8c38cc",
+    "artist": "The Undertones",
+    "title": "Teenage kicks",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "699ec629b54c1ce714a7",
+    "artist": "The Velvet Underground",
+    "title": "Heroin",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "f3e9612140a566e0faea",
+    "artist": "The Velvet Underground",
+    "title": "I'm Waiting For The Man",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "9b45c07dc5da29e5eff9",
+    "artist": "The Velvet Underground",
+    "title": "Rock And Roll",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "df6cc8dfdf3f37dae2fc",
+    "artist": "The Velvet Underground",
+    "title": "Sister Ray",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "7fe685e177ba4eb85ad8",
+    "artist": "The Velvet Underground",
+    "title": "Sunday Morning",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "bf49e9636ef83a55bd1d",
+    "artist": "The Velvet Underground",
+    "title": "Sweet Jane",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "0131ff550e3314aaa98b",
+    "artist": "The Velvet Underground",
+    "title": "Venus In Furs",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "5866c12ce6ede1c8775e",
+    "artist": "The Walker Brothers",
+    "title": "The Electrician",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "1df623680b327b983231",
+    "artist": "The Walker Brothers",
+    "title": "The Sun Ain't Gonna Shine (Anymore)",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Pop"
+  },
+  {
+    "id": "9b8e6f7549b26af2c8f7",
+    "artist": "The Who",
+    "title": "Baba Oriley",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "e292654fa7eebf3b2733",
+    "artist": "The Who",
+    "title": "I Can See For Miles",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "77d8834c230bfdf6a1ab",
+    "artist": "The Who",
+    "title": "I Can't Explain",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "e237a678572400bf3a4f",
+    "artist": "The Who",
+    "title": "Substitute",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "1358a6d27bf747a5f678",
+    "artist": "The Who",
+    "title": "The Kids Are Alright",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "560219404a60bda8ad4e",
+    "artist": "The Zombies",
+    "title": "Care Of Cell 44",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "d590351d858f928bc87a",
+    "artist": "The Zombies",
+    "title": "She's Not There",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "eaa6d63a1557ea41434a",
+    "artist": "The Zombies",
+    "title": "This Will Be Our Year",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
+    "id": "61bf1761998cb9f154a4",
+    "artist": "Thelma Houston",
+    "title": "Don't Leave Me This Way",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Pop"
+  },
+  {
+    "id": "fdf17916af0fe7c76e44",
+    "artist": "Thin Lizzy",
+    "title": "The Boys Are Back In Town",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
   },
   {
     "id": "9cc0dfb10a94349cfc96",
@@ -6198,6 +11231,19 @@
     "artist": "Thomas Dolby",
     "title": "Hyperactive! (Heavy Breather Subversion)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "865e0c6d35033051f059",
+    "artist": "Throbbing Gristle",
+    "title": "Hot On The Heels Of Love",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "e23324bea9343ce764a9",
+    "artist": "Thug Life • Nate Dogg",
+    "title": "How Long Will They Mourn Me?",
+    "album": "Greatest Hits",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "18269ae1e0cea905f51c",
@@ -6242,6 +11288,33 @@
     "album": "Songs of the National Parks"
   },
   {
+    "id": "670024f41d6b95c282b3",
+    "artist": "Todd Rundgren",
+    "title": "International feel",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "b37cacb350a2360d3898",
+    "artist": "Tom Petty and the Heartbreakers",
+    "title": "American Girl",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Blues"
+  },
+  {
+    "id": "f0063dbe881d127a0ef6",
+    "artist": "Tom Zé",
+    "title": "Doi",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "b5af523e515aeaee4c97",
+    "artist": "Tommy James & The Shondells",
+    "title": "Crimson And Clover",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
     "id": "1da89c47a4554e72b546",
     "artist": "Tony Bennett",
     "title": "The Lady Is a Tramp feat. Lady Gaga",
@@ -6261,16 +11334,329 @@
     "album": "Grand Theft Auto: San Andreas Radio: K-Jah West"
   },
   {
+    "id": "5d921ef67a272ca31c5a",
+    "artist": "Toots & the Maytals",
+    "title": "Funky Kingston",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
+  },
+  {
+    "id": "5540403679617f41a9bd",
+    "artist": "Toots And The Maytals",
+    "title": "Pressure Drop",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Reggae"
+  },
+  {
+    "id": "5040eaf8292275e15b19",
+    "artist": "Townes Van Zandt",
+    "title": "Pancho & Lefty",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Folk"
+  },
+  {
+    "id": "9b8ba02e528c3c3ba2f7",
+    "artist": "Tyrannosaurus Rex",
+    "title": "Debora",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Folk"
+  },
+  {
     "id": "97ca4848e6479219f301",
     "artist": "USA For Africa",
     "title": "We Are The World",
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "6c0ca3537b6986fda765",
+    "artist": "Van Morrison",
+    "title": "Caravan",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "1f505f309a64ea9b0ed4",
+    "artist": "Van Morrison",
+    "title": "Sweet Thing",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Rock"
+  },
+  {
     "id": "9e21427b921582c016ca",
     "artist": "Vanilla Ice",
     "title": "Ninja Rap",
     "album": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze"
+  },
+  {
+    "id": "bd4f20c825a16e5c20cc",
+    "artist": "Viktor Vaughn",
+    "title": "A Dead Mouse",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f66b08f42e7f60082853",
+    "artist": "Viktor Vaughn",
+    "title": "Back End",
+    "album": "Venomous Villain"
+  },
+  {
+    "id": "1c50f99d8c0fd0026655",
+    "artist": "Viktor Vaughn",
+    "title": "Bloody Chain (feat. Poison Pen)",
+    "album": "Venomous Villain"
+  },
+  {
+    "id": "ed124c977acbd1950433",
+    "artist": "Viktor Vaughn",
+    "title": "Change the Beat",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "26b90d6f8000ccd118ab",
+    "artist": "Viktor Vaughn",
+    "title": "Change The Beat (Acapella)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f5004f68424ba0c13b2d",
+    "artist": "Viktor Vaughn",
+    "title": "Change The Beat (Instrumental)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ceb4629dfaa0ba077981",
+    "artist": "Viktor Vaughn",
+    "title": "Doom on Vik",
+    "album": "Venomous Villain"
+  },
+  {
+    "id": "f57e5c896fa3521f41d7",
+    "artist": "Viktor Vaughn",
+    "title": "Dope Skill (feat. Carl Kavorkian)",
+    "album": "Venomous Villain"
+  },
+  {
+    "id": "35cc48b28c71d0a660ec",
+    "artist": "Viktor Vaughn",
+    "title": "Doper Skiller (feat. Kool Keith)",
+    "album": "Venomous Villain"
+  },
+  {
+    "id": "591e3ba2926eda0d7d74",
+    "artist": "Viktor Vaughn",
+    "title": "Fall Back/Titty Fat",
+    "album": "Venomous Villain"
+  },
+  {
+    "id": "a35d2da6183486a8116f",
+    "artist": "Viktor Vaughn",
+    "title": "G.M.C.",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "5dc3cb1e22f70c681b77",
+    "artist": "Viktor Vaughn",
+    "title": "Lactose (Ezdac Mix Instrumental)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "65632e3a4e2264041aef",
+    "artist": "Viktor Vaughn",
+    "title": "Lactose (Ezdac Mix)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "70fc47025c4f2bff0054",
+    "artist": "Viktor Vaughn",
+    "title": "Lactose and Lecithin",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2fae6c0293914ba091c6",
+    "artist": "Viktor Vaughn",
+    "title": "Let Me Watch (feat. Apani B. as Nikki)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "5debd5fc1ff98231657c",
+    "artist": "Viktor Vaughn",
+    "title": "Lickupon",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "338822d323a7d9607137",
+    "artist": "Viktor Vaughn",
+    "title": "Modern Day Mugging",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ee5312ca0a7b1a66fa20",
+    "artist": "Viktor Vaughn",
+    "title": "Modern Day Mugging (Instrumental)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "23f6d3da00cc8f38c392",
+    "artist": "Viktor Vaughn",
+    "title": "Monday Night At Fluid",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8d7a13c95542a73c7e9c",
+    "artist": "Viktor Vaughn",
+    "title": "Monday Night At Fluid (Version)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "abbc4901bf187ee32cf6",
+    "artist": "Viktor Vaughn",
+    "title": "Mr. Clean",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "feb93f10c897ff9b69c2",
+    "artist": "Viktor Vaughn",
+    "title": "Mr. Clean (Instrumental)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "9f965b757eddc390904e",
+    "artist": "Viktor Vaughn",
+    "title": "Never Dead (feat. M. Sayyid as Curtis Strifer)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e3a7b5efde8c2921f6fc",
+    "artist": "Viktor Vaughn",
+    "title": "Ode to Road Rage",
+    "album": "Venomous Villain"
+  },
+  {
+    "id": "c19907840d9e956391ca",
+    "artist": "Viktor Vaughn",
+    "title": "Open Mic Nite, Part 1 (feat. Lord Sear, Brother Sambuca, Rodan as Dr. Moreau & Louis Logic)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "af0e156ece73e3f89f2f",
+    "artist": "Viktor Vaughn",
+    "title": "Open Mic Nite, Part 2 (feat. Lord Sear, AJ Ready Wright & Creature)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "b9b7561a3daf2bfac97f",
+    "artist": "Viktor Vaughn",
+    "title": "Pop Quiz (Bonus Extra Credit Remix) (feat. Iz-Real & MF DOOM)",
+    "album": "Venomous Villain"
+  },
+  {
+    "id": "d27b0f0ebe2e9a279b3b",
+    "artist": "Viktor Vaughn",
+    "title": "Popsnot",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "0ba7c8fc075ecdab4d37",
+    "artist": "Viktor Vaughn",
+    "title": "R.A.P. G.A.M.E. (feat. Manchild & Iz-Real)",
+    "album": "Venomous Villain"
+  },
+  {
+    "id": "59a7480b155dddb1d15f",
+    "artist": "Viktor Vaughn",
+    "title": "Rae Dawn (Acapella)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "b75567e5a6996a9d8556",
+    "artist": "Viktor Vaughn",
+    "title": "Rae Dawn (Instrumental)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "742186663a195a6b5bd8",
+    "artist": "Viktor Vaughn",
+    "title": "Raedawn",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ef60d7bbda9dfa5925e5",
+    "artist": "Viktor Vaughn",
+    "title": "Raedawn (Kaman Leung Remix Instrumental)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "647e1d29b58565e0fafa",
+    "artist": "Viktor Vaughn",
+    "title": "Raedawn (Kaman Leung Remix)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "7a90402768bea8832946",
+    "artist": "Viktor Vaughn",
+    "title": "Saliva",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "bf2a2f3757c6348ff362",
+    "artist": "Viktor Vaughn",
+    "title": "Saliva (Instrumental)",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ab8955c314542b79c324",
+    "artist": "Viktor Vaughn",
+    "title": "The Drop",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "3e246643bfab271abda8",
+    "artist": "Viktor Vaughn",
+    "title": "Vaudeville Villain",
+    "album": "Vaudeville Villain",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "9a4f55796076e1f0b6a2",
+    "artist": "Vince Guaraldi Trio",
+    "title": "Linus And Lucy",
+    "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Jazz"
+  },
+  {
+    "id": "705f3d9b812896f4b5dd",
+    "artist": "Waylon Jennings",
+    "title": "Are You Sure Hank Done It This Way",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Country"
   },
   {
     "id": "2667df3359c86fb13b8a",
@@ -6292,6 +11678,12 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "7261dd2b4de5b972c744",
+    "artist": "Whispers",
+    "title": "And The Beat Goes On",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "cb379181bb80ae2fada9",
     "artist": "Whitney Houston",
     "title": "I Wanna Dance With Somebody (Who Loves Me)",
@@ -6299,10 +11691,22 @@
     "genre": "R&B"
   },
   {
+    "id": "47f6957d5f6fd4dc5313",
+    "artist": "William DeVaughn",
+    "title": "Be Thankful For What You Got",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
     "id": "afae1266398a6a7fb125",
     "artist": "Wilson Pickett",
     "title": "In the Midnight Hour",
     "album": "In the Midnight Hour"
+  },
+  {
+    "id": "64afd9380ce82e6a70dd",
+    "artist": "Wire",
+    "title": "Outdoor Miner",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
     "id": "ac3475192748e15dd305",
@@ -6369,6 +11773,19 @@
     "artist": "Wishniks",
     "title": "Yankee Doodle Dandy",
     "album": "Wishnik Sing-A-Long Party"
+  },
+  {
+    "id": "3da8a4a5f07172599704",
+    "artist": "X-Ray Spex",
+    "title": "Oh Bondage! Up Yours!",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "cb4f4ddd399a0fa3893a",
+    "artist": "XTC",
+    "title": "Making Plans For Nigel",
+    "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Alternative"
   },
   {
     "id": "46d21ecd2de11e9a7272",

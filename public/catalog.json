@@ -231,6 +231,25 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "c621d3ff6b177187692e",
+    "artist": "Admiral Bailey",
+    "title": "Old Time Something",
+    "genre": "Reggae"
+  },
+  {
+    "id": "cb1e95cdb257deca9081",
+    "artist": "Admiral Bailey",
+    "title": "Punnany",
+    "album": "King At The Controls: Essential Hits From Reggae's Digital Revolution 1985-1989",
+    "genre": "Reggae"
+  },
+  {
+    "id": "62faab65a1eced5e6b96",
+    "artist": "Aidonia",
+    "title": "Yeah Yeah",
+    "album": "Genna Bounce Riddim"
+  },
+  {
     "id": "796a9e22430a06ab5c75",
     "artist": "Air Supply",
     "title": "Without You",
@@ -398,6 +417,12 @@
     "album": "Grand Theft Auto: San Andreas Radio: K-Jah West"
   },
   {
+    "id": "e0a1498c65b6e67e7fde",
+    "artist": "Barrington Levy",
+    "title": "Living Dangerously",
+    "album": "RAS Portrait"
+  },
+  {
     "id": "57de5761ff017650eabc",
     "artist": "Bauhaus",
     "title": "Bela Lugosi's Dead",
@@ -409,6 +434,52 @@
     "title": "Doctor Who (Original Theme)",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Electronic"
+  },
+  {
+    "id": "7977c90234e17090c979",
+    "artist": "Beenie Man",
+    "title": "Dancehall Queen",
+    "album": "Hitzone Best of 1999 Cd 2"
+  },
+  {
+    "id": "dbcb264f782fc97e442a",
+    "artist": "Beenie Man",
+    "title": "Foundation",
+    "album": "Many Moods of Moses",
+    "genre": "Reggae"
+  },
+  {
+    "id": "4b25c8f27382533594b0",
+    "artist": "Beenie Man",
+    "title": "Hypocrite",
+    "album": "Showtime Juggling"
+  },
+  {
+    "id": "8266ce5d5fcb59eef8be",
+    "artist": "Beenie Man",
+    "title": "Rum & RedBull",
+    "album": "Rum & RedBull",
+    "genre": "Reggae"
+  },
+  {
+    "id": "b32ac04937adf37d7d94",
+    "artist": "Beenie Man",
+    "title": "Who Am I",
+    "album": "Pure Dance 3"
+  },
+  {
+    "id": "9ca4ad9dee09080feb97",
+    "artist": "Beenie Man feat. Ms. Thing",
+    "title": "Dude",
+    "album": "Back to Basics",
+    "genre": "Reggae"
+  },
+  {
+    "id": "a2379d0fd676d02b51d9",
+    "artist": "Beenie Man feat. Mýa",
+    "title": "Girls Dem Sugar",
+    "album": "Art and Life",
+    "genre": "Reggae"
   },
   {
     "id": "f9a3bc044f817a7796fa",
@@ -653,6 +724,24 @@
     "artist": "Booker T. & the MG’s",
     "title": "Green Onions",
     "album": "Green Onions"
+  },
+  {
+    "id": "42920ce4744fdef84a14",
+    "artist": "Bounty Killer",
+    "title": "Anytime",
+    "album": "5th Element"
+  },
+  {
+    "id": "4ea8f016ef73ed4306bd",
+    "artist": "Bounty Killer",
+    "title": "Eagle And The Hawk",
+    "album": "Showtime"
+  },
+  {
+    "id": "68621695d6eb252867a3",
+    "artist": "Bounty Killer",
+    "title": "Look",
+    "album": "5th Element"
   },
   {
     "id": "0487a3c27d76036d8e46",
@@ -915,6 +1004,26 @@
     "genre": "Folk"
   },
   {
+    "id": "60b6c59769fd9935f949",
+    "artist": "Buju Banton",
+    "title": "Batty Rider",
+    "album": "Mr Mention",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8c4460a3a9ea15f77a7c",
+    "artist": "Buju Banton",
+    "title": "Bogle",
+    "album": "The Early Years (90-95)"
+  },
+  {
+    "id": "e191a24417fa8c9323b1",
+    "artist": "Buju Banton",
+    "title": "Champion",
+    "album": "’Til Shiloh",
+    "genre": "Reggae"
+  },
+  {
     "id": "3e8ee3ec44fac910c933",
     "artist": "Buju Banton feat. Tenor Saw",
     "title": "Ring the Alarm",
@@ -1055,6 +1164,18 @@
     "genre": "Jazz"
   },
   {
+    "id": "c69d8de5ddcbf8061e14",
+    "artist": "Capleton",
+    "title": "Tour",
+    "album": "Singles"
+  },
+  {
+    "id": "ccde3e2371bf80c615a5",
+    "artist": "Capleton",
+    "title": "Who Dem?",
+    "album": "More Fire"
+  },
+  {
     "id": "faca23863c0547d856de",
     "artist": "Captain Paul and the Seafaring Band",
     "title": "Hamburger Mine",
@@ -1152,6 +1273,11 @@
     "album": "Tease Me"
   },
   {
+    "id": "5aa514930050a60f45e0",
+    "artist": "Chaka Demus & Pliers",
+    "title": "Murder She Wrote"
+  },
+  {
     "id": "3d28b8d7d0ed5dbceb40",
     "artist": "Charles Bradley",
     "title": "Ain't It a Sin",
@@ -1184,6 +1310,12 @@
     "album": "Guess / Spring breakers"
   },
   {
+    "id": "e8f0d1882555059900e3",
+    "artist": "Charly Black",
+    "title": "Gyal You a Party Animal",
+    "album": "Gyal You a Party Animal"
+  },
+  {
     "id": "e594c179a748cd45554c",
     "artist": "Cheap Trick",
     "title": "Surrender",
@@ -1206,6 +1338,25 @@
     "artist": "Chris Brown feat. Ella Mai",
     "title": "Sex Memories",
     "album": "Breezy"
+  },
+  {
+    "id": "b7ba6e4d14d74a74c3f0",
+    "artist": "Chronixx",
+    "title": "Behind Curtain",
+    "album": "\" Hooked On Chronixx (Promo CD) \"",
+    "genre": "Reggae"
+  },
+  {
+    "id": "84160f76618ff4cd48a3",
+    "artist": "Clipse, Kendrick Lamar, Pusha T, Malice",
+    "title": "Chains & Whips",
+    "album": "Let God Sort Em Out"
+  },
+  {
+    "id": "80d9e0fb2cb040b8bb9e",
+    "artist": "Conroy Smith",
+    "title": "Dangerous",
+    "album": "Total Reggae: Dancehall"
   },
   {
     "id": "5e7db732ac07b4bc4766",
@@ -1395,6 +1546,13 @@
     "artist": "Daddy Yankee feat. Becky G, Bad Bunny & Natti Natasha",
     "title": "Dura (remix)",
     "album": "Dura (remix)"
+  },
+  {
+    "id": "0077cfcdddc9dcd3ddf6",
+    "artist": "Damian Marley",
+    "title": "Jamrock",
+    "album": "Jamrock riddim",
+    "genre": "Reggae"
   },
   {
     "id": "a6425c35284f7dc67cec",
@@ -1608,6 +1766,12 @@
     "genre": "Reggae"
   },
   {
+    "id": "78ba8ccb8920adc85434",
+    "artist": "Ding Dong",
+    "title": "Ravers Gas",
+    "album": "Ravers Gas - Single"
+  },
+  {
     "id": "31c9567e5cf41c652b2d",
     "artist": "Dinosaur",
     "title": "Kiss Me Again",
@@ -1620,6 +1784,13 @@
     "title": "Walk On By",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Pop"
+  },
+  {
+    "id": "0f158d4c40f27ca16975",
+    "artist": "Dirtsman",
+    "title": "Hot This Year",
+    "album": "Reggae Hits Vol.11 (flac)",
+    "genre": "Reggae"
   },
   {
     "id": "992481a172c2b08cd554",
@@ -1978,6 +2149,12 @@
     "album": "Wa-Do-Dem"
   },
   {
+    "id": "907d5a799d402f2ab927",
+    "artist": "Eek‐A‐Mouse",
+    "title": "Wa Do Dem",
+    "album": "100x Reggae"
+  },
+  {
     "id": "1158d91f08d2262e6198",
     "artist": "Electric Light Orchestra",
     "title": "Mr. Blue Sky",
@@ -2069,6 +2246,12 @@
     "album": "Songs in Spanish for Children"
   },
   {
+    "id": "4547d655bfed3f234c1b",
+    "artist": "Elephant Man",
+    "title": "Signal Di Plane",
+    "album": "Stuff I wanna keep ( stevie D collection)"
+  },
+  {
     "id": "ab1f4bbb1b885f00f4dc",
     "artist": "Ella Mai",
     "title": "One Of These",
@@ -2124,6 +2307,13 @@
     "artist": "Ennio Morricone",
     "title": "Il Buono Il Brutto Il Cattivo",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "62dd83855cfa5a457ffb",
+    "artist": "Erup",
+    "title": "Click Mi Finger",
+    "album": "2000s Dancehall Essentials",
+    "genre": "Reggae"
   },
   {
     "id": "90bddc7f120efdccc9aa",
@@ -3666,6 +3856,19 @@
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
   },
   {
+    "id": "1f9a2a10cfab3261175e",
+    "artist": "Frighty",
+    "title": "Life",
+    "album": "Reggae Hits Vol.5 (flac)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "a78480d8ee227c5d403a",
+    "artist": "Frisco Kid",
+    "title": "Rubbers",
+    "album": "Finally"
+  },
+  {
     "id": "ec0f09a19ba9a00190a8",
     "artist": "Fugees",
     "title": "Killing Me Softly (radio edit)",
@@ -3712,6 +3915,12 @@
     "artist": "Gene Kelly",
     "title": "Sing a Song of Sixpence / Mary Had a Little Lamb",
     "album": "Nursery Songs"
+  },
+  {
+    "id": "a49ee6af764657b93dd7",
+    "artist": "General Degree",
+    "title": "When I Hold You Tonight",
+    "album": "Skettel Riddim"
   },
   {
     "id": "e3654e883aa3b1b4e0a0",
@@ -3771,6 +3980,13 @@
     "title": "Uncle John's Band",
     "album": "Workingman's Dead [2013 Remaster]",
     "genre": "Rock"
+  },
+  {
+    "id": "0532e5c3756c7fd63247",
+    "artist": "Gyptian",
+    "title": "Hold You",
+    "album": "Reggae Gold 2012",
+    "genre": "Reggae"
   },
   {
     "id": "dbf29619e9d300f901a8",
@@ -4186,6 +4402,12 @@
     "genre": "Soul"
   },
   {
+    "id": "89c7fea0a9c9bf728adc",
+    "artist": "Ini Kamoze",
+    "title": "Here Comes The Hotstepper",
+    "album": "Now That's What I Call Music! 31"
+  },
+  {
     "id": "f3de693750c28800afa4",
     "artist": "INNA",
     "title": "Hot",
@@ -4218,6 +4440,12 @@
     "title": "(Your Love Keeps Lifting Me) Higher And Higher",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
+  },
+  {
+    "id": "7591a01083c5c71c38fb",
+    "artist": "Jada Kingdom",
+    "title": "Banana [explicit]",
+    "album": "Single-Banana"
   },
   {
     "id": "3f455fd86a17a33ce60e",
@@ -4522,6 +4750,12 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "a1bb864f6cc88b94736d",
+    "artist": "Joseph Stepper",
+    "title": "Wife",
+    "album": "Bogle - 1992 (Compilation) {#dreamsound973}"
+  },
+  {
     "id": "44b74ec9a52e1e3d1d7c",
     "artist": "José Augusto",
     "title": "Fantasias",
@@ -4545,6 +4779,11 @@
     "title": "The Kiss",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Folk"
+  },
+  {
+    "id": "0a566f0b85adb6d0aafe",
+    "artist": "Junior Reid",
+    "title": "One Blood"
   },
   {
     "id": "906e25ca34c0c39d5632",
@@ -4955,6 +5194,12 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "c33f20f34cb448f1f7d8",
+    "artist": "Konshens",
+    "title": "Bruk off Yuh Back",
+    "album": "Bruk off Yuh Back"
+  },
+  {
     "id": "85a711c71606530b7bcc",
     "artist": "Kool & the Gang",
     "title": "Jungle Boogie",
@@ -4973,6 +5218,18 @@
     "title": "Trans-Europe Express",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Electronic"
+  },
+  {
+    "id": "f6b9ff8348f23e91a018",
+    "artist": "Kranium",
+    "title": "Nobody Has to Know",
+    "album": "Rumors"
+  },
+  {
+    "id": "8ee28fba2d67ecefb690",
+    "artist": "Lady Saw",
+    "title": "Sycamore Tree",
+    "album": "Passion"
   },
   {
     "id": "06121512c60a2286d4a9",
@@ -5116,6 +5373,12 @@
     "album": "Tha Carter III"
   },
   {
+    "id": "ed3424a4f28c1ab0b32f",
+    "artist": "Lila Ike",
+    "title": "Where I'm Coming From",
+    "album": "The ExPerience"
+  },
+  {
     "id": "9238aa871eb12664f14c",
     "artist": "Lil’ Kim",
     "title": "No Matter What They Say (radio edit)",
@@ -5182,6 +5445,12 @@
     "title": "Alone Again Or",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Rock"
+  },
+  {
+    "id": "b9b1ffb5862f43a2d5aa",
+    "artist": "Mad Cobra",
+    "title": "Flex",
+    "album": "Singles"
   },
   {
     "id": "3a3492ad346095a80ab9",
@@ -5471,6 +5740,12 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "106e793c80b99b02dc4a",
+    "artist": "Major Lazer feat. Busy Signal, The Flexican & FS Green",
+    "title": "Watch Out For This (Buyame)",
+    "album": "Free The Universe"
+  },
+  {
     "id": "42306cfc9d0da15891ac",
     "artist": "Manu Dibango",
     "title": "Soul Makossa",
@@ -5616,6 +5891,25 @@
     "artist": "Mary J. Blige",
     "title": "Real Love",
     "album": "What’s the 411?"
+  },
+  {
+    "id": "e7cb730449c212ddc08e",
+    "artist": "Mavado",
+    "title": "Real McKoy",
+    "album": "Reggae Jamdown Triplets - Vol. 3"
+  },
+  {
+    "id": "ba7e0e3ae8865f6a97ff",
+    "artist": "Mavado",
+    "title": "So Special",
+    "album": "Reggae Gold 2009 CD",
+    "genre": "Reggae"
+  },
+  {
+    "id": "9642764d764e7df98549",
+    "artist": "Mavado",
+    "title": "Weh Dem a Do",
+    "album": "Gangsta for Life: The Symphony of David Brooks"
   },
   {
     "id": "9f5e93fbccb7b8a3ee94",
@@ -6014,6 +6308,19 @@
     "artist": "Morrissey",
     "title": "Moon River (Extended Version)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "806c855ccd5003f0f0c2",
+    "artist": "Mr. Vegas",
+    "title": "Heads High",
+    "album": "I Love Reggae"
+  },
+  {
+    "id": "9d3b1e4d27f9a3fdcfa7",
+    "artist": "Mr. Vegas",
+    "title": "I Am Blessed",
+    "album": "Sweet Jamaica",
+    "genre": "Reggae"
   },
   {
     "id": "671dd281aed75ab2c91d",
@@ -6552,6 +6859,16 @@
     "title": "Junior Murvin",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Reggae"
+  },
+  {
+    "id": "40c33522088b1e3a6b2a",
+    "artist": "Popcaan",
+    "title": "Family"
+  },
+  {
+    "id": "e5d43da78876b8b09829",
+    "artist": "POPCAAN",
+    "title": "ONLY MAN SHE WANT"
   },
   {
     "id": "c06cb7d202f20e203621",
@@ -7138,6 +7455,17 @@
     "album": "All I Feel"
   },
   {
+    "id": "56c53ee8e28caf59b97e",
+    "artist": "Red Rat",
+    "title": "Dwayne"
+  },
+  {
+    "id": "2973f7813aa0b5461042",
+    "artist": "Red Rat",
+    "title": "Tight Up Skirt",
+    "album": "Throwback Reggae Dancehall"
+  },
+  {
     "id": "fba3b98c0f6b87698eda",
     "artist": "REO Speedwagon",
     "title": "Keep On Loving You",
@@ -7267,6 +7595,13 @@
     "album": "Ragga Tonseh (Remix)"
   },
   {
+    "id": "a26ed289db650448057d",
+    "artist": "Sasha",
+    "title": "Dat Sexy Body",
+    "album": "Reggae Gold 2003",
+    "genre": "Reggae"
+  },
+  {
     "id": "2ae40402e7b5e6c69142",
     "artist": "Scene Queen",
     "title": "Whips and Chains",
@@ -7281,6 +7616,37 @@
     "genre": "Pop"
   },
   {
+    "id": "c4f953e9b69d4aad2a31",
+    "artist": "Sean Paul",
+    "title": "Get Busy",
+    "album": "Dutty Rock"
+  },
+  {
+    "id": "6d548e2d71584ad2922a",
+    "artist": "Sean Paul",
+    "title": "Gimme the Light",
+    "album": "Dutty Rock"
+  },
+  {
+    "id": "8d5bdc3fd5e5dd082dd0",
+    "artist": "Sean Paul",
+    "title": "Hot Gal Today",
+    "genre": "Reggae"
+  },
+  {
+    "id": "91b333320cdb2352e6e3",
+    "artist": "Sean Paul",
+    "title": "Temperature",
+    "album": "The Trinity",
+    "genre": "Pop"
+  },
+  {
+    "id": "3a828a41d677b5ff63f3",
+    "artist": "Serani",
+    "title": "No Games",
+    "album": "No Games"
+  },
+  {
     "id": "1dd5b1516238d0cbd61d",
     "artist": "Serge Gainsbourg",
     "title": "Bonnie And Clyde",
@@ -7291,6 +7657,37 @@
     "artist": "Serge Gainsbourg",
     "title": "Melody",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "8f66752a83468a1eae59",
+    "artist": "Shabba",
+    "title": "Twice my age",
+    "album": "Rappin with the ladies",
+    "genre": "Pop"
+  },
+  {
+    "id": "1da70b4ff75aa897c879",
+    "artist": "Shabba Ranks",
+    "title": "Dem Bow"
+  },
+  {
+    "id": "91021e0a67c0e98628e1",
+    "artist": "Shabba Ranks",
+    "title": "Ting-A-Ling",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "e6b401b68a115fa38f70",
+    "artist": "Shaggy",
+    "title": "Boombastic",
+    "album": "Boombastic"
+  },
+  {
+    "id": "e91c00de6d9867f8ff0e",
+    "artist": "Shaggy",
+    "title": "Oh Carolina",
+    "album": "The Boombastic Collection: The Best Of Shaggy",
+    "genre": "Reggae"
   },
   {
     "id": "f868c92649a6f33ce1ed",
@@ -7353,6 +7750,12 @@
     "album": "The Fun Songs Of Shamu And His"
   },
   {
+    "id": "5b2f99785d45a54e169e",
+    "artist": "Shenseea",
+    "title": "Blessed",
+    "album": "ALPHA"
+  },
+  {
     "id": "8c350c0e30043c144e5a",
     "artist": "Shuggie Otis",
     "title": "Inspiration Information",
@@ -7392,10 +7795,30 @@
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
   },
   {
+    "id": "acdce54e15aeda5af61a",
+    "artist": "Singing Sweet",
+    "title": "When I See You Smile",
+    "album": "Don't Say No"
+  },
+  {
     "id": "e1aa92f2bd54d8fd9e41",
     "artist": "Siouxsie and the Banshees",
     "title": "Hong Kong Garden",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "71812c1212032e908bf9",
+    "artist": "Sister Nancy",
+    "title": "Bam-Bam",
+    "album": "300% Dynamite! Ska, Soul, Rocksteady, Funk & Dub in Jamaica",
+    "genre": "Reggae"
+  },
+  {
+    "id": "70b7c3ea5e52e14844a7",
+    "artist": "Skillibeng",
+    "title": "Crocodile Teeth",
+    "album": "Crocodile Teeth",
+    "genre": "Reggae"
   },
   {
     "id": "bbc834bbe008ded3cd70",
@@ -7436,6 +7859,12 @@
     "title": "The Tracks Of My Tears",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
+  },
+  {
+    "id": "99175c06c31f1dd8c678",
+    "artist": "Snow",
+    "title": "Anything for You",
+    "album": "Murder Love"
   },
   {
     "id": "54a87f0deafd96a7a719",
@@ -7497,6 +7926,11 @@
     "title": "Two Princes",
     "album": "Pocket Full Of Kryptonite",
     "genre": "Rock"
+  },
+  {
+    "id": "c186d72524845e3fa937",
+    "artist": "Spragga Benz & Lady Saw",
+    "title": "Backshot"
   },
   {
     "id": "c908f0f6d2b23b8b6bf7",
@@ -7652,6 +8086,19 @@
     "genre": "Jazz"
   },
   {
+    "id": "9111416ee5bf143700cc",
+    "artist": "Super Cat",
+    "title": "Ghetto Red Hot",
+    "album": "Don Dada"
+  },
+  {
+    "id": "3a82393f22792771e213",
+    "artist": "Super Cat",
+    "title": "Si Boops Dey",
+    "album": "Greatest Hits",
+    "genre": "Reggae"
+  },
+  {
     "id": "15d7f533f64a98696e8f",
     "artist": "T. Rex",
     "title": "Metal Guru",
@@ -7701,6 +8148,13 @@
     "genre": "Country"
   },
   {
+    "id": "f9b4e83fdfa5b3e4de13",
+    "artist": "Tanto Metro & Devonte",
+    "title": "Everyone Falls in Love",
+    "album": "Everyone Falls in Love",
+    "genre": "Reggae"
+  },
+  {
     "id": "ea8ca21d2d8dd37e0915",
     "artist": "Tears For Fears",
     "title": "Suffer The Children (Instrumental)",
@@ -7723,6 +8177,19 @@
     "artist": "Television",
     "title": "Marquee Moon",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "c84769f02de22b699466",
+    "artist": "TERROR FABULOUS",
+    "title": "ACTION",
+    "album": "SPG [SPG] REGGAE MIX 5"
+  },
+  {
+    "id": "e21772a3495b98700dd2",
+    "artist": "Terror Fabulous",
+    "title": "Position",
+    "album": "Lyrically Rough",
+    "genre": "Reggae"
   },
   {
     "id": "420363b70dabc9582062",
@@ -11288,6 +11755,12 @@
     "album": "Songs of the National Parks"
   },
   {
+    "id": "b88f2f316594d6eb0e94",
+    "artist": "Tiger",
+    "title": "When",
+    "album": "When Riddim"
+  },
+  {
     "id": "670024f41d6b95c282b3",
     "artist": "Todd Rundgren",
     "title": "International feel",
@@ -11320,6 +11793,20 @@
     "title": "The Lady Is a Tramp feat. Lady Gaga",
     "album": "Tony Bennett Celebrates 90",
     "genre": "Jazz"
+  },
+  {
+    "id": "13ce7688482dd2a27e42",
+    "artist": "Tony Matterhorn",
+    "title": "Dutty Wine",
+    "album": "Andar mix 2",
+    "genre": "Reggae"
+  },
+  {
+    "id": "3ca7a0111db8667051a0",
+    "artist": "Tony Rebel",
+    "title": "Sweet Jamaica",
+    "album": "Vibes Of The Times",
+    "genre": "Reggae"
   },
   {
     "id": "b496942ac619718a7f79",
@@ -11386,6 +11873,1069 @@
     "artist": "Vanilla Ice",
     "title": "Ninja Rap",
     "album": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze"
+  },
+  {
+    "id": "986ecb4bbe9005717f2f",
+    "artist": "Vic Ruggiero",
+    "title": "20 Flightrock",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "242f22e762a879fcccd0",
+    "artist": "Vic Ruggiero",
+    "title": "23rd and 2nd",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "620119a34818a2964fc9",
+    "artist": "Vic Ruggiero",
+    "title": "23rd and 2nd Avenue",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "ef6ca4ea799d82f68d67",
+    "artist": "Vic Ruggiero",
+    "title": "86 the Mayo",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "b35c1ca9e70801a3f018",
+    "artist": "Vic Ruggiero",
+    "title": "A Love of Confusion",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "55152eb1eb4668ab542f",
+    "artist": "Vic Ruggiero",
+    "title": "A Lovely Beginning",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "e6ff6e2801d9e657c943",
+    "artist": "Vic Ruggiero",
+    "title": "A New Reflection",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "700f63bd8f7b2f8afa27",
+    "artist": "Vic Ruggiero",
+    "title": "Adam & Eve",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "88e9dee45e01ea43b2d3",
+    "artist": "Vic Ruggiero",
+    "title": "Age Of Insects",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "b789a9afff2d7eaa8876",
+    "artist": "Vic Ruggiero",
+    "title": "Always Something in My Blindspot",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "2c2cc9a73c1847f18b0d",
+    "artist": "Vic Ruggiero",
+    "title": "American Psycho",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "3494becf3e022c0999bf",
+    "artist": "Vic Ruggiero",
+    "title": "American Psychopath",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "024e25cace1cc23a9483",
+    "artist": "Vic Ruggiero",
+    "title": "American Psychopath",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "effc675e436c370c745f",
+    "artist": "Vic Ruggiero",
+    "title": "Animales",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "43a9013193535d0e2428",
+    "artist": "Vic Ruggiero",
+    "title": "Animales",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "93ae1ef2395799f7ffc3",
+    "artist": "Vic Ruggiero",
+    "title": "Animales",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "2a28a1b60502f735ee12",
+    "artist": "Vic Ruggiero",
+    "title": "Animales",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "52f56d05abc02901f8a6",
+    "artist": "Vic Ruggiero",
+    "title": "Animals",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "cc17dbe2607064990938",
+    "artist": "Vic Ruggiero",
+    "title": "Baby Fada (Ari Up)",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "71e8786b405787cb8127",
+    "artist": "Vic Ruggiero",
+    "title": "Beauty is in the Eye of the Beholder",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "98b0e3bae8d9a757bcf2",
+    "artist": "Vic Ruggiero",
+    "title": "Because (East Village Slackers Radio Demo)",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "4e726548095d21ed03ff",
+    "artist": "Vic Ruggiero",
+    "title": "Brother (Vic Rice)",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "a9ca720eaa158c6420d3",
+    "artist": "Vic Ruggiero",
+    "title": "California",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "ec1c05f7fc8794ab6a78",
+    "artist": "Vic Ruggiero",
+    "title": "California",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "781d79add04ed6a1f99f",
+    "artist": "Vic Ruggiero",
+    "title": "California",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "4179807dc7d8c0a2b27a",
+    "artist": "Vic Ruggiero",
+    "title": "California",
+    "album": "Top Secret Bountry and Clues",
+    "genre": "Ska"
+  },
+  {
+    "id": "01cb102fcf6781c8699c",
+    "artist": "Vic Ruggiero",
+    "title": "Can't Stand It (Kepi)",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "ea25c3ce05499d1dfc4b",
+    "artist": "Vic Ruggiero",
+    "title": "Cheated (East Village Slackers Radio Demo)",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "32d672b46caa07643009",
+    "artist": "Vic Ruggiero",
+    "title": "Children of the Revolution",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "6f15ff48c8dfd7aa1b97",
+    "artist": "Vic Ruggiero",
+    "title": "Clandestine",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "a65cb517f43ae036c012",
+    "artist": "Vic Ruggiero",
+    "title": "Clandestine",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "33d35a16f86b4d113361",
+    "artist": "Vic Ruggiero",
+    "title": "Clandestine",
+    "album": "Top Secret Bountry and Clues",
+    "genre": "Ska"
+  },
+  {
+    "id": "56a58f48cd866d7a2556",
+    "artist": "Vic Ruggiero",
+    "title": "Clip The Cuffs...",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "f06212179ce841033486",
+    "artist": "Vic Ruggiero",
+    "title": "Columbus, Tx",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "d2adafe39292c8c852b4",
+    "artist": "Vic Ruggiero",
+    "title": "Come Back Baby",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "f4cfb8f632650a52ebdb",
+    "artist": "Vic Ruggiero",
+    "title": "Come Back Baby",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "06c0a23821033c5de175",
+    "artist": "Vic Ruggiero",
+    "title": "Come Back Baby (East Village Radio Solo)",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "40360e30478805d456e8",
+    "artist": "Vic Ruggiero",
+    "title": "Do You Good",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "e5b13265f4010c8442d8",
+    "artist": "Vic Ruggiero",
+    "title": "Emelia",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "a7589feef17fec0b864b",
+    "artist": "Vic Ruggiero",
+    "title": "Everyday Things",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "e26a4ae8e20297206d5b",
+    "artist": "Vic Ruggiero",
+    "title": "Fcc (Vic Rice)",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "d589739f689c13c44131",
+    "artist": "Vic Ruggiero",
+    "title": "Funeral Dirge",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "d5e165f11f877f61dd23",
+    "artist": "Vic Ruggiero",
+    "title": "Ghosts",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "bac51e90052a42691c04",
+    "artist": "Vic Ruggiero",
+    "title": "Henderson Swamp",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "1730e7b50dd24957b8bf",
+    "artist": "Vic Ruggiero",
+    "title": "Hope I Never",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "a8d1e8912da5ee7fb151",
+    "artist": "Vic Ruggiero",
+    "title": "I Didn't Think",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "f967f4f294d735e15b3c",
+    "artist": "Vic Ruggiero",
+    "title": "I Didn't Think",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "d45ac18019675ec1e60e",
+    "artist": "Vic Ruggiero",
+    "title": "I Don't Wanna",
+    "album": "Top Secret Bountry and Clues",
+    "genre": "Ska"
+  },
+  {
+    "id": "11e94cd0cc677d7cd00d",
+    "artist": "Vic Ruggiero",
+    "title": "I Don't Want to Set the World on Fire",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "cfb015a7f486a16d1ff8",
+    "artist": "Vic Ruggiero",
+    "title": "I Don't Want To Set The World On Fire",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "f38d60510f7632ec1a38",
+    "artist": "Vic Ruggiero",
+    "title": "If This Night",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "f30cfadf479943ba1888",
+    "artist": "Vic Ruggiero",
+    "title": "If This Night",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "4f24a96b259375b571f4",
+    "artist": "Vic Ruggiero",
+    "title": "If This Night",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "235f47eb2fe43e1cb05a",
+    "artist": "Vic Ruggiero",
+    "title": "Innocent Girl",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "0b82926ad1bd5b1e735d",
+    "artist": "Vic Ruggiero",
+    "title": "International War Criminal",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "db14d4806c480c848ec0",
+    "artist": "Vic Ruggiero",
+    "title": "Is It You?",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "4a467bfbf332bfe870cd",
+    "artist": "Vic Ruggiero",
+    "title": "Jimmy",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "e606113c66a04fe96b69",
+    "artist": "Vic Ruggiero",
+    "title": "Jimmy",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "12803492b9b939df0f37",
+    "artist": "Vic Ruggiero",
+    "title": "Jimmy",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "34c7e605cb4b58e54dc5",
+    "artist": "Vic Ruggiero",
+    "title": "Jimmy",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "1a4d172cc557e00901ce",
+    "artist": "Vic Ruggiero",
+    "title": "Jump (The Forthrights)",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "95609ee566184b5a2180",
+    "artist": "Vic Ruggiero",
+    "title": "Junkie Parents",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "dd62ff70ec57c06c9b38",
+    "artist": "Vic Ruggiero",
+    "title": "Junkie Parents",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "e5cb9f32ca1081ac0453",
+    "artist": "Vic Ruggiero",
+    "title": "Junkie Parents",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "b51c98fad9f015676294",
+    "artist": "Vic Ruggiero",
+    "title": "Junky Parents",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "50613ed90337f7ef06c6",
+    "artist": "Vic Ruggiero",
+    "title": "Just Like You",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "97b1cb263484619b04e0",
+    "artist": "Vic Ruggiero",
+    "title": "Killzone",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "05b581bed4856577fdfe",
+    "artist": "Vic Ruggiero",
+    "title": "Killzone",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "ffa57e8576175e84e045",
+    "artist": "Vic Ruggiero",
+    "title": "Kinda Man",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "3764115319f915784aae",
+    "artist": "Vic Ruggiero",
+    "title": "Lies",
+    "album": "Top Secret Bountry and Clues",
+    "genre": "Ska"
+  },
+  {
+    "id": "778180d35c22f45b08c9",
+    "artist": "Vic Ruggiero",
+    "title": "Lonely Nights",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "abeafe670b7e93087dbd",
+    "artist": "Vic Ruggiero",
+    "title": "Lonely Nights",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "3d02033e5b24de993ddd",
+    "artist": "Vic Ruggiero",
+    "title": "Lonely Nights",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "0c1db0c3fdebfb87c9aa",
+    "artist": "Vic Ruggiero",
+    "title": "Lonely Nights Reprise",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "55e8edf3d9f55a088d84",
+    "artist": "Vic Ruggiero",
+    "title": "Lonely Nites (Live in Germany)",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "7aa46403e428b608056e",
+    "artist": "Vic Ruggiero",
+    "title": "Lonesome Track",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "2b356b459895275a08bf",
+    "artist": "Vic Ruggiero",
+    "title": "Luv You Mama",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "f5e05b1abff6dddfe4c5",
+    "artist": "Vic Ruggiero",
+    "title": "Luv You Mama (The Forthrights)",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "ca97f200e6f47c5a5dba",
+    "artist": "Vic Ruggiero",
+    "title": "Mad at Me",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "71f945ffac51bd6cae10",
+    "artist": "Vic Ruggiero",
+    "title": "Mary is the One (East Village Radio)",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "07d2ecc40c9e6eb3465d",
+    "artist": "Vic Ruggiero",
+    "title": "Mean + Nasty",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "aa5355c33597e4a041d7",
+    "artist": "Vic Ruggiero",
+    "title": "Monday",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "076b2f2b52079d813634",
+    "artist": "Vic Ruggiero",
+    "title": "Monday",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "21bcf5e9e8c5e42b177b",
+    "artist": "Vic Ruggiero",
+    "title": "Monday",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "ad0c448cac3034d75d4d",
+    "artist": "Vic Ruggiero",
+    "title": "Monday",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "e10508fcc6b4f13a45bd",
+    "artist": "Vic Ruggiero",
+    "title": "Motel Room",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "133d4585dcce1c6dc20f",
+    "artist": "Vic Ruggiero",
+    "title": "My Place",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "f3f25b522d2ce1a9f072",
+    "artist": "Vic Ruggiero",
+    "title": "My Question",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "6c17df6283f33bcdb0b6",
+    "artist": "Vic Ruggiero",
+    "title": "Neatley",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "b8332fce9ff3114e9b8f",
+    "artist": "Vic Ruggiero",
+    "title": "Neatly",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "1569d9efc981d75b2afb",
+    "artist": "Vic Ruggiero",
+    "title": "Neatly",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "90fb5ecae657dac4ef17",
+    "artist": "Vic Ruggiero",
+    "title": "Neatly",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "2beda44bb1100c18c847",
+    "artist": "Vic Ruggiero",
+    "title": "Never Go Back Home",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "9967e5c4618396037322",
+    "artist": "Vic Ruggiero",
+    "title": "Never Gonna Give U Up",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "9a37b9844711644badaf",
+    "artist": "Vic Ruggiero",
+    "title": "Newstead Abbey",
+    "album": "Top Secret Bountry and Clues",
+    "genre": "Ska"
+  },
+  {
+    "id": "950f21a8a123caff97e6",
+    "artist": "Vic Ruggiero",
+    "title": "No One Knows",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "269afac7fb8a2910e30c",
+    "artist": "Vic Ruggiero",
+    "title": "Now We Know",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "5a9fa231126b5592de7e",
+    "artist": "Vic Ruggiero",
+    "title": "Oklahoma",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "bb6325d2c78ddcee1a04",
+    "artist": "Vic Ruggiero",
+    "title": "Oklahoma",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "68ff7be0753c955eeab6",
+    "artist": "Vic Ruggiero",
+    "title": "Oklahoma",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "a6314036322cb84b3566",
+    "artist": "Vic Ruggiero",
+    "title": "On East Village Radio Part Eight",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "b71419e6522bddd87a63",
+    "artist": "Vic Ruggiero",
+    "title": "On East Village Radio Part One",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "6a6d8dd2327f6ff8f77f",
+    "artist": "Vic Ruggiero",
+    "title": "On East Village Radio Part Seven",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "c4978bcc67f52bca673d",
+    "artist": "Vic Ruggiero",
+    "title": "On East Village Radio Part Six",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "50aef280c0f8981911ca",
+    "artist": "Vic Ruggiero",
+    "title": "On East Village Radio Part Three",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "12aeb80976293d5bf66b",
+    "artist": "Vic Ruggiero",
+    "title": "On East Village Radio Part Two",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "9502b7cce981eded0bd1",
+    "artist": "Vic Ruggiero",
+    "title": "Out of My Window",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "99da69419dc43e7bf6da",
+    "artist": "Vic Ruggiero",
+    "title": "Papa Told Me",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "28b85d0a8ba30ee702a0",
+    "artist": "Vic Ruggiero",
+    "title": "Parkin' Lot",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "ecccb95e56d99671562e",
+    "artist": "Vic Ruggiero",
+    "title": "Parking Lot",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "1a74c0fd9dd6598b8253",
+    "artist": "Vic Ruggiero",
+    "title": "Parking Lot",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "672820dc2cff785b594d",
+    "artist": "Vic Ruggiero",
+    "title": "Parking Lot",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "aa40a78394e60cb7e34f",
+    "artist": "Vic Ruggiero",
+    "title": "Policeman (The Forthrights and Maddie Ruthless)",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "d1b74107b3c57e78a184",
+    "artist": "Vic Ruggiero",
+    "title": "Pot Of Gold",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "cc933626bb07750e9f82",
+    "artist": "Vic Ruggiero",
+    "title": "Ragdoll",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "6f82d14164b9d7285500",
+    "artist": "Vic Ruggiero",
+    "title": "Regular Slam (Ari Up and F. Kalashnikov)",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "1ed21faa1204c50a9349",
+    "artist": "Vic Ruggiero",
+    "title": "Remember",
+    "album": "Top Secret Bountry and Clues",
+    "genre": "Ska"
+  },
+  {
+    "id": "49858e179c2df42d3f05",
+    "artist": "Vic Ruggiero",
+    "title": "Right Or Wrong",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "1fde9de8d32f1031013d",
+    "artist": "Vic Ruggiero",
+    "title": "Saturday Nite",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "5b2837e3c524d93a84d7",
+    "artist": "Vic Ruggiero",
+    "title": "Sex Education",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "d9d3005d82849f3f09b7",
+    "artist": "Vic Ruggiero",
+    "title": "Six Years in New York City (East Village Radio Solo)",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "d980aa36e7b8046a2ded",
+    "artist": "Vic Ruggiero",
+    "title": "Sleepy and Sad",
+    "album": "Top Secret Bountry and Clues",
+    "genre": "Ska"
+  },
+  {
+    "id": "09da504f22eccb598916",
+    "artist": "Vic Ruggiero",
+    "title": "Slugs",
+    "album": "Top Secret Bountry and Clues",
+    "genre": "Ska"
+  },
+  {
+    "id": "97c602abbbcbd42aba91",
+    "artist": "Vic Ruggiero",
+    "title": "Sole Are Fish For Boots",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "55cde0ac41a1988eb2b4",
+    "artist": "Vic Ruggiero",
+    "title": "Something in My Blindspot",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "85e96f4d445785faaf8b",
+    "artist": "Vic Ruggiero",
+    "title": "Something In My Blindspot",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "05b0fb2d92bd92d3fc70",
+    "artist": "Vic Ruggiero",
+    "title": "Stuff In My Pockets",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "7c2370473bcff7f7ecc9",
+    "artist": "Vic Ruggiero",
+    "title": "Sunday",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "6c4558beecccebc0c1a0",
+    "artist": "Vic Ruggiero",
+    "title": "Sunday Malady",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "af9683bcb2f0cc36ad2c",
+    "artist": "Vic Ruggiero",
+    "title": "Taking Care of Business",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "929ef2ee20f5be6b75ab",
+    "artist": "Vic Ruggiero",
+    "title": "Taking Care of Business",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "3e4695789f85bee26aaa",
+    "artist": "Vic Ruggiero",
+    "title": "Taking Care Of Business",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "dad6261381f97c8416df",
+    "artist": "Vic Ruggiero",
+    "title": "Talk To Me",
+    "album": "Vic & Friends - Volume One"
+  },
+  {
+    "id": "e31573a934a34d622bcc",
+    "artist": "Vic Ruggiero",
+    "title": "The Cat",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "a1e29692881a74333dbd",
+    "artist": "Vic Ruggiero",
+    "title": "The End",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "3f1b28330448eebdd4fa",
+    "artist": "Vic Ruggiero",
+    "title": "The Question",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "1c06eb5cc513074ba4bf",
+    "artist": "Vic Ruggiero",
+    "title": "The Question",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "9964b4aedbe9cbed3fd5",
+    "artist": "Vic Ruggiero",
+    "title": "This",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "230dacc12ad00f60789e",
+    "artist": "Vic Ruggiero",
+    "title": "This",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "083775235d26674b81e3",
+    "artist": "Vic Ruggiero",
+    "title": "To Redeem",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "7641159c364f10a64f5a",
+    "artist": "Vic Ruggiero",
+    "title": "Too Young (Lisa Mueller)",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "c15aa504017362336963",
+    "artist": "Vic Ruggiero",
+    "title": "Tree City USA",
+    "album": "Live in Europe"
+  },
+  {
+    "id": "c44e019cbb24e243fda3",
+    "artist": "Vic Ruggiero",
+    "title": "Tree City USA",
+    "album": "Living in Sin & Understanding New Jersey"
+  },
+  {
+    "id": "bab1f448450729ea5764",
+    "artist": "Vic Ruggiero",
+    "title": "Tree City USA",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "0e20add3b3c05b2882ed",
+    "artist": "Vic Ruggiero",
+    "title": "Tree City USA",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "7c79b744dd8e70d8a22b",
+    "artist": "Vic Ruggiero",
+    "title": "Vacant Stare",
+    "album": "Something in My Blindspot"
+  },
+  {
+    "id": "ecd4dd85c627782584e1",
+    "artist": "Vic Ruggiero",
+    "title": "Vacant Stare",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "32a674ec9afca02430af",
+    "artist": "Vic Ruggiero",
+    "title": "Vacant Stare",
+    "album": "Swimming with the Fishes (Live at the Flamingo Cantina, Austin TX 2.28.09)"
+  },
+  {
+    "id": "343fe98d0d92f81c0587",
+    "artist": "Vic Ruggiero",
+    "title": "Vic & Fanfara Kalashnikov (East Village Radio Demo)",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "3e385988c06ff8bec033",
+    "artist": "Vic Ruggiero",
+    "title": "Vic & Fanfara Kalashnikov Feat. Ari Up (East Village Radio Demo)",
+    "album": "Vic Live on East Village Radio 2010"
+  },
+  {
+    "id": "14d414078684255b9c20",
+    "artist": "Vic Ruggiero",
+    "title": "Vic’s Lament",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "fc0dade7cdb1f93ea157",
+    "artist": "Vic Ruggiero",
+    "title": "Waiting for my Man (Kepi)",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "5c09a3e50d3880ad1c33",
+    "artist": "Vic Ruggiero",
+    "title": "When I Find the Place (The Slackers)",
+    "album": "Rare 45s"
+  },
+  {
+    "id": "b02ee13fd4692d311edc",
+    "artist": "Vic Ruggiero",
+    "title": "Whisky Still",
+    "album": "My Own Private Apocalypse"
+  },
+  {
+    "id": "11e337840910c9254743",
+    "artist": "Vic Ruggiero",
+    "title": "Wonder",
+    "album": "Stuff in My Pockets"
+  },
+  {
+    "id": "b1c8af907b531d45d53f",
+    "artist": "Vic Ruggiero",
+    "title": "Yes It’s True",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "6ae5cb14c80b241c9404",
+    "artist": "Vic Ruggiero",
+    "title": "’Til the Early Morning",
+    "album": "Alive at the Ladybug House",
+    "genre": "Folk"
+  },
+  {
+    "id": "f300d7fa293474b2bab6",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "20 Flight Rock",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "ea711691291c810ec395",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "Carly Simon",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "3520e1a870cc28d91eb4",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "Don’t Lie to Me",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "f86eb34ef0e5369406ef",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "If You Need Me",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "55319c0c19410c11abee",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "Kiss the Girl",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "51cf8fc7ce00e7b7a48f",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "Love in Vain",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "c30a50f8a338d94096af",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "Neatly",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "b4a53cfb03d511a6f1a3",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "Supermodel",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "75b9230386433da78e7b",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "Waiting for My Man",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "b52aa9d06e8671fa8ce0",
+    "artist": "Vic Ruggiero & Kepi Ghoulie",
+    "title": "Walking the Dog",
+    "album": "The New Dark Ages",
+    "genre": "Ska"
+  },
+  {
+    "id": "be40059a78f272243c08",
+    "artist": "Vic Ruggiero feat. Jesse from the Aggrolites",
+    "title": "Just a Gigolo / I Ain't Got Nobody",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
+  },
+  {
+    "id": "8060c5473cc5fb024016",
+    "artist": "Vic Ruggiero feat. Roger from the Aggrolites",
+    "title": "Running and Hiding",
+    "album": "Swimming With the Fishes",
+    "genre": "Ska"
   },
   {
     "id": "bd4f20c825a16e5c20cc",
@@ -11652,11 +13202,43 @@
     "genre": "Jazz"
   },
   {
+    "id": "948c5af64b09a036c27f",
+    "artist": "Vybz Kartel",
+    "title": "Fever",
+    "album": "King Of The Dancehall"
+  },
+  {
+    "id": "d192e63360b4d746fca1",
+    "artist": "Vybz Kartel",
+    "title": "Ramping Shop",
+    "album": "Miss Independent Riddim CD (2008)"
+  },
+  {
+    "id": "c59f7f3f7dc16257d294",
+    "artist": "Vybz Kartel",
+    "title": "Summer Time",
+    "album": "Kartel Forever: Trilogy"
+  },
+  {
     "id": "705f3d9b812896f4b5dd",
     "artist": "Waylon Jennings",
     "title": "Are You Sure Hank Done It This Way",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Country"
+  },
+  {
+    "id": "2fe00e195ce28888b427",
+    "artist": "Wayne Smith",
+    "title": "Under Mi Sleng Teng",
+    "album": "King Jammy's: Selector's Choice Vol. 1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "5187464a932beeb46f33",
+    "artist": "WAYNE WONDER",
+    "title": "NO LETTIN GO",
+    "album": "DIWALI RIDDIM",
+    "genre": "Reggae"
   },
   {
     "id": "2667df3359c86fb13b8a",
@@ -11810,6 +13392,13 @@
     "artist": "Yazoo",
     "title": "State Farm (Extended Version)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "2f3745021c9e2dca32a3",
+    "artist": "Yellowman",
+    "title": "Zungguzungguguzungguzeng",
+    "album": "Greensleeves 12\" Gred 119 A",
+    "genre": "Reggae"
   },
   {
     "id": "d6bfabdccc3337411b6a",

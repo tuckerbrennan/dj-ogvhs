@@ -95,5 +95,45 @@ Deno.serve(async request=>{
   if(error){console.error("Collab access failure",error.code);return reply(503,{error:"Couldn't save your email. Please try again."});}
   if(data?.status==="limit")return reply(429,{error:"Too many requests today. Please try again tomorrow."});
   if(data?.status!=="accepted")return reply(400,{error:"Unable to save request."});
+  // Notify only after persistence. A database claim prevents duplicate/concurrent
+  // submissions from emailing repeatedly; stale claims can retry after five minutes.
+  const formId=Deno.env.get("DJ_COLLAB_NOTIFICATION_FORM_ID")?.trim();
+  if(formId&&/^[a-z]{8}$/.test(formId)){
+    const now=new Date();
+    const stale=new Date(now.getTime()-5*60*1000).toISOString();
+    const {data:claim,error:claimError}=await db.from("dj_collab_access_requests")
+      .update({notification_claimed_at:now.toISOString()})
+      .eq("email_key",emailKey).is("notification_sent_at",null)
+      .or(`notification_claimed_at.is.null,notification_claimed_at.lt.${stale}`)
+      .select("id").maybeSingle();
+    if(claimError)console.error("Collab notification claim failed",claimError.code);
+    if(claim){
+      let sent=false;
+      try{
+        const delivery=await fetch(`https://formspree.io/f/${formId}`,{
+          method:"POST",
+          headers:{"Content-Type":"application/json","Accept":"application/json"},
+          body:JSON.stringify({
+            email,
+            subject:"[DJ OGVHS][Collab] New collaboration request",
+            message:`A visitor requested a Collab invitation.\n\nEmail: ${email}\n\nReview the request: https://collab.ogvhs.com/collab-admin.html\n\nThis notification does not approve or send an invitation.`,
+          }),
+          signal:AbortSignal.timeout(10000)
+        });
+        const result=await delivery.json().catch(()=>null);
+        sent=delivery.ok&&result?.ok===true;
+        if(!sent)console.error("Collab notification delivery failed",delivery.status);
+      }catch{
+        // Never log visitor email addresses, payloads, or provider response bodies.
+        console.error("Collab notification delivery unavailable");
+      }
+      const {error:saveError}=await db.from("dj_collab_access_requests")
+        .update(sent?{notification_sent_at:new Date().toISOString(),notification_claimed_at:null}
+          :{notification_claimed_at:null})
+        .eq("id",claim.id).eq("notification_claimed_at",now.toISOString());
+      if(saveError)console.error("Collab notification receipt failed",saveError.code);
+    }
+  }
   return reply(201,{accepted:true});
 });
+

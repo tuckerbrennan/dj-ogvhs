@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Builds the isolated, unlinked DJ OGVHS Collab beta for Vercel.
 // It deliberately never uses the main DJ OGVHS production Supabase project.
-import { cp, copyFile, mkdir, rm, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const stagingProjectRef = "pgufhgmkqgpjoddxvzoa";
@@ -23,9 +23,16 @@ await rm(dest, { recursive:true, force:true });
 await mkdir(dest, { recursive:true });
 await cp("src", resolve(dest, "src"), { recursive:true });
 await cp("public", resolve(dest, "public"), { recursive:true });
-await copyFile("collab.html", resolve(dest, "index.html"));
-await copyFile("collab.html", resolve(dest, "collab.html"));
-await copyFile("collab-admin.html", resolve(dest, "collab-admin.html"));
+// Keep main-site navigation valid on the isolated Collab host.
+const renderPage = async (source, output) => {
+  const html = (await readFile(source, "utf8"))
+    .replaceAll('href="./">Requests</a>', 'href="https://ogvhs.com/">Requests</a>')
+    .replaceAll('href="./about.html"', 'href="https://ogvhs.com/about.html"');
+  await writeFile(resolve(dest, output), html);
+};
+await renderPage("collab.html", "index.html");
+await renderPage("collab.html", "collab.html");
+await renderPage("collab-admin.html", "collab-admin.html");
 await writeFile(resolve(dest, "public/app-config.json"),
   JSON.stringify({ supabaseUrl: parsed.origin, supabaseAnonKey: key }) + "\n",
   { mode: 0o644 });

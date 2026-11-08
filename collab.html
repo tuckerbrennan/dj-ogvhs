@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#000000">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="referrer" content="no-referrer">
+<title>DJ OGVHS | Collaborate on a Playlist</title>
+<link rel="icon" type="image/svg+xml" href="./public/branding/favicon.svg">
+<link rel="stylesheet" href="./src/styles.css?v=ogvhs-palette-20261106">
+<link rel="stylesheet" href="./src/about.css?v=1">
+<link rel="stylesheet" href="./src/collab.css?v=1">
+<script type="module" src="./src/collab.mjs?v=1"></script>
+<script type="module" src="./src/collab-extras.mjs?v=1"></script>
+</head><body>
+<div class="frame">
+<header class="site-header">
+<a href="./" class="brand"><span class="brand-mark">OG</span><span class="brand-text">DJ <strong>OGVHS</strong><small>I believe in Fun.</small></span></a>
+<nav class="site-nav"><a href="./">Requests</a><a href="./about.html">About</a></nav>
+</header>
+<main class="collab-main">
+<section class="collab-hero">
+<span class="eyebrow">DJ OGVHS COLLAB</span>
+<h1>Build the <em>playlist.</em></h1>
+<p>Dig through the OGVHS crates, suggest something new, or share a Spotify playlist. Everyone brings something to the party.</p>
+<p class="collab-privacy">Playlists are invite-only. Anyone with an invitation link can contribute, so please don't post private links publicly.</p>
+</section>
+<section class="collab-access collab-room" aria-labelledby="collab-access-heading">
+<span class="eyebrow">WANT IN?</span>
+<h2 id="collab-access-heading">Want to join a Collab?</h2>
+<p class="helper">No invitation yet? Leave your email and I'll get in touch if there's a playlist project for you.</p>
+<button id="collab-access-toggle" type="button" class="submit-button" aria-expanded="false" aria-controls="collab-access-form">Request to Collab</button>
+<form id="collab-access-form" hidden>
+<label class="field-label" for="collab-access-email">Email address</label>
+<input id="collab-access-email" name="email" type="email" maxlength="254" required autocomplete="email" placeholder="you@example.com">
+<input id="collab-access-website" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="collab-honeypot">
+<p class="helper">I'll use your address only to contact you about collaboration invitations. This is not a mailing-list signup.</p>
+<button id="collab-access-submit" type="submit" class="add-track">Send request</button>
+<p id="collab-access-feedback" role="status" aria-live="polite" class="helper"></p>
+</form>
+</section>
+<section class="collab-room" aria-labelledby="room-title">
+<div class="section-heading"><div><span class="eyebrow">OUR PLAYLIST</span><h2 id="room-title">Checking invitation…</h2></div><span id="room-count" class="count"></span></div>
+<p id="room-description" class="helper"></p>
+<p id="room-status" class="helper" role="status" aria-live="polite"></p>
+</section>
+<div id="collab-workspace" class="collab-workspace" hidden>
+<section class="catalog-panel collab-builder">
+<div class="section-heading"><div><span class="eyebrow">ADD YOUR PICK</span><h2>Suggest a song</h2></div></div>
+<label class="field-label" for="collab-search">Search by title or artist</label>
+<div class="search-wrap"><span class="search-symbol" aria-hidden="true">⌕</span>
+<input id="collab-search" type="search" placeholder="Start typing a song or artist…" autocomplete="off" spellcheck="false">
+</div>
+<p class="helper">Searches the DJ OGVHS library first, then Apple Music's public catalog for other ideas. A suggested track may not be in the DJ's collection.</p>
+<p id="suggestion-status" class="helper" role="status" aria-live="polite"></p>
+<div id="collab-suggestions" class="collab-suggestions" aria-label="Song suggestions"></div>
+<details class="collab-manual">
+<summary>Can't find the song? Enter it manually</summary>
+<div class="collab-manual-fields">
+<label class="field-label" for="collab-manual-title">Song title</label>
+<input id="collab-manual-title" maxlength="150" placeholder="Song title">
+<label class="field-label" for="collab-manual-artist">Artist (optional)</label>
+<input id="collab-manual-artist" maxlength="120" placeholder="Artist">
+<button class="add-track" id="collab-manual-choose" type="button">Choose this song</button>
+</div>
+</details>
+<div class="collab-spotify">
+<span class="eyebrow">OR SHARE A FULL PLAYLIST</span>
+<label class="field-label" for="collab-spotify-url">Spotify playlist link</label>
+<input type="url" id="collab-spotify-url" placeholder="https://open.spotify.com/playlist/…" inputmode="url">
+<button id="collab-spotify-choose" type="button" class="add-track">Choose Spotify playlist</button>
+<p class="helper">We'll save your Spotify playlist link for the DJ to review. We won't automatically copy its tracks into this playlist.</p>
+</div>
+<section class="collab-spotify collab-upload" aria-labelledby="collab-upload-heading">
+<span class="eyebrow">SHARE A FILE</span>
+<h3 id="collab-upload-heading">Upload to this Collab</h3>
+<p class="helper">Upload music, playlists, notes, or PDFs to this Collab's private Google Drive folder. Files are available to the DJ, not publicly downloadable.</p>
+<label class="field-label" for="collab-upload-file">Choose a file (up to 15 MB)</label>
+<input id="collab-upload-file" type="file" accept=".mp3,.m4a,.wav,.flac,.aac,.ogg,.aif,.aiff,.mid,.midi,.m3u,.m3u8,.csv,.txt,.pdf" disabled>
+<button id="collab-upload-send" type="button" class="add-track" disabled>Upload file</button>
+<p id="collab-upload-feedback" role="status" aria-live="polite" class="helper">Checking whether uploads are enabled…</p>
+</section>
+</section>
+<aside class="selection-panel collab-submit">
+<span class="eyebrow">YOUR CONTRIBUTION</span>
+<h2>Ready to add?</h2>
+<div id="collab-selected" class="collab-selection">Choose a song or paste a playlist link.</div>
+<label class="field-label" for="collab-name">Your name (optional)</label>
+<input id="collab-name" maxlength="80" autocomplete="nickname" placeholder="How should we credit you?">
+<button id="collab-submit" class="submit-button" type="button" disabled>Add to playlist</button>
+<p id="collab-feedback" class="helper" role="status" aria-live="polite"></p>
+</aside>
+</div>
+<section class="collab-room collab-list" aria-labelledby="playlist-heading">
+<div class="section-heading"><div><span class="eyebrow">WHAT EVERYONE PICKED</span><h2 id="playlist-heading">The playlist so far</h2></div>
+<button id="collab-refresh" type="button" class="add-track">Refresh</button></div>
+<div id="collab-entries" aria-live="polite"><p class="helper">Checking the playlist…</p></div>
+</section>
+</main>
+<footer><span>DJ OGVHS · I BELIEVE IN FUN.</span><a href="https://ogvhs.com/privacy.html">Privacy Policy</a></footer>
+</div>
+</body></html>

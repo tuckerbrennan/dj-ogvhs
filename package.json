@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node --test",
     "catalog:build": "node scripts/build-catalog.mjs",
-    "dev": "node scripts/serve.mjs"
+    "dev": "node scripts/serve.mjs",
+    "collab:smoke": "node scripts/collab-smoke.mjs"
   },
   "engines": {
     "node": ">=20"

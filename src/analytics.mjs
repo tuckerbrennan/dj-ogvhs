@@ -1,9 +1,10 @@
-// DJ OGVHS Google Analytics 4 integration.
-// No Google Analytics requests are made until a visitor opts in.
-// Configure the public GA4 measurement ID in /public/analytics-config.json.
+// DJ OGVHS Google tag integration (GTM container or direct GA4 measurement ID).
+// Google's tag does not load until a visitor opts in.
+// Configure one tag ID in /public/analytics-config.json; never install both types.
 const CONFIG_URL = new URL("../public/analytics-config.json", import.meta.url);
 const CONSENT_KEY = "djogvhs_analytics_consent_v1";
 const GA4_ID = /^G-[A-Z0-9]{5,}$/i;
+const GTM_ID = /^GTM-[A-Z0-9]{5,}$/i;
 
 function readConsent() {
   try { return localStorage.getItem(CONSENT_KEY); } catch { return null; }
@@ -12,7 +13,7 @@ function saveConsent(value) {
   try { localStorage.setItem(CONSENT_KEY, value); } catch { /* private mode */ }
 }
 let loaded = false;
-function enableAnalytics(measurementId) {
+function enableAnalytics(tagId) {
   if (loaded || navigator.globalPrivacyControl === true) return;
   loaded = true;
   window.dataLayer = window.dataLayer || [];
@@ -25,22 +26,29 @@ function enableAnalytics(measurementId) {
   });
   window.gtag("consent", "update", { analytics_storage: "granted" });
   window.gtag("js", new Date());
-  // Privacy-conscious defaults: no Google Signals or ad personalization.
-  window.gtag("config", measurementId, {
-    allow_google_signals: false,
-    allow_ad_personalization_signals: false,
-    // Do not include URL query parameters or private invitation fragments in analytics.
-    page_location: window.location.origin + window.location.pathname
-  });
+  const isGtm = GTM_ID.test(tagId);
+  if (!isGtm) {
+    // Configure direct GA4 only if no GTM container is used.
+    window.gtag("config", tagId, {
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+      // Omit query parameters and private invitation fragments from reports.
+      page_location: window.location.origin + window.location.pathname
+    });
+  }
   const tag = document.createElement("script");
   tag.async = true;
-  tag.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+  // GTM-W7R6GVRK was supplied using Google's new GTM container snippet.
+  // GTM tags/destinations must be configured in Google's dashboard.
+  tag.src = isGtm
+    ? `https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(tagId)}`
+    : `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(tagId)}`;
   document.head.appendChild(tag);
 }
 function removeBanner() {
   document.getElementById("djogvhs-analytics-consent")?.remove();
 }
-function showBanner(measurementId) {
+function showBanner(tagId) {
   if (document.getElementById("djogvhs-analytics-consent")) return;
   const banner = document.createElement("aside");
   banner.id = "djogvhs-analytics-consent";
@@ -62,7 +70,7 @@ function showBanner(measurementId) {
     const choice = button.dataset.analyticsChoice;
     saveConsent(choice);
     removeBanner();
-    if (choice === "accepted") enableAnalytics(measurementId);
+    if (choice === "accepted") enableAnalytics(tagId);
     else if (loaded) {
       // Consent was withdrawn after the Google tag loaded on this page.
       window.gtag?.("consent", "update", { analytics_storage: "denied" });
@@ -71,7 +79,7 @@ function showBanner(measurementId) {
   });
   document.body.appendChild(banner);
 }
-function addPreferences(measurementId) {
+function addPreferences(tagId) {
   const footer = document.querySelector("footer");
   if (!footer || document.getElementById("djogvhs-analytics-settings")) return;
   const button = document.createElement("button");
@@ -79,19 +87,20 @@ function addPreferences(measurementId) {
   button.type = "button";
   button.className = "analytics-preferences";
   button.textContent = "Analytics preferences";
-  button.addEventListener("click", () => showBanner(measurementId));
+  button.addEventListener("click", () => showBanner(tagId));
   footer.appendChild(button);
 }
 async function init() {
-  // Be inert until a real GA4 property is supplied. No banner or Google requests.
+  // Remain inert until a real public Google tag ID is supplied.
   let config;
   try {
     const response = await fetch(CONFIG_URL, { cache: "no-store" });
     if (!response.ok) return;
     config = await response.json();
   } catch { return; }
-  const id = typeof config.measurementId === "string" ? config.measurementId.trim().toUpperCase() : "";
-  if (!GA4_ID.test(id)) return;
+  const configuredId = config.tagId || config.measurementId;
+  const id = typeof configuredId === "string" ? configuredId.trim().toUpperCase() : "";
+  if (!GA4_ID.test(id) && !GTM_ID.test(id)) return;
   addPreferences(id);
   if (navigator.globalPrivacyControl === true) return;
   const consent = readConsent();

@@ -28,7 +28,9 @@ function enableAnalytics(measurementId) {
   // Privacy-conscious defaults: no Google Signals or ad personalization.
   window.gtag("config", measurementId, {
     allow_google_signals: false,
-    allow_ad_personalization_signals: false
+    allow_ad_personalization_signals: false,
+    // Do not include URL query parameters or private invitation fragments in analytics.
+    page_location: window.location.origin + window.location.pathname
   });
   const tag = document.createElement("script");
   tag.async = true;

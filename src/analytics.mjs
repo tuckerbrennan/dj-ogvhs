@@ -17,6 +17,13 @@ function enableAnalytics(measurementId) {
   loaded = true;
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+  window.gtag("consent", "default", {
+    analytics_storage: "denied",
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied"
+  });
+  window.gtag("consent", "update", { analytics_storage: "granted" });
   window.gtag("js", new Date());
   // Privacy-conscious defaults: no Google Signals or ad personalization.
   window.gtag("config", measurementId, {
@@ -54,6 +61,11 @@ function showBanner(measurementId) {
     saveConsent(choice);
     removeBanner();
     if (choice === "accepted") enableAnalytics(measurementId);
+    else if (loaded) {
+      // Consent was withdrawn after the Google tag loaded on this page.
+      window.gtag?.("consent", "update", { analytics_storage: "denied" });
+      window.location.reload();
+    }
   });
   document.body.appendChild(banner);
 }

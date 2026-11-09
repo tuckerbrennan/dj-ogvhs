@@ -1,61 +1,16 @@
-/* Minimal optional-analytics consent UI, matches DJ OGVHS palette. */
-.analytics-consent {
-  box-sizing: border-box;
-  position: fixed;
-  z-index: 1000;
-  bottom: 14px;
-  left: max(14px, env(safe-area-inset-left));
-  right: max(14px, env(safe-area-inset-right));
-  max-width: 850px;
-  margin-inline: auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  align-items: center;
-  justify-content: space-between;
-  padding: 18px 20px;
-  background: #141414;
-  border: 1px solid #6e6e6e;
-  border-radius: 14px;
-  color: #f7f7f7;
-  box-shadow: 0 12px 36px #000c;
-}
-.analytics-consent-copy { flex: 1 1 280px; }
-.analytics-consent-copy strong { font-size: 1rem; }
-.analytics-consent-copy p { margin: 5px 0 0; font-size: .85rem; line-height: 1.5; color: #dedede; }
-.analytics-consent a { color: #cdff28; text-decoration: underline; }
-.analytics-consent-actions { display: flex; flex-wrap: wrap; gap: 8px; }
-.analytics-consent-actions button {
-  cursor: pointer;
-  font: inherit;
-  font-size: .85rem;
-  padding: 10px 13px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  color: #fff;
-  background: transparent;
-}
-.analytics-consent-actions button[data-analytics-choice="accepted"] {
-  background: #cdff28;
-  color: #000;
-  border-color: #cdff28;
-  font-weight: 700;
-}
-.analytics-consent button:focus-visible,
-.analytics-preferences:focus-visible { outline: 3px solid #ed35a5; outline-offset: 3px; }
+/* Accessible, unobtrusive Google Analytics opt-out in each page footer. */
 .analytics-preferences {
   cursor: pointer;
+  display: inline-block;
+  margin-left: 12px;
   padding: 3px 0;
+  border: 0;
   background: none;
   color: inherit;
-  border: 0;
   font: inherit;
   font-size: .8rem;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-@media (max-width: 560px) {
-  .analytics-consent { bottom: 8px; padding: 15px; }
-  .analytics-consent-actions { width: 100%; }
-  .analytics-consent-actions button { flex: 1 1 110px; }
-}
+.analytics-preferences:focus-visible { outline: 3px solid #ed35a5; outline-offset: 3px; }
+.analytics-preferences:disabled { cursor: default; opacity: .7; }

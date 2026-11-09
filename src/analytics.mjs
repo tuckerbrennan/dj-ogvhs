@@ -1,111 +1,107 @@
-// DJ OGVHS Google tag integration (GTM container or direct GA4 measurement ID).
-// Google's tag does not load until a visitor opts in.
-// Configure one tag ID in /public/analytics-config.json; never install both types.
+// DJ OGVHS analytics: automatic basic measurement, with a permanent opt-out.
+// Tag setup comes from public/analytics-config.json. Only one tag is loaded.
+// Visitors who previously declined, or whose browser signals GPC, are not tracked.
 const CONFIG_URL = new URL("../public/analytics-config.json", import.meta.url);
-const CONSENT_KEY = "djogvhs_analytics_consent_v1";
-const GA4_ID = /^G-[A-Z0-9]{5,}$/i;
-const GTM_ID = /^GTM-[A-Z0-9]{5,}$/i;
+const CHOICE_KEY = "djogvhs_analytics_consent_v1";
+const TAG_ID_PATTERN = /^(G-[A-Z0-9]{5,}|GTM-[A-Z0-9]{5,})$/i;
 
-function readConsent() {
-  try { return localStorage.getItem(CONSENT_KEY); } catch { return null; }
+function readOptOut() {
+  try { return localStorage.getItem(CHOICE_KEY) === "declined"; }
+  catch { return false; }
 }
-function saveConsent(value) {
-  try { localStorage.setItem(CONSENT_KEY, value); } catch { /* private mode */ }
+
+function setOptOut(disabled) {
+  try { localStorage.setItem(CHOICE_KEY, disabled ? "declined" : "accepted"); }
+  catch { /* Private browsing may block storage. */ }
 }
-let loaded = false;
-function enableAnalytics(tagId) {
-  if (loaded || navigator.globalPrivacyControl === true) return;
-  loaded = true;
+
+function removeAnalyticsCookies() {
+  // Best effort for first-party Google Analytics cookies; does not erase data
+  // already received by Google or third-party cookies outside this domain.
+  const names = document.cookie.split(";").map(c => c.split("=")[0].trim());
+  const host = location.hostname;
+  const domains = ["", host, "." + host, ".ogvhs.com"];
+  for (const name of names) {
+    if (!/^(_ga(?:_|$)|_gid$|_gat(?:_|$))/.test(name)) continue;
+    for (const domain of domains) {
+      document.cookie = name + "=; Max-Age=0; path=/; SameSite=Lax" +
+        (domain ? "; domain=" + domain : "");
+    }
+  }
+}
+
+function loadTag(tagId) {
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+  // This site uses analytics for audience measurement, not advertising.
   window.gtag("consent", "default", {
-    analytics_storage: "denied",
+    analytics_storage: "granted",
     ad_storage: "denied",
     ad_user_data: "denied",
     ad_personalization: "denied"
   });
-  window.gtag("consent", "update", { analytics_storage: "granted" });
   window.gtag("js", new Date());
-  const isGtm = GTM_ID.test(tagId);
-  if (!isGtm) {
-    // Configure direct GA4 only if no GTM container is used.
+
+  const isContainer = tagId.startsWith("GTM-");
+  if (isContainer) {
+    window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
+  } else {
     window.gtag("config", tagId, {
       allow_google_signals: false,
       allow_ad_personalization_signals: false,
-      // Omit query parameters and private invitation fragments from reports.
-      page_location: window.location.origin + window.location.pathname
+      page_location: location.origin + location.pathname
     });
   }
-  const tag = document.createElement("script");
-  tag.async = true;
-  // GTM-W7R6GVRK was supplied using Google's new GTM container snippet.
-  // GTM tags/destinations must be configured in Google's dashboard.
-  tag.src = isGtm
-    ? `https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(tagId)}`
-    : `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(tagId)}`;
-  document.head.appendChild(tag);
+
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = isContainer
+    ? "https://www.googletagmanager.com/gtm.js?id=" + encodeURIComponent(tagId)
+    : "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(tagId);
+  document.head.appendChild(script);
 }
-function removeBanner() {
-  document.getElementById("djogvhs-analytics-consent")?.remove();
-}
-function showBanner(tagId) {
-  if (document.getElementById("djogvhs-analytics-consent")) return;
-  const banner = document.createElement("aside");
-  banner.id = "djogvhs-analytics-consent";
-  banner.className = "analytics-consent";
-  banner.setAttribute("role", "region");
-  banner.setAttribute("aria-label", "Optional analytics privacy choices");
-  banner.innerHTML = `
-    <div class="analytics-consent-copy">
-      <strong>Help us improve DJ OGVHS?</strong>
-      <p>With your permission, we use Google Analytics to understand visits and page usage. No advertising tracking. <a href="https://ogvhs.com/privacy.html">Privacy Policy</a></p>
-    </div>
-    <div class="analytics-consent-actions">
-      <button type="button" data-analytics-choice="declined">No thanks</button>
-      <button type="button" data-analytics-choice="accepted">Allow analytics</button>
-    </div>`;
-  banner.addEventListener("click", (event) => {
-    const button = event.target.closest("button[data-analytics-choice]");
-    if (!button) return;
-    const choice = button.dataset.analyticsChoice;
-    saveConsent(choice);
-    removeBanner();
-    if (choice === "accepted") enableAnalytics(tagId);
-    else if (loaded) {
-      // Consent was withdrawn after the Google tag loaded on this page.
-      window.gtag?.("consent", "update", { analytics_storage: "denied" });
-      window.location.reload();
-    }
-  });
-  document.body.appendChild(banner);
-}
-function addPreferences(tagId) {
+
+function addOptOutControl() {
   const footer = document.querySelector("footer");
   if (!footer || document.getElementById("djogvhs-analytics-settings")) return;
+  const optedOut = readOptOut() || navigator.globalPrivacyControl === true;
   const button = document.createElement("button");
-  button.id = "djogvhs-analytics-settings";
   button.type = "button";
+  button.id = "djogvhs-analytics-settings";
   button.className = "analytics-preferences";
-  button.textContent = "Analytics preferences";
-  button.addEventListener("click", () => showBanner(tagId));
+  button.textContent = optedOut ? "Enable analytics" : "Disable analytics";
+  button.setAttribute("aria-label", optedOut ? "Enable optional Google Analytics" : "Disable Google Analytics");
+  if (navigator.globalPrivacyControl === true) {
+    button.textContent = "Analytics blocked by browser";
+    button.disabled = true;
+    button.title = "Your browser has sent a Global Privacy Control signal.";
+  }
+  button.addEventListener("click", () => {
+    const willDisable = !readOptOut();
+    if (willDisable) {
+      window.gtag?.("consent", "update", { analytics_storage: "denied" });
+      removeAnalyticsCookies();
+    }
+    setOptOut(willDisable);
+    // Reload to fully prevent script execution after opting out.
+    location.reload();
+  });
   footer.appendChild(button);
 }
+
 async function init() {
-  // Remain inert until a real public Google tag ID is supplied.
-  let config;
+  let id;
   try {
     const response = await fetch(CONFIG_URL, { cache: "no-store" });
     if (!response.ok) return;
-    config = await response.json();
+    const config = await response.json();
+    id = String(config.tagId || config.measurementId || "").trim().toUpperCase();
   } catch { return; }
-  const configuredId = config.tagId || config.measurementId;
-  const id = typeof configuredId === "string" ? configuredId.trim().toUpperCase() : "";
-  if (!GA4_ID.test(id) && !GTM_ID.test(id)) return;
-  addPreferences(id);
-  if (navigator.globalPrivacyControl === true) return;
-  const consent = readConsent();
-  if (consent === "accepted") enableAnalytics(id);
-  else if (consent !== "declined") showBanner(id);
+  if (!TAG_ID_PATTERN.test(id)) return;
+  // Never display an initial consent banner; the footer provides an opt-out.
+  addOptOutControl();
+  if (navigator.globalPrivacyControl === true || readOptOut()) return;
+  loadTag(id);
 }
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", init, { once: true });

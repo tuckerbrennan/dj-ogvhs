@@ -31,7 +31,7 @@ await writeFile(
   indexPath,
   indexHtml.replace(
     "</body>",
-    "  <!-- OGVHS_AWS_AMPLIFY_BUILD -->\\n</body>"
+    "  <!-- OGVHS_AWS_AMPLIFY_BUILD -->\n</body>"
   )
 );
 

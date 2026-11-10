@@ -1,4 +1,4 @@
-import { cp, mkdir, readdir, rm, stat } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 
@@ -19,6 +19,21 @@ for (const page of pages) {
 for (const directory of directories) {
   await cp(join(root, directory), join(output, directory), { recursive: true });
 }
+
+// Hidden AWS-only marker lets us prove the public domain has switched
+// away from GitHub Pages without changing the user-visible design.
+const indexPath = join(output, "index.html");
+const indexHtml = await readFile(indexPath, "utf8");
+if (!indexHtml.includes("</body>")) {
+  throw new Error("index.html is missing </body>");
+}
+await writeFile(
+  indexPath,
+  indexHtml.replace(
+    "</body>",
+    "  <!-- OGVHS_AWS_AMPLIFY_BUILD -->\\n</body>"
+  )
+);
 
 const entries = await readdir(output);
 console.log("DJ OGVHS static website ready for Amplify:", entries.join(", "));

@@ -22,3 +22,8 @@
 .mixes-hot { border-top-color:var(--magenta); }
 .mixes-hot h2 { color:var(--magenta); }
 .mixes-hot .mix-card { border-color:var(--purple); }
+
+/* Exclusive sets play inline via the Google Drive audio preview. */
+.drive-mix-card { border-color:var(--magenta); }
+.drive-mix-card iframe { height:240px; background:#080808; }
+.drive-mix-card .mix-byline { line-height:1.5; }

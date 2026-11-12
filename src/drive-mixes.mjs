@@ -64,8 +64,12 @@ async function load() {
   document.getElementById('hot-retry')?.remove();
   try {
     let mixes;
-    try { mixes = await loadPublishedMixes(); }
-    catch { mixes = await loadLegacyMixes(); }
+    try {
+      mixes = await loadPublishedMixes();
+      // A fresh, empty database catalog must not hide the legacy Google Drive playlist.
+      // Once database mixes exist they remain authoritative, so owner Hide/Unpublish works.
+      if (mixes.length === 0) mixes = await loadLegacyMixes();
+    } catch { mixes = await loadLegacyMixes(); }
     grid.replaceChildren(...mixes.map(renderMix));
     status.textContent = mixes.length ? '' : 'Exclusive mixes are coming soon.';
   } catch {

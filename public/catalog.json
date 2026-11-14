@@ -14,6 +14,18 @@
     "genre": "Rock"
   },
   {
+    "id": "3cf637d9f1ed4c602873",
+    "artist": "2Pac",
+    "title": "2 of Amerikaz Most Wanted (feat. Snoop Dogg)",
+    "album": "Greatest Hits (CD 1)"
+  },
+  {
+    "id": "cec6b281cd64a14071e7",
+    "artist": "2Pac",
+    "title": "Brenda's Got A Baby",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
     "id": "561d800d3891c651e1ca",
     "artist": "2Pac",
     "title": "Brenda’s Got a Baby",
@@ -28,11 +40,23 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "6b6cb94e51b52ca49004",
+    "artist": "2Pac",
+    "title": "Changes",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
     "id": "afb81d314bc7801d675e",
     "artist": "2Pac",
     "title": "Dear Mama",
     "album": "Greatest Hits",
     "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "34abfeb2aab92ad0b73d",
+    "artist": "2Pac",
+    "title": "Dear Mama",
+    "album": "Greatest Hits (Disc 2)"
   },
   {
     "id": "23e95c983d233c4bab01",
@@ -42,11 +66,23 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "444de7944e6b7dba9166",
+    "artist": "2Pac",
+    "title": "God Bless the Dead",
+    "album": "Greatest Hits (CD 1)"
+  },
+  {
     "id": "bcf93d04126de717a198",
     "artist": "2Pac",
     "title": "Hail Mary",
     "album": "Greatest Hits",
     "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "cb0a8485c6476e6dd0ab",
+    "artist": "2Pac",
+    "title": "Hail Mary",
+    "album": "Greatest Hits (CD 1)"
   },
   {
     "id": "2824bd4e3b6ecc9a56e5",
@@ -56,11 +92,29 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "8dc02e1e9cd074a0dc45",
+    "artist": "2Pac",
+    "title": "Heartz Of Men",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
+    "id": "35444b05a5dd78802b15",
+    "artist": "2Pac",
+    "title": "How Do U Want It (feat. K-Ci & JoJo)",
+    "album": "Greatest Hits (CD 1)"
+  },
+  {
     "id": "3c4c9a6d14be85e0f965",
     "artist": "2Pac",
     "title": "Keep Ya Head Up",
     "album": "Greatest Hits",
     "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "4cd3963c7faed94663a5",
+    "artist": "2Pac",
+    "title": "Keep Ya Head Up",
+    "album": "Greatest Hits (CD 1)"
   },
   {
     "id": "3b7cffda7ed0707b764c",
@@ -70,11 +124,29 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "bc2aab36996f693a1500",
+    "artist": "2Pac",
+    "title": "Life Goes On",
+    "album": "Greatest Hits (CD 1)"
+  },
+  {
+    "id": "2e79ef15b668596bcc19",
+    "artist": "2Pac",
+    "title": "Me Against the World (feat. Dramacydal)",
+    "album": "Greatest Hits (CD 1)"
+  },
+  {
     "id": "7f2967b537d489b4a290",
     "artist": "2Pac",
     "title": "So Many Tears",
     "album": "Greatest Hits",
     "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ef9a53daf6378361c64c",
+    "artist": "2Pac",
+    "title": "So Many Tears",
+    "album": "Greatest Hits (CD 1)"
   },
   {
     "id": "d33a8dcca81c92917f94",
@@ -84,6 +156,12 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "e5ebbca984a3e418b21e",
+    "artist": "2Pac",
+    "title": "Temptations",
+    "album": "Greatest Hits (CD 1)"
+  },
+  {
     "id": "8e2086c9f696b66f662c",
     "artist": "2Pac",
     "title": "Toss it Up",
@@ -91,11 +169,23 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "e46d3e35b731c7a535cf",
+    "artist": "2Pac",
+    "title": "Toss It Up",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
     "id": "4da1939a3eb72a7b8f2d",
     "artist": "2Pac",
     "title": "Trapped",
     "album": "Greatest Hits",
     "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "047c75723ccb7c85e4e3",
+    "artist": "2Pac",
+    "title": "Troublesome 96'",
+    "album": "Greatest Hits (Disc 2)"
   },
   {
     "id": "44fcd1abd4b3fc1b0d0d",
@@ -110,6 +200,12 @@
     "title": "Unconditional Love",
     "album": "Greatest Hits",
     "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "6d72664707ba92999199",
+    "artist": "2Pac",
+    "title": "Unconditional Love",
+    "album": "Greatest Hits (CD 1)"
   },
   {
     "id": "845e81999d88f0797e73",
@@ -181,6 +277,48 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "51a231c0d783898ff5aa",
+    "artist": "2Pac, Danny Boy",
+    "title": "I Ain't Mad At Cha",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
+    "id": "8c0e8667551f12e7450a",
+    "artist": "2Pac, Danny Boy, Syke, CPO",
+    "title": "Picture Me Rollin'",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
+    "id": "9a918dbd496537a7dcee",
+    "artist": "2Pac, Digital Underground",
+    "title": "I Get Around",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
+    "id": "fffb490a711b5b11e3a2",
+    "artist": "2Pac, Dr. Dre, Roger Troutman",
+    "title": "California Love (Original Version)",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
+    "id": "4da445cce2a539337f37",
+    "artist": "2Pac, Nate Dogg",
+    "title": "How Long Will They Mourn Me?",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
+    "id": "5c6745fa1cd058935895",
+    "artist": "2Pac, Top Dogg, Nate Dogg, Dru Down",
+    "title": "All About U",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
+    "id": "5cc8d195d2ce90f65c95",
+    "artist": "2Pac, Val Young",
+    "title": "To Live & Die In L.A.",
+    "album": "Greatest Hits (Disc 2)"
+  },
+  {
     "id": "608070461bc3382d3940",
     "artist": "50 Cent",
     "title": "P.I.M.P. Remix (explicit) - The Video",
@@ -192,6 +330,17 @@
     "title": "96 Tears",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Rock"
+  },
+  {
+    "id": "986ab982d10edf2c3c29",
+    "artist": "Aaron Neville",
+    "title": "Hercules",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "1c28cbd36c971983f67a",
+    "artist": "Aaron Neville",
+    "title": "Hercules"
   },
   {
     "id": "d29d8204b3af9269837c",
@@ -244,6 +393,12 @@
     "genre": "Reggae"
   },
   {
+    "id": "c55f482fc0404d6435d8",
+    "artist": "Afroman",
+    "title": "Because I Got High",
+    "album": "Singles"
+  },
+  {
     "id": "62faab65a1eced5e6b96",
     "artist": "Aidonia",
     "title": "Yeah Yeah",
@@ -262,6 +417,26 @@
     "album": "Smack That"
   },
   {
+    "id": "8bf2d6386b2e2bbecf52",
+    "artist": "Al Brown",
+    "title": "Love And Happiness",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "98f39ac84439d4f8397b",
+    "artist": "Al Green",
+    "title": "How Can You Mend a Broken Heart",
+    "album": "Let's Stay Together",
+    "genre": "R&B"
+  },
+  {
+    "id": "c95e0069ed584cb8faf2",
+    "artist": "Al Green",
+    "title": "L-O-V-E (Love)",
+    "album": "Singles"
+  },
+  {
     "id": "c2c4121036ab07993464",
     "artist": "Al Green",
     "title": "Let's Stay Together",
@@ -273,6 +448,18 @@
     "title": "Love And Happiness",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "R&B"
+  },
+  {
+    "id": "957e96af565d9daf29c7",
+    "artist": "Al Green",
+    "title": "Take Me To The River",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "d50743d67d56a72d8f4d",
+    "artist": "Al Green",
+    "title": "Take Me to the River",
+    "album": "Greatest Hits: The Best of Al Green"
   },
   {
     "id": "25108a5b5acf26170cae",
@@ -295,6 +482,13 @@
     "album": "Lace and Whiskey"
   },
   {
+    "id": "5cbdb3227cb28d5eb371",
+    "artist": "Aloe Blacc",
+    "title": "I Need A Dollar",
+    "album": "Good Things",
+    "genre": "Soul"
+  },
+  {
     "id": "bb427b3a1b499d9158ce",
     "artist": "Althea & Donna",
     "title": "Uptown Top Ranking",
@@ -309,6 +503,11 @@
     "genre": "Reggae"
   },
   {
+    "id": "cb1a5dfd0c0cc3c6effc",
+    "artist": "Althea and Donna",
+    "title": "Uptown Top Ranking"
+  },
+  {
     "id": "57ee8f79ea28997f5266",
     "artist": "Alton Ellis",
     "title": "I'm Still In Love With You",
@@ -316,10 +515,504 @@
     "genre": "Reggae"
   },
   {
+    "id": "8a00b7c3ab2221fb3ff2",
+    "artist": "american cream team f raekwon",
+    "title": "it s not a game",
+    "album": "Black & White OST"
+  },
+  {
+    "id": "cf155a033adf20efa76f",
+    "artist": "American Cream Team/VA",
+    "title": "Middle_Finger_Attitude",
+    "album": "Black and White - music from and inspired by the motion picture",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "20387f0ec1aae350b5aa",
+    "artist": "Amy Winehouse",
+    "title": "A Song For You",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "18380f0996dfd63958a6",
+    "artist": "Amy Winehouse",
+    "title": "Addicted",
+    "album": "Back To Black"
+  },
+  {
+    "id": "f15e147d1a58d7be93e4",
+    "artist": "Amy Winehouse",
+    "title": "Back to Black",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "abf991c53d51fc14b506",
+    "artist": "Amy Winehouse",
+    "title": "Back To Black",
+    "album": "Back To Black"
+  },
+  {
+    "id": "1a83996b047dfd768b1e",
+    "artist": "Amy Winehouse",
+    "title": "Back to Black",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "0236fd5def1c3fea2304",
+    "artist": "Amy Winehouse",
+    "title": "Back to Black (Mushtaq vocal remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "08969b637fdeb431c0f5",
+    "artist": "Amy Winehouse",
+    "title": "Back to Black (The Rumple Strips remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "3a36f58fd6b7c82238c0",
+    "artist": "Amy Winehouse",
+    "title": "Best Friends, Right?",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "b141de81e720cdf51778",
+    "artist": "Amy Winehouse",
+    "title": "Between The Cheats",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "07a11c18432572fce13e",
+    "artist": "Amy Winehouse",
+    "title": "Body And Soul",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "1701b7f49c6ed47ba7ab",
+    "artist": "Amy Winehouse",
+    "title": "Fuck Me Pumps (MJ Cole remix)",
+    "album": "Frank: Remixes",
+    "genre": "Pop"
+  },
+  {
+    "id": "a761d291a4229d98fa15",
+    "artist": "Amy Winehouse",
+    "title": "Fuck Me Pumps (MJ Cole remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "d8b331b0c817f599ffe9",
+    "artist": "Amy Winehouse",
+    "title": "Fuck Me Pumps (Mylo remix)",
+    "album": "Frank: Remixes",
+    "genre": "Pop"
+  },
+  {
+    "id": "029f94018620a17acf89",
+    "artist": "Amy Winehouse",
+    "title": "Fuck Me Pumps (Mylo remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "e61afbf9d4f0d21c59f4",
+    "artist": "Amy Winehouse",
+    "title": "Half Time",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "39e9dc8966f8629f0e67",
+    "artist": "Amy Winehouse",
+    "title": "He Can Only Hold Her",
+    "album": "Back To Black"
+  },
+  {
+    "id": "c4500d6ae34d2a04297d",
+    "artist": "Amy Winehouse",
+    "title": "He Can Only Hold Her",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "6b76ef91e45a8890875c",
+    "artist": "Amy Winehouse",
+    "title": "In My Bed (Bugz in the Attic dub)",
+    "album": "Frank: Remixes",
+    "genre": "Pop"
+  },
+  {
+    "id": "a7bb51f46f8084145f3f",
+    "artist": "Amy Winehouse",
+    "title": "In My Bed (Bugz in the Attic vocal mix)",
+    "album": "Frank: Remixes",
+    "genre": "Pop"
+  },
+  {
+    "id": "8e4ed88c7323c6da8d63",
+    "artist": "Amy Winehouse",
+    "title": "In My Bed (CJ MIX)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "2575ab85eeba0cd72734",
+    "artist": "Amy Winehouse",
+    "title": "Just Friends",
+    "album": "Back To Black"
+  },
+  {
+    "id": "8ee64bdaed7dc96a72ee",
+    "artist": "Amy Winehouse",
+    "title": "Just Friends",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "7fe5ea6626dfd9dce369",
+    "artist": "Amy Winehouse",
+    "title": "Like Smoke",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "99ba5bc8c8ce7837d55f",
+    "artist": "Amy Winehouse",
+    "title": "Like Smoke",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "8210f10966ccb870f7dd",
+    "artist": "Amy Winehouse",
+    "title": "Love Is A Losing Game",
+    "album": "Back To Black"
+  },
+  {
+    "id": "54ddbb44131193398e77",
+    "artist": "Amy Winehouse",
+    "title": "Love Is a Losing Game",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "b41c625ba1b35316b143",
+    "artist": "Amy Winehouse",
+    "title": "Love Is a Losing Game (Kardinal Beats remix)",
+    "album": "Back to Black - The Singles Remixes",
+    "genre": "R&B"
+  },
+  {
+    "id": "6c1503a2a01a04bc38a8",
+    "artist": "Amy Winehouse",
+    "title": "Love Is a Losing Game (Kardinal Beats remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "103e2371b1236ece2540",
+    "artist": "Amy Winehouse",
+    "title": "Love Is a Losing Game (live at the Mercury Music Awards)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "588c79cadaed17149130",
+    "artist": "Amy Winehouse",
+    "title": "Love Is a Losing Game (Moody Boyz original Ruffian Badboy remix)",
+    "album": "Back to Black - The Singles Remixes",
+    "genre": "R&B"
+  },
+  {
+    "id": "71f90b878763913b392d",
+    "artist": "Amy Winehouse",
+    "title": "Love Is a Losing Game (Truth & Soul remix)",
+    "album": "Back to Black - The Singles Remixes",
+    "genre": "R&B"
+  },
+  {
+    "id": "361c6e85ce7df45df978",
+    "artist": "Amy Winehouse",
+    "title": "Love Is a Losing Game (Truth & Soul remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "0ed1ef08d2144bb8f41b",
+    "artist": "Amy Winehouse",
+    "title": "Me & Mr Jones",
+    "album": "Back To Black"
+  },
+  {
+    "id": "6ec8b95a054e2cb20951",
+    "artist": "Amy Winehouse",
+    "title": "Me & Mr Jones",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "5d0a4372e0aa7fbc5027",
+    "artist": "Amy Winehouse",
+    "title": "Our Day Will Come",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "f68f08e5bb1ba779651f",
+    "artist": "Amy Winehouse",
+    "title": "Rehab",
+    "album": "Back To Black"
+  },
+  {
+    "id": "a850ca8e241bdabac4f3",
+    "artist": "Amy Winehouse",
+    "title": "Rehab",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "867fe6747718316ed033",
+    "artist": "Amy Winehouse",
+    "title": "Rehab (Hot Chip remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "3b4621f73eea415a0e68",
+    "artist": "Amy Winehouse",
+    "title": "Rehab (live on Jools Holland)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "4d527d2a347a60d2bcb6",
+    "artist": "Amy Winehouse",
+    "title": "Some Unholy War",
+    "album": "Back To Black"
+  },
+  {
+    "id": "0ebb56b7530011776be4",
+    "artist": "Amy Winehouse",
+    "title": "Some Unholy War",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "21a87f97e254bb025e10",
+    "artist": "Amy Winehouse",
+    "title": "Some Unholy War (Down Tempo)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "34b816731505134f6858",
+    "artist": "Amy Winehouse",
+    "title": "Stronger Than Me",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "ae75f0e6bee733c3fb9d",
+    "artist": "Amy Winehouse",
+    "title": "Stronger Than Me (Harmonic 33 remix)",
+    "album": "Frank: Remixes",
+    "genre": "Pop"
+  },
+  {
+    "id": "eb3f42e70db9363cb6df",
+    "artist": "Amy Winehouse",
+    "title": "Stronger Than Me (Harmonic 33 remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "d519c5a9348faaa5802f",
+    "artist": "Amy Winehouse",
+    "title": "Take the Box (Seijis Buggin’ mix)",
+    "album": "Frank: Remixes",
+    "genre": "Pop"
+  },
+  {
+    "id": "879d28b2acda6ea3eca8",
+    "artist": "Amy Winehouse",
+    "title": "Take the Box (Seijis Buggin’ MIX)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "3f2265da6cc4baeef95d",
+    "artist": "Amy Winehouse",
+    "title": "Take the Box (Seijis Buggin’ Rub)",
+    "album": "Frank: Remixes",
+    "genre": "Pop"
+  },
+  {
+    "id": "8534c7713ea923d90d55",
+    "artist": "Amy Winehouse",
+    "title": "Tears Dry (Original Version)",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "e00f9f6a20a14a59d200",
+    "artist": "Amy Winehouse",
+    "title": "Tears Dry on Their Own",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "25d6ea60a7271667ea28",
+    "artist": "Amy Winehouse",
+    "title": "Tears Dry On Their Own",
+    "album": "Back To Black"
+  },
+  {
+    "id": "072ff557ce1ccc5390f9",
+    "artist": "Amy Winehouse",
+    "title": "Tears Dry on Their Own",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "5c150098a45165c05da5",
+    "artist": "Amy Winehouse",
+    "title": "Tears Dry on Their Own (Al Usher remix)",
+    "album": "Back to Black - The Singles Remixes",
+    "genre": "R&B"
+  },
+  {
+    "id": "76e172ff4c0a2bb654cc",
+    "artist": "Amy Winehouse",
+    "title": "Tears Dry on Their Own (Al Usher remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "fdb29f3707f0e9d2e1ed",
+    "artist": "Amy Winehouse",
+    "title": "Tears Dry on Their Own (Alix Alvarez Sole Channel mix)",
+    "album": "Back to Black - The Singles Remixes",
+    "genre": "R&B"
+  },
+  {
+    "id": "6f2a14eb04b29568e1f9",
+    "artist": "Amy Winehouse",
+    "title": "Tears Dry on Their Own (Alix Alvarez Sole Channel MIX)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "e981115707d4e3b61393",
+    "artist": "Amy Winehouse",
+    "title": "The Girl From Ipanema",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "c53ff7047ab47f80208d",
+    "artist": "Amy Winehouse",
+    "title": "Valerie ('68 Version)",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "52878a76ec47194d4cd4",
+    "artist": "Amy Winehouse",
+    "title": "Valerie (BBC Radio 1 Live Lounge)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
     "id": "685aee4cf259b6bb53f2",
     "artist": "Amy Winehouse",
     "title": "Valerie (Live At BBC Radio 1 Live Lounge, London / 2007)",
     "album": "Back To Black: Songs From The Original Motion Picture"
+  },
+  {
+    "id": "474cf428cbf02dc65609",
+    "artist": "Amy Winehouse",
+    "title": "Wake Up Alone",
+    "album": "Back To Black"
+  },
+  {
+    "id": "35e03058296b169aa00f",
+    "artist": "Amy Winehouse",
+    "title": "Wake Up Alone",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "765a375054e734260f9d",
+    "artist": "Amy Winehouse",
+    "title": "Wake Up Alone (Original Recording)",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "9b0f218c31a1ae86a6a3",
+    "artist": "Amy Winehouse",
+    "title": "We’re Still Friends (live at the Union Chapel)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "e931d25b96a5dd86522a",
+    "artist": "Amy Winehouse",
+    "title": "What Is It About Men (live at North Sea Jazz Festival)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "8df9da1c1bb72f738b94",
+    "artist": "Amy Winehouse",
+    "title": "Will You Still Love Me Tomorrow? (2011)",
+    "album": "Lioness: Hidden Treasures"
+  },
+  {
+    "id": "ad8b7727273a74786d37",
+    "artist": "Amy Winehouse",
+    "title": "You Know I'm No Good",
+    "album": "Back To Black"
+  },
+  {
+    "id": "4ef992c68f99facfa51c",
+    "artist": "Amy Winehouse",
+    "title": "You Know I’m No Good",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "2496ea94b0cf354e3f00",
+    "artist": "Amy Winehouse",
+    "title": "You Know I’m No Good (Ghostface UK version)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "2b5a830967c3181a75ff",
+    "artist": "Amy Winehouse",
+    "title": "You Know I’m No Good (Skeewiff MIX)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
+  },
+  {
+    "id": "9071953b09404244c2b1",
+    "artist": "Amy Winehouse & Tony Bennett",
+    "title": "Body and Soul",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "83e1044f1cad2abfa4e9",
+    "artist": "Amy Winehouse feat. Ghostface Killah",
+    "title": "You Know I’m No Good (remix)",
+    "album": "Back to Black",
+    "genre": "Soul"
+  },
+  {
+    "id": "d3571544b41cf9517157",
+    "artist": "Amy Winehouse feat. JAŸ-Z",
+    "title": "Rehab (remix)",
+    "album": "Remixes",
+    "genre": "Jazz; Pop; Soul"
   },
   {
     "id": "9e754173727c32a8d13e",
@@ -329,10 +1022,238 @@
     "genre": "Soul"
   },
   {
+    "id": "ce55c397090e72d8fb94",
+    "artist": "Antonio Pinto",
+    "title": "Amy Forever",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "4cca30ac80aea7250ebb",
+    "artist": "Antonio Pinto",
+    "title": "Amy Lives",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "d52ed19f2afe1e323b90",
+    "artist": "Antonio Pinto",
+    "title": "Arrested (edit)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "d94fe067f6a5dfa8d6cb",
+    "artist": "Antonio Pinto",
+    "title": "Cynthia (edit)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "1c1163982f734bb0da35",
+    "artist": "Antonio Pinto",
+    "title": "Holiday Texts (edit)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "5d73f0c7db365e7cba16",
+    "artist": "Antonio Pinto",
+    "title": "In the Studio (edit)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "abb424fbb162f09f849a",
+    "artist": "Antonio Pinto",
+    "title": "Kidnapping Amy",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "95a62e55ca12271eb707",
+    "artist": "Antonio Pinto",
+    "title": "Opening (edit)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "d6524076853282b0fbd0",
+    "artist": "Antonio Pinto",
+    "title": "Poetic Finale (edit)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "49b3b863eb70dcf69b13",
+    "artist": "Antonio Pinto",
+    "title": "Seperacao Fotos (edit)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "1e07c056097d877ce354",
+    "artist": "Antonio Pinto",
+    "title": "Walk (edit)",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
     "id": "37fabe20b7651a6540a7",
     "artist": "Anuel AA & KAROL G",
     "title": "Secreto",
     "album": "Secreto"
+  },
+  {
+    "id": "65a4a967eba7db5ab9c0",
+    "artist": "Arcade Fire",
+    "title": "Afterlife",
+    "album": "Reflektor"
+  },
+  {
+    "id": "9b78b7da9541968642eb",
+    "artist": "Arcade Fire",
+    "title": "Antichrist Television Blues",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "2c5b11bf72990b9ce85c",
+    "artist": "Arcade Fire",
+    "title": "Awful Sound (Oh Eurydice)",
+    "album": "Reflektor"
+  },
+  {
+    "id": "e3ba24688077f544012a",
+    "artist": "Arcade Fire",
+    "title": "Black Mirror",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "d928651c58998d6a4f1c",
+    "artist": "Arcade Fire",
+    "title": "Black Wave/Bad Vibrations",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "9c26922425310889c36f",
+    "artist": "Arcade Fire",
+    "title": "Flashbulb Eyes",
+    "album": "Reflektor"
+  },
+  {
+    "id": "d59d657db10f8f1bd81e",
+    "artist": "Arcade Fire",
+    "title": "Here Comes the Night Time",
+    "album": "Reflektor"
+  },
+  {
+    "id": "ae8768da006d5e99e02f",
+    "artist": "Arcade Fire",
+    "title": "Here Comes the Night Time II",
+    "album": "Reflektor"
+  },
+  {
+    "id": "6859993aa3f180c13b3b",
+    "artist": "Arcade Fire",
+    "title": "Intervention",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "5775d62025913bfedd02",
+    "artist": "Arcade Fire",
+    "title": "It’s Never Over (Hey Orpheus)",
+    "album": "Reflektor"
+  },
+  {
+    "id": "1afdc65df9ce32e9a2a5",
+    "artist": "Arcade Fire",
+    "title": "Joan of Arc",
+    "album": "Reflektor"
+  },
+  {
+    "id": "61dd7be1dac3badce836",
+    "artist": "Arcade Fire",
+    "title": "Keep The Car Running",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "0e32ab937df92f1b5601",
+    "artist": "Arcade Fire",
+    "title": "My Body Is A Cage",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "007abe47436dd97a3126",
+    "artist": "Arcade Fire",
+    "title": "Neighborhood #1 (Tunnels)",
+    "album": "Funeral"
+  },
+  {
+    "id": "3822cff0ec9fc68d4394",
+    "artist": "Arcade Fire",
+    "title": "Neon Bible",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "d65644c8d7ec78f7e0b5",
+    "artist": "Arcade Fire",
+    "title": "No Cars Go",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "4f2950081fb22ebce5bd",
+    "artist": "Arcade Fire",
+    "title": "Normal Person",
+    "album": "Reflektor"
+  },
+  {
+    "id": "ca5a778be1a1cd0a2aa3",
+    "artist": "Arcade Fire",
+    "title": "Ocean Of Noise",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "eff3c0bb4254352de9dd",
+    "artist": "Arcade Fire",
+    "title": "Porno",
+    "album": "Reflektor"
+  },
+  {
+    "id": "875c12478407f6296718",
+    "artist": "Arcade Fire",
+    "title": "Reflektor",
+    "album": "Reflektor"
+  },
+  {
+    "id": "57a20b1db0f74b366770",
+    "artist": "Arcade Fire",
+    "title": "Supersymmetry",
+    "album": "Reflektor"
+  },
+  {
+    "id": "cd6b9c87f311bfc68e20",
+    "artist": "Arcade Fire",
+    "title": "The Well And The Lighthouse",
+    "album": "Neon Bible",
+    "genre": "Rock"
+  },
+  {
+    "id": "59febc4962dbaebf5df1",
+    "artist": "Arcade Fire",
+    "title": "We Exist",
+    "album": "Reflektor"
+  },
+  {
+    "id": "34dd8eac920cb7159315",
+    "artist": "Arcade Fire",
+    "title": "Windowsill",
+    "album": "Neon Bible"
+  },
+  {
+    "id": "e8ec91132397ff4e76e3",
+    "artist": "Arcade Fire",
+    "title": "You Already Know",
+    "album": "Reflektor"
   },
   {
     "id": "8769e641911c8f26ecd9",
@@ -361,6 +1282,13 @@
     "title": "Think",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
+  },
+  {
+    "id": "a3e3cdbafd6cabdc484d",
+    "artist": "Arizona Zervas",
+    "title": "ROXANNE",
+    "album": "ROXANNE",
+    "genre": "Pop"
   },
   {
     "id": "8c5e14136676ca7adf18",
@@ -411,6 +1339,13 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "0deab25950840ba73900",
+    "artist": "Band of Horses",
+    "title": "The Funeral",
+    "album": "Everything All The Time",
+    "genre": "Alternative"
+  },
+  {
     "id": "4f1e833bb7f0813a056e",
     "artist": "Barrington Levy",
     "title": "Here I Come",
@@ -423,10 +1358,44 @@
     "album": "RAS Portrait"
   },
   {
+    "id": "63d071ac949d1287e0a8",
+    "artist": "Barry White",
+    "title": "Can't Get Enough Of Your Love, Babe",
+    "album": "Disco",
+    "genre": "Disco"
+  },
+  {
+    "id": "387ee4eb5a876d76ef25",
+    "artist": "Barry White",
+    "title": "I'm Gonna Love You Just A Little More Baby",
+    "album": "Love's Theme (The Best Of The 20th Century Records Singles)",
+    "genre": "Funk"
+  },
+  {
+    "id": "9663e1fda5cd98a4e5ae",
+    "artist": "Barry White",
+    "title": "I'm Gonna Love You Just a Little More, Baby",
+    "album": "All-Time Greatest Hits",
+    "genre": "R&B"
+  },
+  {
+    "id": "8a7194712612909d8f10",
+    "artist": "Barry White",
+    "title": "I'm Gonna Love You Just a Little More, Baby",
+    "album": "Icon: Barry White"
+  },
+  {
     "id": "57de5761ff017650eabc",
     "artist": "Bauhaus",
     "title": "Bela Lugosi's Dead",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "2b985737826445de368b",
+    "artist": "BB Seaton",
+    "title": "Lean On Me",
+    "album": "BB Seaton Greatest Hits",
+    "genre": "Reggae"
   },
   {
     "id": "7d1c6743ae0d89f45c15",
@@ -501,6 +1470,19 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "c265914fee4875e2e56a",
+    "artist": "Betty Wright",
+    "title": "Clean up Woman",
+    "album": "Funk Fever Vol.2: The Best Of Funk, Soul And Tropical Rare Groove",
+    "genre": "Funk"
+  },
+  {
+    "id": "bdeda9ccf0ddae51e32a",
+    "artist": "Big L",
+    "title": "Furious Anger",
+    "album": "Manchild"
+  },
+  {
     "id": "bc96f2810c3d53f93287",
     "artist": "Big Star",
     "title": "September Gurls",
@@ -519,10 +1501,47 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "84137fa49ef5cda19409",
+    "artist": "Bill Withers",
+    "title": "Lean on Me",
+    "genre": "Soul"
+  },
+  {
+    "id": "fd9ae9ac761295bb887b",
+    "artist": "Bill Withers",
+    "title": "Lean On Me",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "4420393c2fc4d5b83bc5",
+    "artist": "Bill Withers",
+    "title": "Lovely Day",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
     "id": "b7fd2c9176bb372d9405",
     "artist": "Billie Eilish",
     "title": "What Was I Made For? (live from Lollapalooza Chicago 2023)",
     "album": "What Was I Made For? (live from Lollapalooza Chicago 2023)"
+  },
+  {
+    "id": "7c1630f9a40d7d7011dd",
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "album": "Greatest Hits Volume I & Volume II (JPN LP)",
+    "genre": "Rock"
+  },
+  {
+    "id": "4c32412fbaeee90f32fe",
+    "artist": "Billy Paul",
+    "title": "Me And Mrs. Jones",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "c6b543b16bcf1feecf3b",
+    "artist": "Billy Paul",
+    "title": "Your Song",
+    "album": "360 Degrees of Billy Paul"
   },
   {
     "id": "396a2804f3f9b341d89b",
@@ -561,6 +1580,13 @@
     "title": "Run-Around",
     "album": "Billboard Usa - Top 100 Hits Of 1995",
     "genre": "Pop"
+  },
+  {
+    "id": "0dfb852145f15512e409",
+    "artist": "Bob Andy",
+    "title": "The Games People Play",
+    "album": "Trojan Sixties Box Set Disc 3",
+    "genre": "Reggae"
   },
   {
     "id": "d6641cacd4d477917be2",
@@ -637,10 +1663,192 @@
     "genre": "Reggae"
   },
   {
+    "id": "173ded5b92fe4e3d9e8f",
+    "artist": "Bob Marley",
+    "title": "Do It Twice",
+    "album": "Songs of Freedom (Disc 1)"
+  },
+  {
+    "id": "00cafcf1603d12a4610a",
+    "artist": "Bob Marley",
+    "title": "Don't Rock My Boat",
+    "album": "Lee \"Scratch\" Perry Masters (Timeless Classic Albums)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "599d87f6ffbf3641bb4a",
+    "artist": "Bob Marley",
+    "title": "Don't Rock My Boat",
+    "album": "Lively Up Yourself",
+    "genre": "Reggae"
+  },
+  {
+    "id": "352957e355c3c920110e",
+    "artist": "Bob Marley",
+    "title": "Gonna Get You",
+    "album": "Chances Are",
+    "genre": "Reggae"
+  },
+  {
+    "id": "0351cf22d648d0c2db6e",
+    "artist": "Bob Marley",
+    "title": "Mr. Chatterbox",
+    "album": "Mr. Chatterbox (Extended Mix) - Single",
+    "genre": "Reggae"
+  },
+  {
+    "id": "4861a0c29f945fca7ddb",
+    "artist": "Bob Marley",
+    "title": "Mr. Chatterbox",
+    "album": "Nice Time",
+    "genre": "Reggae"
+  },
+  {
+    "id": "7e1480b0eea7ca54f1b7",
+    "artist": "Bob Marley",
+    "title": "Stay With Me",
+    "album": "Chances Are",
+    "genre": "Reggae"
+  },
+  {
+    "id": "7c359b6b74da77f9186b",
+    "artist": "Bob MARLEY",
+    "title": "There she goes",
+    "album": "Reggae Fever",
+    "genre": "Pop"
+  },
+  {
+    "id": "9e81479fbe95a1043921",
+    "artist": "Bob Marley",
+    "title": "Treat You Right",
+    "album": "The King of Reggae",
+    "genre": "Reggae"
+  },
+  {
+    "id": "ba9f155f50d1029fea49",
+    "artist": "Bob Marley",
+    "title": "Wisdom",
+    "album": "Thank You Lord",
+    "genre": "Reggae"
+  },
+  {
+    "id": "58cbb376c0aac497d916",
+    "artist": "Bob Marley & The Wailers",
+    "title": "(I'm) Hurting Inside",
+    "album": "Chances Are",
+    "genre": "Reggae"
+  },
+  {
+    "id": "f8749dc12769c0474d49",
+    "artist": "Bob Marley & The Wailers",
+    "title": "(I'm) Hurting Inside",
+    "album": "Chances Are [WEA 2292-53066-2]",
+    "genre": "Reggae"
+  },
+  {
+    "id": "6feac4782e0577f49032",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Adam & Eve",
+    "album": "Fy-ah, Fy-ah - CD2",
+    "genre": "Reggae"
+  },
+  {
+    "id": "6e0d736ce5f8b4324c62",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Back Out - 1970 version",
+    "album": "The Best Of The Wailers"
+  },
+  {
+    "id": "bff813fefe4ff85d1826",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Bend Down Low (Wail'n'Soul'm Version)",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "99fb85885866171b065d",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Bus Dem Shut (Wail'n Soul'm Version)"
+  },
+  {
+    "id": "096e05fa19fac9a8f853",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Can't You See - 1970 version",
+    "album": "The Best Of The Wailers"
+  },
+  {
+    "id": "83387a583b41dd50492f",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Caution (1970 version)",
+    "album": "Africa Unite: The Singles Collection",
+    "genre": "Reggae"
+  },
+  {
+    "id": "c3ce4f28eb034a7be03f",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Chances Are",
+    "album": "Chances Are",
+    "genre": "Reggae"
+  },
+  {
+    "id": "128913de53e9c2f4123f",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Chances Are",
+    "album": "Rare Ones from the Rastaman (The Dave Cash Collection)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "ef6aafced6b469812a7a",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Chances Are",
+    "album": "The Complete Wailers 1967-1972, Part 1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "271a4eba3f5e7980eee5",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Chances Are (Jad Version)",
+    "album": "Fy-ah, Fy-ah - CD3",
+    "genre": "Reggae"
+  },
+  {
+    "id": "c77efbda5d8efccedfe6",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Cheer Up - 1970 version",
+    "album": "The Best Of The Wailers"
+  },
+  {
     "id": "55a1a62c10ba10259297",
     "artist": "Bob Marley & The Wailers",
     "title": "Concrete Jungle",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
+  },
+  {
+    "id": "6409424683f75fd762b1",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Dem A Fi Get A Beatin'",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "796888c53bcbadd9eb5d",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Do It Twice - 1970 version",
+    "album": "The Best Of The Wailers"
+  },
+  {
+    "id": "381fff8ba33c87b4ce71",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Don't Rock My Boat",
+    "album": "Soul Revolution Part II (Timeless Classic Albums)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "847c72a0e7480f55c6d6",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Don't Rock My Boat",
+    "album": "Soul Revolution Part II [JAD 0602498667514]",
     "genre": "Reggae"
   },
   {
@@ -650,10 +1858,339 @@
     "album": "Exodus"
   },
   {
+    "id": "693cd34f3f1297d136c9",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Fallin' In & Out Of Love",
+    "album": "Fy-ah, Fy-ah - CD3",
+    "genre": "Reggae"
+  },
+  {
+    "id": "e0486e58067317496148",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Freedom Time",
+    "album": "Freedom Time",
+    "genre": "Reggae"
+  },
+  {
+    "id": "898eae55139596346d90",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Funeral",
+    "album": "Wail'n Soul'm Singles Selecta"
+  },
+  {
+    "id": "edb688b6e810d2a87673",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Go Tell It To The Mountain - 1970 Version",
+    "album": "The Best Of The Wailers"
+  },
+  {
+    "id": "06730b9de919088a3a73",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Hammer",
+    "album": "Songs of Freedom",
+    "genre": "Reggae"
+  },
+  {
+    "id": "e4e82f42e1aceafd59c1",
+    "artist": "Bob Marley & The Wailers",
+    "title": "How Many Times",
+    "album": "Exodus",
+    "genre": "Reggae"
+  },
+  {
+    "id": "4ce65ab3f39d4d657bb6",
+    "artist": "Bob Marley & The Wailers",
+    "title": "How Many Times",
+    "album": "Trench Town Rising: The Lee Perry Sessions (Disc 2)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "a16fcbb72f794921249f",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Hypocrites",
+    "album": "Songs of Freedom",
+    "genre": "Reggae"
+  },
+  {
+    "id": "250f83ef7b569a69856d",
+    "artist": "Bob Marley & The Wailers",
+    "title": "I'm Hurting Inside",
+    "album": "Small Axe (Timeless Classic Albums)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "d3cb7641263a84650613",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Lyrical Satirical I",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "959d1c00d84cc268e980",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Mellow Mood (Wail'n'Soul'm Version)",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "05f74a6b8c8d61b255a4",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Milk Shake & Potato Chips",
+    "album": "Fy-Ah Fy-Ah",
+    "genre": "Reggae"
+  },
+  {
+    "id": "2ab869cad5fa104a9b03",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Mr Chatterbox",
+    "album": "In the Beginning"
+  },
+  {
+    "id": "dc5d6be3e3e822de9dd7",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Mr Chatterbox",
+    "album": "Mr Chatterbox",
+    "genre": "Reggae"
+  },
+  {
+    "id": "a1f8e94ec079db8aeb19",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Mr. Chatterbox",
+    "album": "Mr. Chatterbox / Cool Operator",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8dd7645abe812db3c7b5",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Nice Time (Jad Version)",
+    "album": "Fy-ah, Fy-ah - CD3",
+    "genre": "Reggae"
+  },
+  {
+    "id": "40f45b061c79cd64ecce",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Nice Time (Wail'n'Soul'm Version)",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "caa639a2d1f84ff01ed3",
+    "artist": "Bob Marley & The Wailers",
+    "title": "One Love True Love (Demo)",
+    "album": "Fy-ah, Fy-ah - CD3",
+    "genre": "Reggae"
+  },
+  {
+    "id": "2b8fdf6d18f53c64c554",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Play Play",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "7178935290655892e6c3",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Pound Get a Blow",
+    "album": "Wail'n Soul'm Singles Selecta"
+  },
+  {
+    "id": "53602a599e6974cb7d5b",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Put It On",
+    "album": "Songs of Freedom",
+    "genre": "Reggae"
+  },
+  {
+    "id": "eb73f873cc942f6dc900",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Rocking Steady",
+    "album": "Fy-ah, Fy-ah - CD3",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8f5e1358f2a4d042a7be",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Rocking Steady",
+    "album": "Grooving Kingston 12 (CD3)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "b6606d4302c1cc6f0601",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Selassie Is The Chapel",
+    "album": "Small Axe (Timeless Classic Albums)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "22d118b8305159dcf92a",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Simmer Down"
+  },
+  {
+    "id": "dcd31254cc53e5376013",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Simmer Down",
+    "album": "The Birth Of A Legend (1963-66)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "2315526240b9c7634b94",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Soon Come - 1970 version",
+    "album": "The Best Of The Wailers"
+  },
+  {
+    "id": "c4ee9a044d06f33d14dd",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Soul Captives - 1970 version",
+    "album": "The Best Of The Wailers"
+  },
+  {
+    "id": "98b063f5a6798ab6dab1",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Soul Rebel",
+    "album": "Trench Town Rising: The Lee Perry Sessions (Disc 1)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "0f41a5b87e288dbe8a7d",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Soul Shake Down Party (Version) - 1970 Version",
+    "album": "The Best Of The Wailers"
+  },
+  {
+    "id": "f875d3b4eec159b691f9",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Soul Shakedown Party (1970 version)",
+    "album": "Africa Unite: The Singles Collection",
+    "genre": "Reggae"
+  },
+  {
+    "id": "80e2e644f182330ce773",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Splish for My Splash",
+    "album": "Soul Almighty: The Formative Years, Volume 1"
+  },
+  {
+    "id": "a67635c45b431bc9c9fb",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Steppin' Razor",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "432d01582602d5c3f63d",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Stir It Up (1967 version)",
+    "album": "Africa Unite: The Singles Collection",
+    "genre": "Reggae"
+  },
+  {
+    "id": "b93bca5a6dc80321fd08",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Stop The Train - 1970 version",
+    "album": "The Best Of The Wailers"
+  },
+  {
+    "id": "7445449007d015c5952b",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Stranger On The Shore",
+    "album": "Fy-ah, Fy-ah - CD3",
+    "genre": "Reggae"
+  },
+  {
+    "id": "c849221bdcf10ac8866f",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Stranger On The Shore",
+    "album": "Small Axe (Timeless Classic Albums)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "38b2f50b131f3f622ea1",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Sugar Sugar",
+    "album": "Natty Rebel (Timeless Classic Albums)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "e80d424adbc44a864abf",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Thank You Lord (Pouder produced)",
+    "album": "Universal Box 1 - Fy-Ah Fy-Ah (JAD) - CD2"
+  },
+  {
+    "id": "1df242baf763f927f50c",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Thank You Lord (Pounder Version)",
+    "album": "2004 - Fy-Ah Fy-Ah (JAD) - CD2"
+  },
+  {
+    "id": "578a0f0a3b054a84d2d8",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Thank You Lord (Wail'n'Soul'm Version)",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "5d4e8da715d15369a054",
+    "artist": "Bob Marley & The Wailers",
+    "title": "The Lord Will Make Away Somehow",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "ce9717cbda81f77aee02",
+    "artist": "Bob Marley & The Wailers",
+    "title": "The World Is Changing",
+    "album": "Rock To The Rock",
+    "genre": "Reggae"
+  },
+  {
+    "id": "01e879d3e86a96b4b108",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Them Belly Full (But We Hungry)",
+    "album": "Natty Dread (The Complete Island Recordings)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "5b958fb385c6c50d7873",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Them Belly Full (Live At Music Hall, Boston / 1978)",
+    "album": "Easy Skanking In Boston '78 (Live At Music Hall, Boston / 1978)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "d4bf81fea2c2cee5e997",
+    "artist": "Bob Marley & The Wailers",
+    "title": "This Train (Wail'n'Soul'm Version)",
+    "album": "Fy-ah, Fy-ah - CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "ad79ad9c3a69713c1863",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Three Little Birds",
+    "album": "Exodus"
+  },
+  {
+    "id": "326d0b5a3a1eaa22e602",
+    "artist": "Bob Marley & The Wailers",
+    "title": "Touch Me",
+    "album": "Exodus",
+    "genre": "Reggae"
+  },
+  {
     "id": "c4b4bb5e172bb313f2d3",
     "artist": "Bob Marley & The Wailers",
     "title": "Waiting In Vain",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8fb54283bdc1b78f2ede",
+    "artist": "Bob Marley & The Wailers",
+    "title": "What Goes Around Comes Around",
+    "album": "Natty Rebel (Timeless Classic Albums)",
     "genre": "Reggae"
   },
   {
@@ -700,6 +2237,12 @@
     "genre": "Rock"
   },
   {
+    "id": "ad3290e370ec57503ba3",
+    "artist": "Bobby \"Blue\" Bland",
+    "title": "Ain't No Love In The Heart Of The City - Single Version",
+    "album": "Singles"
+  },
+  {
     "id": "48e5dfc8c3001e5e09e0",
     "artist": "Bobby Caldwell",
     "title": "What You Won't Do For Love",
@@ -714,16 +2257,50 @@
     "genre": "Rock"
   },
   {
+    "id": "1639f6a9ab3b6021e671",
+    "artist": "Bobby Davis",
+    "title": "Doggone Right",
+    "album": "Lloyd Charmers & Friends - Reggae In Wonderland - The Splash Singles Collection 1969-1971"
+  },
+  {
     "id": "616bbe9fd62055d392eb",
     "artist": "Bobby Womack",
     "title": "Across 110th Street",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "15b04072a5ffd40136c4",
+    "artist": "BOBBY WOMACK",
+    "title": "WOMAN'S GOTTA HAVE IT",
+    "album": "THE BEST SOUL - R&B - FUNK - DISCO OF THE 60'S, 70",
+    "genre": "R&B"
+  },
+  {
     "id": "4cc56455c1ca1cce9c85",
     "artist": "Booker T. & the MG’s",
     "title": "Green Onions",
     "album": "Green Onions"
+  },
+  {
+    "id": "f63d25ed5863463b65d8",
+    "artist": "Boris Gardiner",
+    "title": "Spooky",
+    "album": "The Very Best Of Boris Gardiner - 22 Soulful Reggae Classics",
+    "genre": "Reggae"
+  },
+  {
+    "id": "e4f3feba8c67435df7fb",
+    "artist": "Boris Gardiner",
+    "title": "You Make Me Feel Brand New",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8b5c6e5a50a300f63897",
+    "artist": "Boris Gardiner & The Love People",
+    "title": "Hooked on a Feeling",
+    "album": "Trojan Sixties Box Set",
+    "genre": "Reggae"
   },
   {
     "id": "42920ce4744fdef84a14",
@@ -777,6 +2354,20 @@
     "genre": "Rock"
   },
   {
+    "id": "951b286d7cc5157fb331",
+    "artist": "Bruce Peninsula",
+    "title": "Crabapples",
+    "album": "A Mountain Is a Mouth",
+    "genre": "Rock"
+  },
+  {
+    "id": "bb1bb80e4ddf66127bfb",
+    "artist": "Bruce Ruffin",
+    "title": "Ooh Child",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
     "id": "ef3827877bedcfcff5ca",
     "artist": "Bruce Springsteen",
     "title": "Adam Raised A Cain",
@@ -796,10 +2387,30 @@
     "album": "Greatest Hits"
   },
   {
+    "id": "b99a9bee52a4b2241003",
+    "artist": "Bruce Springsteen",
+    "title": "Because The Night",
+    "album": "85-75 The Outtakes Disc #1"
+  },
+  {
+    "id": "db4710317bb87590b62e",
+    "artist": "Bruce Springsteen",
+    "title": "Because the Night",
+    "album": "The Promise",
+    "genre": "Rock"
+  },
+  {
     "id": "3a2ab21348b8e3a9ed50",
     "artist": "Bruce Springsteen",
     "title": "Better Days",
     "album": "Greatest Hits"
+  },
+  {
+    "id": "6fa97f8e95e6c89cc812",
+    "artist": "Bruce Springsteen",
+    "title": "Blinded by the Light",
+    "album": "Greetings from Asbury Park, N.J.",
+    "genre": "Rock"
   },
   {
     "id": "25189dbe3b8af5e40837",
@@ -882,6 +2493,13 @@
     "album": "Greatest Hits"
   },
   {
+    "id": "5eed20ba14844d169317",
+    "artist": "Bruce Springsteen",
+    "title": "Racing in the Street ('78)",
+    "album": "The Promise",
+    "genre": "Rock"
+  },
+  {
     "id": "0d8f233d137eaf920cbc",
     "artist": "Bruce Springsteen",
     "title": "Secret Garden",
@@ -917,6 +2535,19 @@
     "artist": "Bruce Springsteen",
     "title": "Thunder Road",
     "album": "Greatest Hits"
+  },
+  {
+    "id": "fbf869e44e131b3e7aa3",
+    "artist": "Bruce Springsteen",
+    "title": "Thunder Road (Live at the Roxy Theatre, W. Hollywood, CA - October 1975)",
+    "album": "Bruce Springsteen & The E Street Band Live 1975-85"
+  },
+  {
+    "id": "e504c8afe139f195c081",
+    "artist": "Bruce Springsteen with The Sessions Band",
+    "title": "Atlantic City (live at the Point Theatre, Dublin, Ireland – November 2006)",
+    "album": "Live in Dublin",
+    "genre": "Folk; Rock"
   },
   {
     "id": "1b5a848728dcbd29a799",
@@ -1133,6 +2764,13 @@
     "genre": "Rock"
   },
   {
+    "id": "6e7e7760886ad4d248d2",
+    "artist": "Byron Lee & The Dragonaires",
+    "title": "Je T' Aime (Love At First Sight)",
+    "album": "Trojan Sixties Box Set Disc 3",
+    "genre": "Reggae"
+  },
+  {
     "id": "6ecb28735c0ef163a40c",
     "artist": "Caetano Veloso",
     "title": "You Don't Know Me",
@@ -1174,6 +2812,40 @@
     "artist": "Capleton",
     "title": "Who Dem?",
     "album": "More Fire"
+  },
+  {
+    "id": "6032144066097f39fcce",
+    "artist": "Cappadonna",
+    "title": "Black Boy",
+    "album": "The Pillage",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "1ccced6f1fed987531d0",
+    "artist": "Cappadonna",
+    "title": "Revenge (featuring Timbo King)",
+    "album": "The Yin and the Yang",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "35c15a0274a4215d3e45",
+    "artist": "Cappadonna",
+    "title": "Slang Editorial",
+    "album": "The Pillage",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "81d553ce4f5059821017",
+    "artist": "Cappadonna",
+    "title": "Super Model (featuring Ghostface Killah)",
+    "album": "The Yin and the Yang",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "c36fcb79877b66a94bb0",
+    "artist": "Captain Beefheart & His Magic Band",
+    "title": "Too Much Time",
+    "genre": "Rock"
   },
   {
     "id": "faca23863c0547d856de",
@@ -1260,6 +2932,54 @@
     "album": "Invasion of Privacy"
   },
   {
+    "id": "dcbfe2ae32d853349ea3",
+    "artist": "Carl Dawkins",
+    "title": "Rodney's History",
+    "album": "Clancy Eccles - Freedom - The Anthology CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "f685d109538c23536049",
+    "artist": "Carl Dawkins",
+    "title": "Rodney's history",
+    "album": "Freedom: the Anthology 67-73",
+    "genre": "Reggae"
+  },
+  {
+    "id": "cf149901817ab87a4eb1",
+    "artist": "Carla Thomas",
+    "title": "I'll Bring It Home To You",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "2b35dd4a8d685a943080",
+    "artist": "Carlton & The Shoes",
+    "title": "Never Give Your Heart Away",
+    "album": "Love Me Forever (Vinyl)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "dfde5ac43f1d15260b3b",
+    "artist": "Carlton & The Shoes",
+    "title": "Never Give Your Heart Away",
+    "album": "This Heart Of Mine",
+    "genre": "Reggae"
+  },
+  {
+    "id": "487618f441aa74448b68",
+    "artist": "Carlton And The Shoes",
+    "title": "Me And You",
+    "album": "Studio One Rocksteady",
+    "genre": "Reggae"
+  },
+  {
+    "id": "1f6eb7ebd3a800b02b15",
+    "artist": "Carlton and The Shoes",
+    "title": "Never Give Your Heart Away",
+    "album": "Love Me Forever",
+    "genre": "Reggae"
+  },
+  {
     "id": "b1ce6ec5896989d0c46b",
     "artist": "Cerrone",
     "title": "Supernature",
@@ -1276,6 +2996,13 @@
     "id": "5aa514930050a60f45e0",
     "artist": "Chaka Demus & Pliers",
     "title": "Murder She Wrote"
+  },
+  {
+    "id": "ad5dcda081a8e2e525ea",
+    "artist": "Chance the Rapper",
+    "title": "The Big Day",
+    "album": "The Big Day",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "3d28b8d7d0ed5dbceb40",
@@ -1310,6 +3037,12 @@
     "album": "Guess / Spring breakers"
   },
   {
+    "id": "a08aae207f231952db78",
+    "artist": "Charlie Whitehead",
+    "title": "Raw Spitt",
+    "album": "Kent 261 - Songs To Sing - The Charlie Whitehead Anthology 1970-76"
+  },
+  {
     "id": "e8f0d1882555059900e3",
     "artist": "Charly Black",
     "title": "Gyal You a Party Animal",
@@ -1334,6 +3067,17 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "11804eb85bb11da161af",
+    "artist": "Chosen Few",
+    "title": "Everybody Plays the Fool"
+  },
+  {
+    "id": "8fdf1354f4d0b6bfd9c7",
+    "artist": "Chosen Few",
+    "title": "In The Rain",
+    "album": "Trojan Soulful Reggae Box Set"
+  },
+  {
     "id": "b48b6a5811ca613e874c",
     "artist": "Chris Brown feat. Ella Mai",
     "title": "Sex Memories",
@@ -1347,16 +3091,55 @@
     "genre": "Reggae"
   },
   {
+    "id": "a73af80fcbf098d8be5d",
+    "artist": "Claudette Thomas",
+    "title": "Roses Are Red My Love",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
     "id": "84160f76618ff4cd48a3",
     "artist": "Clipse, Kendrick Lamar, Pusha T, Malice",
     "title": "Chains & Whips",
     "album": "Let God Sort Em Out"
   },
   {
+    "id": "cd044cceca14b07caca1",
+    "artist": "Collective Soul",
+    "title": "Needs",
+    "album": "Charmed: The Final Chapter"
+  },
+  {
+    "id": "000fa3af5791bad2124d",
+    "artist": "Colomach",
+    "title": "Kassa Kpa Sama Kpa",
+    "album": "Soul Jazz Records Presents Nigeria Soul Power 70: Afro-Funk, Afro-Rock, Afro-Disco",
+    "genre": "Funk"
+  },
+  {
+    "id": "10b49c044568e22427fc",
+    "artist": "Commodores",
+    "title": "Easy",
+    "album": "All the Great Commodores Songs",
+    "genre": "R&B"
+  },
+  {
+    "id": "998b2498af917c6b9b95",
+    "artist": "Commodores",
+    "title": "Easy",
+    "album": "Hitsville USA The Motown Singles Collection 1972–1992",
+    "genre": "Soul"
+  },
+  {
     "id": "80d9e0fb2cb040b8bb9e",
     "artist": "Conroy Smith",
     "title": "Dangerous",
     "album": "Total Reggae: Dancehall"
+  },
+  {
+    "id": "8b9b84df178acff2496f",
+    "artist": "Cornelius Brothers & Sister Rose",
+    "title": "Too Late To Turn Back Now",
+    "genre": "Disco; Funk; Soul"
   },
   {
     "id": "5e7db732ac07b4bc4766",
@@ -1384,6 +3167,13 @@
     "title": "One O’Clock Jump",
     "album": "Sinatra at the Sands",
     "genre": "Jazz"
+  },
+  {
+    "id": "d1d881ff2679f4511719",
+    "artist": "Counting Crows",
+    "title": "Mr. Jones",
+    "album": "A to Z Hits in 5.1",
+    "genre": "Rock"
   },
   {
     "id": "e0f1e7fef9758a44c32a",
@@ -1430,6 +3220,18 @@
     "title": "Move On Up",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Soul"
+  },
+  {
+    "id": "71b7002a5ea8277f5d21",
+    "artist": "Curtis Mayfield",
+    "title": "Move on Up (Single Edit)",
+    "album": "Move on Up (Single Edit)"
+  },
+  {
+    "id": "3369a3eae64d192f03cb",
+    "artist": "Curtis Mayfield",
+    "title": "Pusherman",
+    "genre": "Disco; Funk; Soul"
   },
   {
     "id": "ad4d96fceed39759d2fd",
@@ -1561,6 +3363,27 @@
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
   },
   {
+    "id": "0665a4700b42f276e045",
+    "artist": "Dave Matthews Band",
+    "title": "Ants Marching",
+    "album": "2008-06-07: DMB Live Trax, Volume 13: Busch Stadium, St. Louis, MO, USA",
+    "genre": "Rock"
+  },
+  {
+    "id": "c875244ac10f8649895e",
+    "artist": "Dave Matthews Band",
+    "title": "Ants Marching",
+    "album": "Europe 2009",
+    "genre": "Rock"
+  },
+  {
+    "id": "5c4db07bdf465f934c92",
+    "artist": "Dave Matthews Band",
+    "title": "Ants Marching",
+    "album": "The Best of What’s Around, Volume 1",
+    "genre": "Rock"
+  },
+  {
     "id": "89ae80534a0750081f23",
     "artist": "David Axelrod",
     "title": "The Human Abstract",
@@ -1621,6 +3444,20 @@
     "genre": "Rock"
   },
   {
+    "id": "4b3031a02dddb815a07c",
+    "artist": "David Isaacs",
+    "title": "Leaving on a Jet Plane",
+    "album": "The Complete UK Upsetter Singles Collection, Volume 1, Disc 1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "f380c47e4c566c96bbf2",
+    "artist": "Dawn Penn",
+    "title": "It Must Be Him (Seul Sur Son Etoile)",
+    "album": "Trojan Sixties Box Set",
+    "genre": "Reggae"
+  },
+  {
     "id": "af4762c4c454465d8c81",
     "artist": "Del Shannon",
     "title": "Runaway",
@@ -1628,10 +3465,85 @@
     "genre": "Rock"
   },
   {
+    "id": "a9e80a4a79283e3d1907",
+    "artist": "Delano Stewart",
+    "title": "Wherever I Lay My Hat",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "9078a2117dc1bfad3785",
+    "artist": "Delroy Wilson",
+    "title": "Put Yourself In My Place",
+    "album": "Dancing Down Orange Street",
+    "genre": "Reggae"
+  },
+  {
+    "id": "1a86df83d9401546815c",
+    "artist": "Delroy Wilson",
+    "title": "Put Yourself In My Place",
+    "album": "Reggae & Ska Classics (The Ultimate Collection)"
+  },
+  {
     "id": "29b2975b70285a6eba80",
     "artist": "Delta 5",
     "title": "Mind Your Own Business",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "a23cffc6f72af9364fb2",
+    "artist": "dennis brown",
+    "title": "black magic woman",
+    "album": "here i come",
+    "genre": "Reggae"
+  },
+  {
+    "id": "19609a88ed5eeaf5629b",
+    "artist": "Dennis Brown",
+    "title": "If I Follow My Heart",
+    "album": "Studio One Singles: 1973",
+    "genre": "Reggae"
+  },
+  {
+    "id": "a2a1be179b5f1af3e09d",
+    "artist": "Derrick Harriott",
+    "title": "Brown Baby"
+  },
+  {
+    "id": "dbf8e030ac7c4b6a9fbd",
+    "artist": "Derrick Harriott",
+    "title": "Have You Seen Her",
+    "album": "Disc 2 - Greatest Reggae Hits [Expanded Original Album]",
+    "genre": "Reggae"
+  },
+  {
+    "id": "4c36a5e7a31cfca647a1",
+    "artist": "Derrick Harriott",
+    "title": "Message From A Black Man"
+  },
+  {
+    "id": "93b20b52fb5f2951138f",
+    "artist": "Derrick Harriott",
+    "title": "Reach Out (I'll Be There)",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "144ea52d7282e8a4364a",
+    "artist": "Derrick Harriott",
+    "title": "Reach Out I'll Be There",
+    "album": "This Is Trojan Ska"
+  },
+  {
+    "id": "935adbd7c6eb3e05efa0",
+    "artist": "Derrick Harriott",
+    "title": "Since I Lost My Baby",
+    "album": "Disc 1 - Greatest Reggae Hits [Expanded Original Album]",
+    "genre": "Reggae"
+  },
+  {
+    "id": "dcca49ce3af3a9a396ae",
+    "artist": "Derrick Harriott",
+    "title": "Since I Lost My Baby",
+    "album": "Trojan Lovers Box Set"
   },
   {
     "id": "c1215b6bbccad4e80a43",
@@ -1677,6 +3589,13 @@
     "title": "Love Hangover",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Pop"
+  },
+  {
+    "id": "c3af612094c3158e39a3",
+    "artist": "Diana Ross",
+    "title": "You Are Everything",
+    "album": "Diana & Marvin",
+    "genre": "Funk; R&B; Soul"
   },
   {
     "id": "390f8778fcaa8e3d56a4",
@@ -1757,6 +3676,13 @@
     "title": "I Get Around",
     "album": "Greatest Hits",
     "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "a8a4b86283e31fb689c4",
+    "artist": "Dillinger",
+    "title": "Answer My Question",
+    "album": "Answer Me Questions",
+    "genre": "Reggae"
   },
   {
     "id": "9b3cc42953c43465e446",
@@ -1841,6 +3767,25 @@
     "album": "606"
   },
   {
+    "id": "b189acdbf176e64a6a62",
+    "artist": "Dispatch",
+    "title": "Elias",
+    "album": "Live 18"
+  },
+  {
+    "id": "ade96e62afd5dc590d0e",
+    "artist": "Dispatch",
+    "title": "Elias",
+    "album": "Live From The Boston Woods"
+  },
+  {
+    "id": "e3846edb96cdf3f8f7de",
+    "artist": "Dispatch",
+    "title": "The General",
+    "album": "Bang Bang",
+    "genre": "Rock"
+  },
+  {
     "id": "91ae7805cad54eb6876d",
     "artist": "DJ Khaled feat. Lil Wayne & Gunna",
     "title": "Freak N You",
@@ -1917,6 +3862,18 @@
     "artist": "Do Re Mi Children's Chorus",
     "title": "When You Wish Upon A Star",
     "album": "Songs From Mary Poppins"
+  },
+  {
+    "id": "18f026b1929861b1c3b5",
+    "artist": "Dobie Gray",
+    "title": "Drift Away",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "39e10fb9d2fb6ccbe847",
+    "artist": "Dobie Gray",
+    "title": "Drift Away",
+    "album": "Drift Away"
   },
   {
     "id": "31e146642d8260fc8d43",
@@ -2123,11 +4080,24 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "3979a200e0811007553b",
+    "artist": "Dusty Springfield",
+    "title": "Son Of A Preacher Man",
+    "album": "Classic R&B/Soul"
+  },
+  {
     "id": "49740d738ecc0e355e5e",
     "artist": "Dusty Springfield",
     "title": "Son Of A Preacher Man",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
+  },
+  {
+    "id": "19b0c4c172e8f6880349",
+    "artist": "D’Angelo",
+    "title": "Left & Right (Feat. Method Man And Redman)",
+    "album": "Voodoo",
+    "genre": "R&B"
   },
   {
     "id": "4216260be68a5c87cafb",
@@ -2153,6 +4123,13 @@
     "artist": "Eek‐A‐Mouse",
     "title": "Wa Do Dem",
     "album": "100x Reggae"
+  },
+  {
+    "id": "d0fe5dbf34be6517896a",
+    "artist": "Electric Guest",
+    "title": "This Head I Hold",
+    "album": "Mondo",
+    "genre": "Alternative"
   },
   {
     "id": "1158d91f08d2262e6198",
@@ -2264,6 +4241,12 @@
     "album": "Heart On My Sleeve"
   },
   {
+    "id": "1ce94ad602e9bbcfc720",
+    "artist": "Elliott Smith",
+    "title": "Angeles",
+    "album": "Either/Or"
+  },
+  {
     "id": "5cad8522fd157f22b912",
     "artist": "Elton John",
     "title": "Goodbye Yellow Brick Road",
@@ -2307,6 +4290,32 @@
     "artist": "Ennio Morricone",
     "title": "Il Buono Il Brutto Il Cattivo",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "bf2af37cc64a60d06bfd",
+    "artist": "Ernest Ranglin",
+    "title": "Everybody's Talkin'",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "0526cb7ecc955ef3be3e",
+    "artist": "Ernest Wilson",
+    "title": "My Elusive Dreams",
+    "album": "Trojan Sixties Box Set Disc 3",
+    "genre": "Reggae"
+  },
+  {
+    "id": "b36988d02a801cb14525",
+    "artist": "Ernest Wilson & Freddie McGregor",
+    "title": "Just Once In My Life",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "66b616d20d918743c9fe",
+    "artist": "Errol Dunkley",
+    "title": "Three In One",
+    "album": "Hit Picks",
+    "genre": "Reggae"
   },
   {
     "id": "62dd83855cfa5a457ffb",
@@ -2384,6 +4393,73 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "c7115c479b5af690ed3d",
+    "artist": "Fitz and the Tantrums",
+    "title": "Breakin' the Chains of Love",
+    "album": "Songs for a Break Up, Volume 1"
+  },
+  {
+    "id": "6d849bb63ffd11573186",
+    "artist": "Fleet Foxes",
+    "title": "Blue Ridge Mountains",
+    "album": "First Collection: 2006–2009"
+  },
+  {
+    "id": "4a6914858ac7b48a280c",
+    "artist": "Fleet Foxes",
+    "title": "He Doesn't Know Why",
+    "album": "Fleet Foxes"
+  },
+  {
+    "id": "2fea09b725336ac4c57b",
+    "artist": "Fleet Foxes",
+    "title": "Heard Them Stirring",
+    "album": "Fleet Foxes"
+  },
+  {
+    "id": "a00d8fa76ab8a774fd12",
+    "artist": "Fleet Foxes",
+    "title": "Meadowlarks",
+    "album": "Fleet Foxes"
+  },
+  {
+    "id": "c38b71805d73f703d594",
+    "artist": "Fleet Foxes",
+    "title": "Oliver James",
+    "album": "Fleet Foxes"
+  },
+  {
+    "id": "8ba39d44adc842296dd1",
+    "artist": "Fleet Foxes",
+    "title": "Quiet Houses",
+    "album": "Fleet Foxes"
+  },
+  {
+    "id": "0cd4df7cd7767fa96269",
+    "artist": "Fleet Foxes",
+    "title": "Ragged Wood",
+    "album": "Fleet Foxes",
+    "genre": "Folk; Rock"
+  },
+  {
+    "id": "18d7cff7d7527d202d88",
+    "artist": "Fleet Foxes",
+    "title": "Tiger Mountain Peasant Song",
+    "album": "First Collection: 2006–2009"
+  },
+  {
+    "id": "592733e913aee8a44bf3",
+    "artist": "Fleet Foxes",
+    "title": "White Winter Hymnal",
+    "album": "Fleet Foxes"
+  },
+  {
+    "id": "aa9e65e2a045c26df6af",
+    "artist": "Fleet Foxes",
+    "title": "Your Protector",
+    "album": "First Collection: 2006–2009"
+  },
+  {
     "id": "778545b41eb2776c6921",
     "artist": "Fleetwood Mac",
     "title": "Dreams",
@@ -2397,11 +4473,24 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "6a01cc1e0944465efcff",
+    "artist": "Four Tops",
+    "title": "Reach Out I'll Be There",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
     "id": "6456b26ae8b76f984aab",
     "artist": "France Gall",
     "title": "Laisse Tomber Les Filles",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Pop"
+  },
+  {
+    "id": "a90240f649ae929c1a7e",
+    "artist": "Francis Bebey",
+    "title": "Pygmy Love Song",
+    "album": "African Electronic Music 1975-1982",
+    "genre": "Electronic"
   },
   {
     "id": "6f40b45b35e44075c794",
@@ -3856,6 +5945,12 @@
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
   },
   {
+    "id": "31512fe2fc2e837023df",
+    "artist": "Fred Wesley & The J.B.'s",
+    "title": "Doing It To Death",
+    "album": "The Singles Volume Eight: 1972-1973"
+  },
+  {
     "id": "1f9a2a10cfab3261175e",
     "artist": "Frighty",
     "title": "Life",
@@ -3899,6 +5994,17 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "0a14ca855895c238e3e0",
+    "artist": "Gang Starr",
+    "title": "Above The Clouds",
+    "album": "Full Clip: A Decade Of Gang Starr"
+  },
+  {
+    "id": "16d06adb6a084dcb7081",
+    "artist": "Gaylads",
+    "title": "It's All in the Game"
+  },
+  {
     "id": "153d104c9abbcf4b238c",
     "artist": "Gene Kelly",
     "title": "Jack and Jill / London Bridge",
@@ -3936,10 +6042,411 @@
     "genre": "Country"
   },
   {
+    "id": "69ac83c021a0c67528c6",
+    "artist": "George McCrae",
+    "title": "Rock Your Baby",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "d2fcd17f6aac12331ba4",
+    "artist": "George Nooks",
+    "title": "Top Ten",
+    "album": "Diamond Series: Blue - Remastered",
+    "genre": "Reggae"
+  },
+  {
+    "id": "6bb8d46473e40175f314",
+    "artist": "Geraldo Pino",
+    "title": "Africans Must Unite",
+    "album": "Soul Jazz Records Presents Nigeria Soul Power 70: Afro-Funk, Afro-Rock, Afro-Disco",
+    "genre": "Funk"
+  },
+  {
+    "id": "4036c7a00b31c1bdf0fd",
+    "artist": "Geraldo Pino",
+    "title": "Heavy Heavy Heavy",
+    "album": "Soul Jazz Records Presents Nigeria Soul Power 70: Afro-Funk, Afro-Rock, Afro-Disco",
+    "genre": "Funk"
+  },
+  {
+    "id": "637989b6210c1a96bb48",
+    "artist": "Geraldo Pino",
+    "title": "Power to the People",
+    "album": "Soul Jazz Records Presents Nigeria Soul Power 70: Afro-Funk, Afro-Rock, Afro-Disco",
+    "genre": "Funk"
+  },
+  {
+    "id": "e35f57364cefbd64a3cd",
+    "artist": "Geraldo Pino",
+    "title": "Shake Hands",
+    "album": "Soul Jazz Records Presents Nigeria Soul Power 70: Afro-Funk, Afro-Rock, Afro-Disco",
+    "genre": "Funk"
+  },
+  {
+    "id": "7eec7965ce9f512cb3a4",
+    "artist": "Ghostface",
+    "title": "Be This Way",
+    "album": "The Pretty Toney Album",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "1162d3215a793f0f2776",
+    "artist": "Ghostface",
+    "title": "Beat The Clock",
+    "album": "The Pretty Toney Album",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "51950106d280773d99bc",
+    "artist": "Ghostface Killah",
+    "title": "9 Milli Bros (feat. Wu-Tang Clan)",
+    "album": "Fishscale (Expanded Edition)"
+  },
+  {
+    "id": "a21bcb651d043e944b51",
+    "artist": "Ghostface Killah",
+    "title": "Alex (Stolen Script)",
+    "album": "More Fish",
+    "genre": "Blues"
+  },
+  {
+    "id": "636a81f8e57643f7845d",
+    "artist": "Ghostface Killah",
+    "title": "All That I Got is You Featuring Mary J. Blige"
+  },
+  {
+    "id": "3138ae87e067e4f498c2",
+    "artist": "Ghostface Killah",
+    "title": "Back Like That",
+    "album": "Fishscale (Expanded Edition)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "0b8d35b7cd1f106aa24b",
+    "artist": "Ghostface Killah",
+    "title": "Be This Way",
+    "album": "Live In New York",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "9c735fcf404cde5ce0b8",
+    "artist": "Ghostface Killah",
+    "title": "Belt Holders (feat. Raekwon)",
+    "album": "Hidden Darts",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d47c188fddef3b10a9ac",
+    "artist": "Ghostface Killah",
+    "title": "Biscuits (feat. Trife)",
+    "album": "The Pretty Toney Album",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f1538f09dee39c523adc",
+    "artist": "Ghostface Killah",
+    "title": "Black Cream",
+    "album": "Hidden Darts: Special Edition",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ade79738d353d9d10e47",
+    "artist": "Ghostface Killah",
+    "title": "Black Tequila (Feat. Cappadonna & Trife Diesel)",
+    "album": "Apollo Kids"
+  },
+  {
+    "id": "a4eeaff5b2509f1648c4",
+    "artist": "Ghostface Killah",
+    "title": "Buck 50",
+    "album": "Supreme Clientele",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "1594cc5833301bfb6c01",
+    "artist": "Ghostface Killah",
+    "title": "Charlie Brown (rmx)",
+    "album": "The Wallabee Champ"
+  },
+  {
+    "id": "45b7efe0f4c516aed70c",
+    "artist": "Ghostface Killah",
+    "title": "Cherchez Laghost",
+    "album": "Supreme Clientele"
+  },
+  {
+    "id": "bd2d2121ebeedf453ddb",
+    "artist": "Ghostface Killah",
+    "title": "Child's Play** (Album Version)",
+    "album": "Supreme Clientele"
+  },
+  {
+    "id": "d93934964441c1e34341",
+    "artist": "Ghostface Killah",
+    "title": "Daytona 500",
+    "album": "Ironman (25th Anniversary)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "cf3ddbf668e4a140bb27",
+    "artist": "Ghostface Killah",
+    "title": "Flowers (featuring Raekwon, Method Man & Superb) (Album Version)",
+    "album": "bulletproof wallets featuring raekwon",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "216a8004946016fb0b08",
+    "artist": "Ghostface Killah",
+    "title": "Flowers (Original) (Featuring Method man, Raekwon & Superb)",
+    "album": "Hidden Darts (J-Love presents)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2e10f9a5fe1760ff2a84",
+    "artist": "Ghostface Killah",
+    "title": "Ghetto (Feat. Raekwon, Cappadonna & U-God)",
+    "album": "Apollo Kids",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "9bd0676b29b3628df21c",
+    "artist": "Ghostface Killah",
+    "title": "Good Times",
+    "album": "Pretty Toney (The Lost Tracks)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "65eab11f2991b6f09efb",
+    "artist": "Ghostface Killah",
+    "title": "Holla",
+    "album": "Live In New York",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "41e2c5e7722a2188a786",
+    "artist": "Ghostface Killah",
+    "title": "I Declare War",
+    "album": "Twelve Reasons to Die",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "eaa6675aab2ef9cf05d7",
+    "artist": "Ghostface Killah",
+    "title": "Killa Lipstick (feat. Method Man & Masta Killa)",
+    "album": "The Big Doe Rehab"
+  },
+  {
+    "id": "d4c509b344955b5a7f7b",
+    "artist": "Ghostface Killah",
+    "title": "Maxine",
+    "album": "Bulletproof Wallets"
+  },
+  {
+    "id": "699eb46b2d06c87d4ead",
+    "artist": "Ghostface Killah",
+    "title": "Metal Lungies",
+    "album": "The Pretty Toney Album",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d5a5abba8f4f6e5aa07d",
+    "artist": "Ghostface Killah",
+    "title": "Mighty Healthy",
+    "album": "Supreme Clientele"
+  },
+  {
+    "id": "13d2bda307c0d6beb85a",
+    "artist": "Ghostface Killah",
+    "title": "Motherless Child"
+  },
+  {
+    "id": "a06a6e19b4769d8e0ce2",
+    "artist": "Ghostface Killah",
+    "title": "Murda Goons",
+    "album": "Hidden Darts Special Edition"
+  },
+  {
+    "id": "b9413d02f1d39f422d98",
+    "artist": "Ghostface Killah",
+    "title": "Nutmeg (Album Version)",
+    "album": "Supreme Clientele"
+  },
+  {
+    "id": "5026378bacee21d1173b",
+    "artist": "Ghostface Killah",
+    "title": "Odd Couple (feat. Cappadonna)",
+    "album": "Hidden Darts Special Edition"
+  },
+  {
+    "id": "1ff10ae93074f55ab062",
+    "artist": "Ghostface Killah",
+    "title": "One (Album Version)",
+    "album": "Supreme Clientele"
+  },
+  {
+    "id": "7652ccf710a10981c1ed",
+    "artist": "Ghostface Killah",
+    "title": "Our Dreams",
+    "album": "Wu Tang Presents…Wu Massacre",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "67693ae4759aed8dfa7e",
+    "artist": "Ghostface Killah",
+    "title": "Poisonous Darts",
+    "album": "Ironman (25th Anniversary)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "eb778d757576bcbe24c4",
+    "artist": "Ghostface Killah",
+    "title": "Rec-Room Therapy",
+    "album": "The Big Doe Rehab",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "149971efcc4495cbb75d",
+    "artist": "Ghostface Killah",
+    "title": "Return Of The Theodore Unit (feat. Wigs, J-LOVE, Trife Diesel, Wigs, J-LOVE & Trife Diesel)",
+    "album": "Hidden Darts Special Edition"
+  },
+  {
+    "id": "6d22a6f33769d056b8f2",
+    "artist": "Ghostface Killah",
+    "title": "Rise of the Ghostface Killah (Cuts by DJ Mekalek)",
+    "album": "Twelve Reasons to Die"
+  },
+  {
+    "id": "14dedf67e93f9dbf2b3f",
+    "artist": "Ghostface Killah",
+    "title": "Shakey Dog",
+    "album": "Fishscale",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "299d3fe1e63c3abefe96",
+    "artist": "Ghostface Killah",
+    "title": "The Champ",
+    "album": "Fishscale",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "aa92323f2a0e01c2fc65",
+    "artist": "Ghostface Killah",
+    "title": "The Forest",
+    "album": "Bulletproof Wallets",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ddd7a7e1157485050560",
+    "artist": "Ghostface Killah",
+    "title": "The Hilton (Featuring Raekwon)",
+    "album": "Bulletproof Wallets",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e063ca0e4382a6cdbd09",
+    "artist": "Ghostface Killah",
+    "title": "The Sun",
+    "album": "Bulletproof Wallets"
+  },
+  {
+    "id": "dc15a3f66f6325398b35",
+    "artist": "Ghostface Killah",
+    "title": "The Sun",
+    "album": "Hidden Darts",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8d2a939f32f05969f48a",
+    "artist": "Ghostface Killah",
+    "title": "Toney Sigel a.k.a. The Barrel Brothers",
+    "album": "The Big Doe Rehab",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "57b91b429808edfce4d3",
+    "artist": "Ghostface Killah",
+    "title": "Wallabee Champ",
+    "album": "The Wallabee Champ"
+  },
+  {
+    "id": "0e21f77a20ae06495497",
+    "artist": "Ghostface Killah",
+    "title": "When You Walk",
+    "album": "Hidden Darts",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "1af6b3cef1b358a12af1",
+    "artist": "Ghostface Killah",
+    "title": "Whip You With a Strap",
+    "album": "Fishscale",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "de327e48529e5743cd80",
+    "artist": "Ghostface Killah",
+    "title": "Wildflower",
+    "album": "Ironman",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "a45a52ba042a9e209492",
+    "artist": "Ghostface Killah feat. Jadakiss",
+    "title": "Be Out (rmx)",
+    "album": "The Wallabee Champ"
+  },
+  {
+    "id": "84681ccb9c8c861d717b",
+    "artist": "Ghostface Killah feat. Raekwon",
+    "title": "Apollo Kids",
+    "album": "Supreme Clientele"
+  },
+  {
     "id": "c0c5876df6e998e47eb3",
     "artist": "Ghostface Killah feat. Raekwon",
     "title": "Kilo",
     "album": "Fishscale"
+  },
+  {
+    "id": "5468346c155ecac23a5b",
+    "artist": "Ghostface Killah feat. Raekwon",
+    "title": "The Watch",
+    "album": "Put It on the Line"
+  },
+  {
+    "id": "41efe038899cd13fd7ca",
+    "artist": "Ghostface Killah feat. Raekwon & Method Man",
+    "title": "Yolanda’s House",
+    "album": "The Big Doe Rehab",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "027d7d5a6725491e0cc6",
+    "artist": "Ghostface Killah feat. Raekwon & U‐God",
+    "title": "Black Jesus",
+    "album": "Ironman",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "6197f49a10b50181597c",
+    "artist": "Ghostface Killah feat. Sun God",
+    "title": "Street Opera",
+    "album": "More Fish"
+  },
+  {
+    "id": "c4fdaddb32dc0d9494c7",
+    "artist": "Ghostface Killah feat. Trife Diesel",
+    "title": "Be Easy",
+    "album": "Fishscale",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "406790dcb54c3d1aeb79",
+    "artist": "Ghostface Killah, Jadakiss",
+    "title": "Run",
+    "album": "The Pretty Toney Album"
   },
   {
     "id": "694771d1e13f47e22ed4",
@@ -3954,11 +6461,57 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "00cd2455a8dfd443a747",
+    "artist": "Gladstone Anderson & Lynn Taitt & The Jets",
+    "title": "If I Only Had Time",
+    "album": "Jamaica's Glad Sounds - Let's Go Native",
+    "genre": "Reggae"
+  },
+  {
+    "id": "cbfd164ef1f8e278c387",
+    "artist": "Gladstone Anderson & Lynn Taitt & The Jets",
+    "title": "Words",
+    "album": "Jamaica's Glad Sounds - Let's Go Native",
+    "genre": "Reggae"
+  },
+  {
+    "id": "e1d9651ac848af06849c",
+    "artist": "Gladstone Anderson & The Jets",
+    "title": "If I Only Had Time",
+    "album": "Trojan Sixties Box Set Disc 3",
+    "genre": "Reggae"
+  },
+  {
+    "id": "eb238ed0f6b22b61f897",
+    "artist": "Gladys Knight & The Pips",
+    "title": "Midnight Train To Georgia",
+    "album": "Can You Dig It? The '70s Soul Experience (CD 4)"
+  },
+  {
+    "id": "ede9088ec0bbd99d0706",
+    "artist": "Gladys Knight & The Pips",
+    "title": "Midnight Train To Georgia",
+    "album": "Greatest Hits"
+  },
+  {
+    "id": "f73ccaffc08445e17bbf",
+    "artist": "Gladys Knight & The Pips",
+    "title": "Neither One Of Us (Wants To Be The First To Say Goodbye)",
+    "album": "Singles"
+  },
+  {
     "id": "fc7af5af698e5e575ed2",
     "artist": "Glen Campbell",
     "title": "Wichita Lineman",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Rock"
+  },
+  {
+    "id": "17c696e265fd99906660",
+    "artist": "Gloria Crawford",
+    "title": "Sad Movies Make Me Cry",
+    "album": "Trojan Country Reggae Box Set (Disc 1)",
+    "genre": "Reggae"
   },
   {
     "id": "efa93bb4762512ffdafb",
@@ -3968,10 +6521,36 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "b7ced76371abb959b3d9",
+    "artist": "Goblin",
+    "title": "Suspiria",
+    "album": "Suspiria: 40th Anniversary"
+  },
+  {
+    "id": "3def333c61eb5bce481d",
+    "artist": "Gotye",
+    "title": "Somebody That I Used to Know",
+    "album": "Somebody That I Used to Know"
+  },
+  {
     "id": "f179bbcbd3115b8aeb59",
     "artist": "Grateful Dead",
     "title": "Friend of the Devil",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
+    "genre": "Rock"
+  },
+  {
+    "id": "4426c1afa65a61b282b5",
+    "artist": "Grateful Dead",
+    "title": "Touch Of Grey",
+    "album": "1989-07-12 - RFK Stadium - Washington, DC",
+    "genre": "Rock"
+  },
+  {
+    "id": "e1dec275ab2c864bb884",
+    "artist": "Grateful Dead",
+    "title": "Touch of Grey",
+    "album": "In the Dark",
     "genre": "Rock"
   },
   {
@@ -3987,6 +6566,79 @@
     "title": "Hold You",
     "album": "Reggae Gold 2012",
     "genre": "Reggae"
+  },
+  {
+    "id": "fe739ea99fa8da0223f1",
+    "artist": "GZA",
+    "title": "4th Chamber",
+    "album": "Liquid Swords",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f6e5eb2f89bc40596a6a",
+    "artist": "GZA",
+    "title": "B.I.B.L.E. (Basic Instructions Before Leaving Earth)",
+    "album": "Liquid Swords"
+  },
+  {
+    "id": "8b2566fa780f994983a6",
+    "artist": "GZA",
+    "title": "Duel of the Iron Mic",
+    "album": "Liquid Swords",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "1619e1c20ee78ed9b25e",
+    "artist": "GZA",
+    "title": "Wu-Tang Clan Live Freestyle",
+    "album": "Wu-Chronicles: Chapter 2",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8e5980fa880c428cc1f0",
+    "artist": "GZA/Genius",
+    "title": "7 Pounds",
+    "album": "Pro Tools",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "1b6248174b04e8a434f3",
+    "artist": "GZA/Genius",
+    "title": "Breaker, Breaker",
+    "album": "Beneath the Surface",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "cc06c8e855ef56bd4293",
+    "artist": "GZA/Genius",
+    "title": "Knock, Knock",
+    "album": "Legend of the Liquid Sword"
+  },
+  {
+    "id": "5012acfdf8b0220a4ff3",
+    "artist": "GZA/Genius",
+    "title": "Labels",
+    "album": "Liquid Swords",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f68874e6b0095228ba55",
+    "artist": "GZA/Genius",
+    "title": "Liquid Swords",
+    "album": "Liquid Swords"
+  },
+  {
+    "id": "f8d96ba38269f5dcb3c1",
+    "artist": "GZA/Genius",
+    "title": "Publicity",
+    "album": "Beneath the Surface"
+  },
+  {
+    "id": "7870ef35443a5e63fed3",
+    "artist": "GZA/The Genius",
+    "title": "Animal Planet",
+    "album": "Legend Of The Liquid Sword",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "dbf29619e9d300f901a8",
@@ -4084,6 +6736,52 @@
     "artist": "Hanako Fukuda; Marilyn Powell; Richard Robinson",
     "title": "Water Wheel",
     "album": "Favorite Songs Of Japanese Children"
+  },
+  {
+    "id": "d0bff087f1eb9ac695c7",
+    "artist": "Harold Melvin & The Blue Notes",
+    "title": "Don't Leave Me This Way",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "dccd9068a3765397ce63",
+    "artist": "Harold Melvin & The Blue Notes",
+    "title": "Don't Leave Me This Way",
+    "album": "Wake Up Everybody",
+    "genre": "Disco; Soul"
+  },
+  {
+    "id": "920e41d1fa65073e87c3",
+    "artist": "Harold Melvin & The Blue Notes",
+    "title": "If You Don't Know Me By Now",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "4d9d3406d08266c4178d",
+    "artist": "Harold Melvin & The Blue Notes",
+    "title": "The Love I Lost--Part I",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "41b9b04d75f054839ede",
+    "artist": "Harry J Allstars",
+    "title": "My Cherie Amour",
+    "album": "Liquidator",
+    "genre": "Reggae"
+  },
+  {
+    "id": "deeb89539ff1163b0663",
+    "artist": "Harry J Allstars",
+    "title": "My Cherie Amour",
+    "album": "Liquidator [Expanded Edition]",
+    "genre": "Reggae"
+  },
+  {
+    "id": "c619cd30ddc037af1b06",
+    "artist": "Harry J Allstars",
+    "title": "Put A Little Love In Your Heart (The Big Three)",
+    "album": "Trojan Sixties Box Set Disc 3",
+    "genre": "Reggae"
   },
   {
     "id": "e42dc2f1b2f48ab2c849",
@@ -4251,6 +6949,13 @@
     "album": "Kiddies Playtime Songs"
   },
   {
+    "id": "4a2b16ef33b6eb20df47",
+    "artist": "Hopeton Lewis",
+    "title": "Mighty Quinn",
+    "album": "Trojan Sixties Box Set CD1",
+    "genre": "Reggae"
+  },
+  {
     "id": "50d4f30874a444ee0964",
     "artist": "Howard Chitjian and the Concert Band of Los Angeles",
     "title": "America",
@@ -4359,6 +7064,18 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "447a19da45b8bd73af33",
+    "artist": "Hues Corporation",
+    "title": "Rock the Boat",
+    "album": "Rockin Soul & Love Corporation"
+  },
+  {
+    "id": "9512be3d19f282645b85",
+    "artist": "Hues Corporation",
+    "title": "Rock The Boat",
+    "album": "Singles"
+  },
+  {
     "id": "2b1c5d902fb80106c246",
     "artist": "Huey Lewis And The News",
     "title": "The Power Of Love (Instrumental)",
@@ -4375,6 +7092,13 @@
     "artist": "Huey Lewis And The News",
     "title": "The Power Of Love (Remix)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "8ea916397411b88522cb",
+    "artist": "Icona Pop feat. Charli xcx",
+    "title": "I Love It",
+    "album": "I Love It",
+    "genre": "Dance"
   },
   {
     "id": "0a0106d3f24ed1662922",
@@ -4414,6 +7138,87 @@
     "album": "Hot"
   },
   {
+    "id": "f0ff0b67b9e8f6f750c7",
+    "artist": "Inner Circle",
+    "title": "Homely Girl",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8adb2272caee4effb4e4",
+    "artist": "Inner Circle",
+    "title": "Rock The Boat",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "927c7525e043272d568e",
+    "artist": "Inner Circle",
+    "title": "T.S.O.P.",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "046ad5d88bc93d004266",
+    "artist": "Inspectah Deck",
+    "title": "Elevation",
+    "album": "Uncontrolled Substance",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "1292015652db2cb7c15d",
+    "artist": "Inspectah Deck",
+    "title": "Get Ya Weight Up",
+    "album": "The Resident Patient"
+  },
+  {
+    "id": "cd04d67ae5efb6d273b4",
+    "artist": "Inspectah Deck",
+    "title": "I.O.U.",
+    "album": "The Resident Patient"
+  },
+  {
+    "id": "75627d49699ec3fdf6be",
+    "artist": "Inspectah Deck",
+    "title": "Movas & Shakers",
+    "album": "Uncontrolled Substance",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "77b4fd2fd59fde1ade0d",
+    "artist": "Inspectah Deck",
+    "title": "Show N Prove",
+    "album": "Uncontrolled Substance",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f1fafae672058478d6ba",
+    "artist": "Inspectah Deck",
+    "title": "Strawberries & Cream (Feat RZA & Ghostface)",
+    "album": "J-Love-Return Of The Swarm Part 3"
+  },
+  {
+    "id": "28c6c10f2205cd53dc74",
+    "artist": "Inspectah Deck",
+    "title": "That Shit",
+    "album": "The Movement",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d4f5f70bd675be39a73b",
+    "artist": "Inspectah Deck",
+    "title": "Uncontrolled Substance Featuring Shadii (Explicit Version)",
+    "album": "Uncontrolled Substance (Explicit)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "7c80ab9f5df0df659115",
+    "artist": "Inspectah Deck feat. Streetlife",
+    "title": "S.O.S.",
+    "album": "The Swarm, Volume 1",
+    "genre": "Rock"
+  },
+  {
     "id": "1da989dee63b8db8d0c2",
     "artist": "Irma Thomas",
     "title": "Time Is On My Side",
@@ -4428,6 +7233,24 @@
     "genre": "Soul"
   },
   {
+    "id": "37b9529c55951688d7ba",
+    "artist": "Isaac Hayes",
+    "title": "Theme from 'Shaft'",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "d0ffb4213549f2e3fb67",
+    "artist": "Isaac Hayes",
+    "title": "Theme From Shaft",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
+    "id": "5eca2aa748e0853a99b4",
+    "artist": "Isaac Hayes",
+    "title": "Theme From Shaft",
+    "album": "Singles"
+  },
+  {
     "id": "56afd07328de30f054dc",
     "artist": "Isley Brothers",
     "title": "It's Your Thing",
@@ -4435,11 +7258,24 @@
     "genre": "Soul"
   },
   {
+    "id": "6f4196d75eead0d1aaa9",
+    "artist": "Isley Brothers",
+    "title": "Love The One You're With",
+    "album": "Singles"
+  },
+  {
     "id": "bfa1571887840713faa7",
     "artist": "Jackie Wilson",
     "title": "(Your Love Keeps Lifting Me) Higher And Higher",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
+  },
+  {
+    "id": "d88f73f9b53fd053d2f0",
+    "artist": "Jackson 5",
+    "title": "If The Shoe Don't Fit",
+    "album": "Come And Get It: The Rare Pearls",
+    "genre": "Pop; Rock"
   },
   {
     "id": "7591a01083c5c71c38fb",
@@ -4460,6 +7296,19 @@
     "title": "All About Me (Dub)",
     "album": "All About Me",
     "genre": "Reggae"
+  },
+  {
+    "id": "95be386ba499659a751b",
+    "artist": "James Brown",
+    "title": "Funky Drummer",
+    "album": "Star Time",
+    "genre": "R&B"
+  },
+  {
+    "id": "a0bf670988b4190ffdea",
+    "artist": "James Brown",
+    "title": "Funky Drummer",
+    "album": "Ultimate Breaks & Beats: The Complete Collection"
   },
   {
     "id": "9e9b0c280ec8bdbb7271",
@@ -4534,6 +7383,13 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "3ce6641c931ccb7951e7",
+    "artist": "Janelle Monáe feat. Big Boi",
+    "title": "Tightrope",
+    "album": "The ArchAndroid",
+    "genre": "R&B"
+  },
+  {
     "id": "224f7c41c9c36da2d802",
     "artist": "Janis Joplin",
     "title": "Me And Bobby McGee",
@@ -4546,6 +7402,35 @@
     "title": "Me And Bobby McGee Alternate Version",
     "album": "Janis CD3",
     "genre": "Blues"
+  },
+  {
+    "id": "74bfb53eb8649ec7cede",
+    "artist": "Jars of Clay",
+    "title": "Flood",
+    "album": "Jars of Clay"
+  },
+  {
+    "id": "20404b1a9dc2c54cf7ce",
+    "artist": "Jars Of CLay",
+    "title": "Flood (114.6)",
+    "album": "Hot Tracks 15th Anniversary Collectors Edition FLAC"
+  },
+  {
+    "id": "1dbec1c05bc66998eaec",
+    "artist": "Jars of Clay",
+    "title": "Worlds Apart",
+    "album": "Jars of Clay"
+  },
+  {
+    "id": "5e69865e304f464e19f2",
+    "artist": "Jean Knight",
+    "title": "Mr. Big Stuff"
+  },
+  {
+    "id": "dcd8c8e62f928ce202c1",
+    "artist": "Jeff Buckley",
+    "title": "Hallelujah",
+    "album": "Grace"
   },
   {
     "id": "3a5559cc801df8684f19",
@@ -4605,6 +7490,12 @@
     "album": "The Harder They Come (Original Motion Picture Soundtrack)"
   },
   {
+    "id": "487e791f1e88adbfb31a",
+    "artist": "Jimmy Cliff",
+    "title": "Many Rivers To Cross (From \"The Harder They Come\" Soundtrack)",
+    "album": "The Harder They Come"
+  },
+  {
     "id": "20bed2611f8cbc4e45b4",
     "artist": "Jimmy Cliff",
     "title": "The Harder They Come",
@@ -4616,6 +7507,12 @@
     "artist": "Jimmy Cliff",
     "title": "The Harder They Come",
     "album": "The Harder They Come (Original Motion Picture Soundtrack)"
+  },
+  {
+    "id": "9b9720d06ec080d052ca",
+    "artist": "Jimmy Cliff",
+    "title": "The Harder They Come (From \"The Harder They Come\" Soundtrack)",
+    "album": "The Harder They Come"
   },
   {
     "id": "ca7bc68c9e238b6c8453",
@@ -4637,11 +7534,36 @@
     "album": "With a Little Help From My Friends"
   },
   {
+    "id": "644bec85e807b8ffa722",
+    "artist": "Joe Simon",
+    "title": "Drowning In The Sea Of Love",
+    "album": "Singles"
+  },
+  {
+    "id": "bd42cba39b6fc7b4e77b",
+    "artist": "Joe White",
+    "title": "Me And Mrs. Jones",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
     "id": "cbc93d9c54d8021874ad",
     "artist": "John Coltrane",
     "title": "My Favorite Things",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Jazz"
+  },
+  {
+    "id": "b749a03b79c3558267de",
+    "artist": "John Holt",
+    "title": "Touch Me In The Morning",
+    "album": "Reggae/Dancehall"
+  },
+  {
+    "id": "3ba90e62d29ad093ae42",
+    "artist": "John Mayer",
+    "title": "Neon",
+    "album": "Inside Wants Out"
   },
   {
     "id": "98e999518cf748ed1ecb",
@@ -4710,6 +7632,37 @@
     "album": "Songs The Kids Brought Home From Camp"
   },
   {
+    "id": "2a75dd5b4a54d7459b30",
+    "artist": "John Williams",
+    "title": "Carol of the Bells (From \"Home Alone\" Soundtrack)",
+    "album": "Kevin - Allein zu Haus"
+  },
+  {
+    "id": "41efaae82acb6eed7fb6",
+    "artist": "Johnny Bristol",
+    "title": "Hang On In There Baby",
+    "album": "Can You Dig It? The '70s Soul Experience (CD 5)"
+  },
+  {
+    "id": "6490ef182dfb03b22ad3",
+    "artist": "Johnny Bristol",
+    "title": "Hang On In There Baby",
+    "album": "Classic Cuts: Disco"
+  },
+  {
+    "id": "09d5ec22cc3cd232cf9f",
+    "artist": "Johnny Bristol",
+    "title": "Hang On In There Baby",
+    "album": "Hang on in There Baby",
+    "genre": "Soul"
+  },
+  {
+    "id": "357cfc584a4d101c7c51",
+    "artist": "Johnny Bristol",
+    "title": "Hang On In There Baby",
+    "album": "Singles"
+  },
+  {
     "id": "6cd120bd47d6cdf874b4",
     "artist": "Johnny Cash",
     "title": "Folsom Prison Blues",
@@ -4731,10 +7684,44 @@
     "genre": "Country"
   },
   {
+    "id": "d6a792d87327e501d742",
+    "artist": "Joni Mitchell",
+    "title": "06 California",
+    "album": "Blue",
+    "genre": "Rock"
+  },
+  {
     "id": "bde95cc573fd31f9a6f3",
     "artist": "Joni Mitchell",
     "title": "A Case Of You",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "b7bf9f2d129595dc433c",
+    "artist": "Joni Mitchell",
+    "title": "All I Want",
+    "album": "Blue (DCC)",
+    "genre": "Folk"
+  },
+  {
+    "id": "0fad4d1ea5c9d59abeee",
+    "artist": "Joni Mitchell",
+    "title": "All I Want",
+    "album": "Carnegie Hall 1972",
+    "genre": "Rock"
+  },
+  {
+    "id": "7b52cb5098da87c71cb8",
+    "artist": "Joni Mitchell",
+    "title": "Blue",
+    "album": "Blue",
+    "genre": "Folk"
+  },
+  {
+    "id": "6281e8e32dde0bc38931",
+    "artist": "Joni Mitchell",
+    "title": "Carey",
+    "album": "Blue"
   },
   {
     "id": "2df489b5965530afc704",
@@ -4742,6 +7729,38 @@
     "title": "Free Man In Paris",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Folk"
+  },
+  {
+    "id": "345db3f46aefb4498f2a",
+    "artist": "Joni Mitchell",
+    "title": "Little Green",
+    "album": "Indie"
+  },
+  {
+    "id": "75752b14a9cfc88de2d7",
+    "artist": "Joni Mitchell",
+    "title": "My Old Man",
+    "album": "Blue"
+  },
+  {
+    "id": "6c297092da3cb48f59cf",
+    "artist": "Joni Mitchell",
+    "title": "River",
+    "album": "Blue",
+    "genre": "Pop; Rock"
+  },
+  {
+    "id": "25a1b320b939a24e7831",
+    "artist": "Joni Mitchell",
+    "title": "The Last Time I Saw Richard",
+    "album": "Blue (DCC)",
+    "genre": "Folk"
+  },
+  {
+    "id": "3962a964a70dc35b343e",
+    "artist": "Joni Mitchell",
+    "title": "This Flight Tonight",
+    "album": "Blue"
   },
   {
     "id": "65ddae95d9cbcabbd771",
@@ -4774,6 +7793,19 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "fef7e99de7b79d1abbf9",
+    "artist": "Joy White",
+    "title": "My Guy",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "4378b353bd9415ee7467",
+    "artist": "Jr Walker & The All Stars",
+    "title": "Shake And Fingerpop",
+    "album": "Greatest Hits"
+  },
+  {
     "id": "f4ee0a4f6c42f2a53990",
     "artist": "Judee Sill",
     "title": "The Kiss",
@@ -4781,9 +7813,30 @@
     "genre": "Folk"
   },
   {
+    "id": "184e1a2e19a83207ee7f",
+    "artist": "Junior Murvin",
+    "title": "Police and Thieves",
+    "album": "Police & Thieves (Deluxe Edition)",
+    "genre": "Reggae"
+  },
+  {
     "id": "0a566f0b85adb6d0aafe",
     "artist": "Junior Reid",
     "title": "One Blood"
+  },
+  {
+    "id": "9740e2f7cae6e1138280",
+    "artist": "Justin Hinds & The Dominoes",
+    "title": "You Should Have Known Better",
+    "album": "Ska Uprising",
+    "genre": "Ska"
+  },
+  {
+    "id": "ed4c5299a971fafa6d02",
+    "artist": "Justins Hinds & The Dominoes",
+    "title": "Botheration",
+    "album": "Ba Ba Boom Duke Reid-Classic Rock Steady & Reggae",
+    "genre": "Reggae"
   },
   {
     "id": "906e25ca34c0c39d5632",
@@ -4810,6 +7863,30 @@
     "title": "Wuthering Heights",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Rock"
+  },
+  {
+    "id": "a532caf44faa8cb07703",
+    "artist": "Keith & Tex",
+    "title": "Don't Look Back",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "811adfded0ac65edda9f",
+    "artist": "Ken Boothe",
+    "title": "Ain't No Sunshine"
+  },
+  {
+    "id": "a7b89548e695b267c801",
+    "artist": "Ken Boothe",
+    "title": "Let's Get It On",
+    "album": "The Reggae Love Collection Version Two: Original Trojan & Creole Recordings",
+    "genre": "Reggae"
+  },
+  {
+    "id": "0d20c457a203d403e26c",
+    "artist": "Ken Lazarus",
+    "title": "Sugar, Sugar",
+    "album": "Trojan Sixties Box Set"
   },
   {
     "id": "c94b3d88a9e45e978151",
@@ -4908,6 +7985,12 @@
     "album": "Myself"
   },
   {
+    "id": "e344f2b3ec1a30934ee5",
+    "artist": "Kidz Bop Kids",
+    "title": "Savage Love",
+    "album": "KIDZ BOP BEST SONGS EVER"
+  },
+  {
     "id": "92cc77751ff3bc96d93c",
     "artist": "King Crimson",
     "title": "21st Century Schizoid Man (Including 'Mirrors')",
@@ -5003,6 +8086,26 @@
     "title": "The Fine Print",
     "album": "Take Me to Your Leader",
     "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "cdb48848a664097bdc6e",
+    "artist": "King Horror",
+    "title": "Frankenstein",
+    "album": "Loch Ness Monster & Funky Chicken (1968-70)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "105dec83f202bc1097fb",
+    "artist": "King Horror",
+    "title": "Frankenstein",
+    "album": "Skinhead Train: The Complete Singles Collection 1969-1970",
+    "genre": "Reggae"
+  },
+  {
+    "id": "3b27c8523b601a0c4e0d",
+    "artist": "Kirk Franklin",
+    "title": "Revolution",
+    "album": "The Nu Nation Project"
   },
   {
     "id": "51a669146d202c4d0b3c",
@@ -5304,6 +8407,12 @@
     "album": "Galloping on My Dinosaur and Other Fun Songs for Children"
   },
   {
+    "id": "bda1608bdf1dfe35da5a",
+    "artist": "LCD Soundsystem",
+    "title": "All My Friends",
+    "album": "Sound of Silver"
+  },
+  {
     "id": "083be2a611db8ca3ea29",
     "artist": "Led Zeppelin",
     "title": "Dazed And Confused",
@@ -5342,6 +8451,13 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "86c1e87e30a697d42d55",
+    "artist": "Lee “Scratch” Perry & The Dynamites",
+    "title": "Gumma (single mix)",
+    "album": "Chicken Scratch",
+    "genre": "Reggae"
+  },
+  {
     "id": "9a534654964e9d15e5e3",
     "artist": "Leonard Cohen",
     "title": "Famous Blue Raincoat",
@@ -5361,6 +8477,33 @@
     "genre": "Folk"
   },
   {
+    "id": "556a2df93a0398843e54",
+    "artist": "Leroy Sibbles",
+    "title": "Break Up To Make Up",
+    "album": "DJ Muro: Uncovered Reggae Version Pt.2",
+    "genre": "Reggae"
+  },
+  {
+    "id": "83a4e70859d058f1a47c",
+    "artist": "Leroy Sibbles",
+    "title": "Break Up To Make Up",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "9743b3b582f4218944ac",
+    "artist": "Leslie Butler & The Fugitives",
+    "title": "Winchester Cathedral",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "e67507474dd574de5be2",
+    "artist": "Lester Sterling",
+    "title": "Reggae In The Wind (Blowin' In The Wind)",
+    "album": "Trojan Sixties Box Set Disc 3",
+    "genre": "Reggae"
+  },
+  {
     "id": "7e82decbfbb8cebc23bb",
     "artist": "Lil Jon & The East Side Boyz",
     "title": "Get Low",
@@ -5371,6 +8514,13 @@
     "artist": "Lil Wayne feat. Static Major",
     "title": "Lollipop",
     "album": "Tha Carter III"
+  },
+  {
+    "id": "65c68715c0cf665ae571",
+    "artist": "Lil' Romeo",
+    "title": "My Baby",
+    "album": "Billboard Usa - Top 100 Hits Of 2001 - Flac",
+    "genre": "Pop"
   },
   {
     "id": "ed3424a4f28c1ab0b32f",
@@ -5389,6 +8539,59 @@
     "artist": "Lil’ Kim feat. Mr. Cheeks",
     "title": "The Jump Off",
     "album": "La Bella Mafia"
+  },
+  {
+    "id": "accd744321e2428d9348",
+    "artist": "Lloyd Charmers",
+    "title": "Come See About Me",
+    "album": "Highlights & Lowbites - The Many Sides Of Lloyd Charmers 1967-74",
+    "genre": "Reggae"
+  },
+  {
+    "id": "9754b69397deb243dc1b",
+    "artist": "Lloyd Charmers",
+    "title": "Come See About Me",
+    "album": "Lloyd Charmers & Friends - Reggae In Wonderland - The Splash Singles Collection 1969-1971"
+  },
+  {
+    "id": "4d732c2dd7b2ad762e0a",
+    "artist": "Lloyd Charmers",
+    "title": "Honey",
+    "album": "Reggae Is Tight And Reggae Charm",
+    "genre": "Reggae"
+  },
+  {
+    "id": "cae129d383f073cfa10b",
+    "artist": "Lloyd Charmers",
+    "title": "Just My Imagination"
+  },
+  {
+    "id": "0d31b46c66c6326009f2",
+    "artist": "Lloyd Parks",
+    "title": "Kung Fu Fighting",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "237cbd7c0126523837d4",
+    "artist": "Lloyd Parks",
+    "title": "Stop The War Now",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "297b24420ea22d95fc7f",
+    "artist": "Lord Creator",
+    "title": "Don't Stay Out Late",
+    "album": "Don't Stay Out Late - Greatest Hits",
+    "genre": "Reggae"
+  },
+  {
+    "id": "a1eef8aed5011677c199",
+    "artist": "Lord Creator",
+    "title": "Don't stay Out Late",
+    "album": "Rough Guide - Ska",
+    "genre": "Ska"
   },
   {
     "id": "4f145696db77ead447c8",
@@ -5419,6 +8622,38 @@
     "genre": "Soul"
   },
   {
+    "id": "b88a83b489e15c9c0506",
+    "artist": "Lou Rawls",
+    "title": "Lady Love",
+    "album": "Singles"
+  },
+  {
+    "id": "4fddcb68c0e85b12ae2f",
+    "artist": "Lou Rawls",
+    "title": "Lady Love",
+    "album": "When You Hear Lou, You've Heard It All",
+    "genre": "Jazz"
+  },
+  {
+    "id": "3c15b6491fcb995b2b93",
+    "artist": "Lou Rawls",
+    "title": "You'll Never Find Another Love Like Mine",
+    "album": "Can You Dig It? The '70s Soul Experience (CD 6)"
+  },
+  {
+    "id": "aadc869683c72b09fd0e",
+    "artist": "Lou Rawls",
+    "title": "You'll Never Find Another Love Like Mine",
+    "album": "Disco",
+    "genre": "Disco"
+  },
+  {
+    "id": "7e265c312fdbdc93d760",
+    "artist": "Lou Rawls",
+    "title": "You'll Never Find Another Love Like MIne",
+    "album": "Singles"
+  },
+  {
     "id": "f6ab6f71775a796470d1",
     "artist": "Lou Reed",
     "title": "Perfect Day",
@@ -5445,6 +8680,18 @@
     "title": "Alone Again Or",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Rock"
+  },
+  {
+    "id": "3ea77c15a3e4b9ab6c51",
+    "artist": "Lynn Taitt",
+    "title": "To Sir with Love",
+    "album": "Rock Steady Greatest Hits"
+  },
+  {
+    "id": "a01f5691b813343e091a",
+    "artist": "Lynn Taitt & the Jets",
+    "title": "Puppet On A String",
+    "album": "Prod Richard Khouri for Merritone"
   },
   {
     "id": "b9b1ffb5862f43a2d5aa",
@@ -5861,6 +9108,12 @@
     "genre": "Rock"
   },
   {
+    "id": "40226b0213a8bd8ffec6",
+    "artist": "Marshmello",
+    "title": "Alone",
+    "album": "Alone"
+  },
+  {
     "id": "ccc5c5c17c6825d8b961",
     "artist": "Marvin Gaye",
     "title": "Got To Give It Up",
@@ -5874,11 +9127,36 @@
     "genre": "Soul"
   },
   {
+    "id": "d138c45e884be940c933",
+    "artist": "Marvin Gaye",
+    "title": "I Heard It Through The Grapevine - Single Version (Mono)",
+    "album": "The Best Of Marvin Gaye"
+  },
+  {
     "id": "76e153b79432c4daaefa",
     "artist": "Marvin Gaye",
     "title": "I Want You",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Soul"
+  },
+  {
+    "id": "e5075d206b72ff2a5a75",
+    "artist": "Marvin Gaye",
+    "title": "Let's Get It On",
+    "album": "Singles"
+  },
+  {
+    "id": "f3d0ada92780426f1965",
+    "artist": "Marvin Gaye",
+    "title": "Mercy Mercy Me (the Ecology)",
+    "album": "The Very Best of Marvin Gaye, Disc 2",
+    "genre": "R&B"
+  },
+  {
+    "id": "44101780d72307b09403",
+    "artist": "Marvin Gaye",
+    "title": "Trouble Man",
+    "album": "The Marvin Gaye Collection"
   },
   {
     "id": "0003e228162ba1a03148",
@@ -5891,6 +9169,77 @@
     "artist": "Mary J. Blige",
     "title": "Real Love",
     "album": "What’s the 411?"
+  },
+  {
+    "id": "10d0068d46482a87f0ab",
+    "artist": "Masta Killa",
+    "title": "No Said Date",
+    "album": "No Said Date"
+  },
+  {
+    "id": "3f1160a4cbf7344be58b",
+    "artist": "Masta Killa",
+    "title": "Queen",
+    "album": "No Said Date"
+  },
+  {
+    "id": "1c137846ba15c2c87436",
+    "artist": "Masta Killa",
+    "title": "R U listening",
+    "album": "Selling My Soul"
+  },
+  {
+    "id": "58f770c40b33ba701a67",
+    "artist": "Masta Killa",
+    "title": "Things Just Aint the Same",
+    "album": "Selling My Soul",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "eaa561d900c32a19be48",
+    "artist": "Masta Killa & Superb",
+    "title": "The Man",
+    "album": "Ghost Dog: The Way of the Samurai: The Album"
+  },
+  {
+    "id": "b1b34553f96b8ce67248",
+    "artist": "Masta Killa feat. Streetlife & Prodigal Sunn",
+    "title": "Whatever",
+    "album": "No Said Date"
+  },
+  {
+    "id": "43f53f4a1c96189b3a75",
+    "artist": "Matumbi",
+    "title": "Brother louie",
+    "album": "Nova classics vol. 6"
+  },
+  {
+    "id": "7a20ee0c9aad1be4fb5f",
+    "artist": "Matumbi",
+    "title": "Law Of The Land",
+    "album": "Music In The Air (Disc1)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "29de8c62266bbdc80b40",
+    "artist": "Matumbi",
+    "title": "Law Of The Land",
+    "album": "Playtime Reggae: 20 Pures Reggae Oldies",
+    "genre": "Reggae"
+  },
+  {
+    "id": "dea75356d3801fc49686",
+    "artist": "Matumbi",
+    "title": "Law Of The Land",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "4f7612ce4f971ac442ea",
+    "artist": "Matumbi",
+    "title": "Reggae Stuff",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
   },
   {
     "id": "e7cb730449c212ddc08e",
@@ -5912,6 +9261,39 @@
     "album": "Gangsta for Life: The Symphony of David Brooks"
   },
   {
+    "id": "de1cbdc1663090bf5512",
+    "artist": "Max Romeo",
+    "title": "Chase the Devil",
+    "album": "War Ina Babylon"
+  },
+  {
+    "id": "357424cc5afa78f07af8",
+    "artist": "Mayer Hawthorne",
+    "title": "A Long Time",
+    "album": "How Do You Do",
+    "genre": "R&B"
+  },
+  {
+    "id": "97911ddc60a1649ba346",
+    "artist": "Mayer Hawthorne",
+    "title": "Just Ain't Gonna Work Out",
+    "album": "A Strange Arrangement",
+    "genre": "Funk"
+  },
+  {
+    "id": "42e63f77b7278e3ae4d8",
+    "artist": "Mayer Hawthorne",
+    "title": "The Walk",
+    "album": "How Do You Do"
+  },
+  {
+    "id": "15a8019890972b2020cd",
+    "artist": "Mayer Hawthorne",
+    "title": "Your Easy Lovin' Ain't Pleasin' Nothin'",
+    "album": "A Strange Arrangement",
+    "genre": "Funk"
+  },
+  {
     "id": "9f5e93fbccb7b8a3ee94",
     "artist": "MC5",
     "title": "Kick Out The Jams",
@@ -5923,6 +9305,12 @@
     "artist": "Meek Mill",
     "title": "Dreams and Nightmares",
     "album": "Dreams and Nightmares"
+  },
+  {
+    "id": "887ffbd88f63c644c328",
+    "artist": "Mel & Tim",
+    "title": "Starting All Over Again",
+    "genre": "Disco; Funk; Soul"
   },
   {
     "id": "5fce7d408debca1188ae",
@@ -5948,6 +9336,114 @@
     "title": "Mama Tried",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Country"
+  },
+  {
+    "id": "446fa28df1ca56910a55",
+    "artist": "Method Man",
+    "title": "A-YO (Album Version (Explicit))",
+    "album": "Blackout! 2"
+  },
+  {
+    "id": "52cd6ba6f7fe7813068d",
+    "artist": "Method Man",
+    "title": "Break Ups 2 Make Ups",
+    "album": "Tical 2000: Judgement Day",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "3139da2265793c16e157",
+    "artist": "Method Man",
+    "title": "Bring The Pain",
+    "album": "Tical",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d4a7eaec016103946bea",
+    "artist": "Method Man",
+    "title": "Judgement Day",
+    "album": "Tical 2000: Judgement Day",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "bcf1d73a7288714c961d",
+    "artist": "Method Man",
+    "title": "Method Man (Remix)",
+    "album": "Tical",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "c950b8f031d7f2cd6ded",
+    "artist": "Method Man",
+    "title": "Release Yo' Delf",
+    "album": "Tical",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f9e30c57f049c63050a5",
+    "artist": "Method Man",
+    "title": "Tical",
+    "album": "Tical",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "95c3a078de645f0c4d5d",
+    "artist": "Method Man",
+    "title": "What's Happenin'",
+    "album": "Tical 0: The Prequel",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8fb136e9447c3f713436",
+    "artist": "Method Man & Redman",
+    "title": "Cereal Killer",
+    "album": "Blackout!",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "5f521a6a6dd58548e8f5",
+    "artist": "Method Man & Redman",
+    "title": "Da Rockwilder",
+    "album": "Blackout!",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "abb723037baf90b96ca8",
+    "artist": "Method Man & Redman",
+    "title": "How High (remix)",
+    "album": "Blackout!",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8ec23def1a3335d998c3",
+    "artist": "METHOD MAN & REDMAN",
+    "title": "TEAR IT OFF"
+  },
+  {
+    "id": "0dd0b1d7f9a6bf51cdce",
+    "artist": "Method Man feat. Ghostface",
+    "title": "Afterparty",
+    "album": "Tical 0: The Prequel",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "6963bd58e3d857a911a9",
+    "artist": "Method Man feat. Raekwon & The RZA",
+    "title": "Presidential MC",
+    "album": "4:21... The Day After"
+  },
+  {
+    "id": "40ed4d79f0d99b42094a",
+    "artist": "Method Man feat. Streetlife",
+    "title": "Grid Iron (rap)",
+    "album": "Tical 2000: Judgement Day",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2a358afa5bd9e79a2084",
+    "artist": "Method Man, Redman",
+    "title": "Dis Iz 4 All My Smokers",
+    "album": "420 Hits: Method Man & Redman",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "76b9aac6bd2bcf347009",
@@ -6260,11 +9756,32 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "6b16323564c13e0dccc9",
+    "artist": "Mickie Chung",
+    "title": "Breezin'",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "592916c165cbe5ee28e3",
+    "artist": "Mike Dorane",
+    "title": "You Keep Me Hanging On",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
     "id": "bdaf1cc4cae7e7cb80c3",
     "artist": "Miles Davis",
     "title": "Shhh/Peaceful",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Jazz"
+  },
+  {
+    "id": "f5ca6422d52d42b8f08b",
+    "artist": "Millie Jackson",
+    "title": "(If Loving You Is Wrong) I Don't Want to Be Right",
+    "album": "Caught Up",
+    "genre": "Soul"
   },
   {
     "id": "4f91425027302b79ae8b",
@@ -6296,6 +9813,114 @@
     "artist": "Modern English",
     "title": "Someone's Calling",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "56f62fb854ebe40e5f44",
+    "artist": "Modest Mouse",
+    "title": "3rd Planet",
+    "album": "The Moon & Antarctica",
+    "genre": "Alternative"
+  },
+  {
+    "id": "88d0755ace1237755bd8",
+    "artist": "Modest Mouse",
+    "title": "A Different City",
+    "album": "The Moon & Antarctica",
+    "genre": "Alternative"
+  },
+  {
+    "id": "96012027bcd236771fa4",
+    "artist": "Modest Mouse",
+    "title": "Alone Down There",
+    "album": "The Moon & Antarctica",
+    "genre": "Alternative"
+  },
+  {
+    "id": "92d852db90b6a7234b09",
+    "artist": "Modest Mouse",
+    "title": "Dark Center of the Universe",
+    "album": "The Moon & Antarctica",
+    "genre": "Rock"
+  },
+  {
+    "id": "77940a0bdd9e67281f94",
+    "artist": "Modest Mouse",
+    "title": "Gravity Rides Everything",
+    "album": "The Moon & Antarctica",
+    "genre": "Alternative"
+  },
+  {
+    "id": "9ed79d0f8137eafe0806",
+    "artist": "Modest Mouse",
+    "title": "I Came As A Rat",
+    "album": "The Moon & Antarctica"
+  },
+  {
+    "id": "a354ed219ba00567e922",
+    "artist": "Modest Mouse",
+    "title": "Life Like Weeds",
+    "album": "The Moon & Antarctica"
+  },
+  {
+    "id": "4ed73063c7de4c6dfdf7",
+    "artist": "Modest Mouse",
+    "title": "Lives",
+    "album": "The Moon & Antarctica",
+    "genre": "Rock"
+  },
+  {
+    "id": "f90d45d005916de8dc9b",
+    "artist": "Modest Mouse",
+    "title": "Paper Thin Walls",
+    "album": "The Moon & Antarctica"
+  },
+  {
+    "id": "c72cb1f9ae3692f5d19a",
+    "artist": "Modest Mouse",
+    "title": "Perfect Disguise",
+    "album": "The Moon & Antarctica",
+    "genre": "Rock"
+  },
+  {
+    "id": "cc16ee1ae4b202f8d21e",
+    "artist": "Modest Mouse",
+    "title": "The Cold Part",
+    "album": "The Moon & Antarctica",
+    "genre": "Alternative"
+  },
+  {
+    "id": "2cafefeaf8ab4df10a34",
+    "artist": "Modest Mouse",
+    "title": "The Stars Are Projectors",
+    "album": "The Moon & Antarctica",
+    "genre": "Alternative"
+  },
+  {
+    "id": "b9da65cf4a2157011f65",
+    "artist": "Modest Mouse",
+    "title": "Tiny Cities Made of Ashes",
+    "album": "The Moon & Antarctica",
+    "genre": "Alternative"
+  },
+  {
+    "id": "3f29bd561031aeaf92f3",
+    "artist": "Modest Mouse",
+    "title": "Tiny Cities Made of Ashes",
+    "album": "The Moon & Antarctica",
+    "genre": "Rock"
+  },
+  {
+    "id": "62f552c945fc092c038a",
+    "artist": "Modest Mouse",
+    "title": "What People Are Made Of",
+    "album": "The Moon & Antarctica",
+    "genre": "Rock"
+  },
+  {
+    "id": "b400e66ed4de612d5d26",
+    "artist": "Modest Mouse",
+    "title": "Wild Packs Of Family Dogs",
+    "album": "The Moon & Antarctica"
   },
   {
     "id": "a83b13629a03e4d97a03",
@@ -6495,6 +10120,37 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "abba9d4ba01054fdbb03",
+    "artist": "Nick Drake",
+    "title": "Free Ride",
+    "album": "Pink Moon"
+  },
+  {
+    "id": "7b72268ef81c54ed451e",
+    "artist": "Nick Drake",
+    "title": "From The Morning",
+    "album": "Pink Moon"
+  },
+  {
+    "id": "3e2a8e036df5d9da6123",
+    "artist": "Nick Drake",
+    "title": "Harvest Breed",
+    "album": "Pink Moon"
+  },
+  {
+    "id": "226a5ec2ffb2ca95db35",
+    "artist": "Nick Drake",
+    "title": "Horn",
+    "album": "Pink Moon",
+    "genre": "Folk"
+  },
+  {
+    "id": "573c9ff45c3197796be4",
+    "artist": "Nick Drake",
+    "title": "Know",
+    "album": "Pink Moon"
+  },
+  {
     "id": "1fbdcb552b83db86834b",
     "artist": "Nick Drake",
     "title": "Pink Moon",
@@ -6502,11 +10158,36 @@
     "genre": "Folk"
   },
   {
+    "id": "713150c994c491c5a64c",
+    "artist": "Nick Drake",
+    "title": "Place To Be",
+    "album": "Pink Moon"
+  },
+  {
     "id": "df5ad16165c7b04028e2",
     "artist": "Nick Drake",
     "title": "River Man",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Folk"
+  },
+  {
+    "id": "6328ffe5ac4889aac3a8",
+    "artist": "Nick Drake",
+    "title": "Road",
+    "album": "Pink Moon"
+  },
+  {
+    "id": "361621d216c8c992a7f2",
+    "artist": "Nick Drake",
+    "title": "Things Behind The Sun",
+    "album": "Pink Moon",
+    "genre": "Folk"
+  },
+  {
+    "id": "bcf7d1cf5c665b5127b2",
+    "artist": "Nick Drake",
+    "title": "Which Will",
+    "album": "Pink Moon"
   },
   {
     "id": "75def9e8b57d60fcc48b",
@@ -6561,6 +10242,71 @@
     "genre": "Jazz"
   },
   {
+    "id": "751b500d48ee9db0e173",
+    "artist": "Noel 'Bunny' Brown",
+    "title": "Stoned In Love",
+    "album": "Everybody Plays The Fool (2021 Reissue)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8f936c84ea6c1305fd9a",
+    "artist": "Noel Brown",
+    "title": "By The Time I Get To Phoenix",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "af34e59c7a3eb89daaa6",
+    "artist": "Ol' Dirty Bastard",
+    "title": "Brooklyn Zoo",
+    "album": "Return the the 36 Chambers: The Dirty Version",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "49d0a941486b747242b3",
+    "artist": "Ol' Dirty Bastard",
+    "title": "I Can't Wait",
+    "album": "Nigga Please"
+  },
+  {
+    "id": "aae7724558181af12ec0",
+    "artist": "Ol' Dirty Bastard",
+    "title": "Pop Shots - produced by DJ Premier",
+    "album": "Osirus - The Official Mixtape",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "bfa424ca361cb0491397",
+    "artist": "Ol' Dirty Bastard",
+    "title": "Who Can Make It Happen Like Dirt?",
+    "album": "Osirus: The Official Mixtape"
+  },
+  {
+    "id": "89afd8fe2a9160860ab8",
+    "artist": "Ol’ Dirty Bastard",
+    "title": "Baby C'mon",
+    "album": "Return to the 36 Chambers: The Dirty Version",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "536baf773ba0bdce5e81",
+    "artist": "Ol’ Dirty Bastard",
+    "title": "Cold Blooded",
+    "album": "Nigga Please"
+  },
+  {
+    "id": "c15acec28e741d26f7d9",
+    "artist": "Ol’ Dirty Bastard feat. Kelis",
+    "title": "Got Your Money",
+    "album": "Nigga Please"
+  },
+  {
+    "id": "3abe7a91b51070ebfc16",
+    "artist": "Ol’ Dirty Bastard feat. RZA",
+    "title": "Cuttin' Headz",
+    "album": "Return to the 36 Chambers: The Dirty Version",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
     "id": "1d17cb79deda9c484cfd",
     "artist": "Original Koffee",
     "title": "Toast",
@@ -6607,6 +10353,13 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "e7dfba0bcece8a70609d",
+    "artist": "OutKast",
+    "title": "Skew It On The Bar-B",
+    "album": "Aquemini",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
     "id": "4ba6573111a810111e79",
     "artist": "P.P. Arnold",
     "title": "The First Cut Is The Deepest",
@@ -6636,6 +10389,48 @@
     "artist": "Pat Benatar",
     "title": "Invincible (Instrumental)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "25087ea4d31ebc9dd7cd",
+    "artist": "Pat Kelly",
+    "title": "(If It Don't Work Out) Then You Can Tell Me Goodbye",
+    "album": "Dread Broadcasting Corp. Rebel Radio CD2",
+    "genre": "Reggae"
+  },
+  {
+    "id": "2330ea88435e7785c0b1",
+    "artist": "Pat Kelly",
+    "title": "(If It Don't Work Out) Then You Can Tell Me Goodbye",
+    "album": "Trojan Sixties Box Set Disc 3",
+    "genre": "Reggae"
+  },
+  {
+    "id": "7e1064c221e2e2bd5552",
+    "artist": "Pat Rhoden",
+    "title": "Boogie On Reggae Woman",
+    "album": "Trojan - Suedehead Box Set [CD 3 - Aiming For The Charts] [2004]",
+    "genre": "Reggae"
+  },
+  {
+    "id": "97c62ec9ced9339478ad",
+    "artist": "Pat Rhoden",
+    "title": "Boogie On Reggae Woman",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "42ea770826eb11b076c5",
+    "artist": "Pat Rhoden",
+    "title": "Living For The City",
+    "album": "DJ Muro: Uncovered Reggae Version",
+    "genre": "Reggae"
+  },
+  {
+    "id": "7d6e5048982bad214649",
+    "artist": "Pat Rhoden",
+    "title": "Living For The City",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
   },
   {
     "id": "a4463a85a4a29a4b6a75",
@@ -6717,6 +10512,13 @@
     "artist": "Paul Simon",
     "title": "Diamonds on the Soles of Her Shoes",
     "album": "Graceland"
+  },
+  {
+    "id": "97bfce2c6dacbef33061",
+    "artist": "Paul Simon",
+    "title": "Graceland",
+    "album": "Graceland",
+    "genre": "Pop"
   },
   {
     "id": "395352f75a9e17fb84af",
@@ -6852,6 +10654,72 @@
     "title": "Ca Plane Pour Moi",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Rock"
+  },
+  {
+    "id": "92627ae41a765858e9d3",
+    "artist": "Polaris",
+    "title": "As Usual",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "ad1b9d3988735c214611",
+    "artist": "Polaris",
+    "title": "Coronado II",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "248a46241cb5f6a09cae",
+    "artist": "Polaris",
+    "title": "Everywhere",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "af05ce4b3b818af096ba",
+    "artist": "Polaris",
+    "title": "Hey Sandy",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "3b02ca37d0d7538a9e48",
+    "artist": "Polaris",
+    "title": "Ivy Boy",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "3eb99a2516fa66dc00ac",
+    "artist": "Polaris",
+    "title": "Recently",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "71299b2f6a1375d56f85",
+    "artist": "Polaris",
+    "title": "Saturnine",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "57e3fa7b7b714f5fd6bb",
+    "artist": "Polaris",
+    "title": "She is Staggering",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "6a3ed74278bbdbf04627",
+    "artist": "Polaris",
+    "title": "Summerbaby",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "3f430aec3d952fc57219",
+    "artist": "Polaris",
+    "title": "The Monster's Loose",
+    "album": "Music From The Adventures of Pete & Pete"
+  },
+  {
+    "id": "b8649f0a46361c7d7ec6",
+    "artist": "Polaris",
+    "title": "Waiting For October",
+    "album": "Music From The Adventures of Pete & Pete"
   },
   {
     "id": "1e0093f05c8ad4d68e43",
@@ -7417,6 +11285,13 @@
     "genre": "Ska"
   },
   {
+    "id": "116e31aaccf1a62afcc4",
+    "artist": "Prince Buster's All Stars",
+    "title": "Wreck A Pum Pum",
+    "album": "Wreck A Pum Pum (2000 Reissue)",
+    "genre": "Reggae"
+  },
+  {
     "id": "e495cc87ba4c82fbea37",
     "artist": "Procol Harum",
     "title": "A Whiter Shade Of Pale",
@@ -7429,11 +11304,192 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "e4d1369c395de75ed044",
+    "artist": "Radiohead",
+    "title": "Airbag",
+    "album": "OK Computer"
+  },
+  {
+    "id": "78ab789dfcc8f8cf65b1",
+    "artist": "Radiohead",
+    "title": "Climbing Up The Walls",
+    "album": "OK Computer"
+  },
+  {
+    "id": "07ab475cb501c7eb58dd",
+    "artist": "Radiohead",
+    "title": "Electioneering",
+    "album": "OK Computer"
+  },
+  {
+    "id": "09735d73a37707f2ac01",
+    "artist": "Radiohead",
+    "title": "Exit Music (For A Film)",
+    "album": "OK Computer"
+  },
+  {
+    "id": "8f57db95bba1eef107e0",
+    "artist": "Radiohead",
+    "title": "Fake Plastic Trees (acoustic)",
+    "album": "Fake Plastic Trees (1995 UK CD2, Incomplete)"
+  },
+  {
+    "id": "d3c74b9e679acede377e",
+    "artist": "Radiohead",
+    "title": "Fitter Happier",
+    "album": "OK Computer"
+  },
+  {
+    "id": "aa7e73cabc88c2aefc01",
+    "artist": "Radiohead",
+    "title": "Karma Police",
+    "album": "The Best Of Disc 1",
+    "genre": "Rock"
+  },
+  {
+    "id": "60aac131adb9b3a40496",
+    "artist": "Radiohead",
+    "title": "Let Down",
+    "album": "Paranoid Android"
+  },
+  {
+    "id": "70dac34486bce3066b2f",
+    "artist": "Radiohead",
+    "title": "Lucky",
+    "album": "OK Computer",
+    "genre": "Alternative"
+  },
+  {
+    "id": "7abb94482f7e3ba3846a",
+    "artist": "Radiohead",
+    "title": "No Surprises",
+    "album": "OK Computer"
+  },
+  {
+    "id": "721a35a3972e0c2d781f",
+    "artist": "Radiohead",
+    "title": "Paranoid Android",
+    "album": "OK Computer"
+  },
+  {
+    "id": "f850db83eb66511ac0ca",
+    "artist": "Radiohead",
+    "title": "Subterranean Homesick Alien",
+    "album": "OK Computer"
+  },
+  {
+    "id": "6bb5c0a628dba637eb55",
+    "artist": "Radiohead",
+    "title": "The Tourist",
+    "album": "OK Computer",
+    "genre": "Alternative"
+  },
+  {
+    "id": "c68dbc1f953fa726325e",
+    "artist": "Raekwon",
+    "title": "Butter Knives",
+    "album": "Shaolin vs. Wu-Tang",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d7de817588978ce4094b",
+    "artist": "Raekwon",
+    "title": "House of Flying Daggers",
+    "album": "Only Built 4 Cuban Linx… Pt II",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "8dd24d6e34d90cb18e59",
+    "artist": "Raekwon",
+    "title": "Ice Cream",
+    "album": "Only Built 4 Cuban Linx",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "0cc5be8e6dda0782a4e6",
+    "artist": "Raekwon",
+    "title": "Live From New York",
+    "album": "Immobilarity",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "a039695f8ae09efd272b",
+    "artist": "Raekwon",
+    "title": "New Wu",
+    "album": "Only Built 4 Cuban Linx... Pt II",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d409a6a2972f7e08bc8e",
+    "artist": "Raekwon",
+    "title": "Smith Bros.",
+    "album": "Remixes Vol. 1",
+    "genre": "Electronic"
+  },
+  {
+    "id": "ffec8aa42d656741ba36",
+    "artist": "Raekwon",
+    "title": "The Morning",
+    "album": "Kanye West Presents Good Music: Cruel Summer",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "90221ab931f4e064868c",
+    "artist": "Raekwon",
+    "title": "Wake_up",
+    "album": "Black and White - music from and inspired by the motion picture",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "2edc43eaec7df4846cda",
+    "artist": "Raekwon",
+    "title": "Wu-Gambinos (Hidden Chambers Remix)",
+    "album": "Only Built 4 Cuban Linx..."
+  },
+  {
+    "id": "40397b93b5de88db9396",
+    "artist": "Raekwon feat. Cappadonna & Ghostface Killah",
+    "title": "10 Bricks",
+    "album": "Only Built 4 Cuban Linx… Pt II"
+  },
+  {
+    "id": "e4bdab8e947b5b8d8d80",
+    "artist": "Raekwon featuring Ghost Face Killer A/K/A Tony Starks",
+    "title": "Criminology",
+    "album": "Only Built 4 Cuban Linx…",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "12541441e9f4c34977c2",
+    "artist": "Raekwon Featuring Ghostface Killah and Nas",
+    "title": "Verbal Intercourse",
+    "album": "Only Built 4 Cuban Linx…"
+  },
+  {
+    "id": "72488a8666c852419dd8",
+    "artist": "Raekwon Featuring Ghostface Killah and U‐God",
+    "title": "Knuckleheadz",
+    "album": "Only Built 4 Cuban Linx…"
+  },
+  {
+    "id": "3845e70c370f0bdeec41",
+    "artist": "Raekwon Featuring Ghostface Killah, Inspectah Deck and GZA/Genius",
+    "title": "Guillotine (Swordz)",
+    "album": "Only Built 4 Cuban Linx…"
+  },
+  {
     "id": "2d1a6778b75ccedd913f",
     "artist": "Ramones",
     "title": "Sheena Is A Punk Rocker",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Alternative"
+  },
+  {
+    "id": "c9e448408e22f5abe16a",
+    "artist": "Ramsey Lewis",
+    "title": "Cry Baby Cry",
+    "album": "Mother Nature's Son",
+    "genre": "Jazz"
   },
   {
     "id": "b9c1a7c1bf4b10f2c7e4",
@@ -7464,6 +11520,13 @@
     "artist": "Red Rat",
     "title": "Tight Up Skirt",
     "album": "Throwback Reggae Dancehall"
+  },
+  {
+    "id": "0f370048accd461bb3d4",
+    "artist": "Remedy",
+    "title": "Never Again",
+    "album": "Remedy [EP]",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "fba3b98c0f6b87698eda",
@@ -7498,6 +11561,25 @@
     "genre": "Pop"
   },
   {
+    "id": "5e7401b25107d3d6c635",
+    "artist": "Roberta Flack",
+    "title": "Where Is the Love",
+    "album": "Softly With These Songs: The Best of Roberta Flack",
+    "genre": "R&B"
+  },
+  {
+    "id": "93add64f78eff15d8f86",
+    "artist": "Rockabye Baby!",
+    "title": "Ants Marching",
+    "album": "Lullaby Renditions of Dave Matthews Band"
+  },
+  {
+    "id": "bc6986cf2d5557c47cd4",
+    "artist": "Rockabye Baby!",
+    "title": "The Good Life",
+    "album": "Lullaby Renditions of Weezer"
+  },
+  {
     "id": "de5dc36be91437ea66a8",
     "artist": "Rockwell",
     "title": "Somebody's Watching Me",
@@ -7508,6 +11590,18 @@
     "artist": "Rockwell",
     "title": "Somebody's Watching Me (Instrumental)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "1746a6aed5be7826623b",
+    "artist": "Roland Alphonso",
+    "title": "A Whiter Shade Of Pale",
+    "album": "Trojan Katsuo Box Set"
+  },
+  {
+    "id": "18da95b3e699a90dd188",
+    "artist": "Roland Alphonso",
+    "title": "Guantanamera",
+    "album": "Trojan Sixties Box Set"
   },
   {
     "id": "44fbb0d3cd3ef730209a",
@@ -7548,11 +11642,65 @@
     "album": "Oh, Pretty Woman"
   },
   {
+    "id": "4a4a8d3e1c4eae5158f5",
+    "artist": "Rupie Martin's All Stars",
+    "title": "Last Flight",
+    "album": "Crab Singles",
+    "genre": "Reggae"
+  },
+  {
     "id": "9d828fc5e0e6a4f5be30",
     "artist": "Rusted Root",
     "title": "Send Me On My Way",
     "album": "Cruel Sun",
     "genre": "Folk; Rock"
+  },
+  {
+    "id": "e43a4fb51e485a30266c",
+    "artist": "Rusted Root",
+    "title": "Send Me on My Way",
+    "album": "Music From Party of Five"
+  },
+  {
+    "id": "edb639d47548be6fece8",
+    "artist": "Ryan Adams",
+    "title": "Oh My Sweet Carolina",
+    "album": "Heartbreaker (Deluxe Edition 2016)",
+    "genre": "Rock"
+  },
+  {
+    "id": "a57b5fd41ae7ecce268c",
+    "artist": "RZA",
+    "title": "Grits",
+    "album": "Birth of a Prince",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "bee1f49c788ab110801d",
+    "artist": "RZA",
+    "title": "La Rhumba",
+    "album": "Digital Bullet",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "761886e9f2de768ddfda",
+    "artist": "RZA & Flatbush Zombies",
+    "title": "Just Blowin' In The Wind",
+    "album": "The Man With The Iron Fists - Original Motion Picture Soundtrack",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f13c535f305e59e4779e",
+    "artist": "RZA & MF DOOM",
+    "title": "Biochemical Equation",
+    "album": "Wu-Tang Meets The Indie Culture",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "6bdad158048c4c716dd1",
+    "artist": "RZA feat. Ol’ Dirty Bastard",
+    "title": "Black Widow, Pt. 2",
+    "album": "Digital Bullet"
   },
   {
     "id": "cdf8eb36c2380bcb6d18",
@@ -7587,6 +11735,18 @@
     "title": "Cupid",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
+  },
+  {
+    "id": "63bfa4550f46efcff8e6",
+    "artist": "Sam Cooke",
+    "title": "Having a Party",
+    "album": "The Man and His Music"
+  },
+  {
+    "id": "c49cbbca9b030b4dd291",
+    "artist": "Sam Cooke",
+    "title": "Having a Party (Live at the Harlem Square Club, Miami, FL - January 1963)",
+    "album": "One Night Stand - Sam Cooke Live At The Harlem Square Club, 1963"
   },
   {
     "id": "aad9aa80418c398afc4d",
@@ -7750,10 +11910,29 @@
     "album": "The Fun Songs Of Shamu And His"
   },
   {
+    "id": "b7a250215232744d3310",
+    "artist": "Sharon Jones & The Dap Kings",
+    "title": "The Dap Dip",
+    "album": "Life:Styles (Compiled By Kenny Dope)",
+    "genre": "Funk"
+  },
+  {
+    "id": "135ea5d18005ed5db448",
+    "artist": "Sharon Jones & The Dap-Kings",
+    "title": "Tell Me",
+    "genre": "Disco; Funk; Soul"
+  },
+  {
     "id": "5b2f99785d45a54e169e",
     "artist": "Shenseea",
     "title": "Blessed",
     "album": "ALPHA"
+  },
+  {
+    "id": "4383bd562d41ddf959bc",
+    "artist": "Shirley Brown",
+    "title": "Woman To Woman",
+    "album": "Singles"
   },
   {
     "id": "8c350c0e30043c144e5a",
@@ -7762,11 +11941,24 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "616028972d2d84a48d7e",
+    "artist": "Shyheim",
+    "title": "1 Declare War",
+    "album": "Shyheim=Manchild"
+  },
+  {
     "id": "bd03fbb1e7bcb1783343",
     "artist": "Silver Apples",
     "title": "Oscillations",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Electronic"
+  },
+  {
+    "id": "c7da5a30b603ed939b81",
+    "artist": "Silver Stars",
+    "title": "Hear What The Old Man Say",
+    "album": "Skinhead Reggae #12: Sut Mix",
+    "genre": "Reggae"
   },
   {
     "id": "39758544f0e321297052",
@@ -7819,6 +12011,12 @@
     "title": "Crocodile Teeth",
     "album": "Crocodile Teeth",
     "genre": "Reggae"
+  },
+  {
+    "id": "0492bd6ddafcb144fd1a",
+    "artist": "Slim Smith",
+    "title": "Ain't Too Proud To Beg",
+    "album": "Trojan Sixties Box Set"
   },
   {
     "id": "bbc834bbe008ded3cd70",
@@ -7915,6 +12113,12 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "5553765b506d59d605a5",
+    "artist": "Soul Messengers",
+    "title": "Do It (Till You're Satisfied)",
+    "album": "Trojan Soulful Reggae Box Set"
+  },
+  {
     "id": "9fe6cfa08f6570265833",
     "artist": "Sparks",
     "title": "This Town Ain't Big Enough For The Both Of Us",
@@ -7931,6 +12135,13 @@
     "id": "c186d72524845e3fa937",
     "artist": "Spragga Benz & Lady Saw",
     "title": "Backshot"
+  },
+  {
+    "id": "9a9e40e76f2aa3eb1ab7",
+    "artist": "Springsteen, Bruce",
+    "title": "Jungleland",
+    "album": "Born to Run (Sbm)",
+    "genre": "Rock"
   },
   {
     "id": "c908f0f6d2b23b8b6bf7",
@@ -8003,10 +12214,42 @@
     "album": "Hotter Than July"
   },
   {
+    "id": "ba912589c9096385347a",
+    "artist": "Stevie Wonder",
+    "title": "Signed, Sealed, Delivered I'm Yours",
+    "album": "Hitsville USA: The Motown Singles Collections, 1959 - 1992 [box sets]"
+  },
+  {
+    "id": "e28ed6559caab7c3fee4",
+    "artist": "Stevie Wonder",
+    "title": "Signed, Sealed, Delivered I'm Yours [alternate mix]",
+    "album": "The Complete Motown Singles Volume 10 - 1970 (Disc 52)",
+    "genre": "Soul"
+  },
+  {
+    "id": "ff6aed16dcf64c92e666",
+    "artist": "Stevie Wonder",
+    "title": "Sir Duke",
+    "album": "Songs In The Key Of Life"
+  },
+  {
+    "id": "a721bf198292eb5aba51",
+    "artist": "Stevie Wonder",
+    "title": "Superstition",
+    "album": "Number 1's",
+    "genre": "R&B"
+  },
+  {
     "id": "9ef5b148344ea231ea1d",
     "artist": "Stevie Wonder",
     "title": "Superstition",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "4edf2c66924114c801cb",
+    "artist": "Stevie Wonder",
+    "title": "Superstition",
+    "album": "Rolling Stone's 500 Greatest Songs of All Time"
   },
   {
     "id": "7a000ee4a4b74bae1778",
@@ -8022,11 +12265,39 @@
     "genre": "Soul"
   },
   {
+    "id": "894878b7e700a0fe06fb",
+    "artist": "STEVIE WONDER",
+    "title": "UPTIGHT (EVERYTHING'S ALRIGHT) (SINGLE VERSION)",
+    "album": "THE BEST SOUL - R&B - FUNK - DISCO OF THE 60'S, 70",
+    "genre": "R&B"
+  },
+  {
+    "id": "26cef9aa48f1114054b7",
+    "artist": "Stevie Wonder",
+    "title": "You Are The Sunshine Of My Life",
+    "album": "Talking Book",
+    "genre": "R&B"
+  },
+  {
     "id": "d52e4b1510eab8216402",
     "artist": "Stone Poneys",
     "title": "Different Drum",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Pop"
+  },
+  {
+    "id": "4d725e9dcd56557e3ae1",
+    "artist": "Strange Cargo",
+    "title": "The Name of the Wave",
+    "album": "Amy: The Original Soundtrack",
+    "genre": "Soul"
+  },
+  {
+    "id": "3fc38b893c5c43f3dbe2",
+    "artist": "Sublime",
+    "title": "40 oz. to Freedom",
+    "album": "40 oz. to Freedom",
+    "genre": "Ska"
   },
   {
     "id": "be478615da1ed9a42fc9",
@@ -8035,10 +12306,111 @@
     "album": "40oz. To Freedom"
   },
   {
+    "id": "d1c732f983252cc9c9e4",
+    "artist": "Sublime",
+    "title": "5446 Thats My Number/ Ball and Chain",
+    "album": "40oz. To Freedom",
+    "genre": "Ska"
+  },
+  {
+    "id": "1b462078fbd49bf4452f",
+    "artist": "Sublime",
+    "title": "Badfish",
+    "album": "40oz. to Freedom",
+    "genre": "Rock"
+  },
+  {
+    "id": "227266c0f736fbd8d76d",
+    "artist": "Sublime",
+    "title": "By The Rivers Of Babylon",
+    "album": "40oz. To Freedom",
+    "genre": "Ska"
+  },
+  {
+    "id": "669cbebf3eb7bc80c1ea",
+    "artist": "Sublime",
+    "title": "Chica Me Tipo",
+    "album": "40 oz. to Freedom"
+  },
+  {
+    "id": "ed7efc79d01c8895bda3",
+    "artist": "Sublime",
+    "title": "D.J.S",
+    "album": "40oz. To Freedom",
+    "genre": "Ska"
+  },
+  {
     "id": "7aab3a8eab9cf7fad81f",
     "artist": "Sublime",
     "title": "Date Rape",
     "album": "Living In a Boring Nation"
+  },
+  {
+    "id": "b7010f741eb63872c949",
+    "artist": "Sublime",
+    "title": "Date Rape (Edit Version)",
+    "album": "Gold",
+    "genre": "Rock"
+  },
+  {
+    "id": "9957caa671ec617b387f",
+    "artist": "Sublime",
+    "title": "Don't Push",
+    "album": "40oz. To Freedom",
+    "genre": "Pop; Rock"
+  },
+  {
+    "id": "cc800aae62a9e3b2f76b",
+    "artist": "Sublime",
+    "title": "Ebin",
+    "album": "40 oz. to Freedom"
+  },
+  {
+    "id": "92a3a4be7f9ee779fe81",
+    "artist": "Sublime",
+    "title": "Hope [Descendents cover]",
+    "album": "40 oz. to Freedom"
+  },
+  {
+    "id": "8f5982bdbb3ac8d905db",
+    "artist": "Sublime",
+    "title": "KRS-One",
+    "album": "40 oz. to Freedom"
+  },
+  {
+    "id": "19f46f57a0f2b68f5368",
+    "artist": "Sublime",
+    "title": "Let's Go Get Stoned",
+    "album": "40oz. To Freedom",
+    "genre": "Pop; Rock"
+  },
+  {
+    "id": "0f7ef82b8b43222dbf77",
+    "artist": "Sublime",
+    "title": "Live At E's",
+    "album": "40oz. To Freedom",
+    "genre": "Ska"
+  },
+  {
+    "id": "efea699d2b6bee358cf9",
+    "artist": "Sublime",
+    "title": "New Song",
+    "album": "40oz. To Freedom",
+    "genre": "Pop; Rock"
+  },
+  {
+    "id": "44554b3f37f0e7925988",
+    "artist": "Sublime",
+    "title": "New Thrash",
+    "album": "40oz. To Freedom",
+    "genre": "Rock"
+  },
+  {
+    "id": "6689c839792e46c81d5d",
+    "artist": "Sublime",
+    "title": "Right Back",
+    "album": "40oz. To Freedom",
+    "genre": "Pop; Rock"
   },
   {
     "id": "2d2bfe6f1804dd29786e",
@@ -8048,10 +12420,50 @@
     "genre": "Rock"
   },
   {
+    "id": "3aea78f54bd11edc39ee",
+    "artist": "Sublime",
+    "title": "Scarlet Begonias",
+    "album": "40oz. To Freedom",
+    "genre": "Rock"
+  },
+  {
     "id": "030bce6bc2a0fe8359f8",
     "artist": "Sublime",
     "title": "Smoke Two Joints",
     "album": "40oz. To Freedom"
+  },
+  {
+    "id": "edb3cd1f5f6d5884efc2",
+    "artist": "Sublime",
+    "title": "Smoke Two Joints",
+    "album": "The Best Of Sublime"
+  },
+  {
+    "id": "22a47c55f4fb013212f0",
+    "artist": "Sublime",
+    "title": "Thanx",
+    "album": "40oz. To Freedom",
+    "genre": "Pop; Rock"
+  },
+  {
+    "id": "bf67d03ead7baa6956e4",
+    "artist": "Sublime",
+    "title": "Waiting For My Ruca",
+    "album": "40oz. To Freedom",
+    "genre": "Pop; Rock"
+  },
+  {
+    "id": "d413c4af525b1a1546d5",
+    "artist": "Sublime",
+    "title": "We're Only Gonna Die For Our Arrogance",
+    "album": "40oz. To Freedom",
+    "genre": "Rock"
+  },
+  {
+    "id": "510fb867cdc7be5a58ff",
+    "artist": "Sublime",
+    "title": "What Happened",
+    "album": "40 oz. to Freedom"
   },
   {
     "id": "34e5298aaffce7bb50fa",
@@ -8084,6 +12496,13 @@
     "title": "Door of the Cosmos",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Jazz"
+  },
+  {
+    "id": "6303ce1d0759b9a1a929",
+    "artist": "Sunz of Man",
+    "title": "Concrete Jungle",
+    "album": "Wu-Tang Collective",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "9111416ee5bf143700cc",
@@ -8173,10 +12592,36 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "d0a6a2645b73c1221d4b",
+    "artist": "Teddy Brown",
+    "title": "Midnight Train To Georgia",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "be8a7a6013a02a3961f3",
+    "artist": "Teddy Pendergrass",
+    "title": "Close The Door",
+    "album": "Classic R&B/Soul"
+  },
+  {
+    "id": "d9c1c72beee1848d02bc",
+    "artist": "Teddy Pendergrass",
+    "title": "Close The Door",
+    "album": "Singles"
+  },
+  {
     "id": "2145b9fcffec382b5e9e",
     "artist": "Television",
     "title": "Marquee Moon",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "973ee10073b4a960215f",
+    "artist": "Tennors",
+    "title": "Weather Report",
+    "album": "Ba Ba Boom Duke Reid-Classic Rock Steady & Reggae",
+    "genre": "Reggae"
   },
   {
     "id": "c84769f02de22b699466",
@@ -8295,11 +12740,36 @@
     "genre": "Pop"
   },
   {
+    "id": "a12231a66543e5fad967",
+    "artist": "The Beach Boys",
+    "title": "Good Vibrations",
+    "album": "Endless Summer"
+  },
+  {
     "id": "064076a28a78197b21d8",
     "artist": "The Beach Boys",
     "title": "Good Vibrations",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Pop"
+  },
+  {
+    "id": "0aed942684285d45967f",
+    "artist": "The Beach Boys",
+    "title": "Good Vibrations",
+    "album": "Smiley Smile [stereo]"
+  },
+  {
+    "id": "4910a7619e3ba4890ca7",
+    "artist": "The Beach Boys",
+    "title": "Good Vibrations",
+    "album": "The Beach Boys With the Royal Philharmonic Orchestra"
+  },
+  {
+    "id": "2e65c8b860401c5b52ec",
+    "artist": "The Beach Boys",
+    "title": "Good Vibrations",
+    "album": "The Best Of The Beach Boys",
+    "genre": "Rock"
   },
   {
     "id": "d370f667c1128a17e269",
@@ -8357,11 +12827,25 @@
     "genre": "Rock"
   },
   {
+    "id": "b3d2408b004ee0e8f1e4",
+    "artist": "The Beatnuts",
+    "title": "Se Acabo (remix)",
+    "album": "Take It or Squeeze It",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
     "id": "d2ccfb58c4d324e39502",
     "artist": "The Bobby Fuller Four",
     "title": "I Fought The Law",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Rock"
+  },
+  {
+    "id": "5ea9fc3478352ef36870",
+    "artist": "The Boris Gardiner Happening",
+    "title": "Spooky",
+    "album": "Trojan Sixties Box Set Disc 3",
+    "genre": "Reggae"
   },
   {
     "id": "20df581a130967a64b06",
@@ -8398,10 +12882,133 @@
     "genre": "R&B"
   },
   {
+    "id": "96d4647c4d13e510ad0c",
+    "artist": "The Chi-Lites",
+    "title": "Oh Girl",
+    "album": "A Lonely Man",
+    "genre": "Soul"
+  },
+  {
+    "id": "189d611731a33b9d6890",
+    "artist": "The Chosen Few",
+    "title": "Am I Black Enough",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "fee3283c3cd519b2779a",
+    "artist": "The Chosen Few",
+    "title": "Children Of The Night",
+    "album": "Trojan Soulful Reggae Box Set"
+  },
+  {
+    "id": "11824800f955502201b0",
+    "artist": "The Chosen Few",
+    "title": "Do Your Thing",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "a7dad690ec6d811bf2a6",
+    "artist": "The Chosen Few",
+    "title": "I Second That Emotion",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "d96e05b51b4b02ec69f4",
+    "artist": "The Chosen Few",
+    "title": "In The Rain",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "e45da5f024b81bed0ddd",
+    "artist": "The Chosen Few",
+    "title": "People Make The World Go Round",
+    "album": "Rebel Island Soul - Under The Influence: Reggae, Funk & Soul In Jamaica in the 1970s",
+    "genre": "Reggae"
+  },
+  {
+    "id": "5428303cd5e7e6b27501",
+    "artist": "The Chosen Few",
+    "title": "Shaft",
+    "album": "Madlib - Blunted in the Bomb Shelter Mix (Tracks from the Trojan catalogue selected & mixed by Madlib)",
+    "genre": "Reggae"
+  },
+  {
+    "id": "08e61357d56b523330dd",
+    "artist": "The Chosen Few",
+    "title": "Shaft",
+    "album": "Soul Power - Funky Kingston 2 - Reggae Dance Floor Grooves 1968 - 74",
+    "genre": "Soul"
+  },
+  {
+    "id": "ea0a15a1599ba4934e79",
+    "artist": "The Chosen Few",
+    "title": "Shaft",
+    "album": "Tighten Up Trojan Reggae Classics 1968-74",
+    "genre": "Reggae"
+  },
+  {
+    "id": "3113acaf22531f80979e",
+    "artist": "The Chosen Few",
+    "title": "Shaft",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "52735fbff5786251bc56",
+    "artist": "The Chosen Few",
+    "title": "Stoned In Love",
+    "album": "The Trojan Albums Collection [Compilation]",
+    "genre": "Reggae"
+  },
+  {
+    "id": "98600748bff382feec29",
+    "artist": "The Chosen Few",
+    "title": "Tears Of A Clown",
+    "album": "The Trojan Albums Collection [Compilation]",
+    "genre": "Reggae"
+  },
+  {
+    "id": "5bb4a6c550927143bb88",
+    "artist": "The Chosen Few",
+    "title": "Tears Of A Clown",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "90a14a6e64caf7bfd775",
+    "artist": "The Chosen Few",
+    "title": "You Are Everything",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8557d637839f2307bc77",
+    "artist": "The Chosen Few",
+    "title": "You're A Big Girl Now",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
+  },
+  {
+    "id": "5d5f8c7f5acc15fa9642",
+    "artist": "The Clarendonians",
+    "title": "Baby Baby",
+    "album": "Safe Travel - The Rare Side Of Rock Steady With Phil Pratt & Friends [2005]"
+  },
+  {
     "id": "3de1e9590b9cb847f797",
     "artist": "The Clash",
     "title": "London Calling",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "a9433333c40cd449f581",
+    "artist": "The Clash",
+    "title": "Straight to Hell (Live) [Remastered]",
+    "album": "From Here to Eternity (Live) [Remastered]"
   },
   {
     "id": "28e38914bb1c69c0bcfd",
@@ -8636,6 +13243,13 @@
     "genre": "Rock"
   },
   {
+    "id": "da236daf5ff866f3d918",
+    "artist": "The Dramatics",
+    "title": "Whatcha See Is Whatcha Get",
+    "album": "The Wants List 5",
+    "genre": "R&B"
+  },
+  {
     "id": "3b26a9dd9607f45c4f1d",
     "artist": "The Easybeats",
     "title": "Friday On My Mind",
@@ -8643,10 +13257,23 @@
     "genre": "Rock"
   },
   {
+    "id": "5c65ccaa0accfa2ac2a7",
+    "artist": "The Emotions",
+    "title": "Best Of My Love",
+    "album": "Club Classics - Ministry Of Sound",
+    "genre": "Dance"
+  },
+  {
     "id": "b54d6d8e387d6251295c",
     "artist": "The Equals",
     "title": "Black Skin Blue Eyed Boys",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "9cc4d06e6541d1e6a4f3",
+    "artist": "The Felice Brothers",
+    "title": "Frankie's Gun!",
+    "album": "The Felice Brothers"
   },
   {
     "id": "3b096234b3b33ae5f873",
@@ -8704,6 +13331,19 @@
     "title": "It's The Same Old Song",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
+  },
+  {
+    "id": "1ce6f29c743b4e5e4d02",
+    "artist": "The Gaylettes",
+    "title": "Son Of A Preacher Man",
+    "album": "Total Reggae Chart Hits Reggae Style"
+  },
+  {
+    "id": "c810b0458c049b5c3712",
+    "artist": "The Gaylettes",
+    "title": "Yester-Me, Yester-You, Yesterday",
+    "album": "We Shall Sing",
+    "genre": "Reggae"
   },
   {
     "id": "a90d03443adc5f2ba026",
@@ -8784,6 +13424,25 @@
     "album": "Willy Wonka and the Chocolate Factory and Other Sweet Songs"
   },
   {
+    "id": "a3920ab81c939b3040ac",
+    "artist": "The Goo Goo Dolls",
+    "title": "Acoustic #3",
+    "album": "Dizzy Up the Girl"
+  },
+  {
+    "id": "2cc671fc97db7b7d8320",
+    "artist": "The Heptones",
+    "title": "Party Time",
+    "album": "Phil Pratt Thing",
+    "genre": "Reggae"
+  },
+  {
+    "id": "c228ed7c86206a69e98d",
+    "artist": "The Heptones",
+    "title": "Party Time",
+    "album": "Studio One Rocksteady"
+  },
+  {
     "id": "57a1d5f1b368455fd51d",
     "artist": "The Hollies",
     "title": "Bus Stop",
@@ -8852,6 +13511,12 @@
     "genre": "Soul"
   },
   {
+    "id": "c6ecde174a929be6d343",
+    "artist": "The Isley Brothers",
+    "title": "For the Love of You, Pts. 1 & 2",
+    "album": "Singles"
+  },
+  {
     "id": "8b6519b6e36c9384d915",
     "artist": "The Isley Brothers",
     "title": "It's Your Thing",
@@ -8865,11 +13530,43 @@
     "genre": "Soul"
   },
   {
+    "id": "164a7f4f5067039adadb",
+    "artist": "The Isley Brothers",
+    "title": "That Lady, Pts. 1 & 2"
+  },
+  {
+    "id": "30eb01e1b51577cf9887",
+    "artist": "The Jackson 5",
+    "title": "Ain't Nothing Like The Real Thing (Live at the Forum, 1972)",
+    "album": "Live At The Forum"
+  },
+  {
     "id": "150492c88340c4888534",
     "artist": "The Jackson 5",
     "title": "I Want You Back",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
+  },
+  {
+    "id": "393a44be0b61cbcdde51",
+    "artist": "The Jackson 5",
+    "title": "Never Can Say Goodbye",
+    "album": "Hitsville USA: The Motown Singles Collection 1959-1971 (Disc 4)",
+    "genre": "R&B"
+  },
+  {
+    "id": "03009a5df58b1858a2d7",
+    "artist": "The Jacksons",
+    "title": "Enjoy Yourself",
+    "album": "The Jacksons",
+    "genre": "Soul"
+  },
+  {
+    "id": "871ffa266d5775aeeae2",
+    "artist": "The Jay Boys",
+    "title": "I Can't Get Next To You",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
   },
   {
     "id": "e026a30a9d1b9384fc58",
@@ -9065,6 +13762,12 @@
     "genre": "Pop"
   },
   {
+    "id": "826382a551a0ea276e6d",
+    "artist": "The Mad Lads",
+    "title": "I'll Always Love You",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
     "id": "ba7493bf2065572f6bb4",
     "artist": "The Mamas & The Papas",
     "title": "California Dreamin'",
@@ -9154,6 +13857,13 @@
     "artist": "The Merry Singers",
     "title": "When The Foeman Bares His Steel",
     "album": "Sing-A-Long Gilbert & Sullivan"
+  },
+  {
+    "id": "28a2f61ecc11007f8f67",
+    "artist": "The Messengers",
+    "title": "Crowded City",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
   },
   {
     "id": "c969d3f0fc344d3f2081",
@@ -9299,6 +14009,13 @@
     "artist": "The Metro-Goldwyn-Mayer Marching Band & Chorus",
     "title": "When Johnny Comes Marching Home",
     "album": "This Old Man - Great Parade Songs and Marches"
+  },
+  {
+    "id": "3d462b2371f90df53200",
+    "artist": "The Miracles",
+    "title": "Ooo Baby Baby",
+    "album": "Going To A Go-Go",
+    "genre": "Funk; R&B; Soul"
   },
   {
     "id": "915ac49a5d5102b5f4ab",
@@ -9577,6 +14294,12 @@
     "genre": "Hip-Hop / Rap"
   },
   {
+    "id": "48606b7638e4f0ec5a83",
+    "artist": "The Notorious B.I.G.",
+    "title": "The What",
+    "album": "Ready To Die"
+  },
+  {
     "id": "1481e84ffb079b53440c",
     "artist": "The Notorious B.I.G.",
     "title": "Unbelievable (Explicit Album Version)",
@@ -9632,10 +14355,62 @@
     "album": "Duets: The Final Chapter"
   },
   {
+    "id": "52a482c05a0539ddc993",
+    "artist": "The O'Jays",
+    "title": "Back Stabbers",
+    "album": "Classic R&B/Soul"
+  },
+  {
     "id": "95f7b404ca90e75a1db8",
     "artist": "The O'jays",
     "title": "For The Love Of Money",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "a4780d98fba537574995",
+    "artist": "THE O'JAYS",
+    "title": "I LOVE MUSIC",
+    "album": "THE BEST SOUL - R&B - FUNK - DISCO OF THE 60'S, 70"
+  },
+  {
+    "id": "a64bbc9c59c21745a038",
+    "artist": "The O'Jays",
+    "title": "I Love Music",
+    "album": "Very Best of",
+    "genre": "Soul"
+  },
+  {
+    "id": "88db3d8c92d94b5d22b2",
+    "artist": "The O'Jays",
+    "title": "Love Train",
+    "album": "Classic R&B/Soul"
+  },
+  {
+    "id": "3e0e95cd6e58b8afbe12",
+    "artist": "The O'Jays",
+    "title": "Now That We Found Love",
+    "album": "Ship Ahoy"
+  },
+  {
+    "id": "23c0991f5b3cac7aff94",
+    "artist": "The O'Jays",
+    "title": "Use ta Be My Girl (Single Version)",
+    "album": "The Essential O'Jays",
+    "genre": "R&B"
+  },
+  {
+    "id": "2b21fe8c1f8d78d8d922",
+    "artist": "The Paragons",
+    "title": "Left With A Broken Heart",
+    "album": "On The Beach CD1",
+    "genre": "Reggae"
+  },
+  {
+    "id": "0e2aa5a883a612d09139",
+    "artist": "The Paragons",
+    "title": "Left With A Broken Heart",
+    "album": "Sly And Robbie Presents The Mighty Paragons Collection (Disc1/2)",
+    "genre": "Reggae"
   },
   {
     "id": "c696581e30eb7f74ffb8",
@@ -9643,6 +14418,12 @@
     "title": "The Tide Is High",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Reggae"
+  },
+  {
+    "id": "df804cd44c737225dafc",
+    "artist": "The Persuaders",
+    "title": "Thin Line Between Love And Hate",
+    "album": "The Old Grey Whistle Test Soul"
   },
   {
     "id": "dc192bef54c701c13ef5",
@@ -9705,6 +14486,19 @@
     "album": "Chitty Chitty Bang Bang and Other Fun Songs of Today"
   },
   {
+    "id": "738c4369de1b495b592e",
+    "artist": "The Pioneers",
+    "title": "Papa Was A Rolling Stone",
+    "genre": "Reggae"
+  },
+  {
+    "id": "8871cf1024e886e09e98",
+    "artist": "The Pioneers",
+    "title": "Papa Was A Rolling Stone",
+    "album": "Let Your Yeah Be Yeah - Anthology 1966-1986",
+    "genre": "Reggae"
+  },
+  {
     "id": "146f23880daa0871c354",
     "artist": "The Power Station",
     "title": "Some LIke It Hot (Single Version)",
@@ -9723,6 +14517,104 @@
     "album": "Choice 12\" (Vinyl Transfers)"
   },
   {
+    "id": "9ffaf0e93d93137bf12b",
+    "artist": "The Radiation Kings",
+    "title": "Can't Find a Way",
+    "album": "Ska Down Her Way - Women of Ska, Volume 2",
+    "genre": "Ska"
+  },
+  {
+    "id": "85197ca498971b85fbf7",
+    "artist": "The Radiation Kings",
+    "title": "Carry",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "9a84a66e7d7426845674",
+    "artist": "The Radiation Kings",
+    "title": "Come Down",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "1f9c7147cf7e3b93c884",
+    "artist": "The Radiation Kings",
+    "title": "Dem Try",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "aea1b038f3c1afa81474",
+    "artist": "The Radiation Kings",
+    "title": "Dub Me a Way",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "9623cdf4eb6591f6e6c5",
+    "artist": "The Radiation Kings",
+    "title": "Gin & Tonic",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "e064a14480ae972879ee",
+    "artist": "The Radiation Kings",
+    "title": "Hotter Fire",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "f0bb4279d71ba28d446e",
+    "artist": "The Radiation Kings",
+    "title": "Messenger",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "fbd4b7b097ff311a213a",
+    "artist": "The Radiation Kings",
+    "title": "Number 6",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "19c4200cd215a0e11eed",
+    "artist": "The Radiation Kings",
+    "title": "NYC Blues",
+    "album": "NYC Ska Mob & Friends",
+    "genre": "Reggae"
+  },
+  {
+    "id": "4206eb2531c55fc497ec",
+    "artist": "The Radiation Kings",
+    "title": "Spending Time",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "063a3e8da4c1c5a1cd7d",
+    "artist": "The Radiation Kings",
+    "title": "Spending Time",
+    "album": "Long Island Ska Vol. 2",
+    "genre": "Ska"
+  },
+  {
+    "id": "f22b7fcc02236c16ade9",
+    "artist": "The Radiation Kings",
+    "title": "Thank You",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
+    "id": "4a5568efca0f3fd92f31",
+    "artist": "The Radiation Kings",
+    "title": "This I Know",
+    "album": "Early Years",
+    "genre": "Ska"
+  },
+  {
     "id": "7b15a0e9b65b63551013",
     "artist": "The Raincoats",
     "title": "In Love",
@@ -9734,6 +14626,13 @@
     "title": "Blitzkrieg Bop",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Rock"
+  },
+  {
+    "id": "8cffdfb691540241dc7a",
+    "artist": "The Reggae Boys",
+    "title": "Dolly House On Fire (1969)",
+    "album": "Reggae Fever",
+    "genre": "Reggae"
   },
   {
     "id": "2828c8f1c01e567170b4",
@@ -9840,10 +14739,41 @@
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
   },
   {
+    "id": "8f9d1d1c6542f6f04614",
+    "artist": "The RZA",
+    "title": "Tears of a Samurai",
+    "album": "The RZA presents Afro Samurai The Soundtrack"
+  },
+  {
+    "id": "8d0eab2141bc6b625d72",
+    "artist": "The RZA\\Charles Bernstein",
+    "title": "Crane\\White Lightning",
+    "album": "Kill Bill Vol. 1 (WPCR-11729)"
+  },
+  {
     "id": "e5e26942b16fa660cbdc",
     "artist": "The Sandpipers",
     "title": "The Christmas Song / We Wish You a Merry Christmas",
     "album": "The Christmas Song"
+  },
+  {
+    "id": "5cd4471b1ad01723c6d5",
+    "artist": "The Sensations",
+    "title": "Born To Love You",
+    "album": "Rocksteady #03: Sut Mix"
+  },
+  {
+    "id": "c43a194211e511a6c1f0",
+    "artist": "The Sensations",
+    "title": "Born To Love You",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "9e3d32ba5228fce27e0a",
+    "artist": "The Sensations",
+    "title": "Just One Smile",
+    "album": "Trojan Sixties Box Set Disc 3",
+    "genre": "Reggae"
   },
   {
     "id": "1dc705f24f23a2e6ff11",
@@ -9924,6 +14854,12 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "613a01c8985177268a7f",
+    "artist": "The Shades",
+    "title": "Who You Gonna Run To",
+    "album": "V-Rocket"
+  },
+  {
     "id": "0bab180b7c1c282af923",
     "artist": "The Shangri-Las",
     "title": "Give Him A Great Big Kiss",
@@ -9943,6 +14879,13 @@
     "title": "Out In The Streets",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Pop"
+  },
+  {
+    "id": "884477efef15b9a0b2de",
+    "artist": "The Shins",
+    "title": "New Slang",
+    "album": "Oh, Inverted World",
+    "genre": "Rock"
   },
   {
     "id": "e9ab64b709e2fddc93df",
@@ -9997,6 +14940,12 @@
     "title": "All I Ever Wanted",
     "album": "Do the Ska",
     "genre": "Ska"
+  },
+  {
+    "id": "5ee437a71402dadac408",
+    "artist": "The Slackers",
+    "title": "Almost Lost Ya",
+    "album": "Don't Let The Sunlight Fool Ya"
   },
   {
     "id": "a8bf8c37a7a2a3f27830",
@@ -10258,6 +15207,12 @@
     "genre": "R&B"
   },
   {
+    "id": "eccd13e5c508b3562f1a",
+    "artist": "The Slackers",
+    "title": "Don't Let The Sunlight Fool Ya",
+    "album": "Don't Let The Sunlight Fool Ya"
+  },
+  {
     "id": "0e59dbdbcbfe09c3841f",
     "artist": "The Slackers",
     "title": "Don't Look Back",
@@ -10411,6 +15366,12 @@
     "title": "Greedy Girl",
     "album": "Before There Were Slackers There Were...The Nods",
     "genre": "Ska"
+  },
+  {
+    "id": "4fe057a38c3a1ef4b940",
+    "artist": "The Slackers",
+    "title": "Hanging On",
+    "album": "Don't Let The Sunlight Fool Ya"
   },
   {
     "id": "b03f01a2c66b88d7592f",
@@ -11031,6 +15992,12 @@
     "album": "Peculiar"
   },
   {
+    "id": "79518f2b086e5272b2b7",
+    "artist": "The Slackers",
+    "title": "Shameboy",
+    "album": "Don't Let The Sunlight Fool Ya"
+  },
+  {
     "id": "d4ffefe2dc4ad31d6121",
     "artist": "The Slackers",
     "title": "Shankbon",
@@ -11120,6 +16087,12 @@
     "genre": "R&B"
   },
   {
+    "id": "551374da927ff1739be9",
+    "artist": "The Slackers",
+    "title": "Statehouse",
+    "album": "Don't Let The Sunlight Fool Ya"
+  },
+  {
     "id": "b975074c2c0473ded816",
     "artist": "The Slackers",
     "title": "Strychnine",
@@ -11204,6 +16177,12 @@
     "title": "The Tv Dinner Song",
     "album": "The Great Rocksteady Swindle",
     "genre": "Ska"
+  },
+  {
+    "id": "5e5dfcce7220e9e03001",
+    "artist": "The Slackers",
+    "title": "They Are Losing",
+    "album": "Don't Let The Sunlight Fool Ya"
   },
   {
     "id": "b8a7422a981592e8db02",
@@ -11375,6 +16354,12 @@
     "genre": "Ska"
   },
   {
+    "id": "a87e711136608c82ee93",
+    "artist": "The Slackers",
+    "title": "Windowland",
+    "album": "Don't Let The Sunlight Fool Ya"
+  },
+  {
     "id": "679045891663718dbc24",
     "artist": "The Slackers",
     "title": "Winter Wonderland",
@@ -11456,10 +16441,29 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "1ef0db91ccb06634915b",
+    "artist": "The Smashing Pumpkins",
+    "title": "1979",
+    "album": "Mellon Collie and the Infinite Sadness"
+  },
+  {
     "id": "7212d9619b54e152a093",
     "artist": "The Sonics",
     "title": "Strychnine",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
+  },
+  {
+    "id": "172b83391309493653b7",
+    "artist": "The Sonny Bradshaw Seven",
+    "title": "Love Is Blue",
+    "album": "Rocksteady #02: Sut Mix"
+  },
+  {
+    "id": "a89480d44a3bf84708aa",
+    "artist": "The Soul Messengers",
+    "title": "Do It (till You're Satisfied)",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
   },
   {
     "id": "79e9c401098e30276dca",
@@ -11468,11 +16472,41 @@
     "album": "The Specials"
   },
   {
+    "id": "dae2bd366bf779572728",
+    "artist": "The Specials, Fun Boy Three",
+    "title": "Ghost Town (re-recorded)",
+    "album": "The Very Best Of"
+  },
+  {
     "id": "0a5e631df6ddd384ef3d",
     "artist": "The Spinners",
     "title": "Could It Be I'm Falling In Love",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Pop"
+  },
+  {
+    "id": "4cce86241964ab704743",
+    "artist": "The Spinners",
+    "title": "It's a Shame",
+    "album": "Hitsville USA: The Motown Singles Collections, 1959 - 1992 [box sets]"
+  },
+  {
+    "id": "2bc83ecc8a9ddc833054",
+    "artist": "The Staple Singers",
+    "title": "Respect Yourself",
+    "album": "Crooklyn (OST)"
+  },
+  {
+    "id": "1afad317a3d0955244a4",
+    "artist": "The Staple Singers",
+    "title": "Respect Yourself",
+    "album": "Ferry Maat's Soulshow - 25th Anniversary Collection - The Seventies Part 1"
+  },
+  {
+    "id": "fb8eeb7b1694a4e244d8",
+    "artist": "The Staple Singers",
+    "title": "Respect Yourself",
+    "album": "The Complete Stax-Volt Soul Singles, Volume 2: 1968-1971 (disc 9)"
   },
   {
     "id": "fa15b0c598b5a84bc1f8",
@@ -11495,6 +16529,34 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "b564fbdb6ba1ae808cf7",
+    "artist": "The Stylistics",
+    "title": "Break up to Make Up (Live)",
+    "album": "You Make Me Feel Brand New Live",
+    "genre": "Funk; R&B; Soul"
+  },
+  {
+    "id": "aa172868b0121f5e10f3",
+    "artist": "The Stylistics",
+    "title": "You Make Me Feel Brand New",
+    "album": "Now That's What I Call Massive Hits & #1s",
+    "genre": "Pop"
+  },
+  {
+    "id": "3cc04db23d94a7e6050f",
+    "artist": "The Stylistics",
+    "title": "You're a Big Girl Now",
+    "album": "The Best Of The Stylistics",
+    "genre": "Soul"
+  },
+  {
+    "id": "8937b132989746cd5bdf",
+    "artist": "The Stylistics Feat. Russell Thompkins Jr. & Airrion Love",
+    "title": "You Make Me Feel Brand New",
+    "album": "Rockin' Roll Baby",
+    "genre": "Soul"
+  },
+  {
     "id": "163209c550ed8d618a22",
     "artist": "The Supremes",
     "title": "Baby Love",
@@ -11506,6 +16568,13 @@
     "artist": "The Supremes",
     "title": "I Hear A Symphony",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
+    "genre": "Soul"
+  },
+  {
+    "id": "e90b13d90733fa278469",
+    "artist": "The Supremes",
+    "title": "Stop! In The Name Of Love (Single Version / Mono)",
+    "album": "The Ultimate Collection: Diana Ross & The Supremes",
     "genre": "Soul"
   },
   {
@@ -11523,11 +16592,24 @@
     "genre": "Soul"
   },
   {
+    "id": "41a210418d65609a04a9",
+    "artist": "The Supremes",
+    "title": "You Can't Hurry Love",
+    "album": "Remember...the 1960s"
+  },
+  {
     "id": "664110a4f5b0160abb3b",
     "artist": "The Supremes",
     "title": "You Keep Me Hangin' On",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "Soul"
+  },
+  {
+    "id": "ca9c12e50e4f15c3bb40",
+    "artist": "The Supremes",
+    "title": "You Keep Me Hangin' On (Album Version Stereo)",
+    "album": "60's Triple set",
+    "genre": "Pop"
   },
   {
     "id": "068674557fa364b6fe50",
@@ -11537,11 +16619,45 @@
     "genre": "Pop"
   },
   {
+    "id": "b1492f5f09eee4a57c1c",
+    "artist": "The Techniques",
+    "title": "I Wish It Would Rain",
+    "album": "Queen Majesty: The Best of the Techniques 1965-1974",
+    "genre": "Reggae"
+  },
+  {
+    "id": "ecf1b7cb886d7b9f67ed",
+    "artist": "The Techniques",
+    "title": "Oh Babe (Sick And Tired)",
+    "album": "Queen Majesty - The Best Of The Techniques 1965-1974",
+    "genre": "Reggae"
+  },
+  {
     "id": "1e93b2d0d2f0a1447a99",
     "artist": "The Temptations",
     "title": "Get Ready",
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s",
     "genre": "R&B"
+  },
+  {
+    "id": "e4deae65aef35161b79b",
+    "artist": "The Temptations",
+    "title": "Just My Imagination (Running Away With Me)",
+    "album": "101 - Motown Anthems - CD3"
+  },
+  {
+    "id": "ddaa737df8985e2c4bc8",
+    "artist": "The Temptations",
+    "title": "Masterpiece",
+    "album": "Masterpiece",
+    "genre": "Soul"
+  },
+  {
+    "id": "53ae7e8eb7c0b083ae41",
+    "artist": "The Temptations",
+    "title": "Papa Was A Rollin' Stone (Single Version)",
+    "album": "Papa Was A Rollin' Stone (Single Version)",
+    "genre": "Pop"
   },
   {
     "id": "e6efa870594c79c0cbb2",
@@ -11556,6 +16672,12 @@
     "title": "Teenage kicks",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s",
     "genre": "Rock"
+  },
+  {
+    "id": "4d34ed98d19b9011b38e",
+    "artist": "The Uniques",
+    "title": "Crimson And Clover",
+    "album": "Stereotized: Our Own Blend Vol 14"
   },
   {
     "id": "699ec629b54c1ce714a7",
@@ -11606,6 +16728,13 @@
     "genre": "Rock"
   },
   {
+    "id": "daf34fe4f8e89ba8883b",
+    "artist": "The Wailing Wailers",
+    "title": "It Hurts To Be Alone",
+    "album": "The Wailing Wailers (2022 Reissue)",
+    "genre": "Ska"
+  },
+  {
     "id": "5866c12ce6ede1c8775e",
     "artist": "The Walker Brothers",
     "title": "The Electrician",
@@ -11653,6 +16782,27 @@
     "album": "Pitchfork's 200 Greatest Songs Of The 1960s"
   },
   {
+    "id": "86734a8f26842a78b186",
+    "artist": "The Wings",
+    "title": "Single Boy",
+    "album": "Nigeria Soul Power 70",
+    "genre": "Funk"
+  },
+  {
+    "id": "bf16453234132c26bfd0",
+    "artist": "The Wings",
+    "title": "Single Boy",
+    "album": "Soul Jazz Records Presents Nigeria Soul Power 70: Afro-Funk, Afro-Rock, Afro-Disco",
+    "genre": "Funk"
+  },
+  {
+    "id": "1b857f59df688a46eff8",
+    "artist": "The Wings",
+    "title": "We'll Get Home",
+    "album": "Soul Jazz Records Presents Nigeria Soul Power 70: Afro-Funk, Afro-Rock, Afro-Disco",
+    "genre": "Funk"
+  },
+  {
     "id": "560219404a60bda8ad4e",
     "artist": "The Zombies",
     "title": "Care Of Cell 44",
@@ -11681,6 +16831,26 @@
     "genre": "Pop"
   },
   {
+    "id": "43548341db8613a462b3",
+    "artist": "They Might Be Giants",
+    "title": "Birdhouse in Your Soul",
+    "album": "Flood"
+  },
+  {
+    "id": "87da1c22c61500964d94",
+    "artist": "They Might Be Giants",
+    "title": "Istanbul (Not Constantinople)",
+    "album": "Flood",
+    "genre": "Rock"
+  },
+  {
+    "id": "24ac864199538a96139a",
+    "artist": "They Might Be Giants",
+    "title": "Istanbul (Not Constantinople)",
+    "album": "Severe Tire Damage",
+    "genre": "Alternative"
+  },
+  {
     "id": "fdf17916af0fe7c76e44",
     "artist": "Thin Lizzy",
     "title": "The Boys Are Back In Town",
@@ -11698,6 +16868,13 @@
     "artist": "Thomas Dolby",
     "title": "Hyperactive! (Heavy Breather Subversion)",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "61abe8cd6ca851a85134",
+    "artist": "Three Degrees",
+    "title": "When Will I See You Again",
+    "album": "The Best Singles Of All Time - The Seventies",
+    "genre": "Pop"
   },
   {
     "id": "865e0c6d35033051f059",
@@ -11775,6 +16952,12 @@
     "genre": "Blues"
   },
   {
+    "id": "8ccf489f6f600ad5efd4",
+    "artist": "Tom Waits",
+    "title": "Hold On",
+    "album": "Mule Variations"
+  },
+  {
     "id": "f0063dbe881d127a0ef6",
     "artist": "Tom Zé",
     "title": "Doi",
@@ -11788,11 +16971,49 @@
     "genre": "Rock"
   },
   {
+    "id": "1385170eaa7632c518c1",
+    "artist": "Tommy McCook & The Supersonics",
+    "title": "Ode To Billie Joe",
+    "album": "Down On Bond Street",
+    "genre": "Ska"
+  },
+  {
+    "id": "393b382e659662cb809f",
+    "artist": "Tommy McCook & The Supersonics",
+    "title": "Ska Flea (Spanish Flea)",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "dc1f2087d9c17a000f95",
+    "artist": "Tomorrow's Children",
+    "title": "Bang! Bang!",
+    "album": "Trojan Sixties Box Set"
+  },
+  {
+    "id": "994b3acc21f57082a152",
+    "artist": "Tony Bennett",
+    "title": "For Once in My Life",
+    "album": "Duets: An American Classic",
+    "genre": "Jazz"
+  },
+  {
     "id": "1da89c47a4554e72b546",
     "artist": "Tony Bennett",
     "title": "The Lady Is a Tramp feat. Lady Gaga",
     "album": "Tony Bennett Celebrates 90",
     "genre": "Jazz"
+  },
+  {
+    "id": "4761b7e37feee93f9ead",
+    "artist": "Tony Denikos",
+    "title": "Love's Impossible",
+    "album": "Already Gone"
+  },
+  {
+    "id": "be9b2a999fa1407cdd40",
+    "artist": "Tony Grey",
+    "title": "You Are The One",
+    "album": "Lagos Disco Inferno Vol. 2: The Cosmic Return"
   },
   {
     "id": "13ce7688482dd2a27e42",
@@ -11828,6 +17049,13 @@
     "genre": "Reggae"
   },
   {
+    "id": "33ee354c9cf739c60674",
+    "artist": "Toots & The Maytals",
+    "title": "Night And Day",
+    "album": "100% Dynamite!",
+    "genre": "Ska"
+  },
+  {
     "id": "5540403679617f41a9bd",
     "artist": "Toots And The Maytals",
     "title": "Pressure Drop",
@@ -11842,6 +17070,12 @@
     "genre": "Folk"
   },
   {
+    "id": "41e7205b068d79c09c81",
+    "artist": "Tracy Chapman",
+    "title": "The Promise",
+    "album": "New Beginning"
+  },
+  {
     "id": "9b8ba02e528c3c3ba2f7",
     "artist": "Tyrannosaurus Rex",
     "title": "Debora",
@@ -11849,10 +17083,24 @@
     "genre": "Folk"
   },
   {
+    "id": "6f60eebabb724457fae6",
+    "artist": "U-God",
+    "title": "Pleasure or Pain",
+    "album": "Golden Arms Redemption",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
     "id": "97ca4848e6479219f301",
     "artist": "USA For Africa",
     "title": "We Are The World",
     "album": "Choice 12\" (Vinyl Transfers)"
+  },
+  {
+    "id": "05ce485bc4a4d0b10058",
+    "artist": "Val Bennett & The Upsetters",
+    "title": "Stranger On The Shore aka Popeye On The Shore",
+    "album": "King Scratch (Musical Masterpieces From The Upsetter Ark-ive)",
+    "genre": "Reggae"
   },
   {
     "id": "6c0ca3537b6986fda765",
@@ -13202,6 +18450,13 @@
     "genre": "Jazz"
   },
   {
+    "id": "9b90a3cd37fc94061c70",
+    "artist": "Violent Femmes",
+    "title": "Blister In The Sun",
+    "album": "Violent Femmes",
+    "genre": "Folk"
+  },
+  {
     "id": "948c5af64b09a036c27f",
     "artist": "Vybz Kartel",
     "title": "Fever",
@@ -13241,11 +18496,93 @@
     "genre": "Reggae"
   },
   {
+    "id": "0dbce072f581492d3dc1",
+    "artist": "Weezer",
+    "title": "Across the Sea",
+    "album": "Pinkerton"
+  },
+  {
+    "id": "a3aebecefa55a1977b4c",
+    "artist": "Weezer",
+    "title": "Butterfly",
+    "album": "Pinkerton",
+    "genre": "Rock"
+  },
+  {
+    "id": "c5e84ca3d45941e9d694",
+    "artist": "Weezer",
+    "title": "El Scorcho",
+    "album": "Pinkerton"
+  },
+  {
+    "id": "59223e2f865ebfa83b89",
+    "artist": "Weezer",
+    "title": "Falling For You",
+    "album": "Pinkerton"
+  },
+  {
+    "id": "859e278af9165d763fa4",
+    "artist": "Weezer",
+    "title": "Getchoo",
+    "album": "Pinkerton - Deluxe Edition"
+  },
+  {
     "id": "2667df3359c86fb13b8a",
     "artist": "Weezer",
     "title": "Go Away",
     "album": "Everything Will Be Alright in the End",
     "genre": "Alternative"
+  },
+  {
+    "id": "05570fbc2705947c799c",
+    "artist": "Weezer",
+    "title": "Hash Pipe",
+    "album": "Weezer (Green Album)"
+  },
+  {
+    "id": "78b6eea9dc6fd4a9942e",
+    "artist": "Weezer",
+    "title": "In the Garage",
+    "album": "Weezer"
+  },
+  {
+    "id": "851809d5b82815b7beee",
+    "artist": "Weezer",
+    "title": "No Other One",
+    "album": "Pinkerton (Deluxe Edition)",
+    "genre": "Rock"
+  },
+  {
+    "id": "9faaeeb9c621f5007737",
+    "artist": "Weezer",
+    "title": "Pink Triangle",
+    "album": "Pinkerton"
+  },
+  {
+    "id": "849693e89c3048db2673",
+    "artist": "Weezer",
+    "title": "Say It Ain't So",
+    "album": "Weezer (Blue Album)"
+  },
+  {
+    "id": "5b57920bc29cde5cb814",
+    "artist": "Weezer",
+    "title": "Say It Ain't So - Original Mix",
+    "album": "Weezer",
+    "genre": "Rock"
+  },
+  {
+    "id": "febc33be237d0365d08f",
+    "artist": "Weezer",
+    "title": "Tired Of Sex",
+    "album": "Pinkerton - Deluxe Edition"
+  },
+  {
+    "id": "bebd7d14cd354d1b70d2",
+    "artist": "Weezer",
+    "title": "Why Bother?",
+    "album": "Pinkerton (Deluxe Edition)",
+    "genre": "Rock"
   },
   {
     "id": "cbd59a58f46f31ac9c87",
@@ -13277,6 +18614,12 @@
     "artist": "William DeVaughn",
     "title": "Be Thankful For What You Got",
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
+  },
+  {
+    "id": "3682e1772d10d04318ae",
+    "artist": "Wilson Pickett",
+    "title": "Don't Let The Green Grass Fool You",
+    "album": "Singles"
   },
   {
     "id": "afae1266398a6a7fb125",
@@ -13357,6 +18700,213 @@
     "album": "Wishnik Sing-A-Long Party"
   },
   {
+    "id": "48e295b8281d15c4fb27",
+    "artist": "Wu Tang Clan",
+    "title": "Fast Shadow",
+    "album": "Ghost Dog: The Way Of The Samurai - The Album"
+  },
+  {
+    "id": "28ea2ba04ad20792f2bd",
+    "artist": "Wu-Block feat. Jadakiss",
+    "title": "Stick Up Kids",
+    "album": "Wu-Block"
+  },
+  {
+    "id": "972660138d9d0ed27e3f",
+    "artist": "Wu-Tang Clan",
+    "title": "As High as Wu-Tang Get",
+    "album": "Wu-Tang Forever",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f07174b4f07a88c2982e",
+    "artist": "Wu-Tang Clan",
+    "title": "C.R.E.A.M.",
+    "album": "Enter The Wu-Tang (36 Chambers)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d1da844701f865ce2f9b",
+    "artist": "Wu-Tang Clan",
+    "title": "Da Mystery Of Chessboxin'",
+    "album": "Enter the Wu-Tang (36 chambers)"
+  },
+  {
+    "id": "edfe9928b5a31ec62937",
+    "artist": "Wu-Tang Clan",
+    "title": "Dog Shit",
+    "album": "Wu-Tang Forever",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "12154b88e250a221c892",
+    "artist": "Wu-Tang Clan",
+    "title": "Iron Flag",
+    "album": "Iron Flag"
+  },
+  {
+    "id": "30ad94f002a7919d3f41",
+    "artist": "Wu-Tang Clan",
+    "title": "It's Yourz",
+    "album": "Wu-Tang Forever",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "e7798131243e9aa3d38c",
+    "artist": "Wu-Tang Clan",
+    "title": "Lyrical Swords (Instrumental)",
+    "album": "Wu-Tang Meets The Indie Culture Instrumentals (Instrumental)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "fb733a3be0970d91c3ad",
+    "artist": "Wu-Tang Clan",
+    "title": "Method Man",
+    "album": "Enter the Wu-Tang (36 Chambers)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "5c16c4ed562dd13e99e4",
+    "artist": "Wu-Tang Clan",
+    "title": "One Blood Under W",
+    "album": "The Essential Wu-Tang Clan",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "c239f7a39e1f42b8a650",
+    "artist": "Wu-Tang Clan",
+    "title": "Protect Ya Neck"
+  },
+  {
+    "id": "9a620616f2f93bac83a3",
+    "artist": "Wu-Tang Clan",
+    "title": "Protect Ya Neck (The Jump Off)",
+    "album": "The W",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "b0d34a7c75d2f381856f",
+    "artist": "Wu-Tang Clan",
+    "title": "Shame On A Nigga",
+    "album": "Enter the Wu-Tang - 36 Chambers",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ada195b67cf684ab42d3",
+    "artist": "Wu-Tang Clan",
+    "title": "Strawberries & Cream (feat. Inspectah Deck, RZA & Ghostface Killah)",
+    "album": "Mathematics Presents Wu-Tang - Return Of The Wu And Friends"
+  },
+  {
+    "id": "d1381f6cda16295e461a",
+    "artist": "Wu-Tang Clan",
+    "title": "The Heart Gently Weeps (feat. Erykah Badu, Dhani Harrison & John Frusciante)",
+    "album": "8 Diagrams"
+  },
+  {
+    "id": "b4033d92af3cdfca6204",
+    "artist": "Wu-Tang Clan",
+    "title": "Uzi (Pinky Ring)",
+    "album": "Wu-Tang Iron Flag"
+  },
+  {
+    "id": "8cb57bb4db93f34a9a5c",
+    "artist": "Wu-Tang Clan",
+    "title": "Wu-Tang Clan Aint Nuthing Ta F' Wit",
+    "album": "Enter The Wu-Tang"
+  },
+  {
+    "id": "0c905464e8fd216f9d95",
+    "artist": "Wu-Tang Clan",
+    "title": "Ya'll Been Warned",
+    "album": "Iron Flag"
+  },
+  {
+    "id": "582c3cbd1b7a45fa32d4",
+    "artist": "Wu‐Tang Clan",
+    "title": "Black Shampoo",
+    "album": "Wu-Tang Forever"
+  },
+  {
+    "id": "ed185f77b96c60ce3a14",
+    "artist": "Wu‐Tang Clan",
+    "title": "Can It Be All So Simple / Intermission",
+    "album": "Enter the Wu‐Tang (36 Chambers)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "d64dd0e871dcf8b799c8",
+    "artist": "Wu‐Tang Clan",
+    "title": "Gravel Pit",
+    "album": "The W"
+  },
+  {
+    "id": "982cdd0d91c6d912c0f3",
+    "artist": "Wu‐Tang Clan",
+    "title": "Hollow Bones",
+    "album": "The W",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "7facc33daf5a1dc9fa28",
+    "artist": "Wu‐Tang Clan",
+    "title": "I Can’t Go to Sleep",
+    "album": "The W",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "f25f4ed6c28faec99912",
+    "artist": "Wu‐Tang Clan",
+    "title": "Iron Flag",
+    "album": "Iron Flag",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "50b1fe43707e4f715b9a",
+    "artist": "Wu‐Tang Clan",
+    "title": "Reunited",
+    "album": "Wu‐Tang Forever"
+  },
+  {
+    "id": "da3923283a3a61db923b",
+    "artist": "Wu‐Tang Clan",
+    "title": "Rushing Elephants",
+    "album": "8 Diagrams",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "ffb3efcfe9dc456434a2",
+    "artist": "Wu‐Tang Clan",
+    "title": "Slow Blues (instrumental)",
+    "album": "Wu-Tang Meets The Indie Culture Instrumentals",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "53ad9a3258b464dd26ce",
+    "artist": "Wu‐Tang Clan",
+    "title": "The M.G.M.",
+    "album": "Wu‐Tang Forever"
+  },
+  {
+    "id": "1c060eb44afe977ca16a",
+    "artist": "Wu‐Tang Clan",
+    "title": "Wolves",
+    "album": "8 Diagrams",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
+    "id": "70441f99eb3970d11e7a",
+    "artist": "Wu‐Tang Clan Feat. Cappadonna",
+    "title": "Triumph",
+    "album": "Wu-Tang Forever"
+  },
+  {
+    "id": "c7b4ce224f6b20357a11",
+    "artist": "Wu‐Tang Clan featuring RZA and MF DOOM",
+    "title": "Biochemical Equation",
+    "album": "Biochemical Equation"
+  },
+  {
     "id": "3da8a4a5f07172599704",
     "artist": "X-Ray Spex",
     "title": "Oh Bondage! Up Yours!",
@@ -13401,10 +18951,23 @@
     "genre": "Reggae"
   },
   {
+    "id": "6cea849c673ad2e5e2bb",
+    "artist": "Yvonne Fair",
+    "title": "It Should Have Been Me",
+    "album": "Motown Chartbusters 10"
+  },
+  {
     "id": "d6bfabdccc3337411b6a",
     "artist": "Zac Brown Band feat. Sara Bareilles",
     "title": "Mango Tree",
     "album": "Jekyll + Hyde",
     "genre": "Country"
+  },
+  {
+    "id": "4f6ce9c8a7b75af7614d",
+    "artist": "Zap Pow",
+    "title": "If You Don't Know Me By Now",
+    "album": "Trojan Soulful Reggae Box Set",
+    "genre": "Reggae"
   }
 ]

@@ -3097,6 +3097,12 @@
     "album": "Trojan Sixties Box Set"
   },
   {
+    "id": "4e5244b0590bca04fc12",
+    "artist": "Clipse",
+    "title": "Chains & Whips feat. Kendrick Lamar",
+    "album": "Let God Sort Em Out"
+  },
+  {
     "id": "84160f76618ff4cd48a3",
     "artist": "Clipse, Kendrick Lamar, Pusha T, Malice",
     "title": "Chains & Whips",
@@ -5982,6 +5988,12 @@
     "album": "Pitchfork 200 Greatest Songs Of The 1970s"
   },
   {
+    "id": "52ef80a14138b0279d4a",
+    "artist": "Future & Metro Boomin ft Kendrick Lamar",
+    "title": "Like That (Clean)",
+    "album": "Like That"
+  },
+  {
     "id": "4485aa1544ac9729524b",
     "artist": "Gal Costa",
     "title": "Baby",
@@ -7889,16 +7901,34 @@
     "album": "Trojan Sixties Box Set"
   },
   {
+    "id": "3082c6796754ce40b4a5",
+    "artist": "Kendrick Lamar",
+    "title": "DNA (Clean)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
     "id": "c94b3d88a9e45e978151",
     "artist": "Kendrick Lamar",
     "title": "heart pt. 6",
     "album": "GNX"
   },
   {
+    "id": "6879818ad4df7fb32194",
+    "artist": "Kendrick Lamar",
+    "title": "Humble (Clean)",
+    "album": "Billboard Top 100 - 2017"
+  },
+  {
     "id": "89ce945e421dad96ef03",
     "artist": "Kendrick Lamar",
     "title": "HUMBLE.",
     "album": "DAMN."
+  },
+  {
+    "id": "4009379b51c1025db6bb",
+    "artist": "Kendrick Lamar",
+    "title": "Luther (Clean)",
+    "album": "For Promotional Use Only"
   },
   {
     "id": "a15233d6a38e0ff0b0b3",
@@ -7929,6 +7959,18 @@
     "artist": "Kendrick Lamar",
     "title": "wacced out murals",
     "album": "GNX"
+  },
+  {
+    "id": "77c5ef403db4630a443f",
+    "artist": "Kendrick Lamar feat. Lefty Gunplay",
+    "title": "tv off (Clean) (DJ Edit)",
+    "album": "DJ Edits Chart 8"
+  },
+  {
+    "id": "8ffdb2c8e23514ce6d5f",
+    "artist": "Kendrick Lamar ft Jay Z",
+    "title": "Bitch, Dont Kill My Vibe (Remix) (Clean)",
+    "genre": "Hip-Hop / Rap"
   },
   {
     "id": "70cf0ee359c46f90f030",
@@ -9763,6 +9805,12 @@
     "genre": "Reggae"
   },
   {
+    "id": "7cde2e4e5ed5237eb5a2",
+    "artist": "Miguel ft Kendrick Lamar",
+    "title": "How Many Drinks (Clean)",
+    "genre": "R&B"
+  },
+  {
     "id": "592916c165cbe5ee28e3",
     "artist": "Mike Dorane",
     "title": "You Keep Me Hanging On",
@@ -11535,6 +11583,12 @@
     "album": "Hi Infidelity"
   },
   {
+    "id": "781ecb7183816d3c7438",
+    "artist": "Rich The Kid ft Kendrick Lamar",
+    "title": "New Freezer (Clean)",
+    "genre": "Hip-Hop / Rap"
+  },
+  {
     "id": "9685581ef2305c61bccc",
     "artist": "Richard Hell And The Voidoids",
     "title": "Blank Generation",
@@ -12516,6 +12570,11 @@
     "title": "Si Boops Dey",
     "album": "Greatest Hits",
     "genre": "Reggae"
+  },
+  {
+    "id": "f46b79f5fc8704b7484e",
+    "artist": "Sza, Kendrick Lamar",
+    "title": "30 For 30 (Clean) 70 140"
   },
   {
     "id": "15d7f533f64a98696e8f",

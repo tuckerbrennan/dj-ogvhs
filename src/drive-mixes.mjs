@@ -198,13 +198,19 @@ async function load() {
   try {
     // Always load explicitly published AWS tracks even when an older database is active.
     const hosted = await loadHostedMixes().catch(() => []);
-    let legacy;
-    try {
-      legacy = await loadPublishedMixes();
-      if (legacy.length === 0) legacy = await loadLegacyMixes();
-    } catch { legacy = await loadLegacyMixes(); }
-    const existingTitles = new Set(hosted.map(item => item.title.toLowerCase()));
-    const mixes = [...hosted, ...legacy.filter(item => !existingTitles.has(item.title.toLowerCase()))];
+    const [database, curated] = await Promise.all([
+      loadPublishedMixes().catch(() => []),
+      loadLegacyMixes().catch(() => [])
+    ]);
+    const mixes = [];
+    const titles = new Set();
+    for (const mix of [...hosted, ...database, ...curated]) {
+      const key = mix.title.toLowerCase();
+      if (!titles.has(key)) {
+        titles.add(key);
+        mixes.push(mix);
+      }
+    }
     grid.replaceChildren(...mixes.map(renderMix));
     status.textContent = mixes.length ? '' : 'Exclusive mixes are coming soon.';
   } catch {

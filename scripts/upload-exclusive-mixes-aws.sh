@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Usage: OGVHS_AUDIO_BUCKET=... bash scripts/upload-exclusive-mixes-aws.sh <name> <source.wav>
+# Usage: OGVHS_AUDIO_BUCKET=... bash scripts/upload-exclusive-mixes-aws.sh <name> <source-audio-file>
 # Names: brian-wilson-forever | amy-2-electric-boogaloo | tom-waits-forever | cleandrick-lamar
 set -euo pipefail
 export AWS_PAGER=""
 if [[ $# -ne 2 ]]; then
-  echo "Usage: OGVHS_AUDIO_BUCKET=... bash $0 <mix-name> <source.wav>" >&2
+  echo "Usage: OGVHS_AUDIO_BUCKET=... bash $0 <mix-name> <source-audio-file>" >&2
   exit 2
 fi
 mix="$1"; source="$2"

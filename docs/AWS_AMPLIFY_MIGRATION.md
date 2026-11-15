@@ -1,5 +1,7 @@
 # DJ OGVHS — AWS Amplify Hosting migration
 
+> **Updated 2026-11-15:** This earlier listener-only migration outline is superseded for operational planning by [Current architecture and AWS cutover](CURRENT_ARCHITECTURE_AND_AWS_CUTOVER.md), which also covers Supabase/admin verification, private audio CDN, publication gates, DNS rollback and live acceptance. This older guide remains for historical context.
+
 Status: **GitHub source prepared; AWS app and DNS cutover require confirmation.**
 
 ## Scope

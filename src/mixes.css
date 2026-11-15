@@ -24,13 +24,6 @@
 .mixes-hot .mix-card { border-color:var(--purple); }
 
 /* Exclusive sets: native HTML audio with the Drive player retained for unmigrated tracks. */
-/* Public GitHub Pages teaser: no private audio URL or embedded player. */
-.upcoming-exclusives { margin-top:6px; }
-.mix-card-upcoming { border-style:dashed; }
-.mix-card-upcoming .eyebrow { display:block; font-size:.72rem; line-height:1.45; }
-.mix-card-upcoming h3 { margin-top:10px; }
-.mix-card-upcoming .mix-byline { margin-bottom:0; }
-
 .drive-mix-card { border-color:var(--magenta); }
 .drive-mix-card iframe { height:240px; background:#080808; }
 .drive-mix-card .mix-byline { line-height:1.5; }

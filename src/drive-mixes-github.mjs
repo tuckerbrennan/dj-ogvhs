@@ -1,5 +1,4 @@
-// GitHub Pages compatibility player. This module embeds only already shared Drive mixes.
-// Native HTML audio + Media Session are enabled only in the AWS Amplify build.
+// GitHub Pages compatibility player. Curated Google Drive embeds require link-viewable source files.
 import {driveOpenUrl,drivePreviewUrl,normalizeMix} from './drive-mixes-model.mjs';
 
 const status = document.getElementById('hot-status');
@@ -65,15 +64,25 @@ async function load() {
   grid.replaceChildren();
   document.getElementById('hot-retry')?.remove();
   try {
-    let mixes;
-    try {
-      mixes = await loadPublishedMixes();
-      // A fresh, empty database catalog must not hide the legacy Google Drive playlist.
-      // Once database mixes exist they remain authoritative, so owner Hide/Unpublish works.
-      if (mixes.length === 0) mixes = await loadLegacyMixes();
-    } catch { mixes = await loadLegacyMixes(); }
+    // Show curated exclusive mixes first, even when a Supabase catalog exists.
+    // Keep any additional published database mixes after the featured selection.
+    const [curated, published] = await Promise.all([
+      loadLegacyMixes().catch(() => []),
+      loadPublishedMixes().catch(() => [])
+    ]);
+    const mixes = [];
+    const seen = new Set();
+    for (const mix of [...curated, ...published]) {
+      if (!mix.id) continue; // Drive iframe player needs a Drive ID.
+      const key = mix.title.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      mixes.push(mix);
+    }
+    const brianIndex = mixes.findIndex(mix => mix.title.toLowerCase() === 'brian wilson forever');
+    if (brianIndex > 0) mixes.unshift(...mixes.splice(brianIndex, 1));
     grid.replaceChildren(...mixes.map(renderMix));
-    status.textContent = mixes.length ? '' : 'Exclusive mixes are coming soon.';
+    status.textContent = mixes.length ? '' : 'No exclusive mixes are available right now.';
   } catch {
     status.textContent = 'The exclusive mixes could not load right now.';
     const retry = document.createElement('button');

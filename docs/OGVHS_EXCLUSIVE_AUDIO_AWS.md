@@ -7,7 +7,7 @@ Scope: only DJ OGVHS mixes unavailable on Mixcloud. Existing Mixcloud embeds are
 - **Amy 2 Electric Boogaloo** (source file: \`Amy 2 Electric Boogaloo .wav\`, Drive ID \`1zHJAkr-o9yN6OpIhkU6DY8PQZZi3Lzq6\`, 586,568,368 bytes). Drive access: anyone-with-link reader.
 - **Tom Waits Forever** (source file: \`Tom Waits Forever.wav\`, Drive ID \`1_NbFzFx9fDxqzKfgnZGWk-r0mpc2H1oc\`, 914,167,126 bytes). Already in the legacy player; do not remove until the new stream is confirmed.
 
-- **Cleandrick Lamar** (new user-supplied mix title, uploaded 2026-11-15; Drive/Dropbox file ID and file size **not yet confirmed**). Do not publish the link or claim S3 ingestion until located and verified.
+- **Cleandrick Lamar** (verified source `Cleandrick Lamar.m4a`, Drive ID `1s5qWi4BOkJQHPALsROjks3fcWIBJV9OX`, 804,383,885 bytes, `audio/x-m4a`, uploaded 2026-11-15). Drive access: owner-only; preserve private Drive access and do not publish until transferred to OGVHS-owned S3 and independently verified through CloudFront.
 
 The names above are source identifiers, **not publication permission**. Keep the original Google Drive objects unchanged. This site must never serve private Google Drive bytes directly to anonymous visitors.
 

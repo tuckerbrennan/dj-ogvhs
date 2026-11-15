@@ -11,6 +11,11 @@
       "description": "DJ OGVHS exclusive mix.",
       "artwork": "./public/mix-art/amy-2-electric-boogaloo.jpg",
       "published": false
+    },
+    {
+      "title": "Cleandrick Lamar",
+      "description": "DJ OGVHS exclusive mix. Source upload pending AWS verification.",
+      "published": false
     }
   ]
 }

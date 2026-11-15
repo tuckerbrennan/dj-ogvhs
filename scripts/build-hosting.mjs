@@ -20,6 +20,27 @@ for (const directory of directories) {
   await cp(join(root, directory), join(output, directory), { recursive: true });
 }
 
+// GitHub Pages keeps the existing Drive iframe fallback, and shows the Cleandrick
+// upcoming card. Only the Amplify build selects the AWS-native audio module;
+// the GitHub-only teaser disappears in the AWS artifact to avoid duplicate cards.
+const mixesPath = join(output, "mixes.html");
+let mixesHtml = await readFile(mixesPath, "utf8");
+const githubModule = "./src/drive-mixes-github.mjs?v=github-legacy-20261115";
+const awsModule = "./src/drive-mixes.mjs?v=aws-native-20261115";
+if (!mixesHtml.includes(githubModule)) {
+  throw new Error("mixes.html is missing the GitHub Pages-only player module");
+}
+mixesHtml = mixesHtml.replace(githubModule, awsModule);
+const githubStart = "<!-- OGVHS_GITHUB_ONLY_UPCOMING_START -->";
+const githubEnd = "<!-- OGVHS_GITHUB_ONLY_UPCOMING_END -->";
+const start = mixesHtml.indexOf(githubStart);
+const finish = mixesHtml.indexOf(githubEnd);
+if (start < 0 || finish <= start) {
+  throw new Error("mixes.html is missing GitHub-only upcoming card markers");
+}
+mixesHtml = mixesHtml.slice(0, start) + mixesHtml.slice(finish + githubEnd.length);
+await writeFile(mixesPath, mixesHtml);
+
 // Hidden AWS-only marker lets us prove the public domain has switched
 // away from GitHub Pages without changing the user-visible design.
 const indexPath = join(output, "index.html");

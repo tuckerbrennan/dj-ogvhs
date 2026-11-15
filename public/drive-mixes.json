@@ -1,14 +1,24 @@
 {
   "mixes": [
     {
-      "title": "Tom Waits Forever",
+      "title": "Brian Wilson Forever",
       "description": "An OGVHS exclusive mix.",
-      "url": "https://drive.google.com/file/d/1_NbFzFx9fDxqzKfgnZGWk-r0mpc2H1oc/view"
+      "url": "https://drive.google.com/file/d/19IxkfAPx9mSj19ZPeRjM9eGtgVUQxiUq/view"
+    },
+    {
+      "title": "Cleandrick Lamar",
+      "description": "An OGVHS exclusive mix.",
+      "url": "https://drive.google.com/file/d/1s5qWi4BOkJQHPALsROjks3fcWIBJV9OX/view"
     },
     {
       "title": "Amy 2 Electric Boogaloo",
-      "description": "An OGVHS exclusive mix. AWS streaming version is being prepared.",
+      "description": "An OGVHS exclusive mix.",
       "url": "https://drive.google.com/file/d/1zHJAkr-o9yN6OpIhkU6DY8PQZZi3Lzq6/view"
+    },
+    {
+      "title": "Tom Waits Forever",
+      "description": "An OGVHS exclusive mix.",
+      "url": "https://drive.google.com/file/d/1_NbFzFx9fDxqzKfgnZGWk-r0mpc2H1oc/view"
     }
   ]
 }

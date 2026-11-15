@@ -3,6 +3,7 @@
 **Snapshot:** November 15, 2026 (America/New_York)  
 **Scope:** DJ OGVHS listener website, AWS static hosting, and exclusive audio streaming. Not an ACS-suite migration.  
 **Status:** GitHub configuration reviewed; production DNS/origin and AWS resources **not independently verified**. This is a proposed cutover, not a completed deployment.
+**Notion documentation copy:** [DJ OGVHS architecture and AWS cutover](https://app.notion.com/p/419d600b5cc98132aed5eabeb97dae48). The GitHub runbook is the authoritative source for deployment instructions.
 
 ## Status conventions
 

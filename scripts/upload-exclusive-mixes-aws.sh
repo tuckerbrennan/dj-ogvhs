@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Usage: OGVHS_AUDIO_BUCKET=... bash scripts/upload-exclusive-mixes-aws.sh <name> <source.wav>
-# Names: brian-wilson-forever | amy-2-electric-boogaloo | tom-waits-forever
+# Names: brian-wilson-forever | amy-2-electric-boogaloo | tom-waits-forever | cleandrick-lamar
 set -euo pipefail
 export AWS_PAGER=""
 if [[ $# -ne 2 ]]; then
@@ -9,7 +9,7 @@ if [[ $# -ne 2 ]]; then
 fi
 mix="$1"; source="$2"
 case "$mix" in
-  brian-wilson-forever|amy-2-electric-boogaloo|tom-waits-forever) ;;
+  brian-wilson-forever|amy-2-electric-boogaloo|tom-waits-forever|cleandrick-lamar) ;;
   *) echo "Unknown exclusive mix name" >&2; exit 2;;
 esac
 [[ -r "$source" ]] || { echo "File not readable: $source" >&2; exit 1; }

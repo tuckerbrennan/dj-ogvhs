@@ -1,0 +1,21 @@
+{
+  "mixes": [
+    {
+      "title": "Brian Wilson Forever",
+      "description": "DJ OGVHS exclusive mix. Source: Brian Wilson Memorial.wav.",
+      "artwork": "./public/mix-art/brian-wilson-forever.jpg",
+      "published": false
+    },
+    {
+      "title": "Amy 2 Electric Boogaloo",
+      "description": "DJ OGVHS exclusive mix.",
+      "artwork": "./public/mix-art/amy-2-electric-boogaloo.jpg",
+      "published": false
+    },
+    {
+      "title": "Cleandrick Lamar",
+      "description": "DJ OGVHS exclusive mix. Source upload pending AWS verification.",
+      "published": false
+    }
+  ]
+}

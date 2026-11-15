@@ -54,3 +54,31 @@ export function normalizeMix(item) {
   if (artwork) mix.artwork = artwork;
   return mix;
 }
+
+/**
+ * Keep curated embeds visible now, promote verified AWS streams when published,
+ * and preserve a Google Drive fallback for a failed hosted stream.
+ * Supabase may add extra records but does not reorder the curated playlist.
+ */
+export function mergeExclusiveMixes({hosted = [], curated = [], database = []} = {}) {
+  const byTitle = new Map();
+  for (const mix of [...curated, ...database]) {
+    if (!mix?.title) continue;
+    const key = mix.title.toLocaleLowerCase('en-US');
+    if (!byTitle.has(key)) byTitle.set(key, mix);
+  }
+  for (const mix of hosted) {
+    if (!mix?.title || !mix.audioUrl) continue;
+    const key = mix.title.toLocaleLowerCase('en-US');
+    const fallback = byTitle.get(key);
+    byTitle.set(key, {
+      ...fallback,
+      ...mix,
+      ...(fallback?.id && !mix.id ? {id: fallback.id} : {})
+    });
+  }
+  const ordered = [...byTitle.values()];
+  const brian = ordered.findIndex(mix => mix.title.toLocaleLowerCase('en-US') === 'brian wilson forever');
+  if (brian > 0) ordered.unshift(...ordered.splice(brian, 1));
+  return ordered;
+}

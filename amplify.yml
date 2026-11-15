@@ -3,7 +3,6 @@ frontend:
   phases:
     build:
       commands:
-        - npm run build:hosting
         - npm test
   artifacts:
     baseDirectory: dist

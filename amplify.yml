@@ -3,9 +3,8 @@ frontend:
   phases:
     build:
       commands:
-        - npm test
         - npm run build:hosting
-        - node --test tests/build-hosting.test.mjs
+        - npm test
   artifacts:
     baseDirectory: dist
     files:

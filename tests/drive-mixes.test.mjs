@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseDriveId,drivePreviewUrl,normalizeMix,parseHostedAudioUrl,parseArtworkPath} from '../src/drive-mixes-model.mjs';
+import {parseDriveId,drivePreviewUrl,normalizeMix,parseHostedAudioUrl,parseArtworkPath,mergeExclusiveMixes} from '../src/drive-mixes-model.mjs';
 const id = '1AbcDEFghIJKlmnOP012345';
 test('accepts only Google Drive file IDs and safe share links',()=>{
   assert.equal(parseDriveId(id),id);
@@ -40,4 +40,25 @@ test('normalizes a hosted mix and its local art',()=>{
     artwork:'./public/mix-art/brian-wilson-forever.jpg'
   });
   assert.equal(parseArtworkPath('https://attacker.example/x.jpg'),null);
+});
+
+test('featured Brian is first and published AWS streams preserve Drive fallback', () => {
+  const curated = [
+    {title: 'Cleandrick Lamar', id: 'drive-cleandrick'},
+    {title: 'Brian Wilson Forever', id: 'drive-brian'},
+    {title: 'Amy 2 Electric Boogaloo', id: 'drive-amy'}
+  ];
+  const hosted = [
+    {title: 'Cleandrick Lamar', audioUrl: 'https://media.ogvhs.com/mixes/cleandrick-lamar.m4a'},
+    {title: 'Brian Wilson Forever', audioUrl: 'https://media.ogvhs.com/mixes/brian-wilson-forever.m4a'}
+  ];
+  const database = [{title: 'An extra mix', id: 'drive-extra'}];
+  const mixes = mergeExclusiveMixes({curated, hosted, database});
+  assert.deepEqual(mixes.map(m => m.title), [
+    'Brian Wilson Forever','Cleandrick Lamar','Amy 2 Electric Boogaloo','An extra mix'
+  ]);
+  assert.equal(mixes[0].audioUrl, hosted[1].audioUrl);
+  assert.equal(mixes[0].id, 'drive-brian');
+  assert.equal(mixes[1].id, 'drive-cleandrick');
+  assert.equal(mergeExclusiveMixes({curated})[0].id, 'drive-brian');
 });

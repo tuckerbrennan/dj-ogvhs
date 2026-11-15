@@ -211,6 +211,9 @@ async function load() {
         mixes.push(mix);
       }
     }
+    // Brian Wilson Forever is the featured exclusive mix regardless of source order.
+    const brianIndex = mixes.findIndex(mix => mix.title.toLowerCase() === 'brian wilson forever');
+    if (brianIndex > 0) mixes.unshift(...mixes.splice(brianIndex, 1));
     grid.replaceChildren(...mixes.map(renderMix));
     status.textContent = mixes.length ? '' : 'Exclusive mixes are coming soon.';
   } catch {

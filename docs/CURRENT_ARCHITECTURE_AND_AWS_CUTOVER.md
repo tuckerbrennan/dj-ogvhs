@@ -54,6 +54,13 @@ Proposed:
   Supabase / admin / Mixcloud / collab remain unchanged in phase 1
 ~~~
 
+## Pre-cutover release decision — 2026-11-15
+
+- **On GitHub Pages (before AWS cutover):** Show **Cleandrick Lamar** as a visible, non-playable **Coming with our AWS launch** card in the public Mixes page. Its source Drive file is private and must not be exposed as a public iframe or direct URL.
+- **Keep the old experience working:** `mixes.html` loads `src/drive-mixes-github.mjs` on GitHub Pages, which uses the previously shipped Google Drive embeds for already-shareable recordings; existing Mixcloud embeds remain unchanged.
+- **Native player is AWS-only:** `scripts/build-hosting.mjs` switches the built `dist/mixes.html` to `src/drive-mixes.mjs` (native HTML5 audio and Media Session) and removes the temporary GitHub-only teaser. Native audio is still gated by `public/hosted-mixes.json` and valid AWS media URLs; all exclusive hosted entries remain unpublished until their playback passes acceptance tests.
+- **Cutover priority:** Do not enable native audio on GitHub Pages, expose the private source Drive file, or publish broken AWS media links ahead of cutover.
+
 ## 3. Repository component inventory
 
 | Item | Files / provider | Current role and state |

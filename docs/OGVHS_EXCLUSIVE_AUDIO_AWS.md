@@ -52,6 +52,13 @@ FLAC output sample precisions: Brian 16-bit/44.1 kHz stereo, Amy 16-bit/44.1 kHz
 - Repository changes are committed to GitHub `main`. **AWS Amplify deployment completion and live `ogvhs.com/mixes.html` have not been independently verified through an AWS session in this chat.** Do not claim live website is updated until observed; the media URL tests and browser checks do not prove site deployment.
 - Browser compatibility, background playback and lock-screen controls should be fixed if actual defects are reported, rather than blocking a release on repeated confirmations.
 
+## Live Mixes-page embed bug fix (2026-11-16)
+
+- User reported the public Mixes page still displayed the Google Drive player even after the four published lossless FLAC URLs were committed to GitHub.
+- Root cause in source/build: `mixes.html` directly imported `src/drive-mixes-github.mjs`, with a separate Amplify-only build rewrite; **`tests/build-hosting.test.mjs` asserted that the old Google Drive player must be present**, causing newer native-player builds to fail tests. Both are fixed.
+- `mixes.html` now imports `src/drive-mixes.mjs?v=lossless-native-20261116` directly. `scripts/build-hosting.mjs` rejects any Drive-only embed imports in the production artifact. The corrected build test requires the native player and four published FLAC manifest entries. Existing Mixcloud sections and Google Drive fallback JSON/module remain in the repo.
+- These changes are committed to `main`, but a successful AWS Amplify deployment and live-page verification are still needed to declare the user-visible bug fixed. For Git-connected Amplify apps, release the latest `main` via `aws amplify start-job --job-type RELEASE` and check its build logs/status.
+
 ## Architecture
 - A dedicated **private S3 bucket for OGVHS-exclusive-mixes**, separate from SampleHoarder, MassiveCue, and the ACS suite.
 - **CloudFront** in front of the bucket using Origin Access Control (OAC), no public S3 ACLs. Preferred origin name: \`media.ogvhs.com\`.

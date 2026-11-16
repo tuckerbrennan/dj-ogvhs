@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {parseDriveId,drivePreviewUrl,normalizeMix,parseHostedAudioUrl,parseArtworkPath} from '../src/drive-mixes-model.mjs';
+import {parseDriveId,drivePreviewUrl,normalizeMix,parseHostedAudioUrl,parseArtworkPath,parseMixSlug,mixDetailUrl} from '../src/drive-mixes-model.mjs';
 const id = '1AbcDEFghIJKlmnOP012345';
 test('accepts only Google Drive file IDs and safe share links',()=>{
   assert.equal(parseDriveId(id),id);
@@ -62,4 +62,41 @@ test('published lossless Mixes catalog contains all four OGVHS hosted FLACs', ()
     assert.equal(parseHostedAudioUrl(mix.audio_url), mix.audio_url);
     assert.equal(normalizeMix(mix).audioUrl, mix.audio_url);
   });
+});
+
+test('stable mix detail URLs and metadata keep untrusted fields out of the DOM',()=>{
+  assert.equal(parseMixSlug('brian-wilson-forever'),'brian-wilson-forever');
+  assert.equal(parseMixSlug('../other'),null);
+  assert.equal(parseMixSlug('BAD'),null);
+  assert.equal(mixDetailUrl('cleandrick-lamar'),'./mix.html?mix=cleandrick-lamar');
+  assert.equal(mixDetailUrl('..%2Fother'),null);
+  const mix=normalizeMix({
+    title:'Brian Wilson Forever',
+    slug:'brian-wilson-forever',
+    artwork:'./public/mix-art/brian-wilson-forever.jpg',
+    audio_url:'https://media.ogvhs.com/mixes/brian-wilson-forever.flac',
+    duration_seconds:3637.93,
+    tags:['Rock','Soul'],
+    tracklist:[
+      {start_seconds:10,artist:'Artist',song:'Song'},
+      {start_seconds:60,chapter:'Interlude'}
+    ]
+  });
+  assert.equal(mix.slug,'brian-wilson-forever');
+  assert.equal(mix.durationSeconds,3637.93);
+  assert.deepEqual(mix.tags,['Rock','Soul']);
+  assert.deepEqual(mix.tracklist,[
+    {startSeconds:10,artist:'Artist',song:'Song'},
+    {startSeconds:60,chapter:'Interlude'}
+  ]);
+  assert.equal(mix.artwork,'./public/mix-art/brian-wilson-forever.jpg');
+});
+
+test('all hosted mix artwork references have stable file paths',()=>{
+  const catalog=JSON.parse(readFileSync(new URL('../public/hosted-mixes.json',import.meta.url),'utf8'));
+  for(const mix of catalog.mixes) {
+    assert.equal(mix.artwork,'./public/mix-art/'+mix.slug+'.jpg');
+    assert.ok(mix.duration_seconds > 3000);
+    assert.ok(mix.duration_seconds < 5000);
+  }
 });

@@ -59,6 +59,13 @@ FLAC output sample precisions: Brian 16-bit/44.1 kHz stereo, Amy 16-bit/44.1 kHz
 - `mixes.html` now imports `src/drive-mixes.mjs?v=lossless-native-20261116` directly. `scripts/build-hosting.mjs` rejects any Drive-only embed imports in the production artifact. The corrected build test requires the native player and four published FLAC manifest entries. Existing Mixcloud sections and Google Drive fallback JSON/module remain in the repo.
 - These changes are committed to `main`, but a successful AWS Amplify deployment and live-page verification are still needed to declare the user-visible bug fixed. For Git-connected Amplify apps, release the latest `main` via `aws amplify start-job --job-type RELEASE` and check its build logs/status.
 
+## Amplify job 25 failure diagnosed and corrected (2026-11-16)
+
+- Amplify app `d3fasyll46itov` (Ohio), GitHub `tuckerbrennan/dj-ogvhs`, branch `main`, domain `ogvhs.com` confirmed via user's CloudShell. Avoid `d1sie5lsi8txg3`, which belongs to a different consulting website.
+- Release job **25** failed in BUILD. Logs show **44 tests: 42 passed, 2 failed**; DEPLOY and VERIFY were canceled. The failure log's final 100 lines did not include the individual test names, but source inspection found exactly two stale checks in `tests/hosting-boundary.test.mjs`, both requiring the previous Drive-only webpage and unpublished/no-URL AWS catalog.
+- Fixed both tests on GitHub `main` (commit `22ddb8c6696919ec0f29851855d6db40cd306307`). They now require the native lossless player, four published FLAC entries, preserved Mixcloud sections, and Drive backup metadata. The test suite still requires deployment validation; **no new Amplify release reported successful yet**.
+- Next step: release current `main` to this correct Amplify app and verify `ogvhs.com/mixes.html` references `src/drive-mixes.mjs` and its hosted manifest publishes four FLACs.
+
 ## Architecture
 - A dedicated **private S3 bucket for OGVHS-exclusive-mixes**, separate from SampleHoarder, MassiveCue, and the ACS suite.
 - **CloudFront** in front of the bucket using Origin Access Control (OAC), no public S3 ACLs. Preferred origin name: \`media.ogvhs.com\`.

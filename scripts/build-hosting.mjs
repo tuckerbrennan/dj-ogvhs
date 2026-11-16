@@ -6,7 +6,7 @@ import { dirname, join, resolve } from "node:path";
 // Do not publish docs, tests, Git metadata, developer tools or CNAME.
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const output = join(root, "dist");
-const pages = ["index.html", "about.html", "mixes.html", "thanks.html", "privacy.html"];
+const pages = ["index.html", "about.html", "mixes.html", "mix.html", "thanks.html", "privacy.html"];
 const directories = ["src", "public"];
 
 await rm(output, { recursive: true, force: true });
@@ -24,6 +24,11 @@ for (const directory of directories) {
 // Keep the guard so a stale Drive-only player cannot silently ship to Amplify.
 const mixesPath = join(output, "mixes.html");
 const mixesHtml = await readFile(mixesPath, "utf8");
+const mixDetailHtml = await readFile(join(output, "mix.html"), "utf8");
+if (!mixDetailHtml.includes('src/mix-detail.mjs?v=') ||
+    !mixDetailHtml.includes('id="mix-detail-audio"')) {
+  throw new Error("Missing individual mix detail page with native FLAC player");
+}
 if (!mixesHtml.includes('src/drive-mixes.mjs?v=') ||
     !mixesHtml.includes('id="hot-mixes"') ||
     mixesHtml.includes('src/drive-mixes-github.mjs') ||

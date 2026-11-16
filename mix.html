@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Listen to an exclusive DJ OGVHS mix in lossless audio.">
+  <title>Exclusive Mix | DJ OGVHS</title>
+  <link rel="icon" type="image/svg+xml" href="./public/branding/favicon.svg?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/branding/favicon-32.png?v=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="./public/branding/apple-touch-icon.png?v=1">
+  <meta property="og:type" content="music.radio_station">
+  <meta property="og:site_name" content="DJ OGVHS">
+  <meta property="og:title" content="Exclusive Mix | DJ OGVHS">
+  <meta property="og:description" content="Lossless DJ OGVHS exclusive mixes. I believe in Fun.">
+  <meta property="og:image" content="https://ogvhs.com/public/branding/social-preview-v1.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="./src/styles.css?v=genre-filter-20261106">
+  <link rel="stylesheet" href="./src/mixes.css?v=mix-pages-20261116">
+  <link rel="stylesheet" href="./src/mix-detail.css?v=1">
+  <link rel="stylesheet" href="./src/analytics.css?v=2">
+  <script type="module" src="./src/mix-detail.mjs?v=1"></script>
+  <script type="module" src="./src/analytics.mjs?v=2"></script>
+</head>
+<body>
+  <div class="frame">
+    <header class="site-header">
+      <a href="./" class="brand" aria-label="DJ OGVHS home"><span class="brand-mark">OG</span><span class="brand-text">DJ <strong>OGVHS</strong><small>I believe in Fun.</small></span></a>
+      <nav class="site-nav" aria-label="Main navigation"><a href="./">Requests</a><a href="./mixes.html" aria-current="page">Mixes</a><a href="./about.html">About</a><a href="https://contact.ogvhs.com/">Contact</a></nav>
+    </header>
+    <main class="mix-detail-main">
+      <a href="./mixes.html#hot-heading" class="mix-detail-back">← All mixes</a>
+      <p id="mix-detail-status" class="helper" role="status">Loading mix…</p>
+      <article id="mix-detail" hidden>
+        <div class="mix-detail-hero">
+          <div class="mix-detail-artwork" id="mix-detail-artwork"></div>
+          <div class="mix-detail-intro">
+            <span class="eyebrow">DJ OGVHS EXCLUSIVE · LOSSLESS AUDIO</span>
+            <h1 id="mix-detail-title"></h1>
+            <p class="mix-detail-artist">By <a href="./about.html">DJ OGVHS</a></p>
+            <div id="mix-detail-meta" class="mix-detail-meta"></div>
+            <div id="mix-detail-tags" class="mix-detail-tags"></div>
+            <audio id="mix-detail-audio" class="exclusive-audio mix-detail-audio" controls preload="metadata" playsinline></audio>
+            <div class="mix-detail-actions">
+              <button id="mix-detail-share" type="button">Share this mix</button>
+              <a href="https://www.mixcloud.com/djogvhs/" target="_blank" rel="noopener noreferrer" class="mix-detail-follow">Follow DJ OGVHS on Mixcloud</a>
+            </div>
+            <p id="mix-detail-share-status" class="helper" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="mix-detail-content">
+          <section class="mix-detail-section" aria-labelledby="mix-detail-about-heading">
+            <h2 id="mix-detail-about-heading">About this mix</h2>
+            <p id="mix-detail-description"></p>
+          </section>
+          <section class="mix-detail-section" aria-labelledby="mix-detail-tracklist-heading">
+            <h2 id="mix-detail-tracklist-heading">Tracklist &amp; timestamps</h2>
+            <div id="mix-detail-tracklist"></div>
+          </section>
+        </div>
+      </article>
+    </main>
+    <footer><span>DJ OGVHS · I believe in Fun.</span><nav aria-label="Footer navigation" style="display:flex;gap:18px;flex-wrap:wrap"><a href="./">Make a request</a><a href="./privacy.html">Privacy Policy</a></nav></footer>
+  </div>
+</body>
+</html>

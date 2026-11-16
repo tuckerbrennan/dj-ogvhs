@@ -11,6 +11,19 @@ Scope: only DJ OGVHS mixes unavailable on Mixcloud. Existing Mixcloud embeds are
 
 The names above are source identifiers, **not publication permission**. Keep the original Google Drive objects unchanged. This site must never serve private Google Drive bytes directly to anonymous visitors.
 
+## Confirmed source audio specifications (2026-11-16)
+
+All four recordings were streamed directly from Google Drive to the separate private S3 bucket `ogvhs-exclusive-audio-242088067567-us-east-2` under `sources/`, with original byte counts matched to Drive. None has been linked in the public player yet. AWS media distribution: `E1AYIOARF6DSHE`, configured for `media.ogvhs.com` with an issued ACM certificate.
+
+| Mix | S3 source key | Actual codec | Rate | Channels | Depth |
+| --- | --- | --- | --- | --- | --- |
+| Brian Wilson Forever | `sources/brian-wilson-forever.wav` | Uncompressed PCM WAV | 44,100 Hz | 2 | 16-bit |
+| Amy 2 Electric Boogaloo | `sources/amy-2-electric-boogaloo.wav` | Uncompressed PCM WAV | 44,100 Hz | 2 | 16-bit |
+| Tom Waits Forever | `sources/tom-waits-forever.wav` | Uncompressed PCM WAV | 44,100 Hz | 2 | 24-bit |
+| Cleandrick Lamar | `sources/cleandrick-lamar.m4a` | ALAC (Apple Lossless) | 48,000 Hz | 2 | Not confirmed by inspection |
+
+**Delivery policy:** Produce `audio/flac` playback objects without resampling, audio filtering, normalization, channel changes, or lossy encoding, maintaining each source's native precision. Retain original sources indefinitely unless separately directed; preserve original ALAC bitstream. Validate each output's rate/channels/bit depth and compare decoded PCM, then test HTTPS 200/206 and seeks in desktop/mobile browsers. FLAC is widely supported, including current Chrome, Firefox and Safari, but acceptance tests still matter. The website's AWS native player is deliberately not switched on until playback is verified. Do not silently fall back to lossy AAC or MP3. A lossless WAV/ALAC compatibility fallback is acceptable where supported. **Do not copy sources to CloudFront-readable `mixes/` until their public accessibility is intentional.**
+
 ## Architecture
 - A dedicated **private S3 bucket for OGVHS-exclusive-mixes**, separate from SampleHoarder, MassiveCue, and the ACS suite.
 - **CloudFront** in front of the bucket using Origin Access Control (OAC), no public S3 ACLs. Preferred origin name: \`media.ogvhs.com\`.

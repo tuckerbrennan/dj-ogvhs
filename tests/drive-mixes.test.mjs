@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
 import {parseDriveId,drivePreviewUrl,normalizeMix,parseHostedAudioUrl,parseArtworkPath} from '../src/drive-mixes-model.mjs';
 const id = '1AbcDEFghIJKlmnOP012345';
 test('accepts only Google Drive file IDs and safe share links',()=>{
@@ -40,4 +41,25 @@ test('normalizes a hosted mix and its local art',()=>{
     artwork:'./public/mix-art/brian-wilson-forever.jpg'
   });
   assert.equal(parseArtworkPath('https://attacker.example/x.jpg'),null);
+});
+
+
+test('published lossless Mixes catalog contains all four OGVHS hosted FLACs', () => {
+  const catalog = JSON.parse(readFileSync(new URL('../public/hosted-mixes.json', import.meta.url), 'utf8'));
+  const slugs = [
+    'brian-wilson-forever',
+    'cleandrick-lamar',
+    'amy-2-electric-boogaloo',
+    'tom-waits-forever'
+  ];
+  assert.equal(catalog.mixes.length, slugs.length);
+  catalog.mixes.forEach((mix, index) => {
+    assert.equal(mix.published, true);
+    assert.equal(
+      mix.audio_url,
+      'https://media.ogvhs.com/mixes/' + slugs[index] + '.flac'
+    );
+    assert.equal(parseHostedAudioUrl(mix.audio_url), mix.audio_url);
+    assert.equal(normalizeMix(mix).audioUrl, mix.audio_url);
+  });
 });

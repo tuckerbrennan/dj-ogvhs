@@ -1,3 +1,13 @@
+## Mixcloud-style single-mix pages (2026-11-16)
+
+- Each published exclusive mix has a stable slug in \`public/hosted-mixes.json\` and a dedicated route, \`mix.html?mix=<slug>\`. The main Mixes page links the title and cover to the detail route and retains inline native FLAC playback.
+- Single-mix detail view includes artwork, title, DJ profile, verified runtime (FLAC-derived seconds), description, tags if supplied, sharing, optional verified publication date/counts, and a tracklist/timestamper section with optional clickable seek points. Do not fabricate plays, favorites, reposts, comments, tags, publication dates or tracklists.
+- All Mixcloud-hosted show titles now link to their original Mixcloud page. The existing Mixcloud players and sections are preserved.
+- Four user-supplied cover images were posted inline in chat, but **their raw image files were not available to the connected repository/file tooling at implementation time**. Manifest paths are reserved; artwork has **not** been verified uploaded. Main and detail pages have graceful vinyl-image fallbacks to avoid broken visible artwork. Do not describe those images as deployed until the actual bytes are committed.
+- Expected artwork files (high-quality square JPEG, original image preserved in conversion): \`public/mix-art/brian-wilson-forever.jpg\`, \`cleandrick-lamar.jpg\`, \`amy-2-electric-boogaloo.jpg\`, \`tom-waits-forever.jpg\`.
+- All functionality is currently code-committed only; do not claim it is live until a successful AWS Amplify release and live-page verification.
+- Build must include \`mix.html\` plus existing public pages; tests check the 4 lossless links and detail route.
+
 # OGVHS.com — exclusive mixes on AWS (not ACS product suite)
 
 Scope: only DJ OGVHS mixes unavailable on Mixcloud. Existing Mixcloud embeds are unchanged.

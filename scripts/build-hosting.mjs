@@ -20,15 +20,23 @@ for (const directory of directories) {
   await cp(join(root, directory), join(output, directory), { recursive: true });
 }
 
-// Preserve the working Google Drive
-// iframe player in the Amplify build. The native AWS audio player is a later
-// feature gated on verified media URLs, tracked separately in issue #23.
-const mixesHtml = await readFile(join(output, "mixes.html"), "utf8");
+// AWS Amplify uses its native HTML5 lossless player. Source mixes.html keeps
+// the Google Drive embed module for the GitHub Pages rollback site.
+const mixesPath = join(output, "mixes.html");
+const mixesHtml = await readFile(mixesPath, "utf8");
 if (!mixesHtml.includes('src/drive-mixes-github.mjs') ||
     !mixesHtml.includes('id="hot-mixes"') ||
     mixesHtml.includes("COMING WITH OUR AWS LAUNCH")) {
-  throw new Error("Expected four-embed published Mixes page was not found");
+  throw new Error("Expected curated Mixes page not found");
 }
+const awsMixesHtml = mixesHtml.replace(
+  /src\/drive-mixes-github\.mjs\?v=[^"]+/,
+  "src/drive-mixes.mjs?v=lossless-native-20261116"
+);
+if (awsMixesHtml === mixesHtml || !awsMixesHtml.includes("src/drive-mixes.mjs")) {
+  throw new Error("Native AWS audio switch failed");
+}
+await writeFile(mixesPath, awsMixesHtml);
 
 // Hidden AWS-only marker lets us prove the public domain has switched
 // away from GitHub Pages without changing the user-visible design.

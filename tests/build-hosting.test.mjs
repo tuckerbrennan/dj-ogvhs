@@ -15,18 +15,29 @@ test('Amplify artifact contains all five public HTML pages', async () => {
   assert.match(await read('index.html'), /OGVHS_AWS_AMPLIFY_BUILD/);
 });
 
-test('Amplify preserves same live Google Drive embeds and ordering', async () => {
+test('Amplify deploys lossless HTML5 mix players and retains Drive fallback data', async () => {
   const html = await read('mixes.html');
-  assert.match(html, /src\/drive-mixes-github\.mjs/);
+  assert.match(html, /src\\/drive-mixes\\.mjs\\?v=lossless-native-/);
+  assert.doesNotMatch(html, /src\\/drive-mixes-github\\.mjs/);
   assert.match(html, /id="hot-mixes"/);
   assert.doesNotMatch(html, /COMING WITH OUR AWS LAUNCH|OGVHS_GITHUB_ONLY_UPCOMING_START/);
-  const data = JSON.parse(await read('public/drive-mixes.json'));
-  assert.deepEqual(data.mixes.map(item => item.title), [
+
+  const hosted = JSON.parse(await read('public/hosted-mixes.json'));
+  assert.deepEqual(hosted.mixes.map(item => item.title), [
     'Brian Wilson Forever',
     'Cleandrick Lamar',
     'Amy 2 Electric Boogaloo',
     'Tom Waits Forever'
   ]);
+  assert.ok(hosted.mixes.every(item =>
+    item.published === true &&
+    /^https:\\/\\/media\\.ogvhs\\.com\\/mixes\\/[a-z0-9-]+\\.flac$/.test(item.audio_url)
+  ));
+
+  // Retain curated Drive source references as emergency fallback metadata.
+  const drive = JSON.parse(await read('public/drive-mixes.json'));
+  assert.deepEqual(drive.mixes.map(item => item.title),
+    hosted.mixes.map(item => item.title));
   assert.equal(await read('src/drive-mixes-github.mjs'),
     await readFile(join(root,'src/drive-mixes-github.mjs'),'utf8'));
 });

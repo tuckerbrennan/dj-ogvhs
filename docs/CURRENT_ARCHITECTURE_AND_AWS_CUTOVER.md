@@ -1,5 +1,16 @@
 # DJ OGVHS — Current architecture and AWS cutover
 
+## Live AWS cutover completed
+
+The production domains `ogvhs.com`, `www.ogvhs.com` and `admin.ogvhs.com` now resolve through AWS CloudFront/Amplify under Route 53 DNS. Live HTTPS and the AWS website build marker were verified after the coordinated switch. The website uses the AWS request API, Lambda and on-demand DynamoDB; admin routes require dedicated OGVHS Cognito JWTs and the owner group. Real API smoke checks passed for submissions, rolling three-per-hour quota, idempotent retries, protected queue access, status/BPM updates and atomic reorder. Synthetic test records/identity were removed.
+
+The public deployment builds GitHub `main` on Amplify with `OGVHS_API_URL` configured. Browser request modules were versioned for the cutover. Private backend/IaC, exact resource IDs, encrypted backup location, DNS rollback and SQL to restore Supabase writes are in `tuckerbrennan/dj-ogvhs-admin/aws/`. Backend resources retain their original staging names but now serve the production domains.
+
+The original Supabase records are preserved, with old submission/admin write privileges paused to prevent split writes. GitHub Pages and the prior Sites admin remain rollback origins. Rollback must reconcile new AWS activity before restoring traffic. Mail, contact, collaboration, archive, social/tip links and Mixcloud were preserved. Four Google Drive mixes remain visible, Brian first; the S3/native audio work is deferred.
+
+**The remainder of this document is the historical pre-cutover plan. Its statements about current GitHub hosting, inaccessible Supabase, or unprovisioned AWS resources are superseded by this live snapshot.**
+
+
 **Snapshot:** November 15, 2026 (America/New_York)  
 **Scope:** DJ OGVHS listener website, AWS static hosting, and exclusive audio streaming. Not an ACS-suite migration.  
 **Status:** GitHub configuration reviewed; production DNS/origin and AWS resources **not independently verified**. This is a proposed cutover, not a completed deployment.

@@ -5,7 +5,14 @@ const feeds = [
 ];
 function card(show) {
   const article = document.createElement('article'); article.className = 'mix-card';
-  const title = document.createElement('h3'); title.textContent = show.name;
+  const title = document.createElement('h3');
+  const titleLink = document.createElement('a');
+  titleLink.className = 'mixcloud-title-link';
+  titleLink.href = 'https://www.mixcloud.com' + show.key;
+  titleLink.target = '_blank';
+  titleLink.rel = 'noopener noreferrer';
+  titleLink.textContent = show.name;
+  title.append(titleLink);
   const byline = document.createElement('p'); byline.className = 'mix-byline';
   byline.textContent = show.user?.name || 'Mixcloud';
   const frame = document.createElement('iframe'); frame.src = playerUrl(show.key);

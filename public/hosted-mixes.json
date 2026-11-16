@@ -4,25 +4,41 @@
       "title": "Brian Wilson Forever",
       "description": "A DJ OGVHS exclusive mix.",
       "published": true,
-      "audio_url": "https://media.ogvhs.com/mixes/brian-wilson-forever.flac"
+      "audio_url": "https://media.ogvhs.com/mixes/brian-wilson-forever.flac",
+      "slug": "brian-wilson-forever",
+      "duration_seconds": 3637.93,
+      "tags": [],
+      "tracklist": []
     },
     {
       "title": "Cleandrick Lamar",
       "description": "DJ OGVHS exclusive mix.",
       "published": true,
-      "audio_url": "https://media.ogvhs.com/mixes/cleandrick-lamar.flac"
+      "audio_url": "https://media.ogvhs.com/mixes/cleandrick-lamar.flac",
+      "slug": "cleandrick-lamar",
+      "duration_seconds": 4166.69,
+      "tags": [],
+      "tracklist": []
     },
     {
       "title": "Amy 2 Electric Boogaloo",
       "description": "DJ OGVHS exclusive mix.",
       "published": true,
-      "audio_url": "https://media.ogvhs.com/mixes/amy-2-electric-boogaloo.flac"
+      "audio_url": "https://media.ogvhs.com/mixes/amy-2-electric-boogaloo.flac",
+      "slug": "amy-2-electric-boogaloo",
+      "duration_seconds": 3325.19,
+      "tags": [],
+      "tracklist": []
     },
     {
       "title": "Tom Waits Forever",
       "description": "DJ OGVHS exclusive mix.",
       "published": true,
-      "audio_url": "https://media.ogvhs.com/mixes/tom-waits-forever.flac"
+      "audio_url": "https://media.ogvhs.com/mixes/tom-waits-forever.flac",
+      "slug": "tom-waits-forever",
+      "duration_seconds": 3450.13,
+      "tags": [],
+      "tracklist": []
     }
   ]
 }

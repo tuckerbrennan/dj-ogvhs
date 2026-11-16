@@ -16,12 +16,12 @@ Requires Node 20 or later. Run `npm test`, then `npm run dev` and open the print
 
 ## Hosting and data
 
-GitHub Pages hosts the listener site. Supabase stores requests and enforces private queue access. `public/app-config.json` contains only the project URL and public browser key. Never commit secret/service-role keys or listener records.
+AWS Amplify hosts the listener site. An AWS HTTP API and Lambda store requests in DynamoDB and enforce the rolling request quota. The private DJ queue uses a separate Amplify deployment and dedicated Cognito owner authentication. The Amplify build uses `OGVHS_API_URL` to write the public AWS endpoint into its artifact configuration; the source Supabase configuration remains only for the preserved GitHub Pages rollback origin. Never commit runtime credentials or listener records.
 
-The admin frontend and backend deployment source are maintained privately. Visiting the admin address requires owner access; request reads and edits additionally require the approved DJ identity.
+The admin frontend and backend deployment source are maintained privately. Request reads and edits require a valid JWT from the dedicated OGVHS Cognito pool and membership in its owner group.
 
 Catalog import guidance lives in `docs/CATALOG_IMPORT.md`. Actual audio files are not served by this repository. Venmo and Cash App profile links are connected. PayPal uses the supplied email and Zelle uses the supplied phone number; listeners complete tips with the provider. External song autocomplete remains future work.
 
 ## Architecture and AWS deployment
 
-For the current evidence-based architecture inventory, known Supabase/admin dependencies, OGVHS-exclusive S3/CloudFront audio plan, step-by-step Amplify cutover, validation gates and rollback, see [Current architecture and AWS cutover](docs/CURRENT_ARCHITECTURE_AND_AWS_CUTOVER.md). The AWS migration is not considered live until DNS and production tests confirm it.
+The public website and private admin have completed their AWS cutover, verified by live DNS, HTTPS, artifact configuration and request/admin API tests. See [Current architecture and AWS cutover](docs/CURRENT_ARCHITECTURE_AND_AWS_CUTOVER.md) for the updated live snapshot and historical plan. Existing Google Drive and Mixcloud embeds remain; S3/native audio is a separate follow-up. Supabase records and the old origins remain preserved for rollback, with old request/admin writes paused.

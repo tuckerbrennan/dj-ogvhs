@@ -1,4 +1,4 @@
-import {driveOpenUrl, drivePreviewUrl, normalizeMix} from './drive-mixes-model.mjs';
+import {driveOpenUrl, drivePreviewUrl, normalizeMix, mixDetailUrl} from './drive-mixes-model.mjs';
 
 const status = document.getElementById('hot-status');
 const grid = document.getElementById('hot-mixes');
@@ -96,20 +96,53 @@ function createNativePlayer(mix) {
   return audio;
 }
 
-function renderMix(mix) {
-  const card = document.createElement('article');
-  card.className = 'mix-card drive-mix-card';
-  const heading = document.createElement('h3');
-  heading.textContent = mix.title;
-  card.append(heading);
+function coverPlaceholder() {
+  const wrap = document.createElement('div');
+  wrap.className = 'exclusive-cover-placeholder';
+  const record = document.createElement('span');
+  record.className = 'exclusive-cover-record';
+  record.setAttribute('aria-hidden','true');
+  wrap.append(record);
+  return wrap;
+}
+
+function mixCover(mix, href) {
+  if (!href) return null;
+  const anchor = document.createElement('a');
+  anchor.className = 'exclusive-cover-link';
+  anchor.href = href;
+  anchor.setAttribute('aria-label', 'View ' + mix.title + ' details');
   if (mix.artwork) {
     const image = document.createElement('img');
     image.className = 'exclusive-cover';
     image.src = new URL(mix.artwork, document.baseURI).href;
     image.alt = mix.title + ' cover art';
     image.loading = 'lazy';
-    card.append(image);
+    image.addEventListener('error', () => anchor.replaceChildren(coverPlaceholder()), {once: true});
+    anchor.append(image);
+  } else {
+    anchor.append(coverPlaceholder());
   }
+  return anchor;
+}
+
+function renderMix(mix) {
+  const card = document.createElement('article');
+  card.className = 'mix-card drive-mix-card';
+  const href = mix.slug ? mixDetailUrl(mix.slug) : null;
+  const cover = mixCover(mix, href);
+  if (cover) card.append(cover);
+  const heading = document.createElement('h3');
+  if (href) {
+    const link = document.createElement('a');
+    link.href = href;
+    link.className = 'exclusive-title-link';
+    link.textContent = mix.title;
+    heading.append(link);
+  } else {
+    heading.textContent = mix.title;
+  }
+  card.append(heading);
   if (mix.description) {
     const description = document.createElement('p');
     description.className = 'mix-byline';
@@ -119,7 +152,7 @@ function renderMix(mix) {
   if (mix.audioUrl) {
     card.append(createNativePlayer(mix));
   } else if (mix.id) {
-    // Drive preview is retained only for legacy recordings not yet migrated to AWS.
+    // Drive preview remains as fallback for catalogued, unmigrated tracks.
     const player = document.createElement('iframe');
     player.src = drivePreviewUrl(mix.id);
     player.title = 'Play ' + mix.title;
@@ -137,7 +170,6 @@ function renderMix(mix) {
   }
   return card;
 }
-
 async function loadPublishedMixes() {
   const response = await fetch(new URL('../public/app-config.json', import.meta.url), {cache:'no-store'});
   if (!response.ok) throw new Error('No site config');

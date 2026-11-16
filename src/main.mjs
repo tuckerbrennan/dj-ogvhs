@@ -1,6 +1,6 @@
 import { searchCatalog, filterByGenre, genreOptions } from "./catalog.mjs";
 import { makeRequest } from "./request-model.mjs";
-import { loadRequestConfig, sendRequest, getRequestQuota } from "./request-api.mjs";
+import { loadRequestConfig, sendRequest, getRequestQuota } from "./request-api.mjs?v=aws-cutover-20261116";
 import { demoQuota, useDemoRequest } from "./request-quota.mjs";
 
 const $ = id => document.getElementById(id);

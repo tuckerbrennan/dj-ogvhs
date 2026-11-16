@@ -41,6 +41,9 @@ test('normalizes a hosted mix and its local art',()=>{
     artwork:'./public/mix-art/brian-wilson-forever.jpg'
   });
   assert.equal(parseArtworkPath('https://attacker.example/x.jpg'),null);
+  assert.equal(parseArtworkPath('https://media.ogvhs.com/mixes/art/test.jpg'), 'https://media.ogvhs.com/mixes/art/test.jpg');
+  assert.equal(parseArtworkPath('https://media.ogvhs.com/mixes/art/test.jpg?evil=1'),null);
+  assert.equal(parseArtworkPath('https://media.ogvhs.com.evil.test/mixes/art/test.jpg'),null);
 });
 
 
@@ -95,7 +98,8 @@ test('stable mix detail URLs and metadata keep untrusted fields out of the DOM',
 test('all hosted mix artwork references have stable file paths',()=>{
   const catalog=JSON.parse(readFileSync(new URL('../public/hosted-mixes.json',import.meta.url),'utf8'));
   for(const mix of catalog.mixes) {
-    assert.equal(mix.artwork,'./public/mix-art/'+mix.slug+'.jpg');
+    assert.equal(mix.artwork,'https://media.ogvhs.com/mixes/art/'+mix.slug+'.jpg');
+    assert.equal(parseArtworkPath(mix.artwork),mix.artwork);
     assert.ok(mix.duration_seconds > 3000);
     assert.ok(mix.duration_seconds < 5000);
   }

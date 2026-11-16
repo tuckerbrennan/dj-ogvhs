@@ -24,10 +24,18 @@ All four recordings were streamed directly from Google Drive to the separate pri
 
 **Delivery policy:** Produce `audio/flac` playback objects without resampling, audio filtering, normalization, channel changes, or lossy encoding, maintaining each source's native precision. Retain original sources indefinitely unless separately directed; preserve original ALAC bitstream. Validate each output's rate/channels/bit depth and compare decoded PCM, then test HTTPS 200/206 and seeks in desktop/mobile browsers. FLAC is widely supported, including current Chrome, Firefox and Safari, but acceptance tests still matter. The website's AWS native player is deliberately not switched on until playback is verified. Do not silently fall back to lossy AAC or MP3. A lossless WAV/ALAC compatibility fallback is acceptable where supported. **Do not copy sources to CloudFront-readable `mixes/` until their public accessibility is intentional.**
 
-## First staged lossless output — 2026-11-16
+## Lossless outputs verified — 2026-11-16
 
-- Brian Wilson Forever: source `sources/brian-wilson-forever.wav` (641,736,132 bytes), staged output `staging/brian-wilson-forever.flac` (345,482,269 bytes, `audio/flac`, 44,100 Hz, 16-bit stereo, duration 3,637.93 seconds). S3 HEAD and FLAC metadata checks passed. Output remains private: **not yet published**, and full decoded PCM equality still needs checking.
-- Other three mixes remain source-only pending lossless encode and decode-hash verification.
+All four staged FLAC files were compared to their S3 source recordings by decoding both to 32-bit PCM (same FFmpeg path), hashing the entire decoded output with SHA-256, and confirming **exact hash equality**. Source files are preserved, and all FLAC copies are private under `staging/`. This is a completed verification of PCM equivalence, not yet proof of public/browser playback.
+
+| Mix | Staged FLAC key | File size | PCM SHA-256 (both original and FLAC) |
+| --- | --- | ---: | --- |
+| Brian Wilson Forever | `staging/brian-wilson-forever.flac` | 345,482,269 | `5ee651be3439ee68a24fffbb099e4dccd9a113ebbb211547fbaba036176b8bde` |
+| Amy 2 Electric Boogaloo | `staging/amy-2-electric-boogaloo.flac` | 339,902,242 | `f417d69d6f3ea3adffc774307fccee241a32dd135a3946d5f47eb46418488f36` |
+| Tom Waits Forever | `staging/tom-waits-forever.flac` | 543,991,628 | `27d958785901013129f15c8f7f83bc653aac9cb0f51439fdf652391b46f88107` |
+| Cleandrick Lamar | `staging/cleandrick-lamar.flac` | 730,611,121 | `1249d04a0ed2b4bb61e47a49ac53f4a8a390efa03ac5fa805fe173f0e08e0ebe` |
+
+FLAC output sample precisions: Brian 16-bit/44.1 kHz stereo, Amy 16-bit/44.1 kHz stereo, Tom 24-bit/44.1 kHz stereo, Cleandrick 24-bit/48 kHz stereo. Cleandrick source is ALAC and the successful PCM comparison confirms no sample alterations in the FLAC conversion. Recheck that CloudFront correctly provides `audio/flac` and HTTP range 206 before publicizing; `mixes/` is publicly retrievable via CloudFront once copied there. Do not switch site manifest to published until valid HTTPS audio URLs and UX testing. Document rights/permissions for publicly streaming DJ mixes.
 
 ## Architecture
 - A dedicated **private S3 bucket for OGVHS-exclusive-mixes**, separate from SampleHoarder, MassiveCue, and the ACS suite.

@@ -1,3 +1,10 @@
+## Artwork + detail-page deployment package (2026-11-16)
+
+- All four user-supplied cover files became available as attached conversation files. They were packaged with a CloudShell release script rather than committed as repository binary blobs.
+- `public/hosted-mixes.json` now points to `https://media.ogvhs.com/mixes/art/<slug>.jpg`, served by existing OGVHS CloudFront/OAC in front of the dedicated private S3 bucket. Source originals remain in conversation uploads; Brian's PNG is converted to high-quality JPEG for CDN compatibility, while the other three supplied JPEGs are preserved byte-for-byte.
+- `parseArtworkPath` accepts only the OGVHS CloudFront HTTPS host and `/mixes/art/<slug>.jpg` (no query/userinfo) in addition to previously allowed local images. The player and detail page have safe image error placeholders.
+- The deployment package contains the four cover files and a guarded `deploy.sh`. It first uploads S3 artwork, validates CloudFront HTTP 200, then releases `main` on Amplify app `d3fasyll46itov`, then checks the live main/detail pages and hosted manifest. **The package still needs to be uploaded and executed in the user's AWS CloudShell. Do not claim live deployment until its success output is supplied.**
+
 ## Mixcloud-style single-mix pages (2026-11-16)
 
 - Each published exclusive mix has a stable slug in \`public/hosted-mixes.json\` and a dedicated route, \`mix.html?mix=<slug>\`. The main Mixes page links the title and cover to the detail route and retains inline native FLAC playback.

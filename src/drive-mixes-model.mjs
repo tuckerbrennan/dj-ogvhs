@@ -21,7 +21,7 @@ export function driveOpenUrl(id) {
 }
 
 const MEDIA_HOSTS = new Set(['media.ogvhs.com', 'ogvhs.com', 'www.ogvhs.com']);
-const AUDIO_SUFFIX = /\.(?:mp3|m4a|mp4|aac|ogg|wav)$/i;
+const AUDIO_SUFFIX = /\.(?:mp3|m4a|mp4|aac|ogg|wav|flac)$/i;
 export function parseHostedAudioUrl(value) {
   if (typeof value !== 'string' || !value.trim()) return null;
   try {

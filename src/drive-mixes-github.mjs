@@ -35,7 +35,8 @@ function renderMix(mix) {
 async function loadPublishedMixes() {
   const response = await fetch(new URL('../public/app-config.json', import.meta.url), {cache:'no-store'});
   if (!response.ok) throw new Error('No site config');
-  const {supabaseUrl,supabaseAnonKey} = await response.json();
+  const {supabaseUrl,supabaseAnonKey,apiUrl} = await response.json();
+  if (apiUrl) throw new Error("Use the curated published mix catalog");
   const base = new URL(supabaseUrl);
   if (base.protocol !== 'https:' || !base.hostname.endsWith('.supabase.co') || !supabaseAnonKey) throw new Error('No published mix catalog');
   const url = new URL('/rest/v1/dj_mixes', base);

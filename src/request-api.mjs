@@ -6,6 +6,13 @@ export async function loadRequestConfig() {
   const response = await fetch(url, { cache: "no-store" });
   if (!response.ok) return null;
   const config = await response.json();
+  if (typeof config.apiUrl === "string") {
+    try {
+      const endpoint = new URL(config.apiUrl);
+      if (endpoint.protocol !== "https:") return null;
+      return {apiUrl:endpoint.origin};
+    } catch { return null; }
+  }
   if (typeof config.supabaseUrl !== "string" || typeof config.supabaseAnonKey !== "string") return null;
   try {
     const endpoint = new URL(config.supabaseUrl);
@@ -20,14 +27,14 @@ export async function loadRequestConfig() {
 function requestHeaders(config) {
   return {
     "Content-Type": "application/json",
-    "apikey": config.supabaseAnonKey,
+    ...(config.supabaseAnonKey ? {apikey:config.supabaseAnonKey} : {}),
     "x-dj-listener-id": getListenerId()
   };
 }
 
 export async function getRequestQuota(config) {
   if (!config) throw new Error("Requests are not enabled yet.");
-  const response = await fetch(config.supabaseUrl + "/functions/v1/submit-request", {
+  const response = await fetch(config.apiUrl ? config.apiUrl + "/v1/requests" : config.supabaseUrl + "/functions/v1/submit-request", {
     method: "GET",
     headers: requestHeaders(config),
     cache: "no-store",
@@ -47,9 +54,9 @@ export async function getRequestQuota(config) {
 
 export async function sendRequest(config, payload) {
   if (!config) throw new Error("Requests are not enabled yet.");
-  const response = await fetch(config.supabaseUrl + "/functions/v1/submit-request", {
+  const response = await fetch(config.apiUrl ? config.apiUrl + "/v1/requests" : config.supabaseUrl + "/functions/v1/submit-request", {
     method: "POST",
-    headers: requestHeaders(config),
+    headers: {...requestHeaders(config), ...(config.apiUrl ? {"x-idempotency-key":retryId(payload)} : {})},
     body: JSON.stringify(payload),
     signal: AbortSignal.timeout(15000)
   });
@@ -63,5 +70,15 @@ export async function sendRequest(config, payload) {
     }
     throw error;
   }
+  pendingRequests.delete(JSON.stringify(payload));
   return result.id;
+}
+
+// Preserve the same identifier across timeout retries of an unchanged submission.
+// Successful submissions clear it so a deliberate repeat is a new request.
+const pendingRequests = new Map();
+function retryId(payload) {
+  const key=JSON.stringify(payload);
+  if (!pendingRequests.has(key)) pendingRequests.set(key,crypto.randomUUID());
+  return pendingRequests.get(key);
 }

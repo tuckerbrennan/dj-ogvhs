@@ -8,8 +8,8 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, 'dist');
 const read = path => readFile(join(dist, path), 'utf8');
 
-test('Amplify artifact contains all five public HTML pages', async () => {
-  for (const page of ['index.html','about.html','mixes.html','thanks.html','privacy.html']) {
+test('Amplify artifact contains all six public HTML pages', async () => {
+  for (const page of ['index.html','about.html','mixes.html','mix.html','thanks.html','privacy.html']) {
     assert.ok((await stat(join(dist, page))).size > 100, page);
   }
   assert.match(await read('index.html'), /OGVHS_AWS_AMPLIFY_BUILD/);
@@ -20,6 +20,10 @@ test('Amplify deploys lossless HTML5 mix players and retains Drive fallback data
   assert.ok(html.includes('src/drive-mixes.mjs?v=lossless-native-'));
   assert.ok(!html.includes('src/drive-mixes-github.mjs'));
   assert.ok(html.includes('id="hot-mixes"'));
+  const mixPage = await read('mix.html');
+  assert.ok(mixPage.includes('src/mix-detail.mjs?v='));
+  assert.ok(mixPage.includes('id="mix-detail-audio"'));
+  assert.ok(mixPage.includes('id="mix-detail-tracklist"'));
   assert.doesNotMatch(html, /COMING WITH OUR AWS LAUNCH|OGVHS_GITHUB_ONLY_UPCOMING_START/);
 
   const hosted = JSON.parse(await read('public/hosted-mixes.json'));

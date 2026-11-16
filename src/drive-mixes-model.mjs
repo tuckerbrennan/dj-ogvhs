@@ -74,7 +74,7 @@ export function normalizeMix(item) {
   const id = parseDriveId(item.drive_file_id || item.driveFileId || item.url);
   const audioUrl = parseHostedAudioUrl(item.audio_url || item.audioUrl);
   if (!title || title.length > 160 || (!id && !audioUrl)) return null;
-  const description = typeof item.description === 'string' ? item.description.trim().slice(0,600) : '';
+  const description = typeof item.description === 'string' ? item.description.trim().slice(0,1000) : '';
   const artwork = parseArtworkPath(item.artwork);
   const mix = {title,description};
   if (id) mix.id = id;
@@ -92,7 +92,7 @@ export function normalizeMix(item) {
   const tracklist = normalizeTracklist(item.tracklist);
   if (tracklist) mix.tracklist = tracklist;
   if (typeof item.published_at === 'string' &&
-      /^\\d{4}-\\d{2}-\\d{2}/.test(item.published_at) &&
+      /^\d{4}-\d{2}-\d{2}/.test(item.published_at) &&
       Number.isFinite(Date.parse(item.published_at))) {
     mix.publishedAt = item.published_at;
   }

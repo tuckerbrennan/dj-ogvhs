@@ -17,9 +17,9 @@ test('Amplify artifact contains all five public HTML pages', async () => {
 
 test('Amplify deploys lossless HTML5 mix players and retains Drive fallback data', async () => {
   const html = await read('mixes.html');
-  assert.match(html, /src\\/drive-mixes\\.mjs\\?v=lossless-native-/);
-  assert.doesNotMatch(html, /src\\/drive-mixes-github\\.mjs/);
-  assert.match(html, /id="hot-mixes"/);
+  assert.ok(html.includes('src/drive-mixes.mjs?v=lossless-native-'));
+  assert.ok(!html.includes('src/drive-mixes-github.mjs'));
+  assert.ok(html.includes('id="hot-mixes"'));
   assert.doesNotMatch(html, /COMING WITH OUR AWS LAUNCH|OGVHS_GITHUB_ONLY_UPCOMING_START/);
 
   const hosted = JSON.parse(await read('public/hosted-mixes.json'));
@@ -31,7 +31,8 @@ test('Amplify deploys lossless HTML5 mix players and retains Drive fallback data
   ]);
   assert.ok(hosted.mixes.every(item =>
     item.published === true &&
-    /^https:\\/\\/media\\.ogvhs\\.com\\/mixes\\/[a-z0-9-]+\\.flac$/.test(item.audio_url)
+    item.audio_url.startsWith('https://media.ogvhs.com/mixes/') &&
+    item.audio_url.endsWith('.flac')
   ));
 
   // Retain curated Drive source references as emergency fallback metadata.

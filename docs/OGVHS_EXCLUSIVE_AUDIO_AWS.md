@@ -66,6 +66,14 @@ FLAC output sample precisions: Brian 16-bit/44.1 kHz stereo, Amy 16-bit/44.1 kHz
 - Fixed both tests on GitHub `main` (commit `22ddb8c6696919ec0f29851855d6db40cd306307`). They now require the native lossless player, four published FLAC entries, preserved Mixcloud sections, and Drive backup metadata. The test suite still requires deployment validation; **no new Amplify release reported successful yet**.
 - Next step: release current `main` to this correct Amplify app and verify `ogvhs.com/mixes.html` references `src/drive-mixes.mjs` and its hosted manifest publishes four FLACs.
 
+## Production deployment confirmed (2026-11-16)
+
+- AWS Amplify app **d3fasyll46itov** (`dj-ogvhs-web`), branch `main`, region `us-east-2`, deployment job **28**, all stages **SUCCEED**: BUILD, DEPLOY, VERIFY.
+- User's post-deployment CloudShell verification returned **`SUCCESS: Native lossless player deployed with four mixes.`** This checked live `https://ogvhs.com/mixes.html` for `drive-mixes.mjs?v=lossless-native-` and the live `public/hosted-mixes.json` for four published `.flac` URLs.
+- Previous job 25 failed because two stale assertions in `tests/hosting-boundary.test.mjs` required Google Drive embeds and unpublished AWS audio. Those were corrected before successful job 28.
+- The primary live Mixes page is now configured for the native HTML5 FLAC player, with Mixcloud sections preserved. Legacy Drive links remain in the repository as fallback metadata, but the production page no longer loads the Drive embed module.
+- Individual device behavior beyond user-tested Chromebook playback/seek (for Brian and Cleandrick), including mobile lock-screen media controls, remains subject to future bug reports; user prefers fix-on-discovery rather than repeated sign-offs.
+
 ## Architecture
 - A dedicated **private S3 bucket for OGVHS-exclusive-mixes**, separate from SampleHoarder, MassiveCue, and the ACS suite.
 - **CloudFront** in front of the bucket using Origin Access Control (OAC), no public S3 ACLs. Preferred origin name: \`media.ogvhs.com\`.

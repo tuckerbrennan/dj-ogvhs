@@ -2,25 +2,27 @@
   "mixes": [
     {
       "title": "Brian Wilson Forever",
-      "description": "DJ OGVHS exclusive mix. Source: Brian Wilson Memorial.wav.",
-      "artwork": "./public/mix-art/brian-wilson-forever.jpg",
-      "published": false
+      "description": "A DJ OGVHS exclusive mix.",
+      "published": false,
+      "audio_url": "https://media.ogvhs.com/mixes/brian-wilson-forever.flac"
     },
     {
       "title": "Cleandrick Lamar",
       "description": "DJ OGVHS exclusive mix.",
-      "published": false
+      "published": false,
+      "audio_url": "https://media.ogvhs.com/mixes/cleandrick-lamar.flac"
     },
     {
       "title": "Amy 2 Electric Boogaloo",
       "description": "DJ OGVHS exclusive mix.",
-      "artwork": "./public/mix-art/amy-2-electric-boogaloo.jpg",
-      "published": false
+      "published": false,
+      "audio_url": "https://media.ogvhs.com/mixes/amy-2-electric-boogaloo.flac"
     },
     {
       "title": "Tom Waits Forever",
       "description": "DJ OGVHS exclusive mix.",
-      "published": false
+      "published": false,
+      "audio_url": "https://media.ogvhs.com/mixes/tom-waits-forever.flac"
     }
   ]
 }

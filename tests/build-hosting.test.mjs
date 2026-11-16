@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile, stat} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import {dirname, join, resolve} from 'node:path';
 
@@ -45,6 +46,17 @@ test('Amplify deploys lossless HTML5 mix players and retains Drive fallback data
     hosted.mixes.map(item => item.title));
   assert.equal(await read('src/drive-mixes-github.mjs'),
     await readFile(join(root,'src/drive-mixes-github.mjs'),'utf8'));
+});
+
+test('all published player modules parse as valid JavaScript', () => {
+  for (const name of [
+    'drive-mixes-model.mjs',
+    'drive-mixes.mjs',
+    'mix-detail.mjs',
+    'mixes.mjs'
+  ]) {
+    execFileSync(process.execPath, ['--check',join(dist,'src',name)], {stdio:'pipe'});
+  }
 });
 
 test('Amplify artifact excludes source-only and private content', async () => {

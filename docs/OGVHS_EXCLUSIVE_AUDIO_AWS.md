@@ -44,6 +44,14 @@ FLAC output sample precisions: Brian 16-bit/44.1 kHz stereo, Amy 16-bit/44.1 kHz
 - Browser playback, seeking, lock-screen controls and mobile compatibility **remain to be tested**. The OGVHS website manifest is still unpublished (`published:false`) and the existing Mixes page still embeds Drive.
 - Do not add the remaining FLAC files under the CloudFront-readable `mixes/` prefix until publication is authorized and the browser test succeeds.
 
+## GitHub native-player publication (2026-11-16)
+
+- The user verified Brian Wilson Forever's FLAC playback and seeking in Chrome, and confirmed the Cleandrick FLAC works. The user explicitly requested proceeding without an individual manual approval gate for each mix; report and fix bugs on discovery instead.
+- `public/hosted-mixes.json` now has `published:true` for all four lossless `https://media.ogvhs.com/mixes/<slug>.flac` entries, in priority order: Brian, Cleandrick, Amy, Tom. Any earlier notes saying this manifest is unpublished are superseded.
+- `scripts/build-hosting.mjs` swaps the source site's Google Drive embed loader for `src/drive-mixes.mjs` **in the AWS Amplify distribution artifact only**. Existing Mixcloud sections and GitHub Pages source/rollback embeds are preserved. The model's allowlist accepts `.flac`.
+- Repository changes are committed to GitHub `main`. **AWS Amplify deployment completion and live `ogvhs.com/mixes.html` have not been independently verified through an AWS session in this chat.** Do not claim live website is updated until observed; the media URL tests and browser checks do not prove site deployment.
+- Browser compatibility, background playback and lock-screen controls should be fixed if actual defects are reported, rather than blocking a release on repeated confirmations.
+
 ## Architecture
 - A dedicated **private S3 bucket for OGVHS-exclusive-mixes**, separate from SampleHoarder, MassiveCue, and the ACS suite.
 - **CloudFront** in front of the bucket using Origin Access Control (OAC), no public S3 ACLs. Preferred origin name: \`media.ogvhs.com\`.

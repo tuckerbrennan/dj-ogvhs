@@ -9,7 +9,7 @@
       "duration_seconds": 3637.93,
       "tags": [],
       "tracklist": [],
-      "artwork": "./public/mix-art/brian-wilson-forever.jpg"
+      "artwork": "https://media.ogvhs.com/mixes/art/brian-wilson-forever.jpg"
     },
     {
       "title": "Cleandrick Lamar",
@@ -20,7 +20,7 @@
       "duration_seconds": 4166.69,
       "tags": [],
       "tracklist": [],
-      "artwork": "./public/mix-art/cleandrick-lamar.jpg"
+      "artwork": "https://media.ogvhs.com/mixes/art/cleandrick-lamar.jpg"
     },
     {
       "title": "Amy 2 Electric Boogaloo",
@@ -31,7 +31,7 @@
       "duration_seconds": 3325.19,
       "tags": [],
       "tracklist": [],
-      "artwork": "./public/mix-art/amy-2-electric-boogaloo.jpg"
+      "artwork": "https://media.ogvhs.com/mixes/art/amy-2-electric-boogaloo.jpg"
     },
     {
       "title": "Tom Waits Forever",
@@ -42,7 +42,7 @@
       "duration_seconds": 3450.13,
       "tags": [],
       "tracklist": [],
-      "artwork": "./public/mix-art/tom-waits-forever.jpg"
+      "artwork": "https://media.ogvhs.com/mixes/art/tom-waits-forever.jpg"
     }
   ]
 }

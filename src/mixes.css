@@ -59,3 +59,8 @@
 .exclusive-cover-record { display:block; position:relative; width:67%; aspect-ratio:1; border:3px solid #343434; border-radius:50%; background:repeating-radial-gradient(circle,#141414 0px,#141414 3px,#282828 4px,#151515 6px); }
 .exclusive-cover-record::before { content:"OGVHS"; display:grid; place-items:center; position:absolute; left:33%; top:33%; width:34%; height:34%; border-radius:50%; background:var(--purple); color:var(--lime); font-size:clamp(.75rem,2vw,1.25rem); font-weight:900; }
 .exclusive-cover-record::after { content:""; position:absolute; left:48.5%; top:48.5%; width:3%; height:3%; border-radius:50%; background:#000; }
+
+/* Mixcloud-hosted sets open their original show page when the title is clicked. */
+.mixcloud-title-link { color:#fff; text-decoration:none; }
+.mixcloud-title-link:hover { color:var(--lime); text-decoration:underline; }
+.mixcloud-title-link:focus-visible { outline:3px solid var(--magenta); outline-offset:3px; }

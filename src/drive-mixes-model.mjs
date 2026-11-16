@@ -36,9 +36,16 @@ export function parseHostedAudioUrl(value) {
   } catch { return null; }
 }
 export function parseArtworkPath(value) {
-  return typeof value === 'string' &&
-    /^\.\/public\/mix-art\/[a-z0-9_-]+\.(?:jpg|jpeg|png|webp)$/i.test(value)
-    ? value : null;
+  if (typeof value !== 'string') return null;
+  if (/^\.\/public\/mix-art\/[a-z0-9_-]+\.(?:jpg|jpeg|png|webp)$/i.test(value)) return value;
+  // Hosted cover art lives behind the same private-S3/CloudFront OAC as the FLAC media.
+  try {
+    const url = new URL(value);
+    if (url.protocol !== 'https:' || url.hostname !== 'media.ogvhs.com' ||
+        url.username || url.password || url.search || url.hash ||
+        !/^\/mixes\/art\/[a-z0-9-]+\.jpg$/.test(url.pathname)) return null;
+    return url.href;
+  } catch { return null; }
 }
 // Stable canonical detail links only for catalogued OGVHS mixes.
 export function parseMixSlug(value) {

@@ -95,3 +95,25 @@ test('success without a saved request ID is rejected', async () => {
   try { await assert.rejects(()=>sendRequest({supabaseUrl:'https://example.supabase.co',supabaseAnonKey:'public'},{}),/Unable to save request/); }
   finally { globalThis.fetch=prior; }
 });
+
+test('AWS client preserves retry identifier until confirmed and uses no Supabase key', async t => {
+  const prior=globalThis.fetch;t.after(()=>{globalThis.fetch=prior;});
+  let ids=[],fail=true;
+  globalThis.fetch=async (url,options)=>{
+    assert.equal(url,'https://api.example.com/v1/requests');
+    assert.equal(options.headers.apikey,undefined);
+    ids.push(options.headers['x-idempotency-key']);
+    if(fail){fail=false;throw new Error('timeout');}
+    return {ok:true,status:201,json:async()=>({id:'confirmed',accepted:true})};
+  };
+  const p={type:'song',songs:[{title:'Test',source:'manual'}]},c={apiUrl:'https://api.example.com'};
+  await assert.rejects(sendRequest(c,p),/timeout/);
+  await sendRequest(c,p);await sendRequest(c,p);
+  assert.equal(ids[0],ids[1]);assert.notEqual(ids[1],ids[2]);
+});
+
+test('AWS configuration accepts HTTPS endpoint without Supabase configuration',async t=>{
+ const prior=globalThis.fetch;t.after(()=>{globalThis.fetch=prior;});
+ globalThis.fetch=async()=>({ok:true,json:async()=>({apiUrl:'https://api.example.com/'})});
+ assert.deepEqual(await loadRequestConfig(),{apiUrl:'https://api.example.com'});
+});

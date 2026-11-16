@@ -20,7 +20,7 @@ for (const directory of directories) {
   await cp(join(root, directory), join(output, directory), { recursive: true });
 }
 
-// Phase 1 AWS migration is hosting-only. Keep the exact working Google Drive
+// Preserve the working Google Drive
 // iframe player in the Amplify build. The native AWS audio player is a later
 // feature gated on verified media URLs, tracked separately in issue #23.
 const mixesHtml = await readFile(join(output, "mixes.html"), "utf8");
@@ -44,6 +44,16 @@ await writeFile(
     "  <!-- OGVHS_AWS_AMPLIFY_BUILD -->\n</body>"
   )
 );
+
+// AWS uses its API only in the hosting artifact. GitHub Pages retains its
+// source configuration as an independent rollback origin.
+if (process.env.OGVHS_API_URL) {
+  const api = new URL(process.env.OGVHS_API_URL);
+  if (api.protocol !== "https:" || api.pathname !== "/" || api.search || api.hash || api.username || api.password) {
+    throw new Error("OGVHS_API_URL must be an HTTPS API origin");
+  }
+  await writeFile(join(output,"public","app-config.json"), JSON.stringify({apiUrl:api.origin},null,2)+"\n");
+}
 
 const entries = await readdir(output);
 console.log("DJ OGVHS static website ready for Amplify:", entries.join(", "));

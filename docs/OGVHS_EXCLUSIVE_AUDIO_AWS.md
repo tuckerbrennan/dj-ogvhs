@@ -24,6 +24,11 @@ All four recordings were streamed directly from Google Drive to the separate pri
 
 **Delivery policy:** Produce `audio/flac` playback objects without resampling, audio filtering, normalization, channel changes, or lossy encoding, maintaining each source's native precision. Retain original sources indefinitely unless separately directed; preserve original ALAC bitstream. Validate each output's rate/channels/bit depth and compare decoded PCM, then test HTTPS 200/206 and seeks in desktop/mobile browsers. FLAC is widely supported, including current Chrome, Firefox and Safari, but acceptance tests still matter. The website's AWS native player is deliberately not switched on until playback is verified. Do not silently fall back to lossy AAC or MP3. A lossless WAV/ALAC compatibility fallback is acceptable where supported. **Do not copy sources to CloudFront-readable `mixes/` until their public accessibility is intentional.**
 
+## First staged lossless output — 2026-11-16
+
+- Brian Wilson Forever: source `sources/brian-wilson-forever.wav` (641,736,132 bytes), staged output `staging/brian-wilson-forever.flac` (345,482,269 bytes, `audio/flac`, 44,100 Hz, 16-bit stereo, duration 3,637.93 seconds). S3 HEAD and FLAC metadata checks passed. Output remains private: **not yet published**, and full decoded PCM equality still needs checking.
+- Other three mixes remain source-only pending lossless encode and decode-hash verification.
+
 ## Architecture
 - A dedicated **private S3 bucket for OGVHS-exclusive-mixes**, separate from SampleHoarder, MassiveCue, and the ACS suite.
 - **CloudFront** in front of the bucket using Origin Access Control (OAC), no public S3 ACLs. Preferred origin name: \`media.ogvhs.com\`.

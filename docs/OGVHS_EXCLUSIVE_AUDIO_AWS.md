@@ -37,6 +37,13 @@ All four staged FLAC files were compared to their S3 source recordings by decodi
 
 FLAC output sample precisions: Brian 16-bit/44.1 kHz stereo, Amy 16-bit/44.1 kHz stereo, Tom 24-bit/44.1 kHz stereo, Cleandrick 24-bit/48 kHz stereo. Cleandrick source is ALAC and the successful PCM comparison confirms no sample alterations in the FLAC conversion. Recheck that CloudFront correctly provides `audio/flac` and HTTP range 206 before publicizing; `mixes/` is publicly retrievable via CloudFront once copied there. Do not switch site manifest to published until valid HTTPS audio URLs and UX testing. Document rights/permissions for publicly streaming DJ mixes.
 
+## First CloudFront range test (2026-11-16)
+
+- Brian Wilson Forever was copied from the verified private FLAC staging key to `mixes/brian-wilson-forever.flac` on S3 (size 345,482,269 bytes, `audio/flac`). This key is retrievable anonymously through CloudFront, unlike private `sources/` and `staging/`.
+- `https://media.ogvhs.com/mixes/brian-wilson-forever.flac`: HTTPS request with `Range: bytes=0-1023` returned **206 Partial Content**, **1,024** response bytes, `content-type: audio/flac`, `content-range: bytes 0-1023/345482269`.
+- Browser playback, seeking, lock-screen controls and mobile compatibility **remain to be tested**. The OGVHS website manifest is still unpublished (`published:false`) and the existing Mixes page still embeds Drive.
+- Do not add the remaining FLAC files under the CloudFront-readable `mixes/` prefix until publication is authorized and the browser test succeeds.
+
 ## Architecture
 - A dedicated **private S3 bucket for OGVHS-exclusive-mixes**, separate from SampleHoarder, MassiveCue, and the ACS suite.
 - **CloudFront** in front of the bucket using Origin Access Control (OAC), no public S3 ACLs. Preferred origin name: \`media.ogvhs.com\`.

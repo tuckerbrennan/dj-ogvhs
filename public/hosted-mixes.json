@@ -7,6 +7,11 @@
       "published": false
     },
     {
+      "title": "Cleandrick Lamar",
+      "description": "DJ OGVHS exclusive mix.",
+      "published": false
+    },
+    {
       "title": "Amy 2 Electric Boogaloo",
       "description": "DJ OGVHS exclusive mix.",
       "artwork": "./public/mix-art/amy-2-electric-boogaloo.jpg",
@@ -14,11 +19,6 @@
     },
     {
       "title": "Tom Waits Forever",
-      "description": "DJ OGVHS exclusive mix.",
-      "published": false
-    },
-    {
-      "title": "Cleandrick Lamar",
       "description": "DJ OGVHS exclusive mix.",
       "published": false
     }

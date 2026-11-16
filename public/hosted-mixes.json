@@ -8,7 +8,8 @@
       "slug": "brian-wilson-forever",
       "duration_seconds": 3637.93,
       "tags": [],
-      "tracklist": []
+      "tracklist": [],
+      "artwork": "./public/mix-art/brian-wilson-forever.jpg"
     },
     {
       "title": "Cleandrick Lamar",
@@ -18,7 +19,8 @@
       "slug": "cleandrick-lamar",
       "duration_seconds": 4166.69,
       "tags": [],
-      "tracklist": []
+      "tracklist": [],
+      "artwork": "./public/mix-art/cleandrick-lamar.jpg"
     },
     {
       "title": "Amy 2 Electric Boogaloo",
@@ -28,7 +30,8 @@
       "slug": "amy-2-electric-boogaloo",
       "duration_seconds": 3325.19,
       "tags": [],
-      "tracklist": []
+      "tracklist": [],
+      "artwork": "./public/mix-art/amy-2-electric-boogaloo.jpg"
     },
     {
       "title": "Tom Waits Forever",
@@ -38,7 +41,8 @@
       "slug": "tom-waits-forever",
       "duration_seconds": 3450.13,
       "tags": [],
-      "tracklist": []
+      "tracklist": [],
+      "artwork": "./public/mix-art/tom-waits-forever.jpg"
     }
   ]
 }

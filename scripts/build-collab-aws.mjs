@@ -11,7 +11,7 @@ for(const name of ['collab.mjs','collab-extras.mjs','collab-admin.mjs','collab-a
 await cp('public/catalog.json',dest+'/public/catalog.json');await cp('public/branding',dest+'/public/branding',{recursive:true});
 const commit=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
 for(const [source,target] of [['collab.html','index.html'],['collab.html','collab.html'],['collab-admin.html','collab-admin.html']]){
- const html=(await readFile(source,'utf8')).replaceAll('href="./">Requests</a>','href="https://ogvhs.com/">Requests</a>').replaceAll('href="./about.html"','href="https://ogvhs.com/about.html"').replaceAll('?v=1','?v=aws-20261117').replace('</body>',`<!-- OGVHS_AWS_COLLAB_BUILD ${commit} -->\n</body>`);
+ const html=(await readFile(source,'utf8')).replaceAll('href="./">Requests</a>','href="https://ogvhs.com/">Requests</a>').replaceAll('href="./about.html"','href="https://ogvhs.com/about.html"').replaceAll('?v=1','?v=aws-'+commit.slice(0,12)).replace('</body>',`<!-- OGVHS_AWS_COLLAB_BUILD ${commit} -->\n</body>`);
  await writeFile(dest+'/'+target,html);
 }
 await writeFile(dest+'/public/collab-config.json',JSON.stringify(config)+'\n');

@@ -1,4 +1,4 @@
-import {loadRequestConfig} from "./request-api.mjs";
+import {loadRequestConfig} from "./collab-api.mjs";
 import {inviteFromHash,normalizeCollabEmail,validateCollabUpload} from "./collab-model.mjs";
 
 const $=id=>document.getElementById(id);
@@ -43,9 +43,9 @@ form.addEventListener("submit",async event=>{
   button.disabled=true;
   accessStatus.textContent="Sending your request…";
   try{
-    const response=await fetch(config.supabaseUrl+"/functions/v1/collab-access",{
+    const response=await fetch(config.apiUrl+"/v1/access",{
       method:"POST",
-      headers:{"Content-Type":"application/json","apikey":config.supabaseAnonKey,"x-dj-collab-client":clientId},
+      headers:{"Content-Type":"application/json","x-dj-collab-client":clientId},
       body:JSON.stringify({email,website:$("collab-access-website").value}),
       signal:AbortSignal.timeout(20000)
     });
@@ -72,22 +72,22 @@ fileButton.addEventListener("click",async()=>{
   const error=validateCollabUpload(file.name,file.size);
   if(error){fileStatus.textContent=error;return;}
   uploading=true;updateUploadControls();
-  fileStatus.textContent="Uploading to this Collab's private Google Drive folder…";
+  fileStatus.textContent="Uploading to this Collab's private upload area…";
   try{
-    const body=new FormData();
-    body.append("file",file,file.name);
-    const response=await fetch(config.supabaseUrl+"/functions/v1/collab-upload",{
-      method:"POST",
-      headers:{"apikey":config.supabaseAnonKey,
-        "x-dj-collab-invite":invite,
-        "x-dj-collab-client":clientId},
-      body
-    });
-    const result=await response.json().catch(()=>({}));
-    if(!response.ok||result.uploaded!==true)
-      throw Error(result.error||"Upload couldn't be saved.");
+    const headers={"Content-Type":"application/json","x-dj-collab-invite":invite,"x-dj-collab-client":clientId};
+    const reservation=await fetch(config.apiUrl+"/v1/uploads",{method:"POST",headers,body:JSON.stringify({filename:file.name,size:file.size,mimeType:file.type||"application/octet-stream"})});
+    const signed=await reservation.json().catch(()=>({}));
+    if(!reservation.ok)throw Error(signed.error||"Unable to reserve upload.");
+    const formData=new FormData();
+    for(const [key,value] of Object.entries(signed.upload.fields))formData.append(key,value);
+    formData.append("file",file,file.name);
+    const upload=await fetch(signed.upload.url,{method:"POST",body:formData});
+    if(!upload.ok)throw Error("Upload transfer failed. Please retry.");
+    const confirmation=await fetch(config.apiUrl+"/v1/uploads/complete",{method:"POST",headers,body:JSON.stringify({id:signed.id})});
+    const result=await confirmation.json().catch(()=>({}));
+    if(!confirmation.ok||result.accepted!==true)throw Error(result.error||"Unable to confirm upload.");
     fileInput.value="";
-    fileStatus.textContent="Uploaded! "+result.name+" is in this Collab's private Google Drive folder.";
+    fileStatus.textContent="Uploaded! "+file.name+" is available privately to the DJ.";
   }catch(error){
     fileStatus.textContent=error.message||"Upload failed. Please try again.";
   }finally{uploading=false;updateUploadControls();}
@@ -104,8 +104,8 @@ fileButton.addEventListener("click",async()=>{
     return;
   }
   try{
-    const res=await fetch(config.supabaseUrl+"/functions/v1/collab-room",{
-      headers:{"apikey":config.supabaseAnonKey,"x-dj-collab-invite":invite,
+    const res=await fetch(config.apiUrl+"/v1/room",{
+      headers:{"x-dj-collab-invite":invite,
         "x-dj-collab-client":clientId},
       cache:"no-store"
     });
@@ -115,7 +115,7 @@ fileButton.addEventListener("click",async()=>{
       fileStatus.textContent="Uploads are enabled for this Collab. Files are private and available to the DJ.";
     }else{
       fileStatus.textContent=data.room?.isOpen?
-        "The DJ hasn't connected a Google Drive folder for this Collab yet.":
+        "The DJ hasn't enabled uploads for this Collab yet.":
         "This collaboration isn't open for uploads.";
     }
   }catch{

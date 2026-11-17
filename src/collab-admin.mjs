@@ -1,10 +1,11 @@
-import {loadRequestConfig} from "./request-api.mjs";
+import {signIn,signOut,getSession,sessionExpiry} from "./collab-auth.mjs";
+import {loadRequestConfig} from "./collab-api.mjs";
 const $=id=>document.getElementById(id);
 const status=$("admin-status"),login=$("collab-admin-login"),content=$("collab-admin-content"),rooms=$("admin-rooms");
-let client=null,config=null,session=null;
+let config=null,session=null;
 function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=String(text);return e;}
-function endpoint(){return config.supabaseUrl+"/functions/v1/collab-room?admin=1";}
-function headers(){return {"Content-Type":"application/json","apikey":config.supabaseAnonKey,
+function endpoint(){return config.apiUrl+"/api/rooms";}
+function headers(){return {"Content-Type":"application/json",
   "authorization":"Bearer "+session.access_token};}
 async function response(request){
   const res=await fetch(endpoint(),{...request,headers:headers(),cache:"no-store"});
@@ -39,6 +40,7 @@ async function renderRooms(){
       });
       row.append(left,toggle);rooms.appendChild(row);
     }
+    document.dispatchEvent(new Event("ogvhs-rooms-changed"));
   }catch(e){status.textContent=e.message;throw e;}
 }
 async function showSession(s){
@@ -52,11 +54,7 @@ async function showSession(s){
 }
 $("collab-admin-login").addEventListener("submit",async e=>{
   e.preventDefault();
-  const email=$("collab-admin-email").value.trim();
-  if(!client||!email)return;
-  const redirect=new URL("./collab-admin.html",location.href).href;
-  const {error}=await client.auth.signInWithOtp({email,options:{shouldCreateUser:false,emailRedirectTo:redirect}});
-  status.textContent=error?error.message:"Check your email for a sign-in link.";
+  await signIn();
 });
 $("collab-create").addEventListener("click",async()=>{
   const button=$("collab-create");
@@ -81,17 +79,15 @@ $("copy-invite").addEventListener("click",async()=>{
 });
 $("collab-admin-refresh").addEventListener("click",()=>renderRooms().catch(e=>{status.textContent=e.message;}));
 $("collab-admin-signout").addEventListener("click",async()=>{
-  await client?.auth.signOut();
+  signOut();
   $("created-link-panel").hidden=true;$("created-link").value="";
 });
 (async()=>{
   try{
     config=await loadRequestConfig();
     if(!config)throw Error("Collaboration backend is not configured.");
-    const {createClient}=await import("https://esm.sh/@supabase/supabase-js@2");
-    client=createClient(config.supabaseUrl,config.supabaseAnonKey);
-    client.auth.onAuthStateChange((_event,s)=>{setTimeout(()=>showSession(s),0);});
-    const {data}=await client.auth.getSession();
-    await showSession(data.session);
+    await showSession(getSession());
+    const expiry=sessionExpiry();
+    if(expiry)setTimeout(()=>{showSession(null);document.dispatchEvent(new Event("ogvhs-auth-expired"));},Math.max(0,expiry-Date.now()));
   }catch(e){status.textContent=e.message;}
 })();

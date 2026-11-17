@@ -1,5 +1,6 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
 <meta name="theme-color" content="#000000"><meta name="robots" content="noindex,nofollow,noarchive">
 <title>DJ OGVHS | Collab Invitations</title>
 <link rel="icon" type="image/svg+xml" href="./public/branding/favicon.svg">
@@ -20,9 +21,7 @@
 <h2>Manage invitations</h2>
 <p id="admin-status" class="helper" role="status" aria-live="polite">Checking your session…</p>
 <form id="collab-admin-login" hidden>
-<label class="field-label" for="collab-admin-email">Your authorized DJ admin email</label>
-<div class="collab-manual-fields"><input type="email" id="collab-admin-email" required autocomplete="email" placeholder="you@example.com">
-<button type="submit" class="add-track">Send sign-in link</button></div>
+<button type="submit" class="submit-button">Sign in as DJ owner</button>
 </form>
 <div id="collab-admin-content" hidden>
 <div class="collab-manual-fields">
@@ -44,12 +43,12 @@
 <div class="section-heading"><h2>Existing Collabs</h2><button type="button" class="add-track" id="collab-admin-refresh">Refresh</button></div>
 <div id="admin-rooms"></div>
 <div id="collab-admin-drive" class="collab-admin-private" hidden>
-<h3>Google Drive uploads</h3>
+<h3>Private file uploads</h3>
 <label class="field-label" for="collab-drive-room">Collab</label>
 <select id="collab-drive-room"><option value="">Choose a Collab</option></select>
-<button id="collab-drive-connect" type="button" class="add-track" disabled>Enable private Drive folder</button>
+<button id="collab-drive-connect" type="button" class="add-track" disabled>Enable private uploads</button>
 <button id="collab-drive-refresh" type="button" class="add-track">Refresh uploads</button>
-<a id="collab-drive-folder-link" hidden target="_blank" rel="noopener noreferrer">Open private folder in Drive</a>
+<a id="collab-drive-folder-link" hidden target="_blank" rel="noopener noreferrer">Private files</a>
 <p id="collab-admin-drive-feedback" class="helper" role="status" aria-live="polite"></p>
 <div id="collab-admin-files"></div>
 </div>

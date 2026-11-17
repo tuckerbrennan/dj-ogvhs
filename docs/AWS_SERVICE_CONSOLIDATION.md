@@ -17,7 +17,7 @@ The AWS project is on the active paid plan. Do not create a second request datab
 
 | Component | Verified dependency | Migration status |
 | --- | --- | --- |
-| Contact frontend | GitHub Pages | AWS release prepared in `tuckerbrennan/dj-ogvhs-contact`, migration branch and PR #1; generated Amplify preview verified. Domain cutover is being validated. |
+| Contact frontend | AWS Amplify (migrated November 17) | Existing `tuckerbrennan/dj-ogvhs-contact` repo, migration branch and PR #1. Preview and custom-host TLS verified before cutover; production build marker verified afterward. Route 53 change INSYNC, other records unchanged. GitHub Pages retained for rollback. |
 | Contact form | Formspree | Preserve delivery until AWS replacement passes acceptance. Ohio SES is in sandbox mode; OGVHS sender identity is not configured. |
 | Collaboration frontend | Vercel, branch `deploy/collab-beta` in this repo | Separate beta. Public config points at the separate Collab Supabase project, not the Requests project. |
 | Collaboration data/auth/functions | Supabase Collab Staging | Provider reported paused/inactive. Restore requested to inspect data before migration; do not replace it with an empty database. |

@@ -1,110 +1,113 @@
-// DJ OGVHS analytics: automatic basic measurement, with a permanent opt-out.
-// Tag setup comes from public/analytics-config.json. Only one tag is loaded.
-// Visitors who previously declined, or whose browser signals GPC, are not tracked.
-const CONFIG_URL = new URL("../public/analytics-config.json", import.meta.url);
-const CHOICE_KEY = "djogvhs_analytics_consent_v1";
-const TAG_ID_PATTERN = /^(G-[A-Z0-9]{5,}|GTM-[A-Z0-9]{5,})$/i;
-
-function readOptOut() {
-  try { return localStorage.getItem(CHOICE_KEY) === "declined"; }
-  catch { return false; }
+// AWS audience measurement. Existing decline choices and GPC remain authoritative.
+import { CHOICE_KEY, analyticsBlocked, pageId, sourceDomain, linkMeasurement } from './analytics-model.mjs';
+const CONFIG_URL = new URL('../public/analytics-config.json', import.meta.url);
+let rum;
+const blocked = () => {
+  try { return analyticsBlocked(localStorage, navigator); }
+  catch { return true; } // Fail closed when browser privacy settings block storage access.
+};
+function record(type, data = {}) {
+  if (blocked() || !rum) return;
+  try { rum.recordEvent('ogvhs.' + type, data); } catch { /* Analytics never interrupts the site. */ }
 }
-
-function setOptOut(disabled) {
-  try { localStorage.setItem(CHOICE_KEY, disabled ? "declined" : "accepted"); }
-  catch { /* Private browsing may block storage. */ }
-}
-
-function removeAnalyticsCookies() {
-  // Best effort for first-party Google Analytics cookies; does not erase data
-  // already received by Google or third-party cookies outside this domain.
-  const names = document.cookie.split(";").map(c => c.split("=")[0].trim());
-  const host = location.hostname;
-  const domains = ["", host, "." + host, ".ogvhs.com"];
-  for (const name of names) {
+function clearLegacyCookies() {
+  for (const name of document.cookie.split(';').map(c => c.split('=')[0].trim())) {
     if (!/^(_ga(?:_|$)|_gid$|_gat(?:_|$))/.test(name)) continue;
-    for (const domain of domains) {
-      document.cookie = name + "=; Max-Age=0; path=/; SameSite=Lax" +
-        (domain ? "; domain=" + domain : "");
+    for (const domain of ['', location.hostname, '.' + location.hostname, '.ogvhs.com']) {
+      document.cookie = name + '=; Max-Age=0; path=/; SameSite=Lax' + (domain ? '; domain=' + domain : '');
     }
   }
 }
-
-function loadTag(tagId) {
-  window.dataLayer = window.dataLayer || [];
-  window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
-  // This site uses analytics for audience measurement, not advertising.
-  window.gtag("consent", "default", {
-    analytics_storage: "granted",
-    ad_storage: "denied",
-    ad_user_data: "denied",
-    ad_personalization: "denied"
-  });
-  window.gtag("js", new Date());
-
-  const isContainer = tagId.startsWith("GTM-");
-  if (isContainer) {
-    window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
-  } else {
-    window.gtag("config", tagId, {
-      allow_google_signals: false,
-      allow_ad_personalization_signals: false,
-      page_location: location.origin + location.pathname
-    });
-  }
-
-  const script = document.createElement("script");
-  script.async = true;
-  script.src = isContainer
-    ? "https://www.googletagmanager.com/gtm.js?id=" + encodeURIComponent(tagId)
-    : "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(tagId);
-  document.head.appendChild(script);
-}
-
-function addOptOutControl() {
-  const footer = document.querySelector("footer");
-  if (!footer || document.getElementById("djogvhs-analytics-settings")) return;
-  const optedOut = readOptOut() || navigator.globalPrivacyControl === true;
-  const button = document.createElement("button");
-  button.type = "button";
-  button.id = "djogvhs-analytics-settings";
-  button.className = "analytics-preferences";
-  button.textContent = optedOut ? "Enable analytics" : "Disable analytics";
-  button.setAttribute("aria-label", optedOut ? "Enable optional Google Analytics" : "Disable Google Analytics");
+function addControl() {
+  const footer = document.querySelector('footer');
+  if (!footer || document.getElementById('djogvhs-analytics-settings')) return;
+  const button = document.createElement('button');
+  button.type = 'button'; button.id = 'djogvhs-analytics-settings'; button.className = 'analytics-preferences';
+  button.textContent = blocked() ? 'Enable analytics' : 'Disable analytics';
+  button.setAttribute('aria-label', blocked() ? 'Enable optional AWS analytics' : 'Disable AWS analytics');
   if (navigator.globalPrivacyControl === true) {
-    button.textContent = "Analytics blocked by browser";
-    button.disabled = true;
-    button.title = "Your browser has sent a Global Privacy Control signal.";
+    button.textContent = 'Analytics blocked by browser'; button.disabled = true;
+    button.title = 'Your browser has sent a Global Privacy Control signal.';
   }
-  button.addEventListener("click", () => {
-    const willDisable = !readOptOut();
-    if (willDisable) {
-      window.gtag?.("consent", "update", { analytics_storage: "denied" });
-      removeAnalyticsCookies();
-    }
-    setOptOut(willDisable);
-    // Reload to fully prevent script execution after opting out.
+  button.addEventListener('click', () => {
+    const disable = !blocked();
+    if (disable) { rum?.disable(); clearLegacyCookies(); }
+    try { localStorage.setItem(CHOICE_KEY, disable ? 'declined' : 'accepted'); } catch { /* Storage may be blocked. */ }
     location.reload();
   });
   footer.appendChild(button);
 }
-
+function measure() {
+  const view = () => {
+    if (blocked()) return;
+    rum.recordPageView({pageId: pageId(location.pathname), pageAttributes: {title: 'DJ OGVHS'}});
+    record('traffic_source', {domain: sourceDomain(document.referrer) || 'direct'});
+  };
+  view();
+  for (const method of ['pushState', 'replaceState']) {
+    const original = history[method];
+    history[method] = function (...args) { const result = original.apply(this, args); view(); return result; };
+  }
+  window.addEventListener('popstate', view);
+  document.addEventListener('click', event => {
+    const link = event.target.closest?.('a[href]');
+    if (!link) return;
+    const measurement = linkMeasurement(link.href, location.origin, link.hasAttribute('download'));
+    if (measurement) record(measurement.type, measurement.data);
+  });
+  let scrolled = false;
+  window.addEventListener('scroll', () => {
+    const height = document.documentElement.scrollHeight;
+    if (!scrolled && height > innerHeight && (scrollY + innerHeight) / height >= 0.9) {
+      scrolled = true; record('scroll', {percent: 90});
+    }
+  }, {passive: true});
+  const started = new WeakSet();
+  document.addEventListener('focusin', event => {
+    const form = event.target.closest?.('form');
+    if (form && !started.has(form)) { started.add(form); record('form_start'); }
+  });
+  document.addEventListener('submit', () => record('form_submit'), true);
+  let searchTimer;
+  document.addEventListener('input', event => {
+    if (event.target.id !== 'search') return;
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { if (event.target.value.trim()) record('view_search_results'); }, 800);
+  });
+  const progress = new WeakMap();
+  for (const kind of ['audio', 'video']) {
+    for (const [domEvent, measurement] of [['play','media_start'], ['ended','media_complete']]) {
+      document.addEventListener(domEvent, event => {
+        if (event.target.localName === kind) record(measurement, {kind});
+      }, true);
+    }
+  }
+  document.addEventListener('timeupdate', event => {
+    const media = event.target;
+    if (!['audio', 'video'].includes(media.localName) || !Number.isFinite(media.duration) || media.duration <= 0) return;
+    const reached = progress.get(media) || new Set();
+    for (const percent of [25,50,75]) if (!reached.has(percent) && media.currentTime / media.duration >= percent / 100) {
+      reached.add(percent); record('media_progress', {kind: media.localName, percent});
+    }
+    progress.set(media, reached);
+  }, true);
+}
 async function init() {
-  let id;
+  addControl();
+  clearLegacyCookies();
+  if (blocked()) return;
   try {
-    const response = await fetch(CONFIG_URL, { cache: "no-store" });
+    const response = await fetch(CONFIG_URL, {cache:'no-store'});
     if (!response.ok) return;
     const config = await response.json();
-    id = String(config.tagId || config.measurementId || "").trim().toUpperCase();
-  } catch { return; }
-  if (!TAG_ID_PATTERN.test(id)) return;
-  // Never display an initial consent banner; the footer provides an opt-out.
-  addOptOutControl();
-  if (navigator.globalPrivacyControl === true || readOptOut()) return;
-  loadTag(id);
+    if (config.provider !== 'aws-rum' || config.region !== 'us-east-2' ||
+        !/^[0-9a-f-]{36}$/.test(config.monitorId) || !/^us-east-2:[0-9a-f-]{36}$/.test(config.identityPoolId)) return;
+    const {createRum} = await import('./analytics-rum.bundle.mjs');
+    if (blocked()) return;
+    rum = await createRum(config);
+    if (blocked()) { rum.disable(); return; }
+    measure();
+  } catch { /* Measurement is optional; site functionality remains available. */ }
 }
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", init, { once: true });
-} else {
-  init();
-}
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, {once:true});
+else init();

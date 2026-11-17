@@ -12,5 +12,14 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "aws-rum-web": "3.2.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "overrides": {
+    "uuid": "11.1.1"
   }
 }

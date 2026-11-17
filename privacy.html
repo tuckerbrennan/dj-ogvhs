@@ -23,7 +23,7 @@
     @media (max-width:580px) { .privacy-main { padding:36px 0 58px; } }
   </style>
   <link rel="stylesheet" href="./src/analytics.css?v=2">
-  <script type="module" src="./src/analytics.mjs?v=2"></script>
+  <script type="module" src="./src/analytics.mjs?v=aws-1"></script>
 </head>
 <body>
 <div class="frame">
@@ -54,14 +54,12 @@
     </section>
 
     <section>
-      <h2>Google Analytics and website measurement</h2>
-      <p>DJ OGVHS uses Google Analytics 4, delivered through Google's tag technology, to understand visits, page views, traffic sources and how visitors use the website. When you load our pages, the Google tag ordinarily runs automatically without a separate consent prompt. Google may receive your page URL, approximate location, browser or device information, IP-related information and online identifiers, and may place analytics cookies or use similar technologies. Google processes these data under its own privacy terms. Our analytics are intended for site measurement, not personalized advertising.</p>
-      <p>We do not intentionally send the contents of song requests, collaboration invitation emails, uploads, or submitted names to Google Analytics. The DJ OGVHS site does not configure Google advertising personalization through this integration.</p>
-      <p><strong>Your choices:</strong> Use <strong>Disable analytics</strong> in the footer of any page to stop our Google tag from loading on subsequent page views in that browser. This preference is saved locally. If you previously chose <strong>No thanks</strong> on our earlier consent notice, your preference remains respected. A Global Privacy Control signal also prevents our tag from loading. You can clear analytics cookies using your browser settings; disabling future tracking does not remove information Google may already have received.</p>
-      <p>Some jurisdictions, including the European Economic Area, UK and Switzerland, require consent before optional analytics cookies. Visitors in those regions may have additional legal rights. For details on Google's handling of information, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
-    </section>
+      <h2>AWS website measurement</h2>
+      <p>DJ OGVHS uses Amazon CloudWatch RUM in the Ohio AWS Region for optional audience measurement. It measures page views, referring domains, outbound link domains, download types, scroll depth, form interactions, search usage and native audio or video playback. We record that an interaction happened; we do not collect form values, search text, URL query values, invitation tokens, request contents or recording titles through this integration.</p>
+      <p>The client uses temporary identifiers in memory, without analytics cookies or a persistent visitor identifier. Browser and device information is included in measurement; network requests to AWS necessarily include your IP address. Session replay, advertising, automatic error capture and automatic network monitoring are disabled. RUM measurements and their CloudWatch log export are retained for 30 days. Cookie-free measurement cannot identify returning visitors across page loads.</p>
+      <p><strong>Your choices:</strong> Use <strong>Disable analytics</strong> in the footer to stop optional analytics in that browser. This preference is saved locally. Previous decline choices remain respected, and a Global Privacy Control signal prevents the AWS client from loading. Disabling analytics does not erase measurements already received. The Google analytics tag is no longer loaded; legacy analytics cookies are removed on a best-effort basis.</p>
+      <p>External links and embedded services have their own privacy practices. See <a href="https://aws.amazon.com/privacy/" target="_blank" rel="noopener noreferrer">AWS's Privacy Notice</a> for information about AWS.</p>
 
-    <section>
       <h2>How we use information</h2>
       <p>We use submissions to manage DJ requests, organize private playlist collaborations, review invitation requests, identify abuse, and operate the website. We do not sell submitted personal information or use collaboration email addresses for unsolicited marketing.</p>
     </section>

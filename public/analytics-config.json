@@ -1,4 +1,6 @@
 {
-  "tagId": "GTM-W7R6GVRK",
-  "measurementId": ""
+  "provider": "aws-rum",
+  "region": "us-east-2",
+  "monitorId": "47f86cb9-9703-439c-947e-ff41a87e4e43",
+  "identityPoolId": "us-east-2:b72e8c2f-c47d-4fcd-9c15-c039b51e31e6"
 }

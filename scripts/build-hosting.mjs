@@ -63,3 +63,6 @@ if (process.env.OGVHS_API_URL) {
 
 const entries = await readdir(output);
 console.log("DJ OGVHS static website ready for Amplify:", entries.join(", "));
+
+// Bundle the pinned AWS client locally; no third-party script CDN is loaded.
+await import("./build-analytics.mjs");

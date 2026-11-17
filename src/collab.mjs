@@ -1,5 +1,5 @@
 import {searchCatalog,normalize} from "./catalog.mjs";
-import {loadRequestConfig} from "./request-api.mjs";
+import {loadRequestConfig} from "./collab-api.mjs";
 import {inviteFromHash,spotifyPlaylistUrl,validateContribution,itunesSearchUrl,parseITunesTracks} from "./collab-model.mjs";
 
 const $=id=>document.getElementById(id);
@@ -30,10 +30,10 @@ function browserId(){
 }
 const clientId=browserId();
 function headers() {
-  return {"Content-Type":"application/json","apikey":config.supabaseAnonKey,
+  return {"Content-Type":"application/json",
     "x-dj-collab-invite":invite,"x-dj-collab-client":clientId};
 }
-function apiUrl(){return config.supabaseUrl+"/functions/v1/collab-room";}
+function apiUrl(){return config.apiUrl+"/v1/room";}
 function renderPicked(){
   selection.replaceChildren();
   if(!picked){

@@ -1,10 +1,11 @@
-// Private DJ admin additions: Collab access requests and room-specific Drive files.
-import {loadRequestConfig} from "./request-api.mjs";
+import {getSession} from "./collab-auth.mjs";
+// Private DJ admin additions: access requests and room-scoped uploads.
+import {loadRequestConfig} from "./collab-api.mjs";
 const $=id=>document.getElementById(id);
 const panel=$("collab-admin-drive"),requests=$("collab-access-requests");
 const select=$("collab-drive-room"),connect=$("collab-drive-connect"),folderLink=$("collab-drive-folder-link");
 const driveStatus=$("collab-admin-drive-feedback"),files=$("collab-admin-files");
-let config=null,client=null,session=null,rooms=[];
+let config=null,session=null,rooms=[];
 function element(tag,text,cls=""){
   const e=document.createElement(tag);
   if(cls)e.className=cls;
@@ -13,9 +14,11 @@ function element(tag,text,cls=""){
 }
 async function api(route,opts={}){
   if(!session||!config)throw Error("Administrator sign-in required.");
-  const response=await fetch(config.supabaseUrl+"/functions/v1/"+route,{
+  const routes={"collab-access":"/api/access","collab-room?admin=1":"/api/rooms"};
+  const target=route.startsWith("collab-upload")?"/api/uploads"+((route.includes("roomId="))?"?roomId="+route.split("roomId=")[1]:""):routes[route];
+  const response=await fetch(config.apiUrl+target,{
     ...opts,
-    headers:{"apikey":config.supabaseAnonKey,"Authorization":"Bearer "+session.access_token,
+    headers:{"Authorization":"Bearer "+session.access_token,
       "Content-Type":"application/json"},
     cache:"no-store"
   });
@@ -85,8 +88,8 @@ async function loadDrive(){
     const data=await api("collab-upload?admin=1&roomId="+encodeURIComponent(id),{method:"GET"});
     connect.disabled=data.configured;
     driveStatus.textContent=data.configured?
-      "This Collab has a private Google Drive folder. Only authorized admins can open its files.":
-      "This Collab doesn't have a Drive folder yet. Enable one before guests can upload.";
+      "Uploads are private and available only to authorized admins.":
+      "Enable private uploads before guests can upload files.";
     if(data.folderUrl){
       folderLink.href=data.folderUrl;folderLink.hidden=false;
     }
@@ -101,11 +104,12 @@ async function loadDrive(){
       info.appendChild(element("strong",entry.filename));
       info.appendChild(element("small",Math.round(entry.size_bytes/1024)+" KB · "+
         new Date(entry.created_at).toLocaleString()));
-      const link=element("a","Open in Drive","add-track");
-      if(/^[A-Za-z0-9_-]{10,200}$/.test(entry.drive_file_id||"")){
-        link.href="https://drive.google.com/file/d/"+encodeURIComponent(entry.drive_file_id)+"/view";
-        link.target="_blank";link.rel="noopener noreferrer";
-      }else link.removeAttribute("href");
+      const link=element("a","Download file","add-track");
+      try{
+        const url=new URL(entry.download_url);
+        if(url.protocol!=="https:"||!url.hostname.endsWith(".amazonaws.com"))throw Error("Invalid download");
+        link.href=url.href;link.target="_blank";link.rel="noopener noreferrer";
+      }catch{link.removeAttribute("href");}
       row.append(info,link);files.appendChild(row);
     }
   }catch(e){driveStatus.textContent=e.message;connect.disabled=true;}
@@ -113,12 +117,12 @@ async function loadDrive(){
 connect.addEventListener("click",async()=>{
   if(!select.value||!session)return;
   connect.disabled=true;
-  driveStatus.textContent="Creating the Collab's private folder in Google Drive…";
+  driveStatus.textContent="Enabling private uploads…";
   try{
-    const data=await api("collab-upload?admin=1",{
-      method:"POST",body:JSON.stringify({roomId:select.value})
+    const data=await api("collab-room?admin=1",{
+      method:"PATCH",body:JSON.stringify({roomId:select.value,enableUploads:true})
     });
-    driveStatus.textContent=data.configured?"Private Google Drive folder connected.":"Unable to connect Drive.";
+    driveStatus.textContent=data.room?.uploads_enabled?"Private uploads enabled.":"Unable to enable uploads.";
     await loadDrive();
   }catch(e){driveStatus.textContent=e.message;connect.disabled=false;}
 });
@@ -139,10 +143,8 @@ async function showSession(s){
   try{
     config=await loadRequestConfig();
     if(!config)throw Error("Collab backend isn't connected yet.");
-    const {createClient}=await import("https://esm.sh/@supabase/supabase-js@2");
-    client=createClient(config.supabaseUrl,config.supabaseAnonKey);
-    client.auth.onAuthStateChange((_event,s)=>{setTimeout(()=>showSession(s),0);});
-    const {data}=await client.auth.getSession();
-    await showSession(data.session);
+    await showSession(getSession());
+    document.addEventListener("ogvhs-rooms-changed",()=>{if(session)loadRooms().catch(e=>{driveStatus.textContent=e.message;});});
+    document.addEventListener("ogvhs-auth-expired",()=>showSession(null));
   }catch(e){driveStatus.textContent=e.message;}
 })();

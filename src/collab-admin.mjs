@@ -38,7 +38,28 @@ async function renderRooms(){
           await renderRooms();
         }catch(e){status.textContent=e.message;toggle.disabled=false;}
       });
-      row.append(left,toggle);rooms.appendChild(row);
+      const remove=el("button","add-track","Remove");
+      remove.type="button";
+      remove.setAttribute("aria-label","Remove "+room.title);
+      remove.addEventListener("click",async()=>{
+        remove.disabled=true;toggle.disabled=true;
+        try{
+          await response({method:"DELETE",body:JSON.stringify({roomId:room.id})});
+          await renderRooms();
+          status.replaceChildren(document.createTextNode("Collab removed. Its invitation is disabled. "));
+          const undo=el("button","add-track","Undo");undo.type="button";
+          undo.addEventListener("click",async()=>{
+            undo.disabled=true;
+            try{
+              await response({method:"PATCH",body:JSON.stringify({roomId:room.id,restore:true})});
+              await renderRooms();status.textContent="Collab restored. Reopen it to accept submissions.";
+            }catch(error){status.textContent=error.message;undo.disabled=false;}
+          });
+          status.appendChild(undo);
+        }catch(error){status.textContent=error.message;remove.disabled=false;toggle.disabled=false;}
+      });
+      const controls=el("div","collab-request-controls");controls.append(toggle,remove);
+      row.append(left,controls);rooms.appendChild(row);
     }
     document.dispatchEvent(new Event("ogvhs-rooms-changed"));
   }catch(e){status.textContent=e.message;throw e;}
